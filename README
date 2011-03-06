@@ -1,0 +1,25 @@
+Muktamsiddham - a Siddham font
+
+Siddham glyphs Copyright (c) 2010, MihailJP (http://twitter.com/MihailJP),
+with Reserved Font Name Muktamsiddham.
+Latin glyphs Copyright (c) 1999 by George Williams,
+with Reserved Font Name Peignot.
+
+これは、自作の悉曇梵字のフォントです(日本の仏教で伝統的に使われてきたいわゆる
+梵字のことです)。Unicodeにエンコードされていないのでデーヴァナーガリーの
+符号位置を間借りしています。表示には、デーヴァナーガリー文字の表示システムを
+そのまま使用できるようにしてあります。このフォントを指定すると、デーヴァ
+ナーガリー表記の梵語の文書がほぼそのまま梵字で表示されるようになっています。
+※このフォントは種字としての使用を想定しておりません。
+
+This is the Siddham (the script for Sanskrit which is used for writing mantras
+or copying sutras in Japan, and is known as Bonji) font I have created.  Since
+Siddham script is not yet included in Unicode officially, this font applies
+the Devanagari fonts' rendering system and codepoints.  Devanagari-encoded
+Sanskrit texts can be shown in Siddham script with this font.
+
+Это шрифт Сиддхама (письменность для санскрите, что применяется для записи
+мантр или копирование сутры в Японии, и известна как Бондзи), что я создал.
+Из-за того что в Юникоде нет Сиддхама, этот шрифт применяет визуализацию и
+кодовые точки Деванагари шрифтов.  С этим шрифтом, можно отображать санскрит-
+ские тексты Сиддхам писменностью, что кодируются в деванагари.
