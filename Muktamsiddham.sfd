@@ -3,9 +3,9 @@ FontName: Muktamsiddham
 FullName: Muktamsiddham
 FamilyName: Muktamsiddham
 Weight: Medium
-Copyright: Copyright (c) 2010, MihailJP (http://twitter.com/MihailJP)
+Copyright: Copyright (c) 2011, MihailJP (http://twitter.com/MihailJP)
 UComments: "Font preparation:+AAoA-1. Select all and expand their strokes.+AAoA     Elliptical, width 100:40,+AAoA     Angle -30, square cap, round join.+AAoA-2. Add extrema and round to int.+AAoA-3. Simplify and round to int.+AAoA-4. Remove overlaps and round to int.+AAoA-5. Redo 3.+AAoA-6. Redo 2." 
-Version: 0.1.1
+Version: 0.1.2
 StrokeWidth: 70
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -16,13 +16,14 @@ LayerCount: 2
 Layer: 0 0 "Background"  1
 Layer: 1 0 "Foreground"  0
 StrokedFont: 1
+NeedsXUIDChange: 1
 XUID: [1021 631 1514651636 13251322]
 FSType: 8
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1272671396
-ModificationTime: 1288037646
+ModificationTime: 1315663866
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -76,7 +77,7 @@ ContextSub2: class "eT aiT Contextual Forms-1"  3 1 1 1
 EndFPST
 ContextSub2: class "iT Contextual Forms-1"  3 1 1 1
   Class: 2 iT
-  Class: 815 kha ga cha Tha Dha dha na bha la za sa kSa chya Dhya dhya nya bhya lya sya kra cra chra jra jhra Tra Thra Dhra dra dhra nra bra bhra lra vra sra cla chla jla jhla Thla Dhla dla dhla nla phla bla bhla vla sla cva chva jva jhva Thva Dhva dva dhva nva phva bva bhva lva sva chma Thma Dhma dhma nma bhma lma sma chna Thna Dhna dhna bhna lna sna chNa ThNa DhNa dhNa bhNa lNa sNa Gkha Gga nta ntha nda ndha Gra Gla Gva Gza ska skha dga dgha Gktra jJa sta stha spa spha lta sha vkSa Gkta ktra gga Ggra cchra jjJa Dga ddha dgra ddya ddra ddhya ddhva dbhya drya dvya nna nsa ntya ntra ntsa nddha ndra ndhya ndhra nnya lla lka lpa lha stya stra stva npa kza spra nbra nbha nka nba nsva ndva nha lba nza dbra nspa nstha dhnya nvya smya nga nsya kkha cJa jJya dgya ddhna nddhya ndda nddra bba bbha tkha lga lda lpha cchya ddhma
+  Class: 821 kha ga cha Tha Dha dha na bha la za sa kSa chya Dhya dhya nya bhya lya sya kra cra chra jra jhra Tra Thra Dhra dra dhra nra bra bhra lra vra sra cla chla jla jhla Thla Dhla dla dhla nla phla bla bhla vla sla cva chva jva jhva Thva Dhva dva dhva nva phva bva bhva lva sva chma Thma Dhma dhma nma bhma lma sma chna Thna Dhna dhna bhna lna sna chNa ThNa DhNa dhNa bhNa lNa sNa Gkha Gga nta ntha nda ndha Gra Gla Gva Gza ska skha dga dgha Gktra jJa sta stha spa spha lta sha vkSa Gkta ktra gga Ggra cchra jjJa Dga ddha dgra ddya ddra ddhya ddhva dbhya drya dvya nna nsa ntya ntra ntsa nddha ndra ndhya ndhra nnya lla lka lpa lha stya stra stva npa kza spra nbra nbha nka nba nsva ndva nha lba nza dbra nspa nstha dhnya nvya smya nga nsya kkha cJa jJya dgya ddhna nddhya ndda nddra bba bbha tkha lga lda lpha cchya ddhma strya
  2 0 0
   ClsList: 1 2
   BClsList:
@@ -89,7 +90,7 @@ ContextSub2: class "IT Contextual Forms-1"  6 1 1 4
   Class: 424 jha Ja pha chya Dhya chra Dhra chla Dhla chva Dhva khma gma cma chma jhma Jma Tma Dma tma nma bma lma vma zma hma kSma chna Dhna ghNa chNa DhNa thNa dhNa pNa bhNa mNa yNa SNa sNa kSNa Jca Jcha Jja Jjha GSa ska vcha vjha STa STha tsna TSa dsva kSmya ccha cchra cchva Jza tpa tsa tmya tsya tsva nsa ntsa yya lka Ska Skra npa ksa kpa tstha tpra npra Jzra Jzva Jjya nstha zcha nga nsya STya STrya SNya ppha tpla cchya kSNya Skva
   Class: 7 cha Dha
   Class: 25 Tha TSchra TScha nspa ppa
-  Class: 121 Thya Thra Thla Thva ghma Thma Dhma thma dhma pma bhma yma Sma sma Thna ThNa psa lpa Spa Spra mma psya tsma smya Spya Smya
+  Class: 127 Thya Thra Thla Thva ghma Thma Dhma thma dhma pma bhma yma Sma sma Thna ThNa psa lpa Spa Spra mma psya tsma smya Spya Smya strya
  2 0 0
   ClsList: 2 1
   BClsList:
@@ -121,7 +122,7 @@ ContextSub2: class "uT UT RT Contextual Forms-1"  8 1 1 8
   Class: 132 ka Ga cha ja jha Ja Na da Gka Jcha Jja nda ska vcha vja vda Tka TScha kka gda ccha jja tka dda bja bda lka Ska nka zcha ndda gja lda
   Class: 291 Ta Tha Dha Da pha ha kNa khNa gNa ghNa GNa cNa chNa jNa jhNa JNa TNa ThNa DNa DhNa tNa thNa dNa dhNa nNa pNa phNa bNa bhNa mNa yNa lNa vNa zNa SNa sNa hNa kSNa Jjha NTa NTha NDa NDha mpha Gha vjha jJa STa STha dDa dDha spha sha jjha jjJa TTa DDa NNa tpha lha nha cJa TTha DDha ppha lpha Spha
   Class: 449 ra la kra khra gra ghra cra chra jra jhra Jra Tra Thra Dra Dhra Nra tra thra dra dhra nra pra phra bra bhra mra yra lra vra zra Sra sra hra kSra kla khla gla ghla cla chla jla jhla Jla Tla Thla Dla Dhla Nla tla thla dla dhla nla pla phla bla bhla mla yla vla zla Sla sla hla kSla Gra Gla Gktra TSchra ktra Ggra Gghra cchra ttra dgra ddra ntra ndra ndhra lla Skra STra Spra stra spra nbra NDra tkra tpra npra Jzra dbra mpra nddra ptra tpla gdhra Gkra
-  Class: 388 kya khya gya ghya cya chya jya jhya Jya Tya Thya Dya Dhya Nya tya thya dya dhya nya pya phya bya bhya mya lya vya zya Sya sya hya kSya Gya kSvya kSvrya ktya krya kSmya gnya gbhya grya tnya tmya trya tsya ddya ddhya dbhya drya dvya ntya ndhya nnya ptya yya zcya zrya SThya stya psya Jjya dhnya zvya nvya smya nsya ttya STya GkSya jJya dgya nddhya STrya SNya cchya jjya kSNya Spya Smya NDya
+  Class: 394 kya khya gya ghya cya chya jya jhya Jya Tya Thya Dya Dhya Nya tya thya dya dhya nya pya phya bya bhya mya lya vya zya Sya sya hya kSya Gya kSvya kSvrya ktya krya kSmya gnya gbhya grya tnya tmya trya tsya ddya ddhya dbhya drya dvya ntya ndhya nnya ptya yya zcya zrya SThya stya psya Jjya dhnya zvya nvya smya nsya ttya STya GkSya jJya dgya nddhya STrya SNya cchya jjya kSNya Spya Smya NDya strya
   Class: 940 kha ga gha ca ta tha dha na pa ba bha ma ya va za Sa sa kSa kna khna gna ghna Gna cna chna jna jhna Jna Tna Thna Dna Dhna Nna tna thna dna dhna pna phna bna bhna mna yna lna vna zna Sna sna hna kSna kva khva gva ghva cva chva jva jhva Jva Tva Thva Dva Dhva Nva tva thva dva dhva nva pva phva bva bhva mva yva lva zva Sva sva hva kSva kma khma gma ghma Gma cma chma jma jhma Jma Tma Thma Dma Dhma Nma tma thma dma dhma nma pma phma bma bhma yma lma vma zma Sma sma hma kSma Gkha Gga Ggha Jca nta ntha ndha mpa mba mbha Gva Gza GSa Gsa GkSa skha dga dgha vca sta stha vdha tsna spa dba dbha lta tkva Tza TSa vkSa pta dsva Gkta kta ktha ktva gga gdha gbha gdhva GkSva cca cchva jjva Jza Dga tta ttha tpa tsa ttva tsva ddha ddva ddhva nna nsa ntsa nddha psa bdha bdhva lpa zca Spa STva stva npa kza ksa nbha kpa tstha nba kca nsva mma tsma ndva tkSa lba zba nza nspa Jzva nstha nga ptva kkha ddhna bba bbha tkha ppa lga vva ttna Skva ddhma NDva
  2 0 0
   ClsList: 3 1
@@ -230,10 +231,10 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 8
+WinInfo: 736 16 8
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bindumark"  "Above-base Mark to Mark-1" "ukaara"  "Below-base Marks-1" "virama"  "Below-base Marks-1" "ekaara"  "Above-base Marks-1" "iikaara"  "Above-base Marks-1" "aakaara"  "Above-base Marks-1" "repha"  "Above-base Marks-1" "bindu"  "Above-base Marks-1" 
-BeginChars: 862 862
+BeginChars: 863 863
 
 StartChar: akAra
 Encoding: 0 2309 0
@@ -2401,7 +2402,7 @@ LayerCount: 2
 Fore
 SplineSet
 -386 0 m 16
- -446 0 -518.459 -38.7549 -530 -108 c 16
+ -446 0 -518 -39 -530 -108 c 16
  -531 -114 -532 -119 -532 -124 c 0
  -532 -184 -486 -205 -416 -205 c 0
  -331 -205 -258 -168 -203 -135 c 0
@@ -2421,7 +2422,7 @@ Fore
 SplineSet
 -386 159 m 25
  -386 0 l 17
- -446 0 -518.459 -38.7549 -530 -108 c 16
+ -446 0 -518 -39 -530 -108 c 16
  -531 -114 -532 -119 -532 -124 c 0
  -532 -184 -486 -205 -416 -205 c 0
  -331 -205 -258 -168 -203 -135 c 0
@@ -2869,8 +2870,8 @@ SplineSet
  778 268 778 265 777 261 c 0
  764 179 714 98 636 98 c 0
  631 98 626 98 621 99 c 8
- 513.56 120.488 459 129 378 240 c 0
- 308.585 335.124 228 339 120 369 c 0
+ 514 120 459 129 378 240 c 0
+ 309 335 228 339 120 369 c 0
 EndSplineSet
 EndChar
 
@@ -3035,23 +3036,23 @@ SplineSet
  174 559 188 507 218 507 c 2
  219 507 l 9
  219 507 250 538 306 564 c 9
- 265.05 523.05 220.366 513.578 201 459 c 16
+ 265 523 220 514 201 459 c 16
  190 428 187 403 187 378 c 0
  187 341 196 289 204 258 c 0
- 211.763 227.921 239 213 270 213 c 0
+ 212 228 239 213 270 213 c 0
  272 213 274 213 276 213 c 8
- 321.011 213 360.688 225.451 378 267 c 24
- 418.802 364.923 398.13 431.7 411 537 c 24
+ 321 213 361 225 378 267 c 24
+ 419 365 398 432 411 537 c 24
 615 528 m 16
  614 509 614 492 614 474 c 0
  614 423 616 376 616 332 c 0
  616 284 616 274 605 230 c 0
  596 192 562 168 525 168 c 0
  519 168 512 169 506 170 c 8
- 450.484 179.253 420.65 220.398 407 275 c 16
+ 450 179 421 220 407 275 c 16
  406 279 401 289 401 348 c 0
  401 404 404 472 414 525 c 8
- 419.083 551.938 446.94 552.45 468 570 c 24
+ 419 552 447 552 468 570 c 24
 EndSplineSet
 EndChar
 
@@ -3458,12 +3459,12 @@ Fore
 SplineSet
 123 582 m 25
  168 489 l 25
- 187.11 523.71 162 578 217 578 c 0
+ 187 524 162 578 217 578 c 0
  256 578 282 537 325 537 c 2
  330 537 l 9
  510 597 l 25
- 437.46 559.56 383.525 556.862 324 501 c 24
- 227.765 410.687 199.56 336.3 120 231 c 17
+ 437 560 384 557 324 501 c 24
+ 228 411 200 336 120 231 c 17
  194 318 312 497 345 497 c 0
  351 497 354 492 354 480 c 0
  354 216 353 277 353 100 c 0
@@ -3522,8 +3523,8 @@ LayerCount: 2
 Fore
 SplineSet
 603 369 m 24
- 530.46 319.86 469.955 312.804 417 243 c 24
- 369.632 180.56 361 126 361 50 c 4
+ 530 320 470 313 417 243 c 24
+ 370 181 361 126 361 50 c 4
 195 564 m 25
  237 471 l 25
  250 505 238 542 270 558 c 16
@@ -3564,8 +3565,8 @@ SplineSet
  399 548 324 528 259 471 c 0
  172 393 120 330 120 224 c 0
  120 207 121 189 124 171 c 8
- 139.318 79.0869 228 45 327 45 c 0
- 441 45 466.69 68.79 556 84 c 24
+ 139 79 228 45 327 45 c 0
+ 441 45 467 69 556 84 c 24
 EndSplineSet
 EndChar
 
@@ -3585,7 +3586,7 @@ LayerCount: 2
 Fore
 SplineSet
 361 444 m 24
- 380.89 411.24 412 444 412 360 c 0
+ 381 411 412 444 412 360 c 0
  412 262 409 231 409 157 c 0
  409 120 410 172 412 100 c 0
 223 594 m 25
@@ -3749,11 +3750,11 @@ SplineSet
  192 574 212 528 247 528 c 2
  249 528 l 9
  354 579 l 25
- 311.88 547.41 287 531 246 498 c 0
+ 312 547 287 531 246 498 c 0
  208 468 196 446 196 426 c 0
  196 391 236 363 236 309 c 0
  236 280 223 272 188 223 c 0
- 150 171 145.91 173.59 119 142 c 17
+ 150 171 146 174 119 142 c 17
  146 187 227 251 302 253 c 0
  308 253 314 253 320 253 c 0
  419 253 424 228 512 166 c 0
@@ -16762,11 +16763,11 @@ Fore
 SplineSet
 -557 614 m 25
  -527 542 l 25
- -515.3 568.13 -534 609 -497 609 c 0
+ -515 568 -534 609 -497 609 c 0
  -471 609 -458 572 -429 572 c 2
  -428 572 l 9
  -269 614 l 25
- -315.8 578.9 -387 582 -389 524 c 0
+ -316 579 -387 582 -389 524 c 0
  -390 486 -389 404 -390 378 c 0
 EndSplineSet
 LCarets2: 1 0 
@@ -33774,8 +33775,8 @@ LayerCount: 2
 Fore
 SplineSet
 216 0 m 9
- 278.01 -19.8896 315.696 -24.0937 375 -51 c 24
- 442.798 -81.7598 475.65 -109.56 540 -147 c 25
+ 278 -20 316 -24 375 -51 c 24
+ 443 -82 476 -110 540 -147 c 25
  539 54 l 17
  539 169 535 218 534 346 c 0
  534 360 552 364 563 376 c 8
@@ -34951,11 +34952,11 @@ Fore
 SplineSet
 629 93 m 0
  629 -159 545 -201 401 -201 c 0
- 281.855 -201 157.175 -143.032 152 -24 c 0
- 149 45 254.734 -45 344 -45 c 0
+ 282 -201 157 -143 152 -24 c 0
+ 149 45 255 -45 344 -45 c 0
  422 -45 485 -33 486 63 c 1
  486 182 489 196 491 313 c 0
- 491 332 509.91 339.23 522 356 c 24
+ 491 332 510 339 522 356 c 24
 312 129 m 0
  271 145 218 167 218 201 c 0
  218 213 225 226 240 241 c 0
@@ -34963,10 +34964,10 @@ SplineSet
  379 255 417 198 464 161 c 0
 120 239 m 0
  124 238 130 237 136 237 c 0
- 174 237 240.408 261.786 267 278 c 0
- 308 303 316.945 312.816 332 363 c 0
+ 174 237 240 262 267 278 c 0
+ 308 303 317 313 332 363 c 0
  341 393 341 368 341 456 c 0
- 341 506 317.82 486.5 303 506 c 24
+ 341 506 318 486 303 506 c 24
 200 596 m 25
  229 546 l 17
  231 552 231 559 231 566 c 0
@@ -35952,7 +35953,7 @@ SplineSet
  419 37 l 2
  452 37 469 50 502 58 c 8
 535 251 m 24
- 529.54 226.43 521.524 213.164 521 188 c 16
+ 530 226 522 213 521 188 c 16
  520 140 512 102 512 63 c 0
  512 35 520 -18 534 -51 c 8
 235 148 m 0
@@ -35998,20 +35999,20 @@ LayerCount: 2
 Fore
 SplineSet
 390 -99 m 28
- 348.27 -58.0498 324.73 -34.9502 283 6 c 17
+ 348 -58 325 -35 283 6 c 17
  312 -9 347 -54 369 -54 c 0
  378 -54 389 -33 389 -19 c 0
  389 31 388 57 388 85 c 0
  388 113 389 144 391 204 c 0
- 392 239 449.56 236.94 487 258 c 25
+ 392 239 450 237 487 258 c 25
  360 233 l 17
  359 233 l 2
  336 233 327 255 307 255 c 0
- 279 255 291.14 230.6 281 215 c 25
- 266.96 228.26 262.122 240.067 245 249 c 16
+ 279 255 291 231 281 215 c 25
+ 267 228 262 240 245 249 c 16
  222 261 207 273 181 273 c 0
  179 273 177 272 175 272 c 8
- 150.566 272 141.45 253.7 120 242 c 24
+ 151 272 141 254 120 242 c 24
 403 119 m 24
  429 113 447 114 470 103 c 24
  505 86 519 70 550 49 c 25
@@ -36106,7 +36107,7 @@ SplineSet
  313 98 303 95 326 120 c 8
  376 175 419 190 479 234 c 24
 482 -15 m 24
- 422.72 -57.9004 382.932 -74.4746 330 -125 c 16
+ 423 -58 383 -74 330 -125 c 16
  308 -146 309 -219 309 -246 c 4
 331 127 m 24
  308 150 300 169 272 186 c 24
@@ -36928,6 +36929,7 @@ SplineSet
  334 464 355 457 385 438 c 24
  431 409 454 389 498 357 c 24
 EndSplineSet
+LCarets2: 4 0 0 0 0 
 Ligature2: "Letter Conjunction-1" ja virAma ja virAma ya
 EndChar
 
@@ -37143,6 +37145,7 @@ SplineSet
  380 314 442 315 442 360 c 0
  442 411 375 401 332 427 c 24
 EndSplineSet
+LCarets2: 4 0 0 0 0 
 Ligature2: "Letter Conjunction-1" Sa virAma pa virAma ya
 EndChar
 
@@ -37464,7 +37467,7 @@ SplineSet
  419 37 l 2
  452 37 469 50 502 58 c 8
 535 251 m 24
- 529.54 226.43 521.524 213.164 521 188 c 16
+ 530 226 522 213 521 188 c 16
  520 140 512 102 512 63 c 0
  512 35 517 -30 531 -63 c 8
 235 148 m 0
@@ -37858,6 +37861,60 @@ SplineSet
  499 423 501 405 505 386 c 8
  514 345 562 353 598 332 c 24
 EndSplineSet
+EndChar
+
+StartChar: strya
+Encoding: 862 -1 862
+Width: 780
+VWidth: 0
+Flags: W
+AnchorPoint: "ukaara" 406 -243 basechar 0
+AnchorPoint: "virama" 413 -365 basechar 0
+AnchorPoint: "repha" 316 564 basechar 0
+AnchorPoint: "aakaara" 545 596 basechar 0
+AnchorPoint: "iikaara" 545 596 basechar 0
+AnchorPoint: "ekaara" 214 587 basechar 0
+AnchorPoint: "bindu" 357 740 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+660 152 m 0
+ 660 -202 615 -243 406 -243 c 0
+ 310 -243 183 -202 183 -81 c 0
+ 183 -66 188 -60 197 -60 c 0
+ 225 -60 319 -114 385 -114 c 0
+ 430 -114 515 -102 515 -30 c 0
+192 102 m 0
+ 269 86 330 74 378 52 c 0
+ 435.061 25.8468 476 0 515 -30 c 9
+ 515 267 l 2
+ 514.97 276 510 280 503 280 c 0
+ 470 280 390 238 312 195 c 1
+ 379 230 448 260 491 280 c 0
+ 510.615 289.123 511 311 515 330 c 1
+ 515 446 l 2
+ 515 471 515 498 516 553 c 0
+ 516 572 533.69 579.23 545 596 c 24
+300 307 m 0
+ 262 323 212 344 212 378 c 0
+ 212 390 218 403 232 418 c 0
+ 246 432 275 432 309 433 c 0
+ 312 433 315 433 318 433 c 0
+ 384 433 399 414 491 350 c 0
+214 587 m 25
+ 244 528 l 17
+ 242 537 240 546 240 553 c 0
+ 240 569 247 580 266 580 c 0
+ 287 580 295 564 313 564 c 0
+ 314 564 315 564 316 564 c 8
+ 355 568 372 583 408 595 c 25
+ 386 582 390 575 352 560 c 0
+ 258 522 322 510 257 456 c 0
+ 233 436 169 415 134 415 c 0
+ 128 415 124 415 120 416 c 0
+EndSplineSet
+LCarets2: 4 0 0 0 0 
+Ligature2: "Letter Conjunction-1" sa virAma tra virAma ya
 EndChar
 EndChars
 EndSplineFont
