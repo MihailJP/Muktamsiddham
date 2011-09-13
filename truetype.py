@@ -11,7 +11,10 @@
 import fontforge;
 
 font = fontforge.open("Outlines.sfd");
-font.em = 2048L;
+try:
+	font.em = 2048L;
+except TypeError:
+	font.em = 2048;
 font.is_quadratic = True;
 font.selection.all();
 font.addExtrema();font.round();
