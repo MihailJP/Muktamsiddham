@@ -10,6 +10,8 @@ with Reserved Font Name Peignot.
 符号位置を間借りしています。表示には、デーヴァナーガリー文字の表示システムを
 そのまま使用できるようにしてあります。このフォントを指定すると、デーヴァ
 ナーガリー表記の梵語の文書がほぼそのまま梵字で表示されるようになっています。
+このフォントはWindows (Uniscribe/DirectWrite)で動作します。残念ながら、Linuxで
+このフォントは期待どおりにレンダリングされないことがわかっています。
 ※このフォントは種字としての使用を想定しておりません。
 
 This is the Siddham (the script for Sanskrit which is used for writing mantras
@@ -17,9 +19,13 @@ or copying sutras in Japan, and is known as Bonji) font I have created.  Since
 Siddham script is not yet included in Unicode officially, this font applies
 the Devanagari fonts' rendering system and codepoints.  Devanagari-encoded
 Sanskrit texts can be shown in Siddham script with this font.
+This font works under Windows (UniScribe/DirectWrite).  Unfortunately it is
+known that this font cannot be rendered as expected under Linux.
 
 Это шрифт Сиддхама (письменность для санскрите, что применяется для записи
 мантр или копирование сутры в Японии, и известна как Бондзи), что я создал.
 Из-за того что в Юникоде нет Сиддхама, этот шрифт применяет визуализацию и
 кодовые точки Деванагари шрифтов.  С этим шрифтом, можно отображать санскрит-
 ские тексты Сиддхам писменностью, что кодируются в деванагари.
+Этот шрифт работает под Windows (UniScribe / DirectWrite). К сожалению, извест-
+но, что этот шрифт не может быть вынесено как ожидалось под Linux.
