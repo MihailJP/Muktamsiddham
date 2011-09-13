@@ -5,9 +5,6 @@
 # Muktamsiddham stroke to outline font conversion script
 #
 # This script only runs under FontForge with Python scripting support.
-# font.stroke() in FontForge-20110222 causes a crash; do not use this version.
-# On version 20100501 it works well.
-#
 # With Python 2.7 installed, FontForge may fail to be built. If you experience
 # this issue, the following link may help you:
 # http://old.nabble.com/Compiling-error-with-Python-td29226850.html
