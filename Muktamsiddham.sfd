@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1272671396
-ModificationTime: 1315663866
+ModificationTime: 1315904487
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -74,6 +74,9 @@ ContextSub2: class "eT aiT Contextual Forms-1"  3 1 1 1
   FClsList:
  1
   SeqLookup: 1 "Contextual Form 0001" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "iT Contextual Forms-1"  3 1 1 1
   Class: 2 iT
@@ -84,6 +87,9 @@ ContextSub2: class "iT Contextual Forms-1"  3 1 1 1
   FClsList:
  1
   SeqLookup: 0 "Contextual Form 0001" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "IT Contextual Forms-1"  6 1 1 4
   Class: 2 IT
@@ -115,6 +121,9 @@ ContextSub2: class "IT Contextual Forms-1"  6 1 1 4
   FClsList:
  1
   SeqLookup: 1 "Contextual Form 0004" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "uT UT RT Contextual Forms-1"  8 1 1 8
   Class: 5 uT UT
@@ -176,6 +185,9 @@ ContextSub2: class "uT UT RT Contextual Forms-1"  8 1 1 8
   FClsList:
  1
   SeqLookup: 0 "Contextual Form 0001" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  "6"  "7"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "AT Contextual Forms-1"  6 1 1 6
   Class: 2 AT
@@ -219,6 +231,9 @@ ContextSub2: class "AT Contextual Forms-1"  6 1 1 6
   FClsList:
  1
   SeqLookup: 2 "Contextual Form 0003" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 LangName: 1102 "" "" "" "" "+CS4JQQkVCU0JJAkCCTgJPwkmCU0JJwkC" 
 LangName: 1081 "" "" "" "" "+CS4JQQkVCU0JJAkCCTgJPwkmCU0JJwkC" 
@@ -231,7 +246,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 736 16 8
+WinInfo: 0 16 8
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bindumark"  "Above-base Mark to Mark-1" "ukaara"  "Below-base Marks-1" "virama"  "Below-base Marks-1" "ekaara"  "Above-base Marks-1" "iikaara"  "Above-base Marks-1" "aakaara"  "Above-base Marks-1" "repha"  "Above-base Marks-1" "bindu"  "Above-base Marks-1" 
 BeginChars: 863 863
@@ -1673,14 +1688,15 @@ SplineSet
  158 549 143 589 180 589 c 0
  206 589 219 552 248 552 c 2
  249 552 l 9
- 313 554 346 578 408 594 c 25
- 361 559 290 562 288 504 c 0
+ 313 554 346 578 408 594 c 17
+378 581 m 1
+ 336.169 562.533 289.579 549.792 288 504 c 0
  285 404 284 353 284 306 c 0
  284 259 285 216 285 132 c 0
  285 109 277 100 266 100 c 0
  239 100 189 149 153 174 c 9
- 213 121 242 86 306 39 c 24
- 361 -1 398 -14 456 -48 c 24
+ 212.67 121.35 241.809 86.0313 306 39 c 24
+ 360.553 -0.96875 397.5 -14.0703 456 -48 c 24
 EndSplineSet
 Substitution2: "Contextual Form 0001-1" ra.0001
 EndChar
@@ -3257,19 +3273,20 @@ Fore
 SplineSet
 456 0 m 25
  324 156 l 17
- 360 131 410 82 437 82 c 0
+371 114 m 1
+ 390.957 99.0244 423.749 82 437 82 c 0
  448 82 456 91 456 114 c 0
  456 198 455 241 455 288 c 0
  455 335 456 386 459 486 c 0
- 461 544 532 541 579 576 c 25
- 517 560 484 536 420 534 c 17
+ 461 544 532.2 540.9 579 576 c 25
+ 420 534 l 17
  419 534 l 2
  391 534 378 571 353 571 c 0
- 317 571 330 530 321 504 c 25
- 303 526 299 544 276 561 c 16
+ 317 571 333.48 530.13 321 504 c 25
+ 303.45 526.23 298.658 544.007 276 561 c 16
  248 582 228 600 196 600 c 2
  189 600 l 9
- 156 597 147 569 120 549 c 24
+ 162.09 580.11 146.91 568.89 120 549 c 24
 474 345 m 24
  507 334 529 337 558 318 c 24
  602 290 618 263 657 228 c 25
