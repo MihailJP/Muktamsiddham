@@ -16,4 +16,4 @@ MuktamsiddhamT.ttf: OutlinesTT.sfd
 
 .PHONY: clean
 clean:
-	rm Outlines.sfd OutlinesTT.sfd Muktamsiddham.otf MuktamsiddhamT.ttf
+	-rm Outlines.sfd OutlinesTT.sfd Muktamsiddham.otf MuktamsiddhamT.ttf
