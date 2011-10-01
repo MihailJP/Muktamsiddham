@@ -1,0 +1,37 @@
+2011-10-02
+	Version 0.2.0 release. Trilingual summary and commit log follows.
+
+	* "strya"のグリフを追加しました。
+	* "make"プログラムでビルドができるようになりました。
+	* Windows以外のシステムでも部分的に動作するようになりました。(taka447氏のパッチによる)
+
+	* Added glyph for 'strya'.
+	* Now we can build with the 'make' program.
+	* Now works partially with non-Windows systems (thanks to the patch from taka447).
+
+	* Добавлен глиф для «strya».
+	* Теперь можно создавать с программой «make».
+	* Теперь работает частично с системами, отличных от Windows (благодаря патч от taka447).
+
+	* 2011-10-02 9aa5bfc: READMEにリポジトリについて記載
+	* 2011-10-02 9e9f31b: Added dummy ChangeLog
+	* 2011-10-02 c6c0898: Version changed to 0.2.0
+	* 2011-10-02 d24162e: Added Makefile target "dist"
+	* 2011-09-21 b716062: make clean時にエラーを無視するように変更
+	* 2011-09-19 7dcd522: README revert
+	* 2011-09-19 98b8857: making ravattu non-spacing, OpenType feature adjusted
+	* 2011-09-19 1640c37: Patch from taka447: switched features to psts/akhn/akhn for XeLaTeX-Mac
+	* 2011-09-13 2969a9d: TypeError handling in truetype.py
+	* 2011-09-13 678d3d8: confirmed buildable with Fontforge-20110222
+	* 2011-09-13 b1bf110: make the stroke data correctly processed on the recent Fontforge build
+	* 2011-09-13 94d8e34: Update README: Linux not yet supported
+	* 2011-09-10 60215a2: Added glyph strya
+	* 2011-09-10 0ecb4f3: Makefile completed
+	* 2011-09-10 1598651: Outlines.sfd file now can be built with make command; pre-built Outlines.sfd and OutlinesTT.sfd are deleted.
+	* 2011-03-06 bd880b0: Imported from version 0.1.1
+
+2010-10-27
+	Version 0.1.1 release.
+
+2010-05-29
+	Version 0.1.0 release.
