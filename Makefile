@@ -1,7 +1,7 @@
 # Makefile for Muktamsiddham font
 
 FONTS=Muktamsiddham.otf MuktamsiddhamT.ttf
-DOCUMENTS=license.txt README
+DOCUMENTS=license.txt README ChangeLog
 SOURCE=Muktamsiddham.sfd LatinGlyphs.sfd outlines.py truetype.py Makefile
 PKGS=Muktamsiddham.7z Muktamsiddham-source.7z
 7ZOPT=-mx9
