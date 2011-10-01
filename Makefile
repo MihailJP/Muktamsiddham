@@ -1,7 +1,14 @@
 # Makefile for Muktamsiddham font
 
+FONTS=Muktamsiddham.otf MuktamsiddhamT.ttf
+DOCUMENTS=license.txt README
+SOURCE=Muktamsiddham.sfd LatinGlyphs.sfd outlines.py truetype.py Makefile
+PKGS=Muktamsiddham.7z Muktamsiddham-source.7z
+7ZOPT=-mx9
+FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
+
 .PHONY: all
-all: Muktamsiddham.otf MuktamsiddhamT.ttf
+all: ${FONTS}
 
 Outlines.sfd: Muktamsiddham.sfd LatinGlyphs.sfd
 	fontforge -script ./outlines.py
@@ -10,10 +17,27 @@ OutlinesTT.sfd: Outlines.sfd
 	fontforge -script ./truetype.py
 
 Muktamsiddham.otf: Outlines.sfd
-	fontforge -lang=ff -c "Open(\"$<\");Generate(\"$@\");Close()"
+	$(FFCMD)
 MuktamsiddhamT.ttf: OutlinesTT.sfd
-	fontforge -lang=ff -c "Open(\"$<\");Generate(\"$@\");Close()"
+	$(FFCMD)
+
+.SUFFIXES: .7z
+.PHONY: dist
+dist: ${PKGS}
+
+Muktamsiddham.7z: ${FONTS} ${DOCUMENTS}
+	-rm -rf $*
+	mkdir $*
+	cp ${FONTS} ${DOCUMENTS} $*
+	7z a ${7ZOPT} $@ $*
+
+Muktamsiddham-source.7z: ${SOURCE} ${DOCUMENTS}
+	-rm -rf $*
+	mkdir $*
+	cp ${SOURCE} ${DOCUMENTS} $*
+	7z a ${7ZOPT} $@ $*
 
 .PHONY: clean
 clean:
-	-rm Outlines.sfd OutlinesTT.sfd Muktamsiddham.otf MuktamsiddhamT.ttf
+	-rm Outlines.sfd OutlinesTT.sfd ${FONTS}
+	-rm -rf ${PKGS} ${PKGS:.7z=}
