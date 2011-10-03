@@ -1,3 +1,15 @@
+2011-10-04
+	Version 0.2.1 release. Trilingual summary and commit log follows.
+
+	* ドキュメントの不備を直した。
+
+	* Fixed the imperfection in the documentation.
+
+	* Исправление несовершенства в документации.
+
+	* 2011-10-04 beda022: ドキュメントの不備を直す
+	* 2011-10-02 4cf89b9: Version 0.2.0までの更新をChangeLogに記載
+
 2011-10-02
 	Version 0.2.0 release. Trilingual summary and commit log follows.
 
