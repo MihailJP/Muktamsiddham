@@ -1,10 +1,11 @@
 Muktamsiddham - a Siddham font
 
-Siddham glyphs Copyright (c) 2010, MihailJP (http://twitter.com/MihailJP),
+Siddham glyphs Copyright (c) 2011, MihailJP,
 with Reserved Font Name Muktamsiddham.
 Latin glyphs Copyright (c) 1999 by George Williams,
 with Reserved Font Name Peignot.
 
+------------------------- 日本語 Japanese По-японски -------------------------
 
 これは、自作の悉曇梵字のフォントです(日本の仏教で伝統的に使われてきたいわゆる
 梵字のことです)。Unicodeにエンコードされていないのでデーヴァナーガリーの
@@ -16,6 +17,16 @@ with Reserved Font Name Peignot.
 最新のソースファイルは、GitHubのリポジトリにあります。
 https://github.com/MihailJP/Muktamsiddham
 
+バグレポートやパッチは、次の連絡先へどうぞ。
+Mail: mihailjp@gmail.com
+Twitter: http://twitter.com/MihailJP
+
+または、ブログへのコメント(日本語):
+http://mihafont.seesaa.net/article/167209339.html (※)
+http://shinshu.fm/MHz/48.59/archives/0000325320.html
+(※) 承認されるまでコメントが表示されません。
+
+------------------------- 英語 English  По-английски -------------------------
 
 This is the Siddham (the script for Sanskrit which is used for writing mantras
 or copying sutras in Japan, and is known as Bonji) font I have created.  Since
@@ -26,6 +37,18 @@ Sanskrit texts can be shown in Siddham script with this font.
 The latest source file can be found at the GitHub repository.
 https://github.com/MihailJP/Muktamsiddham
 
+Contacts for bug reports and patches are:
+Mail: mihailjp@gmail.com
+Twitter: http://twitter.com/MihailJP
+Japanese language preferred, but I read English with little difficulty.
+
+Alternatively, comment to blog (Japanese only):
+http://mihafont.seesaa.net/article/167209339.html *
+http://shinshu.fm/MHz/48.59/archives/0000325320.html
+* Comments will not be shown until approval.
+Comments in any languages other than Japanese may be rejected by the system.
+
+------------------------- ロシア語 Russian По-русски -------------------------
 
 Это шрифт Сиддхама (письменность для санскрите, что применяется для записи
 мантр или копирование сутры в Японии, и известна как Бондзи), что я создал.
@@ -35,3 +58,17 @@ https://github.com/MihailJP/Muktamsiddham
 
 Последние исходный файл может быть найден в репозитории GitHub.
 https://github.com/MihailJP/Muktamsiddham
+
+Контактная информация для патча и сообщения об ошибке:
+Почта: mihailjp@gmail.com
+Твиттер: http://twitter.com/MihailJP
+Японский язык предпочтительнее, но я читать по-английски без особых
+затруднений.
+
+Кроме того, комментарий в блоге (только на японском языке):
+http://mihafont.seesaa.net/article/167209339.html *
+http://shinshu.fm/MHz/48.59/archives/0000325320.html
+* Комментарии не будет показан до утверждения.
+Комментарии на любых языках, кроме японского, может быть отклонено системой.
+
+------------------------------ 終わり End Конец ------------------------------
