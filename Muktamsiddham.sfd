@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1272671396
-ModificationTime: 1317681418
+ModificationTime: 1318388999
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -56,7 +56,7 @@ Lookup: 5 0 0 "AT Contextual Forms"  {"AT Contextual Forms-1"  } ['psts' ('deva'
 Lookup: 5 0 0 "Muktamsiddham-RRT Contextual Forms"  {"Muktamsiddham-RRT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
 Lookup: 5 0 0 "IT Contextual Forms"  {"IT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "raphala Conjunction"  {"raphala Conjunction-1"  } ['akhn' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "Letter Conjunction"  {"Letter Conjunction-1"  } ['akhn' ('deva' <'dflt' > ) ]
+Lookup: 4 0 0 "Letter Conjunction"  {"Letter Conjunction-1"  } ['psts' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "Letters-vattu Conjunction"  {"Letters-vattu Conjunction-1"  } ['vatu' ('deva' <'dflt' > ) ]
 Lookup: 1 0 0 "Contextual Form 0001"  {"Contextual Form 0001-1" ("0001" ) } ['0001' ('deva' <'dflt' > ) ]
 Lookup: 1 0 0 "Contextual Form 0002"  {"Contextual Form 0002-1" ("0002" ) } ['0002' ('deva' <'dflt' > ) ]
@@ -161,10 +161,10 @@ ContextSub2: class "IT Contextual Forms-1"  6 1 1 4
 EndFPST
 ContextSub2: class "uT UT RT Contextual Forms-1"  8 1 1 8
   Class: 11 uT UT vattu
-  Class: 2 RT
+  Class: 6 RT RRT
   Class: 132 ka Ga cha ja jha Ja Na da Gka Jcha Jja nda ska vcha vja vda Tka TScha kka gda ccha jja tka dda bja bda lka Ska nka zcha ndda gja lda
   Class: 291 Ta Tha Dha Da pha ha kNa khNa gNa ghNa GNa cNa chNa jNa jhNa JNa TNa ThNa DNa DhNa tNa thNa dNa dhNa nNa pNa phNa bNa bhNa mNa yNa lNa vNa zNa SNa sNa hNa kSNa Jjha NTa NTha NDa NDha mpha Gha vjha jJa STa STha dDa dDha spha sha jjha jjJa TTa DDa NNa tpha lha nha cJa TTha DDha ppha lpha Spha
-  Class: 450 ra la kra khra gra ghra cra chra jra jhra Jra Tra Thra Dra Dhra Nra tra thra dra dhra nra pra phra bra bhra mra yra lra vra zra Sra sra hra kSra kla khla gla ghla cla chla jla jhla Jla Tla Thla Dla Dhla Nla tla thla dla dhla nla pla phla bla bhla mla yla vla zla Sla sla hla kSla Gra Gla Gktra TSchra ktra Ggra Gghra cchra ttra dgra ddra ntra ndra ndhra lla Skra STra Spra stra spra nbra NDra tkra tpra npra Jzra dbra mpra nddra ptra tpla gdhra Gkra 
+  Class: 449 ra la kra khra gra ghra cra chra jra jhra Jra Tra Thra Dra Dhra Nra tra thra dra dhra nra pra phra bra bhra mra yra lra vra zra Sra sra hra kSra kla khla gla ghla cla chla jla jhla Jla Tla Thla Dla Dhla Nla tla thla dla dhla nla pla phla bla bhla mla yla vla zla Sla sla hla kSla Gra Gla Gktra TSchra ktra Ggra Gghra cchra ttra dgra ddra ntra ndra ndhra lla Skra STra Spra stra spra nbra NDra tkra tpra npra Jzra dbra mpra nddra ptra tpla gdhra Gkra
   Class: 394 kya khya gya ghya cya chya jya jhya Jya Tya Thya Dya Dhya Nya tya thya dya dhya nya pya phya bya bhya mya lya vya zya Sya sya hya kSya Gya kSvya kSvrya ktya krya kSmya gnya gbhya grya tnya tmya trya tsya ddya ddhya dbhya drya dvya ntya ndhya nnya ptya yya zcya zrya SThya stya psya Jjya dhnya zvya nvya smya nsya ttya STya GkSya jJya dgya nddhya STrya SNya cchya jjya kSNya Spya Smya NDya strya
   Class: 940 kha ga gha ca ta tha dha na pa ba bha ma ya va za Sa sa kSa kna khna gna ghna Gna cna chna jna jhna Jna Tna Thna Dna Dhna Nna tna thna dna dhna pna phna bna bhna mna yna lna vna zna Sna sna hna kSna kva khva gva ghva cva chva jva jhva Jva Tva Thva Dva Dhva Nva tva thva dva dhva nva pva phva bva bhva mva yva lva zva Sva sva hva kSva kma khma gma ghma Gma cma chma jma jhma Jma Tma Thma Dma Dhma Nma tma thma dma dhma nma pma phma bma bhma yma lma vma zma Sma sma hma kSma Gkha Gga Ggha Jca nta ntha ndha mpa mba mbha Gva Gza GSa Gsa GkSa skha dga dgha vca sta stha vdha tsna spa dba dbha lta tkva Tza TSa vkSa pta dsva Gkta kta ktha ktva gga gdha gbha gdhva GkSva cca cchva jjva Jza Dga tta ttha tpa tsa ttva tsva ddha ddva ddhva nna nsa ntsa nddha psa bdha bdhva lpa zca Spa STva stva npa kza ksa nbha kpa tstha nba kca nsva mma tsma ndva tkSa lba zba nza nspa Jzva nstha nga ptva kkha ddhna bba bbha tkha ppa lga vva ttna Skva ddhma NDva
  2 0 0
@@ -219,9 +219,9 @@ ContextSub2: class "uT UT RT Contextual Forms-1"  8 1 1 8
   FClsList:
  1
   SeqLookup: 0 "Contextual Form 0001" 
-  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  "6"  "7"  
-  BClassNames: "0"  
-  FClassNames: "0"  
+  ClassNames: "All_Others"  "1"  "2"  "3"  "4"  "5"  "6"  "7"  
+  BClassNames: "All_Others"  
+  FClassNames: "All_Others"  
 EndFPST
 ContextSub2: class "AT Contextual Forms-1"  6 1 1 6
   Class: 2 AT
@@ -22882,8 +22882,8 @@ SplineSet
  508 588 475 588 475 554 c 0
  475 519 545 486 592 467 c 0
 EndSplineSet
-Ligature2: "Letter Conjunction-1" Ga virAma ka virAma tra
 Ligature2: "Letters-vattu Conjunction-1" Gkta vattu
+Ligature2: "Letter Conjunction-1" Ga virAma ka virAma tra
 EndChar
 
 StartChar: vca
@@ -25348,8 +25348,8 @@ SplineSet
  442 588 409 588 409 554 c 0
  409 519 479 486 526 467 c 0
 EndSplineSet
-Ligature2: "Letter Conjunction-1" Ta virAma Sa virAma chra
 Ligature2: "Letters-vattu Conjunction-1" TScha vattu
+Ligature2: "Letter Conjunction-1" Ta virAma Sa virAma chra
 EndChar
 
 StartChar: Gkta
@@ -26463,8 +26463,8 @@ SplineSet
  323 339 353 325 389 294 c 9
  389 240 l 25
 EndSplineSet
-Ligature2: "Letter Conjunction-1" Ga virAma gra
 Ligature2: "Letters-vattu Conjunction-1" Gga vattu
+Ligature2: "Letter Conjunction-1" Ga virAma gra
 EndChar
 
 StartChar: Gghra
@@ -26524,8 +26524,8 @@ SplineSet
  469 588 436 588 436 554 c 0
  436 519 506 486 553 467 c 0
 EndSplineSet
-Ligature2: "Letter Conjunction-1" Ga virAma ghra
 Ligature2: "Letters-vattu Conjunction-1" Ggha vattu
+Ligature2: "Letter Conjunction-1" Ga virAma ghra
 EndChar
 
 StartChar: GkSva
@@ -28480,8 +28480,8 @@ SplineSet
  228 587 240 558 228 533 c 25
  194 589 l 25
 EndSplineSet
-Ligature2: "Letter Conjunction-1" ta virAma tra
 Ligature2: "Letters-vattu Conjunction-1" tta vattu
+Ligature2: "Letter Conjunction-1" ta virAma tra
 EndChar
 
 StartChar: ttva
@@ -28889,8 +28889,8 @@ SplineSet
  266 407 304 415 357 390 c 24
  395 372 401 342 430 311 c 24
 EndSplineSet
-Ligature2: "Letter Conjunction-1" da virAma gra
 Ligature2: "Letters-vattu Conjunction-1" dga vattu
+Ligature2: "Letter Conjunction-1" da virAma gra
 EndChar
 
 StartChar: ddya
@@ -28983,8 +28983,8 @@ SplineSet
  233 403 271 412 324 387 c 24
  362 369 368 339 397 308 c 24
 EndSplineSet
-Ligature2: "Letter Conjunction-1" da virAma dra
 Ligature2: "Letters-vattu Conjunction-1" dda vattu
+Ligature2: "Letter Conjunction-1" da virAma dra
 EndChar
 
 StartChar: ddva
@@ -29609,8 +29609,8 @@ SplineSet
  182 404 143 425 143 446 c 0
  143 448 143 450 144 452 c 0
 EndSplineSet
-Ligature2: "Letter Conjunction-1" na virAma dra
 Ligature2: "Letters-vattu Conjunction-1" nda vattu
+Ligature2: "Letter Conjunction-1" na virAma dra
 EndChar
 
 StartChar: ndhya
@@ -29706,8 +29706,8 @@ SplineSet
  206 404 167 425 167 446 c 0
  167 448 167 450 168 452 c 0
 EndSplineSet
-Ligature2: "Letter Conjunction-1" na virAma dhra
 Ligature2: "Letters-vattu Conjunction-1" ndha vattu
+Ligature2: "Letter Conjunction-1" na virAma dhra
 EndChar
 
 StartChar: nnya
@@ -31505,8 +31505,8 @@ SplineSet
  380 323 442 324 442 369 c 0
  442 420 375 410 332 436 c 24
 EndSplineSet
-Ligature2: "Letter Conjunction-1" Sa virAma kra
 Ligature2: "Letters-vattu Conjunction-1" Ska vattu
+Ligature2: "Letter Conjunction-1" Sa virAma kra
 EndChar
 
 StartChar: STra
@@ -31558,8 +31558,8 @@ SplineSet
  360 305 430 307 430 355 c 0
  430 406 365 401 323 430 c 8
 EndSplineSet
-Ligature2: "Letter Conjunction-1" Sa virAma Tra
 Ligature2: "Letters-vattu Conjunction-1" STa vattu
+Ligature2: "Letter Conjunction-1" Sa virAma Tra
 EndChar
 
 StartChar: STva
@@ -31714,8 +31714,8 @@ SplineSet
  374 326 436 327 436 372 c 0
  436 423 369 413 326 439 c 24
 EndSplineSet
-Ligature2: "Letter Conjunction-1" Sa virAma pra
 Ligature2: "Letters-vattu Conjunction-1" Spa vattu
+Ligature2: "Letter Conjunction-1" Sa virAma pra
 EndChar
 
 StartChar: stya
@@ -31812,8 +31812,8 @@ SplineSet
  233 436 169 415 134 415 c 0
  128 415 124 415 120 416 c 0
 EndSplineSet
-Ligature2: "Letter Conjunction-1" sa virAma tra
 Ligature2: "Letters-vattu Conjunction-1" sta vattu
+Ligature2: "Letter Conjunction-1" sa virAma tra
 EndChar
 
 StartChar: stva
@@ -32284,8 +32284,8 @@ SplineSet
  233 372 170 351 135 351 c 0
  129 351 124 352 120 353 c 0
 EndSplineSet
-Ligature2: "Letter Conjunction-1" sa virAma pra
 Ligature2: "Letters-vattu Conjunction-1" spa vattu
+Ligature2: "Letter Conjunction-1" sa virAma pra
 EndChar
 
 StartChar: npa.0001
@@ -34040,8 +34040,8 @@ SplineSet
  211 390 246 394 290 366 c 24
  332 339 340 307 372 269 c 24
 EndSplineSet
-Ligature2: "Letter Conjunction-1" da virAma bra
 Ligature2: "Letters-vattu Conjunction-1" dba vattu
+Ligature2: "Letter Conjunction-1" da virAma bra
 EndChar
 
 StartChar: nspa
@@ -35762,8 +35762,8 @@ SplineSet
  177 393 133 412 133 436 c 0
  133 438 133 440 134 442 c 0
 EndSplineSet
-Ligature2: "Letter Conjunction-1" na virAma da virAma dra
 Ligature2: "Letters-vattu Conjunction-1" ndda vattu
+Ligature2: "Letter Conjunction-1" na virAma da virAma dra
 EndChar
 
 StartChar: bba
@@ -36765,8 +36765,8 @@ SplineSet
  313 299 322 300 331 300 c 8
  377 302 397 330 439 349 c 24
 EndSplineSet
-Ligature2: "Letter Conjunction-1" pa virAma tra
 Ligature2: "Letters-vattu Conjunction-1" pta vattu
+Ligature2: "Letter Conjunction-1" pa virAma tra
 EndChar
 
 StartChar: ttna
