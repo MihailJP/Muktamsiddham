@@ -56,7 +56,7 @@ Lookup: 5 0 0 "AT Contextual Forms"  {"AT Contextual Forms-1"  } ['psts' ('deva'
 Lookup: 5 0 0 "Muktamsiddham-RRT Contextual Forms"  {"Muktamsiddham-RRT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
 Lookup: 5 0 0 "IT Contextual Forms"  {"IT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "raphala Conjunction"  {"raphala Conjunction-1"  } ['akhn' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "Letter Conjunction"  {"Letter Conjunction-1"  } ['psts' ('deva' <'dflt' > ) ]
+Lookup: 4 0 0 "Letter Conjunction"  {"Letter Conjunction-1"  } ['akhn' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "Letters-vattu Conjunction"  {"Letters-vattu Conjunction-1"  } ['vatu' ('deva' <'dflt' > ) ]
 Lookup: 1 0 0 "Contextual Form 0001"  {"Contextual Form 0001-1" ("0001" ) } ['0001' ('deva' <'dflt' > ) ]
 Lookup: 1 0 0 "Contextual Form 0002"  {"Contextual Form 0002-1" ("0002" ) } ['0002' ('deva' <'dflt' > ) ]
