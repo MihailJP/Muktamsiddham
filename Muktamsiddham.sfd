@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1272671396
-ModificationTime: 1318388999
+ModificationTime: 1336546342
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -280,12 +280,12 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 8
+WinInfo: 752 16 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "viramamark"  "Below-base Mark to Mark-1" "ukaaramark"  "Below-base Mark to Mark-1" "bindumark"  "Above-base Mark to Mark-1" "ukaara"  "Below-base Marks-1" "virama"  "Below-base Marks-1" "ekaara"  "Above-base Marks-1" "iikaara"  "Above-base Marks-1" "aakaara"  "Above-base Marks-1" "repha"  "Above-base Marks-1" "bindu"  "Above-base Marks-1" 
-BeginChars: 863 863
+BeginChars: 868 868
 
 StartChar: akAra
 Encoding: 0 2309 0
@@ -37953,6 +37953,91 @@ SplineSet
  128 415 124 415 120 416 c 0
 EndSplineSet
 Ligature2: "Letter Conjunction-1" sa virAma tra virAma ya
+EndChar
+
+StartChar: separator1
+Encoding: 863 58819 863
+Width: 330
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+165 544.5 m 28
+ 190 544.5 210 524.5 210 499.5 c 28
+ 210 474.5 190 454.5 165 454.5 c 28
+ 140 454.5 120 474.5 120 499.5 c 28
+ 120 524.5 140 544.5 165 544.5 c 28
+EndSplineSet
+EndChar
+
+StartChar: separator2
+Encoding: 864 58820 864
+Width: 300
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 608 m 25
+ 180 594 l 17
+ 138 568 168 -180 168 -180 c 9
+EndSplineSet
+EndChar
+
+StartChar: ditto1
+Encoding: 865 -1 865
+Width: 804
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+312 350.6 m 0
+ 264.851 355.562 207.94 412.341 207.94 458.573 c 0
+ 207.94 468.231 210.424 477.43 216 485.6 c 0
+ 270.276 565.121 351.594 597.431 425.15 597.431 c 0
+ 516.932 597.431 596.628 547.126 596.628 475.468 c 0
+ 596.628 468.062 595.777 460.429 594 452.6 c 8
+ 541.018 219.146 315 209.6 120 62.5996 c 1
+ 191.733 114.959 233.385 139.443 285.104 139.443 c 0
+ 358.833 139.443 453.024 89.6865 684 0 c 9
+EndSplineSet
+EndChar
+
+StartChar: ditto2
+Encoding: 866 -1 866
+Width: 836
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+312 749.6 m 0
+ 495 674.601 426.799 545.166 381 161.6 c 0
+ 357 -39.4004 429 -87 501 -135.4 c 0
+120 506.6 m 25
+ 132 71.5996 l 17
+ 117 446.6 252 473.6 408 509.6 c 0
+ 555.033 543.53 690.807 420.485 714 290.6 c 0
+ 744 122.6 528 14.5996 417 230.6 c 0
+EndSplineSet
+EndChar
+
+StartChar: ditto3
+Encoding: 867 -1 867
+Width: 726
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 539.6 m 29
+ 540 563.6 l 29
+ 546 359.601 l 29
+ 132 341.601 l 21
+ 126 14.6006 108 65.6006 606 89.5996 c 13
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
