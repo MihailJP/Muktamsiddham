@@ -3394,6 +3394,15 @@ CauseIiMatraAlt4 = (g__thya, g__thra, g__thla, g__thva, g_ghma, g__thma, g__dhma
     g_bhma, g_yma, g__sma, g_sma, g__thna, g__th_na, g_psa, g_lpa, g__spa, g__spra,
     g_mma, g_psya, g_tsma, g_smya, g__spya, g__smya, g_strya);
 
+SiddhamCodePoints = (unicode(0x11580 .. 0x115b9), unicode(0x115bc .. 0x115bf));
+NagariCodePoints = (unicode(0x0905 .. 0x090a), unicode(0x090f .. 0x0910),
+    unicode(0x0913 .. 0x0914),
+    unicode(0x090b), unicode(0x0960), unicode(0x090c), unicode(0x0961),
+    unicode(0x0915 .. 0x0928), unicode(0x092a .. 0x0930), unicode(0x0932),
+    unicode(0x0935 .. 0x0939), unicode(0x093e .. 0x0942), unicode(0x0947 .. 0x0948),
+    unicode(0x094b .. 0x094c), unicode(0x0943 .. 0x0944), unicode(0x094d),
+    unicode(0x0901 .. 0x0903));
+
 endtable;
 
 #define MAXGLYPH 1298
@@ -3401,6 +3410,11 @@ endtable;
 table(substitution)
 
 pass(1)
+    /* Convert to Devanagari-equivalent glyph */
+    SiddhamCodePoints > NagariCodePoints;
+endpass;
+
+pass(2)
     /* RRT oT auT Decomposition */
     g_candrabindu _ > g_candra:1 g_anusv_ara:1;
     g_candrao_t _ > g_candra:1 g__a_t:1;
@@ -3412,26 +3426,26 @@ pass(1)
 endpass;
 
 /* Repha */
-pass(2)
+pass(3)
     g_ra g_vir_ama > g_repha:(1 2) _;
 endpass;
-pass(3)
+pass(4)
     g_repha _ > g_ra:1 g_vir_ama:1 / g_vir_ama _ ^ _;
     g_repha _ > g_ra:1 g_vir_ama:1 / g_repha _ ^ _;
 endpass;
 
 /* Vattu forms */
-pass(4)
+pass(5)
     g_vir_ama g_ra > g_vattu:(1 2) _;
 endpass;
 
 /* Raphala ligature */
-pass(5)
+pass(6)
     Consonants g_vattu > ConsonantsR:(1 2) _;
 endpass;
 
 /* Conjunction */
-pass(6)
+pass(7)
     g_ba g_vir_ama g_ba > g_bba:(1 2 3) _ _;
     g_ba g_vir_ama g_bha > g_bbha:(1 2 3) _ _;
     g_ba g_vir_ama g_da > g_bda:(1 2 3) _ _;
@@ -3848,7 +3862,7 @@ pass(6)
     g_za g_vir_ama g_va g_vir_ama g_ya > g_zvya:(1 2 3 4 5) _ _ _ _;
     g_za g_vir_ama g_ya > g_zya:(1 2 3) _ _;
 endpass;
-pass(7)
+pass(8)
     g_ccha g_vattu > g_cchra:(1 2) _;
     g_dba g_vattu > g_dbra:(1 2) _;
     g_dga g_vattu > g_dgra:(1 2) _;
@@ -3880,18 +3894,18 @@ pass(7)
 endpass;
 
 /* Glyph reorder */
-pass(8)
+pass(9)
     g_repha AllConsonants g_i_t > @3 @2 @1;
     g_repha AllConsonants > @2 @1;
     AllConsonants g_i_t > @2 @1;
 endpass;
 
 /* Contextual matra */
-pass(9)
+pass(10)
     /* iT */
     g_i_t > g_i_t_0001 / _ CausesIMatraAlt1;
 endpass;
-pass(10)
+pass(11)
     /* uT, UT */
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g_u_t;
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__u_t;
@@ -3912,7 +3926,7 @@ pass(10)
     CausesUMatraAlt1 g__r_t > CausesUMatraAlt1a g__r_t_0001 / _ g_repha? _;
     CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_repha? g__r_t;
 endpass;
-pass(11)
+pass(12)
     /* RT/RRT exceptional */
 	g_ra g__r_t g__a_t > g_r_r_r:(1 2 3) _ _;
 	g_la g__r_t g__a_t > g_l_r_r:(1 2 3) _ _;
@@ -3922,7 +3936,7 @@ pass(11)
 	g_e_t > g_e_t_0001 / CauseEMatraAlt g_repha? _;
 	g_ai_t > g_ai_t_0001 / CauseEMatraAlt g_repha? _;
 endpass;
-pass(12)
+pass(13)
 	/* AT */
 	g__a_t > g__a_t_0001 / CauseAMatraAlt1 g_repha? CauseAMatraSkipped? _;
 	g__a_t > g__a_t_0002 / CauseAMatraAlt2 g_repha? CauseAMatraSkipped? _;
