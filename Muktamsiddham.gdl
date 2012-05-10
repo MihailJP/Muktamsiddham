@@ -3,9 +3,6 @@
 */
 
 table(glyph) {MUnits = 2048};
-g__notdef = glyphid(0);
-g__null = glyphid(1);
-g_nonmarkingreturn = glyphid(2);
 g_ak_ara = glyphid(3) {binduS = point(834m, 1516m)};
 g__ak_ara = glyphid(4) {binduS = point(922m, 1516m)};
 g_it = glyphid(5) {binduS = point(905m, 1516m)};
@@ -869,444 +866,11 @@ g__skva_0001 = glyphid(862) {aakaaraS = point(975m, 1225m); binduS = point(680m,
 g_ddhma_0001 = glyphid(863) {aakaaraS = point(1030m, 1206m); binduS = point(700m, 1516m); ekaaraS = point(428m, 1184m); iikaaraS = point(1030m, 1206m); rephaS = point(694m, 1151m); ukaaraS = point(930m, -504m)};
 g__n_dva_0001 = glyphid(864) {aakaaraS = point(1225m, 680m); binduS = point(807m, 1516m); ekaaraS = point(270m, 1004m); iikaaraS = point(1104m, 1206m); rephaS = point(786m, 1219m); ukaaraS = point(774m, -649m)};
 g_strya = glyphid(865) {aakaaraS = point(1116m, 1221m); binduS = point(731m, 1516m); ekaaraS = point(438m, 1202m); iikaaraS = point(1116m, 1221m); viramaS = point(846m, -748m); rephaS = point(647m, 1155m); ukaaraS = point(831m, -498m)};
-g_separator1 = glyphid(866);
-g_separator2 = glyphid(867);
-g_ditto1 = glyphid(868);
-g_ditto2 = glyphid(869);
-g_ditto3 = glyphid(870);
-g_section01 = glyphid(871);
-g_section02 = glyphid(872);
-g_section03 = glyphid(873);
-g_section04 = glyphid(874);
-g_section05 = glyphid(875);
-g_section06 = glyphid(876);
-g_section07 = glyphid(877);
-g_section08 = glyphid(878);
-g_section09 = glyphid(879);
-g_section10 = glyphid(880);
-g_section11 = glyphid(881);
-g_section12 = glyphid(882);
-g_space = glyphid(883);
-g__a = glyphid(884);
-g_a = glyphid(885);
-g__amacron = glyphid(886);
-g_amacron = glyphid(887);
-g__i = glyphid(888);
-g_i = glyphid(889);
-g__imacron = glyphid(890);
-g_imacron = glyphid(891);
-g__u = glyphid(892);
-g_u = glyphid(893);
-g__umacron = glyphid(894);
-g_umacron = glyphid(895);
-g__rdotbelow = glyphid(896);
-g_rdotbelow = glyphid(897);
-g__rdotbelowmacron = glyphid(898);
-g_rdotbelowmacron = glyphid(899);
-g__ldotbelow = glyphid(900);
-g_ldotbelow = glyphid(901);
-g__ldotbelowmacron = glyphid(902);
-g_ldotbelowmacron = glyphid(903);
-g__e = glyphid(904);
-g_e = glyphid(905);
-g__o = glyphid(906);
-g_o = glyphid(907);
-g__mdotbelow = glyphid(908);
-g_mdotbelow = glyphid(909);
-g__hdotbelow = glyphid(910);
-g_hdotbelow = glyphid(911);
-g__k = glyphid(912);
-g_k = glyphid(913);
-g__g = glyphid(914);
-g_g = glyphid(915);
-g__ndotaccent = glyphid(916);
-g_ndotaccent = glyphid(917);
-g__c = glyphid(918);
-g_c = glyphid(919);
-g__j = glyphid(920);
-g_j = glyphid(921);
-g__ntilde = glyphid(922);
-g_ntilde = glyphid(923);
-g__tdotbelow = glyphid(924);
-g_tdotbelow = glyphid(925);
-g__ddotbelow = glyphid(926);
-g_ddotbelow = glyphid(927);
-g__ndotbelow = glyphid(928);
-g_ndotbelow = glyphid(929);
-g__t = glyphid(930);
-g_t = glyphid(931);
-g__d = glyphid(932);
-g_d = glyphid(933);
-g__n = glyphid(934);
-g_n = glyphid(935);
-g__p = glyphid(936);
-g_p = glyphid(937);
-g__b = glyphid(938);
-g_b = glyphid(939);
-g__m = glyphid(940);
-g_m = glyphid(941);
-g__y = glyphid(942);
-g_y = glyphid(943);
-g__r = glyphid(944);
-g_r = glyphid(945);
-g__l = glyphid(946);
-g_l = glyphid(947);
-g__v = glyphid(948);
-g_v = glyphid(949);
-g__sacute = glyphid(950);
-g_sacute = glyphid(951);
-g__sdotbelow = glyphid(952);
-g_sdotbelow = glyphid(953);
-g__s = glyphid(954);
-g_s = glyphid(955);
-g__h = glyphid(956);
-g_h = glyphid(957);
-g_zero = glyphid(958);
-g_one = glyphid(959);
-g_two = glyphid(960);
-g_three = glyphid(961);
-g_four = glyphid(962);
-g_five = glyphid(963);
-g_six = glyphid(964);
-g_seven = glyphid(965);
-g_eight = glyphid(966);
-g_nine = glyphid(967);
-g__f = glyphid(968);
-g_f = glyphid(969);
-g__q = glyphid(970);
-g_q = glyphid(971);
-g__w = glyphid(972);
-g_w = glyphid(973);
-g__x = glyphid(974);
-g_x = glyphid(975);
-g__z = glyphid(976);
-g_z = glyphid(977);
-g__adieresis = glyphid(978);
-g_adieresis = glyphid(979);
-g__odieresis = glyphid(980);
-g_odieresis = glyphid(981);
-g__udieresis = glyphid(982);
-g_udieresis = glyphid(983);
-g_germandbls = glyphid(984);
-g__ccircumflex = glyphid(985);
-g_ccircumflex = glyphid(986);
-g__gcircumflex = glyphid(987);
-g_gcircumflex = glyphid(988);
-g__hcircumflex = glyphid(989);
-g_hcircumflex = glyphid(990);
-g__jcircumflex = glyphid(991);
-g_jcircumflex = glyphid(992);
-g__scircumflex = glyphid(993);
-g_scircumflex = glyphid(994);
-g__ubreve = glyphid(995);
-g_ubreve = glyphid(996);
-g_exclam = glyphid(997);
-g_quotedbl = glyphid(998);
-g_numbersign = glyphid(999);
-g_dollar = glyphid(1000);
-g_percent = glyphid(1001);
-g_ampersand = glyphid(1002);
-g_quotesingle = glyphid(1003);
-g_parenleft = glyphid(1004);
-g_parenright = glyphid(1005);
-g_asterisk = glyphid(1006);
-g_plus = glyphid(1007);
-g_comma = glyphid(1008);
-g_hyphen = glyphid(1009);
-g_period = glyphid(1010);
-g_slash = glyphid(1011);
-g_colon = glyphid(1012);
-g_semicolon = glyphid(1013);
-g_less = glyphid(1014);
-g_equal = glyphid(1015);
-g_greater = glyphid(1016);
-g_question = glyphid(1017);
-g_at = glyphid(1018);
-g_bracketleft = glyphid(1019);
-g_backslash = glyphid(1020);
-g_bracketright = glyphid(1021);
-g_asciicircum = glyphid(1022);
-g_underscore = glyphid(1023);
-g_grave = glyphid(1024);
-g_braceleft = glyphid(1025);
-g_bar = glyphid(1026);
-g_braceright = glyphid(1027);
-g_asciitilde = glyphid(1028);
-g_nbspace = glyphid(1029);
-g_exclamdown = glyphid(1030);
-g_cent = glyphid(1031);
-g_sterling = glyphid(1032);
-g_currency = glyphid(1033);
-g_yen = glyphid(1034);
-g_brokenbar = glyphid(1035);
-g_section = glyphid(1036);
-g_dieresis = glyphid(1037);
-g_copyright = glyphid(1038);
-g_ordfeminine = glyphid(1039);
-g_guillemotleft = glyphid(1040);
-g_logicalnot = glyphid(1041);
-g_softhyphen = glyphid(1042);
-g_registered = glyphid(1043);
-g_macron = glyphid(1044);
-g_degree = glyphid(1045);
-g_plusminus = glyphid(1046);
-g_twosuperior = glyphid(1047);
-g_threesuperior = glyphid(1048);
-g_acute = glyphid(1049);
-g_micro = glyphid(1050);
-g_periodcentered = glyphid(1051);
-g_cedilla = glyphid(1052);
-g_onesuperior = glyphid(1053);
-g_ordmasculine = glyphid(1054);
-g_guillemotright = glyphid(1055);
-g_onequarter = glyphid(1056);
-g_onehalf = glyphid(1057);
-g_threequarters = glyphid(1058);
-g_questiondown = glyphid(1059);
-g__agrave = glyphid(1060);
-g__aacute = glyphid(1061);
-g__acircumflex = glyphid(1062);
-g__atilde = glyphid(1063);
-g__aring = glyphid(1064);
-g__a_e = glyphid(1065);
-g__ccedilla = glyphid(1066);
-g__egrave = glyphid(1067);
-g__eacute = glyphid(1068);
-g__ecircumflex = glyphid(1069);
-g__edieresis = glyphid(1070);
-g__igrave = glyphid(1071);
-g__iacute = glyphid(1072);
-g__icircumflex = glyphid(1073);
-g__idieresis = glyphid(1074);
-g__eth = glyphid(1075);
-g__ograve = glyphid(1076);
-g__oacute = glyphid(1077);
-g__ocircumflex = glyphid(1078);
-g__otilde = glyphid(1079);
-g_multiply = glyphid(1080);
-g__oslash = glyphid(1081);
-g__ugrave = glyphid(1082);
-g__uacute = glyphid(1083);
-g__ucircumflex = glyphid(1084);
-g__yacute = glyphid(1085);
-g__thorn = glyphid(1086);
-g_agrave = glyphid(1087);
-g_aacute = glyphid(1088);
-g_acircumflex = glyphid(1089);
-g_atilde = glyphid(1090);
-g_aring = glyphid(1091);
-g_ae = glyphid(1092);
-g_ccedilla = glyphid(1093);
-g_egrave = glyphid(1094);
-g_eacute = glyphid(1095);
-g_ecircumflex = glyphid(1096);
-g_edieresis = glyphid(1097);
-g_igrave = glyphid(1098);
-g_iacute = glyphid(1099);
-g_icircumflex = glyphid(1100);
-g_idieresis = glyphid(1101);
-g_eth = glyphid(1102);
-g_ograve = glyphid(1103);
-g_oacute = glyphid(1104);
-g_ocircumflex = glyphid(1105);
-g_otilde = glyphid(1106);
-g_divide = glyphid(1107);
-g_oslash = glyphid(1108);
-g_ugrave = glyphid(1109);
-g_uacute = glyphid(1110);
-g_ucircumflex = glyphid(1111);
-g_yacute = glyphid(1112);
-g_thorn = glyphid(1113);
-g_ydieresis = glyphid(1114);
-g__euro = glyphid(1115);
-g_quotesinglbase = glyphid(1116);
-g_florin = glyphid(1117);
-g_quotedblbase = glyphid(1118);
-g_ellipsis = glyphid(1119);
-g_dagger = glyphid(1120);
-g_daggerdbl = glyphid(1121);
-g_circumflex = glyphid(1122);
-g_perthousand = glyphid(1123);
-g__scaron = glyphid(1124);
-g_guilsinglleft = glyphid(1125);
-g__o_e = glyphid(1126);
-g_quoteleft = glyphid(1127);
-g_quoteright = glyphid(1128);
-g_quotedblleft = glyphid(1129);
-g_quotedblright = glyphid(1130);
-g_bullet = glyphid(1131);
-g_endash = glyphid(1132);
-g_emdash = glyphid(1133);
-g_tilde = glyphid(1134);
-g_trademark = glyphid(1135);
-g_scaron = glyphid(1136);
-g_guilsinglright = glyphid(1137);
-g_oe = glyphid(1138);
-g__zcaron = glyphid(1139);
-g_zcaron = glyphid(1140);
-g__ydieresis = glyphid(1141);
-g_breve = glyphid(1142);
-g_ogonek = glyphid(1143);
-g_hungarumlaut = glyphid(1144);
-g_caron = glyphid(1145);
-g_dotaccent = glyphid(1146);
-g_minus = glyphid(1147);
-g__lslash = glyphid(1148);
-g_lslash = glyphid(1149);
-g_notequal = glyphid(1150);
-g_infinity = glyphid(1151);
-g_lessequal = glyphid(1152);
-g_greaterequal = glyphid(1153);
-g_partialdiff = glyphid(1154);
-g_summation = glyphid(1155);
-g_product = glyphid(1156);
-g_pi = glyphid(1157);
-g_integral = glyphid(1158);
-g__omega = glyphid(1159);
-g_radical = glyphid(1160);
-g_approxequal = glyphid(1161);
-g__delta = glyphid(1162);
-g_lozenge = glyphid(1163);
-g_fraction = glyphid(1164);
-g_fi = glyphid(1165);
-g_fl = glyphid(1166);
-g_dotlessi = glyphid(1167);
-g_ring = glyphid(1168);
-g_ff = glyphid(1169);
-g__aogonek = glyphid(1170);
-g__lcaron = glyphid(1171);
-g__scedilla = glyphid(1172);
-g__tcaron = glyphid(1173);
-g__zacute = glyphid(1174);
-g__zdotaccent = glyphid(1175);
-g_aogonek = glyphid(1176);
-g_lcaron = glyphid(1177);
-g_scedilla = glyphid(1178);
-g_tcaron = glyphid(1179);
-g_zacute = glyphid(1180);
-g_zdotaccent = glyphid(1181);
-g__racute = glyphid(1182);
-g__abreve = glyphid(1183);
-g__lacute = glyphid(1184);
-g__cacute = glyphid(1185);
-g__ccaron = glyphid(1186);
-g__eogonek = glyphid(1187);
-g__ecaron = glyphid(1188);
-g__dcaron = glyphid(1189);
-g__dcroat = glyphid(1190);
-g__nacute = glyphid(1191);
-g__ncaron = glyphid(1192);
-g__ohungarumlaut = glyphid(1193);
-g__rcaron = glyphid(1194);
-g__uring = glyphid(1195);
-g__uhungarumlaut = glyphid(1196);
-g__tcedilla = glyphid(1197);
-g_racute = glyphid(1198);
-g_abreve = glyphid(1199);
-g_lacute = glyphid(1200);
-g_cacute = glyphid(1201);
-g_ccaron = glyphid(1202);
-g_eogonek = glyphid(1203);
-g_ecaron = glyphid(1204);
-g_dcaron = glyphid(1205);
-g_dcroat = glyphid(1206);
-g_nacute = glyphid(1207);
-g_ncaron = glyphid(1208);
-g_ohungarumlaut = glyphid(1209);
-g_rcaron = glyphid(1210);
-g_uring = glyphid(1211);
-g_uhungarumlaut = glyphid(1212);
-g_tcedilla = glyphid(1213);
-g__idotaccent = glyphid(1214);
-g__gbreve = glyphid(1215);
-g_gbreve = glyphid(1216);
-g__hbar = glyphid(1217);
-g_hbar = glyphid(1218);
-g__cdotaccent = glyphid(1219);
-g__gdotaccent = glyphid(1220);
-g_cdotaccent = glyphid(1221);
-g_gdotaccent = glyphid(1222);
-g_kgreenlandic = glyphid(1223);
-g__rcommaaccent = glyphid(1224);
-g__itilde = glyphid(1225);
-g__lcommaaccent = glyphid(1226);
-g__emacron = glyphid(1227);
-g__gcommaaccent = glyphid(1228);
-g__tbar = glyphid(1229);
-g_rcommaaccent = glyphid(1230);
-g_itilde = glyphid(1231);
-g_lcommaaccent = glyphid(1232);
-g_emacron = glyphid(1233);
-g_gcommaaccent = glyphid(1234);
-g_tbar = glyphid(1235);
-g__eng = glyphid(1236);
-g_eng = glyphid(1237);
-g__iogonek = glyphid(1238);
-g__edotaccent = glyphid(1239);
-g__ncommaaccent = glyphid(1240);
-g__omacron = glyphid(1241);
-g__kcommaaccent = glyphid(1242);
-g__uogonek = glyphid(1243);
-g__utilde = glyphid(1244);
-g_iogonek = glyphid(1245);
-g_edotaccent = glyphid(1246);
-g_ncommaaccent = glyphid(1247);
-g_omacron = glyphid(1248);
-g_kcommaaccent = glyphid(1249);
-g_uogonek = glyphid(1250);
-g_utilde = glyphid(1251);
-g__bdotaccent = glyphid(1252);
-g_bdotaccent = glyphid(1253);
-g__ddotaccent = glyphid(1254);
-g__wgrave = glyphid(1255);
-g__wacute = glyphid(1256);
-g_ddotaccent = glyphid(1257);
-g__ygrave = glyphid(1258);
-g__fdotaccent = glyphid(1259);
-g_fdotaccent = glyphid(1260);
-g__mdotaccent = glyphid(1261);
-g_mdotaccent = glyphid(1262);
-g__pdotaccent = glyphid(1263);
-g_wgrave = glyphid(1264);
-g_pdotaccent = glyphid(1265);
-g_wacute = glyphid(1266);
-g__sdotaccent = glyphid(1267);
-g_ygrave = glyphid(1268);
-g__wdieresis = glyphid(1269);
-g_wdieresis = glyphid(1270);
-g_sdotaccent = glyphid(1271);
-g__wcircumflex = glyphid(1272);
-g__tdotaccent = glyphid(1273);
-g__ycircumflex = glyphid(1274);
-g_wcircumflex = glyphid(1275);
-g_tdotaccent = glyphid(1276);
-g_ycircumflex = glyphid(1277);
-g_apostrophemod = glyphid(1278);
-g_commareversedmod = glyphid(1279);
-g__scommaaccent = glyphid(1280);
-g_scommaaccent = glyphid(1281);
-g__tcommaaccent = glyphid(1282);
-g_tcommaaccent = glyphid(1283);
-g_commaturnedmod = glyphid(1284);
-g__ebreve = glyphid(1285);
-g_ebreve = glyphid(1286);
-g__ibreve = glyphid(1287);
-g_ibreve = glyphid(1288);
-g__ldot = glyphid(1289);
-g_ldot = glyphid(1290);
-g_napostrophe = glyphid(1291);
-g__obreve = glyphid(1292);
-g_obreve = glyphid(1293);
-g_slong = glyphid(1294);
-g__i_j = glyphid(1295);
-g_ij = glyphid(1296);
-g_slongdotaccent = glyphid(1297);
-g_horizontalbar = glyphid(1298);
 
 /* Classes */
 caakaaraDia = (g__a_t, g__a_t_0001, g__a_t_0002, g__a_t_0003);
 
-cnaakaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnaakaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -1413,65 +977,11 @@ cnaakaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g
     g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya,
     g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva,
     g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001,
-    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_separator1, g_separator2, g_ditto1,
-    g_ditto2, g_ditto3, g_section01, g_section02, g_section03, g_section04, g_section05, g_section06,
-    g_section07, g_section08, g_section09, g_section10, g_section11, g_section12, g_space, g__a,
-    g_a, g__amacron, g_amacron, g__i, g_i, g__imacron, g_imacron, g__u,
-    g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow,
-    g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o, g_o, g__mdotbelow,
-    g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k, g__g, g_g, g__ndotaccent,
-    g_ndotaccent, g__c, g_c, g__j, g_j, g__ntilde, g_ntilde, g__tdotbelow,
-    g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t, g_t, g__d,
-    g_d, g__n, g_n, g__p, g_p, g__b, g_b, g__m,
-    g_m, g__y, g_y, g__r, g_r, g__l, g_l, g__v,
-    g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s, g_s, g__h,
-    g_h, g_zero, g_one, g_two, g_three, g_four, g_five, g_six,
-    g_seven, g_eight, g_nine, g__f, g_f, g__q, g_q, g__w,
-    g_w, g__x, g_x, g__z, g_z, g__adieresis, g_adieresis, g__odieresis,
-    g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex,
-    g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve, g_ubreve,
-    g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand, g_quotesingle, g_parenleft,
-    g_parenright, g_asterisk, g_plus, g_comma, g_hyphen, g_period, g_slash, g_colon,
-    g_semicolon, g_less, g_equal, g_greater, g_question, g_at, g_bracketleft, g_backslash,
-    g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar, g_braceright, g_asciitilde,
-    g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency, g_yen, g_brokenbar, g_section,
-    g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen, g_registered, g_macron,
-    g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro, g_periodcentered, g_cedilla,
-    g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave,
-    g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute,
-    g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ograve,
-    g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave, g__uacute, g__ucircumflex,
-    g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde, g_aring, g_ae,
-    g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex,
-    g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_divide, g_oslash,
-    g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis, g__euro, g_quotesinglbase,
-    g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g__scaron,
-    g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash,
-    g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe, g__zcaron, g_zcaron,
-    g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent, g_minus, g__lslash,
-    g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff, g_summation, g_product,
-    g_pi, g_integral, g__omega, g_radical, g_approxequal, g__delta, g_lozenge, g_fraction,
-    g_fi, g_fl, g_dotlessi, g_ring, g_ff, g__aogonek, g__lcaron, g__scedilla,
-    g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla, g_tcaron, g_zacute,
-    g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute, g__ccaron, g__eogonek, g__ecaron,
-    g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut,
-    g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute, g_ccaron, g_eogonek, g_ecaron,
-    g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut,
-    g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar, g__cdotaccent, g__gdotaccent,
-    g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent,
-    g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar, g__eng,
-    g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek, g__utilde,
-    g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent,
-    g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent,
-    g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave,
-    g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent,
-    g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod,
-    g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot, g_napostrophe, g__obreve,
-    g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cbinduDia = (g_anusv_ara, g_candrabindu, g_candra);
 
-cnbinduDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnbinduDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha,
     g_ja, g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na,
@@ -1578,65 +1088,11 @@ cnbinduDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_u
     g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla,
     g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma,
     g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001,
-    g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_separator1, g_separator2,
-    g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02, g_section03, g_section04, g_section05,
-    g_section06, g_section07, g_section08, g_section09, g_section10, g_section11, g_section12, g_space,
-    g__a, g_a, g__amacron, g_amacron, g__i, g_i, g__imacron, g_imacron,
-    g__u, g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron,
-    g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o, g_o,
-    g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k, g__g, g_g,
-    g__ndotaccent, g_ndotaccent, g__c, g_c, g__j, g_j, g__ntilde, g_ntilde,
-    g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t, g_t,
-    g__d, g_d, g__n, g_n, g__p, g_p, g__b, g_b,
-    g__m, g_m, g__y, g_y, g__r, g_r, g__l, g_l,
-    g__v, g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s, g_s,
-    g__h, g_h, g_zero, g_one, g_two, g_three, g_four, g_five,
-    g_six, g_seven, g_eight, g_nine, g__f, g_f, g__q, g_q,
-    g__w, g_w, g__x, g_x, g__z, g_z, g__adieresis, g_adieresis,
-    g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex,
-    g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve,
-    g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand, g_quotesingle,
-    g_parenleft, g_parenright, g_asterisk, g_plus, g_comma, g_hyphen, g_period, g_slash,
-    g_colon, g_semicolon, g_less, g_equal, g_greater, g_question, g_at, g_bracketleft,
-    g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar, g_braceright,
-    g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency, g_yen, g_brokenbar,
-    g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen, g_registered,
-    g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro, g_periodcentered,
-    g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown,
-    g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla, g__egrave,
-    g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth,
-    g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave, g__uacute,
-    g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde, g_aring,
-    g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute,
-    g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_divide,
-    g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis, g__euro,
-    g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand,
-    g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet,
-    g_endash, g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe, g__zcaron,
-    g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent, g_minus,
-    g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff, g_summation,
-    g_product, g_pi, g_integral, g__omega, g_radical, g_approxequal, g__delta, g_lozenge,
-    g_fraction, g_fi, g_fl, g_dotlessi, g_ring, g_ff, g__aogonek, g__lcaron,
-    g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla, g_tcaron,
-    g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute, g__ccaron, g__eogonek,
-    g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron, g__uring,
-    g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute, g_ccaron, g_eogonek,
-    g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron, g_uring,
-    g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar, g__cdotaccent,
-    g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron,
-    g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar,
-    g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek,
-    g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek, g_utilde,
-    g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent,
-    g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent,
-    g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex,
-    g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent,
-    g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot, g_napostrophe,
-    g__obreve, g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cbindumarkDia = (g_anusv_ara, g_candrabindu, g_candra);
 
-cnbindumarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnbindumarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha,
     g_ja, g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na,
@@ -1743,65 +1199,11 @@ cnbindumarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it,
     g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla,
     g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma,
     g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001,
-    g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_separator1, g_separator2,
-    g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02, g_section03, g_section04, g_section05,
-    g_section06, g_section07, g_section08, g_section09, g_section10, g_section11, g_section12, g_space,
-    g__a, g_a, g__amacron, g_amacron, g__i, g_i, g__imacron, g_imacron,
-    g__u, g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron,
-    g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o, g_o,
-    g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k, g__g, g_g,
-    g__ndotaccent, g_ndotaccent, g__c, g_c, g__j, g_j, g__ntilde, g_ntilde,
-    g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t, g_t,
-    g__d, g_d, g__n, g_n, g__p, g_p, g__b, g_b,
-    g__m, g_m, g__y, g_y, g__r, g_r, g__l, g_l,
-    g__v, g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s, g_s,
-    g__h, g_h, g_zero, g_one, g_two, g_three, g_four, g_five,
-    g_six, g_seven, g_eight, g_nine, g__f, g_f, g__q, g_q,
-    g__w, g_w, g__x, g_x, g__z, g_z, g__adieresis, g_adieresis,
-    g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex,
-    g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve,
-    g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand, g_quotesingle,
-    g_parenleft, g_parenright, g_asterisk, g_plus, g_comma, g_hyphen, g_period, g_slash,
-    g_colon, g_semicolon, g_less, g_equal, g_greater, g_question, g_at, g_bracketleft,
-    g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar, g_braceright,
-    g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency, g_yen, g_brokenbar,
-    g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen, g_registered,
-    g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro, g_periodcentered,
-    g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown,
-    g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla, g__egrave,
-    g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth,
-    g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave, g__uacute,
-    g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde, g_aring,
-    g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute,
-    g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_divide,
-    g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis, g__euro,
-    g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand,
-    g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet,
-    g_endash, g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe, g__zcaron,
-    g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent, g_minus,
-    g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff, g_summation,
-    g_product, g_pi, g_integral, g__omega, g_radical, g_approxequal, g__delta, g_lozenge,
-    g_fraction, g_fi, g_fl, g_dotlessi, g_ring, g_ff, g__aogonek, g__lcaron,
-    g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla, g_tcaron,
-    g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute, g__ccaron, g__eogonek,
-    g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron, g__uring,
-    g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute, g_ccaron, g_eogonek,
-    g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron, g_uring,
-    g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar, g__cdotaccent,
-    g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron,
-    g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar,
-    g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek,
-    g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek, g_utilde,
-    g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent,
-    g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent,
-    g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex,
-    g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent,
-    g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot, g_napostrophe,
-    g__obreve, g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cekaaraDia = (g_e_t, g_e_t_0001, g_ai_t, g_ai_t_0001);
 
-cnekaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnekaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -1908,65 +1310,11 @@ cnekaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_
     g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya,
     g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva,
     g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001,
-    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_separator1, g_separator2, g_ditto1,
-    g_ditto2, g_ditto3, g_section01, g_section02, g_section03, g_section04, g_section05, g_section06,
-    g_section07, g_section08, g_section09, g_section10, g_section11, g_section12, g_space, g__a,
-    g_a, g__amacron, g_amacron, g__i, g_i, g__imacron, g_imacron, g__u,
-    g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow,
-    g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o, g_o, g__mdotbelow,
-    g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k, g__g, g_g, g__ndotaccent,
-    g_ndotaccent, g__c, g_c, g__j, g_j, g__ntilde, g_ntilde, g__tdotbelow,
-    g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t, g_t, g__d,
-    g_d, g__n, g_n, g__p, g_p, g__b, g_b, g__m,
-    g_m, g__y, g_y, g__r, g_r, g__l, g_l, g__v,
-    g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s, g_s, g__h,
-    g_h, g_zero, g_one, g_two, g_three, g_four, g_five, g_six,
-    g_seven, g_eight, g_nine, g__f, g_f, g__q, g_q, g__w,
-    g_w, g__x, g_x, g__z, g_z, g__adieresis, g_adieresis, g__odieresis,
-    g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex,
-    g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve, g_ubreve,
-    g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand, g_quotesingle, g_parenleft,
-    g_parenright, g_asterisk, g_plus, g_comma, g_hyphen, g_period, g_slash, g_colon,
-    g_semicolon, g_less, g_equal, g_greater, g_question, g_at, g_bracketleft, g_backslash,
-    g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar, g_braceright, g_asciitilde,
-    g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency, g_yen, g_brokenbar, g_section,
-    g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen, g_registered, g_macron,
-    g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro, g_periodcentered, g_cedilla,
-    g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave,
-    g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute,
-    g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ograve,
-    g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave, g__uacute, g__ucircumflex,
-    g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde, g_aring, g_ae,
-    g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex,
-    g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_divide, g_oslash,
-    g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis, g__euro, g_quotesinglbase,
-    g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g__scaron,
-    g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash,
-    g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe, g__zcaron, g_zcaron,
-    g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent, g_minus, g__lslash,
-    g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff, g_summation, g_product,
-    g_pi, g_integral, g__omega, g_radical, g_approxequal, g__delta, g_lozenge, g_fraction,
-    g_fi, g_fl, g_dotlessi, g_ring, g_ff, g__aogonek, g__lcaron, g__scedilla,
-    g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla, g_tcaron, g_zacute,
-    g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute, g__ccaron, g__eogonek, g__ecaron,
-    g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut,
-    g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute, g_ccaron, g_eogonek, g_ecaron,
-    g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut,
-    g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar, g__cdotaccent, g__gdotaccent,
-    g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent,
-    g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar, g__eng,
-    g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek, g__utilde,
-    g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent,
-    g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent,
-    g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave,
-    g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent,
-    g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod,
-    g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot, g_napostrophe, g__obreve,
-    g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 ciikaaraDia = (g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004);
 
-cniikaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cniikaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -2073,65 +1421,11 @@ cniikaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g
     g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya, g_jjya,
     g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva, g__gkra,
     g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001,
-    g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_separator1, g_separator2, g_ditto1, g_ditto2,
-    g_ditto3, g_section01, g_section02, g_section03, g_section04, g_section05, g_section06, g_section07,
-    g_section08, g_section09, g_section10, g_section11, g_section12, g_space, g__a, g_a,
-    g__amacron, g_amacron, g__i, g_i, g__imacron, g_imacron, g__u, g_u,
-    g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow,
-    g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o, g_o, g__mdotbelow, g_mdotbelow,
-    g__hdotbelow, g_hdotbelow, g__k, g_k, g__g, g_g, g__ndotaccent, g_ndotaccent,
-    g__c, g_c, g__j, g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow,
-    g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t, g_t, g__d, g_d,
-    g__n, g_n, g__p, g_p, g__b, g_b, g__m, g_m,
-    g__y, g_y, g__r, g_r, g__l, g_l, g__v, g_v,
-    g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s, g_s, g__h, g_h,
-    g_zero, g_one, g_two, g_three, g_four, g_five, g_six, g_seven,
-    g_eight, g_nine, g__f, g_f, g__q, g_q, g__w, g_w,
-    g__x, g_x, g__z, g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis,
-    g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex,
-    g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam,
-    g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright,
-    g_asterisk, g_plus, g_comma, g_hyphen, g_period, g_slash, g_colon, g_semicolon,
-    g_less, g_equal, g_greater, g_question, g_at, g_bracketleft, g_backslash, g_bracketright,
-    g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace,
-    g_exclamdown, g_cent, g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis,
-    g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree,
-    g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior,
-    g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute,
-    g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex,
-    g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute,
-    g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute,
-    g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla,
-    g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis,
-    g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave,
-    g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin,
-    g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft,
-    g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash,
-    g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis,
-    g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent, g_minus, g__lslash, g_lslash,
-    g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff, g_summation, g_product, g_pi,
-    g_integral, g__omega, g_radical, g_approxequal, g__delta, g_lozenge, g_fraction, g_fi,
-    g_fl, g_dotlessi, g_ring, g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron,
-    g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent,
-    g__racute, g__abreve, g__lacute, g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron,
-    g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla,
-    g_racute, g_abreve, g_lacute, g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron,
-    g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla,
-    g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent,
-    g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar,
-    g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng,
-    g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek,
-    g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent,
-    g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent,
-    g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis,
-    g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex,
-    g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve,
-    g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve,
-    g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 crephaDia = (g_repha);
 
-cnrephaDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnrephaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -2238,67 +1532,12 @@ cnrephaDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_u
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
-    g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02, g_section03,
-    g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10, g_section11,
-    g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i, g_i,
-    g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow,
-    g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e,
-    g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k,
-    g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j, g_j,
-    g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow,
-    g__t, g_t, g__d, g_d, g__n, g_n, g__p, g_p,
-    g__b, g_b, g__m, g_m, g__y, g_y, g__r, g_r,
-    g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow,
-    g__s, g_s, g__h, g_h, g_zero, g_one, g_two, g_three,
-    g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f, g_f,
-    g__q, g_q, g__w, g_w, g__x, g_x, g__z, g_z,
-    g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex,
-    g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex,
-    g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent,
-    g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma, g_hyphen,
-    g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater, g_question,
-    g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft,
-    g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency,
-    g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot,
-    g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute,
-    g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf,
-    g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e,
-    g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex,
-    g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash,
-    g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex,
-    g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis,
-    g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex,
-    g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn,
-    g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl,
-    g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft,
-    g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright,
-    g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron,
-    g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal,
-    g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical, g_approxequal,
-    g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring, g_ff,
-    g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron,
-    g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute,
-    g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut,
-    g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute,
-    g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut,
-    g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar,
-    g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde,
-    g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron,
-    g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron,
-    g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent,
-    g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent,
-    g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent,
-    g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent,
-    g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent,
-    g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot,
-    g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent,
-    g_horizontalbar);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cukaaraDia = (g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t, g__u_t_0001, g__u_t_0002,
     g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001, g_vattu);
 
-cnukaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnukaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -2404,66 +1643,12 @@ cnukaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_
     g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya, g_jjya,
     g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva, g__gkra,
     g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001,
-    g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_separator1, g_separator2, g_ditto1, g_ditto2,
-    g_ditto3, g_section01, g_section02, g_section03, g_section04, g_section05, g_section06, g_section07,
-    g_section08, g_section09, g_section10, g_section11, g_section12, g_space, g__a, g_a,
-    g__amacron, g_amacron, g__i, g_i, g__imacron, g_imacron, g__u, g_u,
-    g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow,
-    g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o, g_o, g__mdotbelow, g_mdotbelow,
-    g__hdotbelow, g_hdotbelow, g__k, g_k, g__g, g_g, g__ndotaccent, g_ndotaccent,
-    g__c, g_c, g__j, g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow,
-    g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t, g_t, g__d, g_d,
-    g__n, g_n, g__p, g_p, g__b, g_b, g__m, g_m,
-    g__y, g_y, g__r, g_r, g__l, g_l, g__v, g_v,
-    g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s, g_s, g__h, g_h,
-    g_zero, g_one, g_two, g_three, g_four, g_five, g_six, g_seven,
-    g_eight, g_nine, g__f, g_f, g__q, g_q, g__w, g_w,
-    g__x, g_x, g__z, g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis,
-    g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex,
-    g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam,
-    g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright,
-    g_asterisk, g_plus, g_comma, g_hyphen, g_period, g_slash, g_colon, g_semicolon,
-    g_less, g_equal, g_greater, g_question, g_at, g_bracketleft, g_backslash, g_bracketright,
-    g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace,
-    g_exclamdown, g_cent, g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis,
-    g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree,
-    g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior,
-    g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute,
-    g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex,
-    g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute,
-    g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute,
-    g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla,
-    g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis,
-    g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave,
-    g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin,
-    g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft,
-    g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash,
-    g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis,
-    g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent, g_minus, g__lslash, g_lslash,
-    g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff, g_summation, g_product, g_pi,
-    g_integral, g__omega, g_radical, g_approxequal, g__delta, g_lozenge, g_fraction, g_fi,
-    g_fl, g_dotlessi, g_ring, g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron,
-    g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent,
-    g__racute, g__abreve, g__lacute, g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron,
-    g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla,
-    g_racute, g_abreve, g_lacute, g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron,
-    g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla,
-    g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent,
-    g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar,
-    g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng,
-    g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek,
-    g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent,
-    g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent,
-    g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis,
-    g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex,
-    g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve,
-    g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve,
-    g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cukaaramarkDia = (g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t, g__u_t_0001, g__u_t_0002,
     g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001);
 
-cnukaaramarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnukaaramarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -2569,65 +1754,11 @@ cnukaaramarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it
     g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya,
     g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva,
     g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001,
-    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_separator1, g_separator2, g_ditto1,
-    g_ditto2, g_ditto3, g_section01, g_section02, g_section03, g_section04, g_section05, g_section06,
-    g_section07, g_section08, g_section09, g_section10, g_section11, g_section12, g_space, g__a,
-    g_a, g__amacron, g_amacron, g__i, g_i, g__imacron, g_imacron, g__u,
-    g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow,
-    g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o, g_o, g__mdotbelow,
-    g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k, g__g, g_g, g__ndotaccent,
-    g_ndotaccent, g__c, g_c, g__j, g_j, g__ntilde, g_ntilde, g__tdotbelow,
-    g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t, g_t, g__d,
-    g_d, g__n, g_n, g__p, g_p, g__b, g_b, g__m,
-    g_m, g__y, g_y, g__r, g_r, g__l, g_l, g__v,
-    g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s, g_s, g__h,
-    g_h, g_zero, g_one, g_two, g_three, g_four, g_five, g_six,
-    g_seven, g_eight, g_nine, g__f, g_f, g__q, g_q, g__w,
-    g_w, g__x, g_x, g__z, g_z, g__adieresis, g_adieresis, g__odieresis,
-    g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex,
-    g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve, g_ubreve,
-    g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand, g_quotesingle, g_parenleft,
-    g_parenright, g_asterisk, g_plus, g_comma, g_hyphen, g_period, g_slash, g_colon,
-    g_semicolon, g_less, g_equal, g_greater, g_question, g_at, g_bracketleft, g_backslash,
-    g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar, g_braceright, g_asciitilde,
-    g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency, g_yen, g_brokenbar, g_section,
-    g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen, g_registered, g_macron,
-    g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro, g_periodcentered, g_cedilla,
-    g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave,
-    g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute,
-    g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ograve,
-    g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave, g__uacute, g__ucircumflex,
-    g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde, g_aring, g_ae,
-    g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex,
-    g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_divide, g_oslash,
-    g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis, g__euro, g_quotesinglbase,
-    g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g__scaron,
-    g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash,
-    g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe, g__zcaron, g_zcaron,
-    g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent, g_minus, g__lslash,
-    g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff, g_summation, g_product,
-    g_pi, g_integral, g__omega, g_radical, g_approxequal, g__delta, g_lozenge, g_fraction,
-    g_fi, g_fl, g_dotlessi, g_ring, g_ff, g__aogonek, g__lcaron, g__scedilla,
-    g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla, g_tcaron, g_zacute,
-    g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute, g__ccaron, g__eogonek, g__ecaron,
-    g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut,
-    g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute, g_ccaron, g_eogonek, g_ecaron,
-    g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut,
-    g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar, g__cdotaccent, g__gdotaccent,
-    g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent,
-    g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar, g__eng,
-    g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek, g__utilde,
-    g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent,
-    g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent,
-    g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave,
-    g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent,
-    g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod,
-    g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot, g_napostrophe, g__obreve,
-    g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cviramaDia = (g_vir_ama);
 
-cnviramaDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnviramaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -2734,66 +1865,11 @@ cnviramaDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
-    g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02, g_section03,
-    g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10, g_section11,
-    g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i, g_i,
-    g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow,
-    g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e,
-    g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k,
-    g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j, g_j,
-    g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow,
-    g__t, g_t, g__d, g_d, g__n, g_n, g__p, g_p,
-    g__b, g_b, g__m, g_m, g__y, g_y, g__r, g_r,
-    g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow,
-    g__s, g_s, g__h, g_h, g_zero, g_one, g_two, g_three,
-    g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f, g_f,
-    g__q, g_q, g__w, g_w, g__x, g_x, g__z, g_z,
-    g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex,
-    g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex,
-    g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent,
-    g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma, g_hyphen,
-    g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater, g_question,
-    g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft,
-    g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency,
-    g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot,
-    g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute,
-    g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf,
-    g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e,
-    g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex,
-    g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash,
-    g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex,
-    g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis,
-    g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex,
-    g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn,
-    g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl,
-    g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft,
-    g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright,
-    g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron,
-    g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal,
-    g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical, g_approxequal,
-    g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring, g_ff,
-    g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron,
-    g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute,
-    g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut,
-    g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute,
-    g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut,
-    g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar,
-    g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde,
-    g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron,
-    g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron,
-    g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent,
-    g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent,
-    g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent,
-    g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent,
-    g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent,
-    g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot,
-    g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent,
-    g_horizontalbar);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cviramamarkDia = (g_vir_ama);
 
-cnviramamarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnviramamarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -2900,62 +1976,7 @@ cnviramamarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
-    g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02, g_section03,
-    g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10, g_section11,
-    g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i, g_i,
-    g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow,
-    g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e,
-    g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k,
-    g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j, g_j,
-    g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow,
-    g__t, g_t, g__d, g_d, g__n, g_n, g__p, g_p,
-    g__b, g_b, g__m, g_m, g__y, g_y, g__r, g_r,
-    g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow,
-    g__s, g_s, g__h, g_h, g_zero, g_one, g_two, g_three,
-    g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f, g_f,
-    g__q, g_q, g__w, g_w, g__x, g_x, g__z, g_z,
-    g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex,
-    g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex,
-    g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent,
-    g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma, g_hyphen,
-    g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater, g_question,
-    g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft,
-    g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency,
-    g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot,
-    g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute,
-    g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf,
-    g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e,
-    g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex,
-    g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash,
-    g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex,
-    g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis,
-    g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex,
-    g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn,
-    g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl,
-    g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft,
-    g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright,
-    g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron,
-    g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal,
-    g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical, g_approxequal,
-    g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring, g_ff,
-    g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron,
-    g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute,
-    g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut,
-    g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute,
-    g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut,
-    g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar,
-    g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde,
-    g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron,
-    g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron,
-    g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent,
-    g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent,
-    g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent,
-    g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent,
-    g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent,
-    g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot,
-    g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent,
-    g_horizontalbar);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cTakesaakaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -3057,7 +2078,7 @@ cTakesaakaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
     g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
-cnTakesaakaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesaakaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g__a_t, g__a_t_0001, g__a_t_0002,
     g__a_t_0003, g_i_t, g_i_t_0001, g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004,
@@ -3066,61 +2087,7 @@ cnTakesaakaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__
     g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t, g_z_unya, g_eka,
     g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta, g_a_s_ta, g_nava,
     g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu, g_repha, g_r_r,
-    g_r_r_r, g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02,
-    g_section03, g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10,
-    g_section11, g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i,
-    g_i, g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow,
-    g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e,
-    g_e, g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k,
-    g_k, g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j,
-    g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow,
-    g_ndotbelow, g__t, g_t, g__d, g_d, g__n, g_n, g__p,
-    g_p, g__b, g_b, g__m, g_m, g__y, g_y, g__r,
-    g_r, g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow,
-    g_sdotbelow, g__s, g_s, g__h, g_h, g_zero, g_one, g_two,
-    g_three, g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f,
-    g_f, g__q, g_q, g__w, g_w, g__x, g_x, g__z,
-    g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls,
-    g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex,
-    g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar,
-    g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
-    g_hyphen, g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater,
-    g_question, g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave,
-    g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling,
-    g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft,
-    g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior,
-    g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter,
-    g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring,
-    g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute,
-    g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply,
-    g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute,
-    g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
-    g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute,
-    g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute,
-    g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger,
-    g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright,
-    g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron,
-    g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut,
-    g_caron, g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal,
-    g_greaterequal, g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical,
-    g_approxequal, g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring,
-    g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek,
-    g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute,
-    g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron,
-    g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute,
-    g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron,
-    g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve,
-    g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent,
-    g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent,
-    g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent,
-    g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron,
-    g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute,
-    g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave,
-    g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex,
-    g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent,
-    g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve,
-    g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij,
-    g_slongdotaccent, g_horizontalbar);
+    g_r_r_r);
 
 cTakesbinduDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut, g__rt, g__r_rt,
     g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut, g_ka, g_kha,
@@ -3224,72 +2191,18 @@ cTakesbinduDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut, g__rt, g__r_rt,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
     g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
-cnTakesbinduDia = (g__null, g_nonmarkingreturn, g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g__a_t,
+cnTakesbinduDia = (g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g__a_t,
     g__a_t_0001, g__a_t_0002, g__a_t_0003, g_i_t, g_i_t_0001, g__i_t, g__i_t_0001, g__i_t_0002,
     g__i_t_0003, g__i_t_0004, g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t,
     g__u_t_0001, g__u_t_0002, g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001, g__r_r_t, g_e_t,
     g_e_t_0001, g_ai_t, g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t,
     g_z_unya, g_eka, g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta,
     g_a_s_ta, g_nava, g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu,
-    g_repha, g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02,
-    g_section03, g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10,
-    g_section11, g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i,
-    g_i, g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow,
-    g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e,
-    g_e, g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k,
-    g_k, g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j,
-    g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow,
-    g_ndotbelow, g__t, g_t, g__d, g_d, g__n, g_n, g__p,
-    g_p, g__b, g_b, g__m, g_m, g__y, g_y, g__r,
-    g_r, g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow,
-    g_sdotbelow, g__s, g_s, g__h, g_h, g_zero, g_one, g_two,
-    g_three, g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f,
-    g_f, g__q, g_q, g__w, g_w, g__x, g_x, g__z,
-    g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls,
-    g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex,
-    g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar,
-    g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
-    g_hyphen, g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater,
-    g_question, g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave,
-    g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling,
-    g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft,
-    g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior,
-    g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter,
-    g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring,
-    g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute,
-    g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply,
-    g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute,
-    g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
-    g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute,
-    g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute,
-    g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger,
-    g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright,
-    g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron,
-    g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut,
-    g_caron, g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal,
-    g_greaterequal, g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical,
-    g_approxequal, g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring,
-    g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek,
-    g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute,
-    g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron,
-    g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute,
-    g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron,
-    g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve,
-    g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent,
-    g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent,
-    g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent,
-    g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron,
-    g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute,
-    g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave,
-    g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex,
-    g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent,
-    g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve,
-    g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij,
-    g_slongdotaccent, g_horizontalbar);
+    g_repha);
 
 cTakesbindumarkDia = (g_candra, g_repha);
 
-cnTakesbindumarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesbindumarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -3396,61 +2309,7 @@ cnTakesbindumarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g
     g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna,
     g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya,
     g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001,
-    g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_separator1,
-    g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02, g_section03, g_section04,
-    g_section05, g_section06, g_section07, g_section08, g_section09, g_section10, g_section11, g_section12,
-    g_space, g__a, g_a, g__amacron, g_amacron, g__i, g_i, g__imacron,
-    g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron,
-    g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o,
-    g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k, g__g,
-    g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j, g_j, g__ntilde,
-    g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t,
-    g_t, g__d, g_d, g__n, g_n, g__p, g_p, g__b,
-    g_b, g__m, g_m, g__y, g_y, g__r, g_r, g__l,
-    g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s,
-    g_s, g__h, g_h, g_zero, g_one, g_two, g_three, g_four,
-    g_five, g_six, g_seven, g_eight, g_nine, g__f, g_f, g__q,
-    g_q, g__w, g_w, g__x, g_x, g__z, g_z, g__adieresis,
-    g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex,
-    g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex,
-    g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand,
-    g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma, g_hyphen, g_period,
-    g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater, g_question, g_at,
-    g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar,
-    g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency, g_yen,
-    g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen,
-    g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro,
-    g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters,
-    g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla,
-    g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis,
-    g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave,
-    g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde,
-    g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave,
-    g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde,
-    g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis,
-    g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex,
-    g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright,
-    g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe,
-    g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent,
-    g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff,
-    g_summation, g_product, g_pi, g_integral, g__omega, g_radical, g_approxequal, g__delta,
-    g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring, g_ff, g__aogonek,
-    g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla,
-    g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute, g__ccaron,
-    g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron,
-    g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute, g_ccaron,
-    g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron,
-    g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar,
-    g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent,
-    g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent,
-    g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent,
-    g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek,
-    g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave,
-    g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute,
-    g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex,
-    g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent,
-    g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot,
-    g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cTakesekaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -3552,7 +2411,7 @@ cTakesekaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
     g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
-cnTakesekaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesekaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g__a_t, g__a_t_0001, g__a_t_0002,
     g__a_t_0003, g_i_t, g_i_t_0001, g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004,
@@ -3561,61 +2420,7 @@ cnTakesekaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__i
     g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t, g_z_unya, g_eka,
     g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta, g_a_s_ta, g_nava,
     g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu, g_repha, g_r_r,
-    g_r_r_r, g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02,
-    g_section03, g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10,
-    g_section11, g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i,
-    g_i, g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow,
-    g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e,
-    g_e, g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k,
-    g_k, g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j,
-    g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow,
-    g_ndotbelow, g__t, g_t, g__d, g_d, g__n, g_n, g__p,
-    g_p, g__b, g_b, g__m, g_m, g__y, g_y, g__r,
-    g_r, g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow,
-    g_sdotbelow, g__s, g_s, g__h, g_h, g_zero, g_one, g_two,
-    g_three, g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f,
-    g_f, g__q, g_q, g__w, g_w, g__x, g_x, g__z,
-    g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls,
-    g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex,
-    g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar,
-    g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
-    g_hyphen, g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater,
-    g_question, g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave,
-    g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling,
-    g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft,
-    g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior,
-    g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter,
-    g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring,
-    g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute,
-    g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply,
-    g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute,
-    g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
-    g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute,
-    g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute,
-    g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger,
-    g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright,
-    g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron,
-    g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut,
-    g_caron, g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal,
-    g_greaterequal, g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical,
-    g_approxequal, g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring,
-    g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek,
-    g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute,
-    g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron,
-    g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute,
-    g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron,
-    g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve,
-    g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent,
-    g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent,
-    g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent,
-    g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron,
-    g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute,
-    g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave,
-    g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex,
-    g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent,
-    g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve,
-    g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij,
-    g_slongdotaccent, g_horizontalbar);
+    g_r_r_r);
 
 cTakesiikaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -3717,7 +2522,7 @@ cTakesiikaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
     g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
-cnTakesiikaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesiikaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g__a_t, g__a_t_0001, g__a_t_0002,
     g__a_t_0003, g_i_t, g_i_t_0001, g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004,
@@ -3726,61 +2531,7 @@ cnTakesiikaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__
     g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t, g_z_unya, g_eka,
     g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta, g_a_s_ta, g_nava,
     g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu, g_repha, g_r_r,
-    g_r_r_r, g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02,
-    g_section03, g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10,
-    g_section11, g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i,
-    g_i, g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow,
-    g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e,
-    g_e, g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k,
-    g_k, g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j,
-    g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow,
-    g_ndotbelow, g__t, g_t, g__d, g_d, g__n, g_n, g__p,
-    g_p, g__b, g_b, g__m, g_m, g__y, g_y, g__r,
-    g_r, g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow,
-    g_sdotbelow, g__s, g_s, g__h, g_h, g_zero, g_one, g_two,
-    g_three, g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f,
-    g_f, g__q, g_q, g__w, g_w, g__x, g_x, g__z,
-    g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls,
-    g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex,
-    g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar,
-    g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
-    g_hyphen, g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater,
-    g_question, g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave,
-    g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling,
-    g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft,
-    g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior,
-    g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter,
-    g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring,
-    g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute,
-    g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply,
-    g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute,
-    g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
-    g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute,
-    g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute,
-    g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger,
-    g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright,
-    g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron,
-    g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut,
-    g_caron, g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal,
-    g_greaterequal, g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical,
-    g_approxequal, g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring,
-    g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek,
-    g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute,
-    g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron,
-    g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute,
-    g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron,
-    g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve,
-    g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent,
-    g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent,
-    g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent,
-    g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron,
-    g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute,
-    g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave,
-    g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex,
-    g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent,
-    g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve,
-    g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij,
-    g_slongdotaccent, g_horizontalbar);
+    g_r_r_r);
 
 cTakesrephaDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -3882,7 +2633,7 @@ cTakesrephaDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
     g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
-cnTakesrephaDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesrephaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g__a_t, g__a_t_0001, g__a_t_0002,
     g__a_t_0003, g_i_t, g_i_t_0001, g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004,
@@ -3891,61 +2642,7 @@ cnTakesrephaDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it
     g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t, g_z_unya, g_eka,
     g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta, g_a_s_ta, g_nava,
     g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu, g_repha, g_r_r,
-    g_r_r_r, g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02,
-    g_section03, g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10,
-    g_section11, g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i,
-    g_i, g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow,
-    g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e,
-    g_e, g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k,
-    g_k, g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j,
-    g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow,
-    g_ndotbelow, g__t, g_t, g__d, g_d, g__n, g_n, g__p,
-    g_p, g__b, g_b, g__m, g_m, g__y, g_y, g__r,
-    g_r, g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow,
-    g_sdotbelow, g__s, g_s, g__h, g_h, g_zero, g_one, g_two,
-    g_three, g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f,
-    g_f, g__q, g_q, g__w, g_w, g__x, g_x, g__z,
-    g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls,
-    g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex,
-    g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar,
-    g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma,
-    g_hyphen, g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater,
-    g_question, g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave,
-    g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling,
-    g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft,
-    g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior,
-    g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter,
-    g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring,
-    g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute,
-    g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply,
-    g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute,
-    g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex,
-    g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute,
-    g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute,
-    g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger,
-    g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright,
-    g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron,
-    g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut,
-    g_caron, g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal,
-    g_greaterequal, g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical,
-    g_approxequal, g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring,
-    g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek,
-    g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute,
-    g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron,
-    g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute,
-    g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron,
-    g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve,
-    g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent,
-    g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent,
-    g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent,
-    g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron,
-    g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute,
-    g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave,
-    g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex,
-    g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent,
-    g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve,
-    g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij,
-    g_slongdotaccent, g_horizontalbar);
+    g_r_r_r);
 
 cTakesukaaraDia = (g_ka_0001, g_kha_0001, g_ga_0001, g_gha_0001, g__ga_0001, g_ca_0001, g_cha_0001, g_ja_0001,
     g_jha_0001, g__ja_0001, g__ta_0001, g__tha_0001, g__da_0001, g__dha_0001, g__na_0001, g_ta_0001,
@@ -4014,7 +2711,7 @@ cTakesukaaraDia = (g_ka_0001, g_kha_0001, g_ga_0001, g_gha_0001, g__ga_0001, g_c
     g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001,
     g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
-cnTakesukaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesukaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -4056,65 +2753,11 @@ cnTakesukaaraDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__i
     g_tsma, g_ndva, g_tk_sa, g_lba, g_zba, g_nza, g_nspa, g__jzva,
     g_nstha, g_zcha, g_nga, g_ptva, g_kkha, g_c_ja, g_ddhna, g_ndda,
     g_bba, g_bbha, g_gja, g_tkha, g_ppa, g_lga, g_lda, g_vva,
-    g_ttna, g__skva, g_ddhma, g__n_dva, g_separator1, g_separator2, g_ditto1, g_ditto2,
-    g_ditto3, g_section01, g_section02, g_section03, g_section04, g_section05, g_section06, g_section07,
-    g_section08, g_section09, g_section10, g_section11, g_section12, g_space, g__a, g_a,
-    g__amacron, g_amacron, g__i, g_i, g__imacron, g_imacron, g__u, g_u,
-    g__umacron, g_umacron, g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow,
-    g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e, g__o, g_o, g__mdotbelow, g_mdotbelow,
-    g__hdotbelow, g_hdotbelow, g__k, g_k, g__g, g_g, g__ndotaccent, g_ndotaccent,
-    g__c, g_c, g__j, g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow,
-    g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow, g__t, g_t, g__d, g_d,
-    g__n, g_n, g__p, g_p, g__b, g_b, g__m, g_m,
-    g__y, g_y, g__r, g_r, g__l, g_l, g__v, g_v,
-    g__sacute, g_sacute, g__sdotbelow, g_sdotbelow, g__s, g_s, g__h, g_h,
-    g_zero, g_one, g_two, g_three, g_four, g_five, g_six, g_seven,
-    g_eight, g_nine, g__f, g_f, g__q, g_q, g__w, g_w,
-    g__x, g_x, g__z, g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis,
-    g__udieresis, g_udieresis, g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex,
-    g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam,
-    g_quotedbl, g_numbersign, g_dollar, g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright,
-    g_asterisk, g_plus, g_comma, g_hyphen, g_period, g_slash, g_colon, g_semicolon,
-    g_less, g_equal, g_greater, g_question, g_at, g_bracketleft, g_backslash, g_bracketright,
-    g_asciicircum, g_underscore, g_grave, g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace,
-    g_exclamdown, g_cent, g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis,
-    g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree,
-    g_plusminus, g_twosuperior, g_threesuperior, g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior,
-    g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute,
-    g__acircumflex, g__atilde, g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex,
-    g__edieresis, g__igrave, g__iacute, g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute,
-    g__ocircumflex, g__otilde, g_multiply, g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute,
-    g__thorn, g_agrave, g_aacute, g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla,
-    g_egrave, g_eacute, g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis,
-    g_eth, g_ograve, g_oacute, g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave,
-    g_uacute, g_ucircumflex, g_yacute, g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin,
-    g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft,
-    g__o_e, g_quoteleft, g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash,
-    g_tilde, g_trademark, g_scaron, g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis,
-    g_breve, g_ogonek, g_hungarumlaut, g_caron, g_dotaccent, g_minus, g__lslash, g_lslash,
-    g_notequal, g_infinity, g_lessequal, g_greaterequal, g_partialdiff, g_summation, g_product, g_pi,
-    g_integral, g__omega, g_radical, g_approxequal, g__delta, g_lozenge, g_fraction, g_fi,
-    g_fl, g_dotlessi, g_ring, g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron,
-    g__zacute, g__zdotaccent, g_aogonek, g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent,
-    g__racute, g__abreve, g__lacute, g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron,
-    g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla,
-    g_racute, g_abreve, g_lacute, g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron,
-    g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla,
-    g__idotaccent, g__gbreve, g_gbreve, g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent,
-    g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar,
-    g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng,
-    g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek,
-    g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent,
-    g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent,
-    g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis,
-    g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex,
-    g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve,
-    g_ebreve, g__ibreve, g_ibreve, g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve,
-    g_slong, g__i_j, g_ij, g_slongdotaccent, g_horizontalbar);
+    g_ttna, g__skva, g_ddhma, g__n_dva);
 
 cTakesukaaramarkDia = (g_vattu);
 
-cnTakesukaaramarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesukaaramarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -4221,62 +2864,7 @@ cnTakesukaaramarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, 
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
-    g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02, g_section03,
-    g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10, g_section11,
-    g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i, g_i,
-    g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow,
-    g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e,
-    g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k,
-    g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j, g_j,
-    g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow,
-    g__t, g_t, g__d, g_d, g__n, g_n, g__p, g_p,
-    g__b, g_b, g__m, g_m, g__y, g_y, g__r, g_r,
-    g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow,
-    g__s, g_s, g__h, g_h, g_zero, g_one, g_two, g_three,
-    g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f, g_f,
-    g__q, g_q, g__w, g_w, g__x, g_x, g__z, g_z,
-    g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex,
-    g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex,
-    g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent,
-    g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma, g_hyphen,
-    g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater, g_question,
-    g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft,
-    g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency,
-    g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot,
-    g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute,
-    g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf,
-    g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e,
-    g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex,
-    g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash,
-    g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex,
-    g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis,
-    g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex,
-    g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn,
-    g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl,
-    g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft,
-    g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright,
-    g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron,
-    g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal,
-    g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical, g_approxequal,
-    g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring, g_ff,
-    g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron,
-    g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute,
-    g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut,
-    g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute,
-    g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut,
-    g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar,
-    g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde,
-    g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron,
-    g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron,
-    g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent,
-    g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent,
-    g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent,
-    g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent,
-    g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent,
-    g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot,
-    g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent,
-    g_horizontalbar);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 cTakesviramaDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -4353,7 +2941,7 @@ cTakesviramaDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_ptra, g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva,
     g__spya, g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_strya);
 
-cnTakesviramaDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesviramaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g__a_t, g__a_t_0001, g__a_t_0002,
     g__a_t_0003, g_i_t, g_i_t_0001, g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004,
@@ -4387,65 +2975,11 @@ cnTakesviramaDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__i
     g_tk_sa_0001, g_lba_0001, g_zba_0001, g_nza_0001, g_nspa_0001, g__jzva_0001, g_nstha_0001, g_zcha_0001,
     g_nga_0001, g_ptva_0001, g_kkha_0001, g_c_ja_0001, g_ddhna_0001, g_ndda_0001, g_bba_0001, g_bbha_0001,
     g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001,
-    g_ddhma_0001, g__n_dva_0001, g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01,
-    g_section02, g_section03, g_section04, g_section05, g_section06, g_section07, g_section08, g_section09,
-    g_section10, g_section11, g_section12, g_space, g__a, g_a, g__amacron, g_amacron,
-    g__i, g_i, g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron,
-    g__rdotbelow, g_rdotbelow, g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron,
-    g__e, g_e, g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow,
-    g__k, g_k, g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c,
-    g__j, g_j, g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow,
-    g__ndotbelow, g_ndotbelow, g__t, g_t, g__d, g_d, g__n, g_n,
-    g__p, g_p, g__b, g_b, g__m, g_m, g__y, g_y,
-    g__r, g_r, g__l, g_l, g__v, g_v, g__sacute, g_sacute,
-    g__sdotbelow, g_sdotbelow, g__s, g_s, g__h, g_h, g_zero, g_one,
-    g_two, g_three, g_four, g_five, g_six, g_seven, g_eight, g_nine,
-    g__f, g_f, g__q, g_q, g__w, g_w, g__x, g_x,
-    g__z, g_z, g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis,
-    g_germandbls, g__ccircumflex, g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex,
-    g_jcircumflex, g__scircumflex, g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign,
-    g_dollar, g_percent, g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus,
-    g_comma, g_hyphen, g_period, g_slash, g_colon, g_semicolon, g_less, g_equal,
-    g_greater, g_question, g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore,
-    g_grave, g_braceleft, g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent,
-    g_sterling, g_currency, g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine,
-    g_guillemotleft, g_logicalnot, g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior,
-    g_threesuperior, g_acute, g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright,
-    g_onequarter, g_onehalf, g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde,
-    g__aring, g__a_e, g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave,
-    g__iacute, g__icircumflex, g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde,
-    g_multiply, g__oslash, g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave,
-    g_aacute, g_acircumflex, g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute,
-    g_ecircumflex, g_edieresis, g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve,
-    g_oacute, g_ocircumflex, g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex,
-    g_yacute, g_thorn, g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis,
-    g_dagger, g_daggerdbl, g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft,
-    g_quoteright, g_quotedblleft, g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark,
-    g_scaron, g_guilsinglright, g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek,
-    g_hungarumlaut, g_caron, g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity,
-    g_lessequal, g_greaterequal, g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega,
-    g_radical, g_approxequal, g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi,
-    g_ring, g_ff, g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent,
-    g_aogonek, g_lcaron, g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve,
-    g__lacute, g__cacute, g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute,
-    g__ncaron, g__ohungarumlaut, g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve,
-    g_lacute, g_cacute, g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute,
-    g_ncaron, g_ohungarumlaut, g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve,
-    g_gbreve, g__hbar, g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic,
-    g__rcommaaccent, g__itilde, g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde,
-    g_lcommaaccent, g_emacron, g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent,
-    g__ncommaaccent, g__omacron, g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent,
-    g_omacron, g_kcommaaccent, g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave,
-    g__wacute, g_ddotaccent, g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent,
-    g_wgrave, g_pdotaccent, g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent,
-    g__wcircumflex, g__tdotaccent, g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod,
-    g__scommaaccent, g_scommaaccent, g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve,
-    g_ibreve, g__ldot, g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j,
-    g_ij, g_slongdotaccent, g_horizontalbar);
+    g_ddhma_0001, g__n_dva_0001);
 
 cTakesviramamarkDia = (g_vattu);
 
-cnTakesviramamarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
+cnTakesviramamarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
     g_anusv_ara, g_candrabindu, g_visarga, g_ka, g_kha, g_ga, g_gha, g__ga,
     g_ca, g_cha, g_ja, g_jha, g__ja, g__ta, g__tha, g__da,
@@ -4552,62 +3086,7 @@ cnTakesviramamarkDia = (g__null, g_nonmarkingreturn, g_ak_ara, g__ak_ara, g_it, 
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
-    g_separator1, g_separator2, g_ditto1, g_ditto2, g_ditto3, g_section01, g_section02, g_section03,
-    g_section04, g_section05, g_section06, g_section07, g_section08, g_section09, g_section10, g_section11,
-    g_section12, g_space, g__a, g_a, g__amacron, g_amacron, g__i, g_i,
-    g__imacron, g_imacron, g__u, g_u, g__umacron, g_umacron, g__rdotbelow, g_rdotbelow,
-    g__rdotbelowmacron, g_rdotbelowmacron, g__ldotbelow, g_ldotbelow, g__ldotbelowmacron, g_ldotbelowmacron, g__e, g_e,
-    g__o, g_o, g__mdotbelow, g_mdotbelow, g__hdotbelow, g_hdotbelow, g__k, g_k,
-    g__g, g_g, g__ndotaccent, g_ndotaccent, g__c, g_c, g__j, g_j,
-    g__ntilde, g_ntilde, g__tdotbelow, g_tdotbelow, g__ddotbelow, g_ddotbelow, g__ndotbelow, g_ndotbelow,
-    g__t, g_t, g__d, g_d, g__n, g_n, g__p, g_p,
-    g__b, g_b, g__m, g_m, g__y, g_y, g__r, g_r,
-    g__l, g_l, g__v, g_v, g__sacute, g_sacute, g__sdotbelow, g_sdotbelow,
-    g__s, g_s, g__h, g_h, g_zero, g_one, g_two, g_three,
-    g_four, g_five, g_six, g_seven, g_eight, g_nine, g__f, g_f,
-    g__q, g_q, g__w, g_w, g__x, g_x, g__z, g_z,
-    g__adieresis, g_adieresis, g__odieresis, g_odieresis, g__udieresis, g_udieresis, g_germandbls, g__ccircumflex,
-    g_ccircumflex, g__gcircumflex, g_gcircumflex, g__hcircumflex, g_hcircumflex, g__jcircumflex, g_jcircumflex, g__scircumflex,
-    g_scircumflex, g__ubreve, g_ubreve, g_exclam, g_quotedbl, g_numbersign, g_dollar, g_percent,
-    g_ampersand, g_quotesingle, g_parenleft, g_parenright, g_asterisk, g_plus, g_comma, g_hyphen,
-    g_period, g_slash, g_colon, g_semicolon, g_less, g_equal, g_greater, g_question,
-    g_at, g_bracketleft, g_backslash, g_bracketright, g_asciicircum, g_underscore, g_grave, g_braceleft,
-    g_bar, g_braceright, g_asciitilde, g_nbspace, g_exclamdown, g_cent, g_sterling, g_currency,
-    g_yen, g_brokenbar, g_section, g_dieresis, g_copyright, g_ordfeminine, g_guillemotleft, g_logicalnot,
-    g_softhyphen, g_registered, g_macron, g_degree, g_plusminus, g_twosuperior, g_threesuperior, g_acute,
-    g_micro, g_periodcentered, g_cedilla, g_onesuperior, g_ordmasculine, g_guillemotright, g_onequarter, g_onehalf,
-    g_threequarters, g_questiondown, g__agrave, g__aacute, g__acircumflex, g__atilde, g__aring, g__a_e,
-    g__ccedilla, g__egrave, g__eacute, g__ecircumflex, g__edieresis, g__igrave, g__iacute, g__icircumflex,
-    g__idieresis, g__eth, g__ograve, g__oacute, g__ocircumflex, g__otilde, g_multiply, g__oslash,
-    g__ugrave, g__uacute, g__ucircumflex, g__yacute, g__thorn, g_agrave, g_aacute, g_acircumflex,
-    g_atilde, g_aring, g_ae, g_ccedilla, g_egrave, g_eacute, g_ecircumflex, g_edieresis,
-    g_igrave, g_iacute, g_icircumflex, g_idieresis, g_eth, g_ograve, g_oacute, g_ocircumflex,
-    g_otilde, g_divide, g_oslash, g_ugrave, g_uacute, g_ucircumflex, g_yacute, g_thorn,
-    g_ydieresis, g__euro, g_quotesinglbase, g_florin, g_quotedblbase, g_ellipsis, g_dagger, g_daggerdbl,
-    g_circumflex, g_perthousand, g__scaron, g_guilsinglleft, g__o_e, g_quoteleft, g_quoteright, g_quotedblleft,
-    g_quotedblright, g_bullet, g_endash, g_emdash, g_tilde, g_trademark, g_scaron, g_guilsinglright,
-    g_oe, g__zcaron, g_zcaron, g__ydieresis, g_breve, g_ogonek, g_hungarumlaut, g_caron,
-    g_dotaccent, g_minus, g__lslash, g_lslash, g_notequal, g_infinity, g_lessequal, g_greaterequal,
-    g_partialdiff, g_summation, g_product, g_pi, g_integral, g__omega, g_radical, g_approxequal,
-    g__delta, g_lozenge, g_fraction, g_fi, g_fl, g_dotlessi, g_ring, g_ff,
-    g__aogonek, g__lcaron, g__scedilla, g__tcaron, g__zacute, g__zdotaccent, g_aogonek, g_lcaron,
-    g_scedilla, g_tcaron, g_zacute, g_zdotaccent, g__racute, g__abreve, g__lacute, g__cacute,
-    g__ccaron, g__eogonek, g__ecaron, g__dcaron, g__dcroat, g__nacute, g__ncaron, g__ohungarumlaut,
-    g__rcaron, g__uring, g__uhungarumlaut, g__tcedilla, g_racute, g_abreve, g_lacute, g_cacute,
-    g_ccaron, g_eogonek, g_ecaron, g_dcaron, g_dcroat, g_nacute, g_ncaron, g_ohungarumlaut,
-    g_rcaron, g_uring, g_uhungarumlaut, g_tcedilla, g__idotaccent, g__gbreve, g_gbreve, g__hbar,
-    g_hbar, g__cdotaccent, g__gdotaccent, g_cdotaccent, g_gdotaccent, g_kgreenlandic, g__rcommaaccent, g__itilde,
-    g__lcommaaccent, g__emacron, g__gcommaaccent, g__tbar, g_rcommaaccent, g_itilde, g_lcommaaccent, g_emacron,
-    g_gcommaaccent, g_tbar, g__eng, g_eng, g__iogonek, g__edotaccent, g__ncommaaccent, g__omacron,
-    g__kcommaaccent, g__uogonek, g__utilde, g_iogonek, g_edotaccent, g_ncommaaccent, g_omacron, g_kcommaaccent,
-    g_uogonek, g_utilde, g__bdotaccent, g_bdotaccent, g__ddotaccent, g__wgrave, g__wacute, g_ddotaccent,
-    g__ygrave, g__fdotaccent, g_fdotaccent, g__mdotaccent, g_mdotaccent, g__pdotaccent, g_wgrave, g_pdotaccent,
-    g_wacute, g__sdotaccent, g_ygrave, g__wdieresis, g_wdieresis, g_sdotaccent, g__wcircumflex, g__tdotaccent,
-    g__ycircumflex, g_wcircumflex, g_tdotaccent, g_ycircumflex, g_apostrophemod, g_commareversedmod, g__scommaaccent, g_scommaaccent,
-    g__tcommaaccent, g_tcommaaccent, g_commaturnedmod, g__ebreve, g_ebreve, g__ibreve, g_ibreve, g__ldot,
-    g_ldot, g_napostrophe, g__obreve, g_obreve, g_slong, g__i_j, g_ij, g_slongdotaccent,
-    g_horizontalbar);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
 
 c0001 = (g__a_t_0001, g_i_t_0001, g__i_t_0001, g_u_t_0001, g__u_t_0001, g__r_t_0001, g_e_t_0001, g_ai_t_0001,
     g_ka_0001, g_kha_0001, g_ga_0001, g_gha_0001, g__ga_0001, g_ca_0001, g_cha_0001, g_ja_0001,
@@ -5460,29 +3939,30 @@ endtable;
 
 table(positioning)
 
-/* Above-base */
 pass(1)
-    cnrephaDia crephaDia {attach {to=@1; at=rephaS; with=rephaM}};
-    cnrephaDia crephaDia {attach {to=@1; at=rephaS; with=rephaM}};
+    cTakesrephaDia crephaDia {attach {to=@1; at=rephaS; with=rephaM}};
 endpass;
 pass(2)
-    cnekaaraDia cekaaraDia {attach {to=@1; at=ekaaraS; with=ekaaraM}};
+    cTakesekaaraDia crephaDia? cekaaraDia {attach {to=@1; at=ekaaraS; with=ekaaraM}};
 endpass;
 pass(3)
-    cniikaaraDia crephaDia? ciikaaraDia {attach {to=@1; at=iikaaraS; with=iikaaraM}};
-    cnaakaaraDia cekaaraDia? crephaDia? cukaaraDia? caakaaraDia {attach {to=@1; at=aakaaraS; with=aakaaraM}};
+    cTakesukaaraDia crephaDia? cukaaraDia {attach {to=@1; at=ukaaraS; with=ukaaraM}};
+    cTakesviramaDia crephaDia? cviramaDia {attach {to=@1; at=viramaS; with=viramaM}};
 endpass;
 pass(4)
-    cnbinduDia crephaDia? cbinduDia {attach {to=@1; at=binduS; with=binduM}};
-    cnbindumarkDia cbindumarkDia {attach {to=@1; at=bindumarkS; with=bindumarkM}};
+    cTakesiikaaraDia crephaDia? ciikaaraDia {attach {to=@1; at=iikaaraS; with=iikaaraM}};
+    cTakesaakaaraDia crephaDia? cekaaraDia? cukaaraDia? caakaaraDia {attach {to=@1; at=aakaaraS; with=aakaaraM}};
 endpass;
-
-/* Below-base */
 pass(5)
-    cnukaaraDia cukaaraDia {attach {to=@1; at=ukaaraS; with=ukaaraM}};
-    cnviramaDia cviramaDia {attach {to=@1; at=viramaS; with=viramaM}};
-    cnukaaramarkDia cukaaramarkDia {attach {to=@1; at=ukaaramarkS; with=ukaaramarkM}};
-    cnviramamarkDia cviramamarkDia {attach {to=@1; at=viramamarkS; with=viramamarkM}};
+    cTakesbinduDia cekaaraDia? cukaaraDia? caakaaraDia? ciikaaraDia? cbinduDia {attach {to=@1; at=binduS; with=binduM}};
+    cTakesbinduDia crephaDia cekaaraDia? cukaaraDia? caakaaraDia? ciikaaraDia? cbinduDia {attach {to=@2; at=bindumarkS; with=bindumarkM}};
+endpass;
+pass(6)
+    g_candra cbindumarkDia {attach {to=@1; at=bindumarkS; with=bindumarkM}};
+endpass;
+pass(7)
+    cTakesukaaramarkDia cukaaramarkDia {attach {to=@1; at=ukaaramarkS; with=ukaaramarkM}};
+    cTakesviramamarkDia cviramamarkDia {attach {to=@1; at=viramamarkS; with=viramamarkM}};
 endpass;
 
 endtable;
