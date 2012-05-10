@@ -1,3 +1,39 @@
+2012-05-10
+	Version 0.3.0 release. Trilingual summary and commit log follows.
+
+	* いくつかの梵字特有の句読点を追加。
+	* Graphite対応版「MuktamSiddhamG」を追加。
+	* SMPに提案されている梵字の符号位置をサポートした (MuktamSiddhamGのみ)。
+
+	* Added some Siddham-specific punctuation marks.
+	* Added Graphite-enabled version "MuktamSiddhamG.
+	* Now supports proposed Siddham codepoints in SMP (MuktamSiddhamG only).
+
+	* Добавлено несколько Сиддхам-конкретных знаков препинания.
+	* Добавлено версии с поддержкой Graphite, «MuktamSiddhamG».
+	* Теперь поддерживает предложенные коды Сиддхама в SMP (только MuktamSiddhamG).
+
+	* 2012-05-10 917759a: Makefile
+	* 2012-05-10 a010309: GDL Siddham-to-Devanagari glyph conversion
+	* 2012-05-10 da3b7a7: Modified Makefile
+	* 2012-05-09 b43cf43: SMP allocation
+	* 2012-05-10 aa91d42: GDL Correction
+	* 2012-05-10 22e0132: Corrected i-matra substitution
+	* 2012-05-10 85395c7: Corrected wrong glyph decomposition
+	* 2012-05-10 7433970: Added positioning rule GDL
+	* 2012-05-10 c074d42: Ignore warning 4517
+	* 2012-05-10 7b0c11d: Allow repha at GDL substitution
+	* 2012-05-10 70a22fe: Graphite rules for GSUB-equivalent
+	* 2012-05-09 192ef66: Added GDL glyph data (automatically generated)
+	* 2012-05-10 ba2a194: year
+	* 2012-05-09 e80018f: Update outlines.py
+	* 2012-05-09 46034ba: Version number
+	* 2012-05-09 4cb5511: Added section marks
+	* 2012-05-09 e6c9466: Additional punctuations at PUA
+	* 2011-10-13 6b609ba: Letter Conjunction had the wrong feature tag
+	* 2011-10-12 0c6cb6e: Added features for RRT
+	* 2011-10-04 ea81057: ChangeLog updated
+
 2011-10-04
 	Version 0.2.1 release. Trilingual summary and commit log follows.
 
