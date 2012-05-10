@@ -8,7 +8,7 @@ PKGS=Muktamsiddham.7z Muktamsiddham-source.7z
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 
 # Path to Graphite compiler
-GRCOMPILER=/cygdrive/c/Apps/graphite/Graphite\ Compiler/GrCompiler
+GRCOMPILER=/cygdrive/c/Apps/graphite/Graphite\ Compiler/GrCompiler -w4517
 
 
 .PHONY: all
