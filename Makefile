@@ -8,7 +8,7 @@ PKGS=Muktamsiddham.7z Muktamsiddham-source.7z
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 
 # Path to Graphite compiler
-GRCOMPILER=/cygdrive/c/Apps/graphite/Graphite\ Compiler/GrCompiler -w4517
+GRCOMPILER=/cygdrive/c/Apps/graphite/Graphite\ Compiler/GrCompiler
 
 
 .PHONY: all
@@ -19,13 +19,17 @@ Outlines.sfd: Muktamsiddham.sfd LatinGlyphs.sfd
 
 OutlinesTT.sfd: Outlines.sfd
 	fontforge -script ./truetype.py
+OutlinesG.sfd: smp.diff OutlinesTT.sfd
+	patch -i $< -o $@
 
 Muktamsiddham.otf: Outlines.sfd
 	$(FFCMD)
 MuktamsiddhamT.ttf: OutlinesTT.sfd
 	$(FFCMD)
+MuktamsiddhamG-raw.ttf: OutlinesG.sfd
+	$(FFCMD)
 
-MuktamsiddhamG.ttf: MuktamsiddhamT.ttf Muktamsiddham.gdl
+MuktamsiddhamG.ttf: MuktamsiddhamG-raw.ttf Muktamsiddham.gdl
 	$(GRCOMPILER) $^ $@ "MuktamsiddhamG"
 
 
@@ -47,5 +51,6 @@ Muktamsiddham-source.7z: ${SOURCE} ${DOCUMENTS}
 
 .PHONY: clean
 clean:
-	-rm Outlines.sfd OutlinesTT.sfd gdlerr.txt '$$_temp.gdl' ${FONTS}
+	-rm Outlines.sfd OutlinesTT.sfd OutlinesG.sfd MuktamsiddhamG-raw.ttf \
+	gdlerr.txt '$$_temp.gdl' ${FONTS}
 	-rm -rf ${PKGS} ${PKGS:.7z=}
