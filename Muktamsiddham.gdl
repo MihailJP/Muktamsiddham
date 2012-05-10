@@ -5413,24 +5413,24 @@ pass(9)
 endpass;
 pass(10)
     /* uT, UT */
-    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_u_t;
-    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g__u_t;
-    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_vattu;
-    CausesUMatraAlt1 g_u_t > CausesUMatraAlt1a g_u_t_0001;
-    CausesUMatraAlt1 g__u_t > CausesUMatraAlt1a g__u_t_0001;
-    CausesUMatraAlt1 > CausesUMatraAlt1a / _ g_vattu;
-    CausesUMatraAlt2 g_u_t > CausesUMatraAlt2a g_u_t_0002;
-    CausesUMatraAlt2 g__u_t > CausesUMatraAlt2a g__u_t_0002;
-    CausesUMatraAlt2 > CausesUMatraAlt2a / _ g_vattu;
-    g_u_t > g_u_t_0003 / CausesUMatraAlt3 _;
-    g__u_t > g__u_t_0003 / CausesUMatraAlt3 _;
-    CausesUMatraAlt4 g_u_t > CausesUMatraAlt4a g_u_t_0004;
-    CausesUMatraAlt4 g__u_t > CausesUMatraAlt4a g__u_t_0004;
-    CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_vattu;
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g_u_t;
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__u_t;
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g_vattu;
+    CausesUMatraAlt1 g_u_t > CausesUMatraAlt1a g_u_t_0001 / _ g_repha? _;
+    CausesUMatraAlt1 g__u_t > CausesUMatraAlt1a g__u_t_0001 / _ g_repha? _;
+    CausesUMatraAlt1 > CausesUMatraAlt1a / _ g_repha? g_vattu;
+    CausesUMatraAlt2 g_u_t > CausesUMatraAlt2a g_u_t_0002 / _ g_repha? _;
+    CausesUMatraAlt2 g__u_t > CausesUMatraAlt2a g__u_t_0002 / _ g_repha? _;
+    CausesUMatraAlt2 > CausesUMatraAlt2a / _ g_repha? g_vattu;
+    g_u_t > g_u_t_0003 / CausesUMatraAlt3 g_repha? _;
+    g__u_t > g__u_t_0003 / CausesUMatraAlt3 g_repha? _;
+    CausesUMatraAlt4 g_u_t > CausesUMatraAlt4a g_u_t_0004 / _ g_repha? _;
+    CausesUMatraAlt4 g__u_t > CausesUMatraAlt4a g__u_t_0004 / _ g_repha? _;
+    CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_repha? g_vattu;
     /* RT */
-    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g__r_t;
-    CausesUMatraAlt1 g__r_t > CausesUMatraAlt1a g__r_t_0001;
-    CausesUMatraAlt4 > CausesUMatraAlt4a / _ g__r_t;
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__r_t;
+    CausesUMatraAlt1 g__r_t > CausesUMatraAlt1a g__r_t_0001 / _ g_repha? _;
+    CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_repha? g__r_t;
 endpass;
 pass(11)
     /* RT/RRT exceptional */
@@ -5439,19 +5439,19 @@ pass(11)
 	g_ra g__r_t > g_r_r:(1 2) _;
 	g_la g__r_t > g_l_r:(1 2) _;
 	/* eT/aiT */
-	g_e_t > g_e_t_0001 / CauseEMatraAlt _;
-	g_ai_t > g_ai_t_0001 / CauseEMatraAlt _;
+	g_e_t > g_e_t_0001 / CauseEMatraAlt g_repha? _;
+	g_ai_t > g_ai_t_0001 / CauseEMatraAlt g_repha? _;
 endpass;
 pass(12)
 	/* AT */
-	g__a_t > g__a_t_0001 / CauseAMatraAlt1 CauseAMatraSkipped? _;
-	g__a_t > g__a_t_0002 / CauseAMatraAlt2 CauseAMatraSkipped? _;
-	g__a_t > g__a_t_0003 / CauseAMatraAlt3 CauseAMatraSkipped? _;
+	g__a_t > g__a_t_0001 / CauseAMatraAlt1 g_repha? CauseAMatraSkipped? _;
+	g__a_t > g__a_t_0002 / CauseAMatraAlt2 g_repha? CauseAMatraSkipped? _;
+	g__a_t > g__a_t_0003 / CauseAMatraAlt3 g_repha? CauseAMatraSkipped? _;
 	/* IT */
-	g__i_t > g__i_t_0001 / CauseIiMatraAlt1 _;
-	g__i_t > g__i_t_0002 / CauseIiMatraAlt2 _;
-	g__i_t > g__i_t_0003 / CauseIiMatraAlt3 _;
-	g__i_t > g__i_t_0004 / CauseIiMatraAlt4 _;
+	g__i_t > g__i_t_0001 / CauseIiMatraAlt1 g_repha? _;
+	g__i_t > g__i_t_0002 / CauseIiMatraAlt2 g_repha? _;
+	g__i_t > g__i_t_0003 / CauseIiMatraAlt3 g_repha? _;
+	g__i_t > g__i_t_0004 / CauseIiMatraAlt4 g_repha? _;
 endpass;
 
 endtable;
