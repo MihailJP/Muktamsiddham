@@ -4701,6 +4701,757 @@ c0004 = (g__i_t_0004, g_u_t_0004, g__u_t_0004);
 
 cno_0004 = (g__i_t, g_u_t, g__u_t);
 
+Consonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__ja,
+    g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
+    g_pa, g_pha, g_ba, g_bha, g_ma, g_ya, g_la, g_va,
+    g_za, g__sa, g_sa, g_ha, g_k_sa);
+ConsonantsR = (g_kra, g_khra, g_gra, g_ghra, g__gra, g_cra, g_chra, g_jra, g_jhra, g__jra,
+    g__tra, g__thra, g__dra, g__dhra, g__nra, g_tra, g_thra, g_dra, g_dhra, g_nra,
+    g_pra, g_phra, g_bra, g_bhra, g_mra, g_yra, g_lra, g_vra,
+    g_zra, g__sra, g_sra, g_hra, g_k_sra);
+
+AllConsonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__ja,
+    g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
+    g_pa, g_pha, g_ba, g_bha, g_ma, g_ya, g_ra, g_la, g_va, g_za,
+    g__sa, g_sa, g_ha, g_k_sa, g_kya, g_khya, g_gya, g_ghya, g_cya, g_chya,
+    g_jya, g_jhya, g__jya, g__tya, g__thya, g__dya, g__dhya, g__nya, g_tya, g_thya,
+    g_dya, g_dhya, g_nya, g_pya, g_phya, g_bya, g_bhya, g_mya, g_lya, g_vya,
+    g_zya, g__sya, g_sya, g_hya, g_k_sya, g_vattu, g_kra, g_khra, g_gra, g_ghra,
+    g_cra, g_chra, g_jra, g_jhra, g__jra, g__tra, g__thra, g__dra, g__dhra, g__nra,
+    g_tra, g_thra, g_dra, g_dhra, g_nra, g_pra, g_phra, g_bra, g_bhra, g_mra,
+    g_yra, g_lra, g_vra, g_zra, g__sra, g_sra, g_hra, g_k_sra, g_kla, g_khla,
+    g_gla, g_ghla, g_cla, g_chla, g_jla, g_jhla, g__jla, g__tla, g__thla, g__dla,
+    g__dhla, g__nla, g_tla, g_thla, g_dla, g_dhla, g_nla, g_pla, g_phla, g_bla,
+    g_bhla, g_mla, g_yla, g_vla, g_zla, g__sla, g_sla, g_hla, g_k_sla, g_kva,
+    g_khva, g_gva, g_ghva, g_cva, g_chva, g_jva, g_jhva, g__jva, g__tva, g__thva,
+    g__dva, g__dhva, g__nva, g_tva, g_thva, g_dva, g_dhva, g_nva, g_pva, g_phva,
+    g_bva, g_bhva, g_mva, g_yva, g_lva, g_zva, g__sva, g_sva, g_hva, g_k_sva,
+    g_kma, g_khma, g_gma, g_ghma, g__gma, g_cma, g_chma, g_jma, g_jhma, g__jma,
+    g__tma, g__thma, g__dma, g__dhma, g__nma, g_tma, g_thma, g_dma, g_dhma, g_nma,
+    g_pma, g_phma, g_bma, g_bhma, g_yma, g_lma, g_vma, g_zma, g__sma, g_sma,
+    g_hma, g_k_sma, g_kna, g_khna, g_gna, g_ghna, g__gna, g_cna, g_chna, g_jna,
+    g_jhna, g__jna, g__tna, g__thna, g__dna, g__dhna, g__nna, g_tna, g_thna, g_dna,
+    g_dhna, g_pna, g_phna, g_bna, g_bhna, g_mna, g_yna, g_lna, g_vna, g_zna,
+    g__sna, g_sna, g_hna, g_k_sna, g_k_na, g_kh_na, g_g_na, g_gh_na, g__g_na, g_c_na,
+    g_ch_na, g_j_na, g_jh_na, g__j_na, g__t_na, g__th_na, g__d_na, g__dh_na, g_t_na, g_th_na,
+    g_d_na, g_dh_na, g_n_na, g_p_na, g_ph_na, g_b_na, g_bh_na, g_m_na, g_y_na, g_l_na,
+    g_v_na, g_z_na, g__s_na, g_s_na, g_h_na, g_k_s_na, g__gka, g__gkha, g__gga, g__ggha,
+    g__jca, g__jcha, g__jja, g__jjha, g__n_ta, g__n_tha, g__n_da, g__n_dha, g_nta, g_ntha,
+    g_nda, g_ndha, g_mpa, g_mpha, g_mba, g_mbha, g__gya, g__gra, g__gla, g__gva,
+    g__gza, g__g_sa, g__gsa, g__gha, g__gk_sa, g_ska, g_skha, g_dga, g_dgha, g__gktra,
+    g_vca, g_vcha, g_vja, g_vjha, g_j_ja, g__s_ta, g__s_tha, g_d_da, g_d_dha, g_sta,
+    g_stha, g_vda, g_vdha, g_tsna, g_spa, g_spha, g_dba, g_dbha, g_k_svya, g_k_svrya,
+    g_lta, g_tkva, g__tza, g__t_sa, g_sha, g_vk_sa, g_pta, g__tka, g_dsva, g__t_schra,
+    g__gkta, g__t_scha, g_kka, g_kta, g_ktha, g_ktya, g_ktra, g_ktva, g_krya, g_k_smya,
+    g_gga, g_gda, g_gdha, g_gbha, g_gdhva, g_gnya, g_gbhya, g_grya, g__ggra, g__gghra,
+    g__gk_sva, g_cca, g_ccha, g_cchra, g_cchva, g_jja, g_jjha, g_jj_ja, g_jjva, g__jza,
+    g__t_ta, g__dga, g__d_da, g__n_na, g_tta, g_tka, g_ttha, g_tpa, g_tpha, g_tsa,
+    g_ttra, g_ttva, g_tnya, g_tmya, g_trya, g_tsya, g_tsva, g_dda, g_ddha, g_dgra,
+    g_ddya, g_ddra, g_ddva, g_ddhya, g_ddhva, g_dbhya, g_drya, g_dvya, g_nna, g_nsa,
+    g_ntya, g_ntra, g_ntsa, g_nddha, g_ndra, g_ndhya, g_ndhra, g_nnya, g_psa, g_ptya,
+    g_bja, g_bda, g_bdha, g_bdhva, g_yya, g_lla, g_lka, g_lpa, g_lha, g_zca,
+    g_zcya, g_zrya, g__ska, g__spa, g__skra, g__s_tra, g__s_tva, g__s_thya, g__spra, g_stya,
+    g_stra, g_stva, g_npa, g_kza, g_ksa, g_spra, g_nbra, g_nbha, g__n_dra, g_kpa,
+    g_nka, g_tstha, g_nba, g_kca, g_nsva, g_mma, g_psya, g_tkra, g_tsma, g_tpra,
+    g_ndva, g_tk_sa, g_nha, g_lba, g_npra, g_zba, g__jzra, g_nza, g_dbra, g_nspa,
+    g__jzva, g__jjya, g_mpra, g_nstha, g_zcha, g_dhnya, g_zvya, g_nvya, g_smya, g_nga,
+    g_nsya, g_ptva, g_ttya, g__s_tya, g__gk_sya, g_kkha, g_c_ja, g_j_jya, g__t_tha, g_dgya,
+    g_ddhna, g_nddhya, g_ndda, g_nddra, g_bba, g_bbha, g__s_trya, g__s_nya, g_gja, g__d_dha,
+    g_tkha, g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna,
+    g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva,
+    g__gkra, g__n_dya, g_strya);
+
+CausesIMatraAlt1 = (g_kha, g_ga, g_cha, g__tha, g__dha, g_dha, g_na, g_bha, g_la, g_za,
+    g_sa, g_k_sa, g_chya, g__dhya, g_dhya, g_nya, g_bhya, g_lya, g_sya, g_kra,
+    g_cra, g_chra, g_jra, g_jhra, g__tra, g__thra, g__dhra, g_dra, g_dhra, g_nra,
+    g_bra, g_bhra, g_lra, g_vra, g_sra, g_cla, g_chla, g_jla, g_jhla, g__thla,
+    g__dhla, g_dla, g_dhla, g_nla, g_phla, g_bla, g_bhla, g_vla, g_sla, g_cva,
+    g_chva, g_jva, g_jhva, g__thva, g__dhva, g_dva, g_dhva, g_nva, g_phva, g_bva,
+    g_bhva, g_lva, g_sva, g_chma, g__thma, g__dhma, g_dhma, g_nma, g_bhma, g_lma,
+    g_sma, g_chna, g__thna, g__dhna, g_dhna, g_bhna, g_lna, g_sna, g_ch_na, g__th_na,
+    g__dh_na, g_dh_na, g_bh_na, g_l_na, g_s_na, g__gkha, g__gga, g_nta, g_ntha, g_nda,
+    g_ndha, g__gra, g__gla, g__gva, g__gza, g_ska, g_skha, g_dga, g_dgha, g__gktra,
+    g_j_ja, g_sta, g_stha, g_spa, g_spha, g_lta, g_sha, g_vk_sa, g__gkta, g_ktra,
+    g_gga, g__ggra, g_cchra, g_jj_ja, g__dga, g_ddha, g_dgra, g_ddya, g_ddra, g_ddhya,
+    g_ddhva, g_dbhya, g_drya, g_dvya, g_nna, g_nsa, g_ntya, g_ntra, g_ntsa, g_nddha,
+    g_ndra, g_ndhya, g_ndhra, g_nnya, g_lla, g_lka, g_lpa, g_lha, g_stya, g_stra,
+    g_stva, g_npa, g_kza, g_spra, g_nbra, g_nbha, g_nka, g_nba, g_nsva, g_ndva,
+    g_nha, g_lba, g_nza, g_dbra, g_nspa, g_nstha, g_dhnya, g_nvya, g_smya, g_nga,
+    g_nsya, g_kkha, g_c_ja, g_j_jya, g_dgya, g_ddhna, g_nddhya, g_ndda, g_nddra, g_bba,
+    g_bbha, g_tkha, g_lga, g_lda, g_lpha, g_cchya, g_ddhma, g_strya);
+
+CausesUMatraAlt0 = (g_ka, g__ga, g_cha, g_ja, g_jha, g__ja, g__na, g_da, g__gka, g__jcha,
+    g__jja, g_nda, g_ska, g_vcha, g_vja, g_vda, g__tka, g__t_scha, g_kka, g_gda,
+    g_ccha, g_jja, g_tka, g_dda, g_bja, g_bda, g_lka, g__ska, g_nka, g_zcha,
+    g_ndda, g_gja, g_lda);
+CausesUMatraAlt1 = (g__ta, g__tha, g__dha, g__da, g_pha, g_ha, g_k_na, g_kh_na,
+    g_g_na, g_gh_na, g__g_na, g_c_na, g_ch_na, g_j_na, g_jh_na, g__j_na, g__t_na, g__th_na,
+    g__d_na, g__dh_na, g_t_na, g_th_na, g_d_na, g_dh_na, g_n_na, g_p_na, g_ph_na, g_b_na,
+    g_bh_na, g_m_na, g_y_na, g_l_na, g_v_na, g_z_na, g__s_na, g_s_na, g_h_na, g_k_s_na,
+    g__jjha, g__n_ta, g__n_tha, g__n_da, g__n_dha, g_mpha, g__gha, g_vjha, g_j_ja, g__s_ta,
+    g__s_tha, g_d_da, g_d_dha, g_spha, g_sha, g_jjha, g_jj_ja, g__t_ta, g__d_da, g__n_na,
+    g_tpha, g_lha, g_nha, g_c_ja, g__t_tha, g__d_dha, g_ppha, g_lpha, g__spha);
+CausesUMatraAlt2 = (g_ra, g_la,
+    g_kra, g_khra, g_gra, g_ghra, g_cra, g_chra, g_jra, g_jhra, g__jra, g__tra,
+    g__thra, g__dra, g__dhra, g__nra, g_tra, g_thra, g_dra, g_dhra, g_nra, g_pra,
+    g_phra, g_bra, g_bhra, g_mra, g_yra, g_lra, g_vra, g_zra, g__sra, g_sra,
+    g_hra, g_k_sra, g_kla, g_khla, g_gla, g_ghla, g_cla, g_chla, g_jla, g_jhla,
+    g__jla, g__tla, g__thla, g__dla, g__dhla, g__nla, g_tla, g_thla, g_dla, g_dhla,
+    g_nla, g_pla, g_phla, g_bla, g_bhla, g_mla, g_yla, g_vla, g_zla, g__sla,
+    g_sla, g_hla, g_k_sla, g__gra, g__gla, g__gktra, g__t_schra, g_ktra, g__ggra, g__gghra,
+    g_cchra, g_ttra, g_dgra, g_ddra, g_ntra, g_ndra, g_ndhra, g_lla, g__skra, g__s_tra,
+    g__spra, g_stra, g_spra, g_nbra, g__n_dra, g_tkra, g_tpra, g_npra, g__jzra, g_dbra,
+    g_mpra, g_nddra, g_ptra, g_tpla, g_gdhra, g__gkra);
+CausesUMatraAlt3 = (g_kya, g_khya, g_gya, g_ghya, g_cya,
+    g_chya, g_jya, g_jhya, g__jya, g__tya, g__thya, g__dya, g__dhya, g__nya, g_tya,
+    g_thya, g_dya, g_dhya, g_nya, g_pya, g_phya, g_bya, g_bhya, g_mya, g_lya,
+    g_vya, g_zya, g__sya, g_sya, g_hya, g_k_sya, g__gya, g_k_svya, g_k_svrya, g_ktya,
+    g_krya, g_k_smya, g_gnya, g_gbhya, g_grya, g_tnya, g_tmya, g_trya, g_tsya, g_ddya,
+    g_ddhya, g_dbhya, g_drya, g_dvya, g_ntya, g_ndhya, g_nnya, g_ptya, g_yya, g_zcya,
+    g_zrya, g__s_thya, g_stya, g_psya, g__jjya, g_dhnya, g_zvya, g_nvya, g_smya, g_nsya,
+    g_ttya, g__s_tya, g__gk_sya, g_j_jya, g_dgya, g_nddhya, g__s_trya, g__s_nya, g_cchya, g_jjya,
+    g_k_s_nya, g__spya, g__smya, g__n_dya, g_strya);
+CausesUMatraAlt4 = (g_kha, g_ga, g_gha, g_ca, g_ta, g_tha,
+    g_dha, g_na, g_pa, g_ba, g_bha, g_ma, g_ya, g_va, g_za, g__sa,
+    g_sa, g_k_sa, g_kna, g_khna, g_gna, g_ghna, g__gna, g_cna, g_chna, g_jna,
+    g_jhna, g__jna, g__tna, g__thna, g__dna, g__dhna, g__nna, g_tna, g_thna, g_dna,
+    g_dhna, g_pna, g_phna, g_bna, g_bhna, g_mna, g_yna, g_lna, g_vna, g_zna,
+    g__sna, g_sna, g_hna, g_k_sna, g_kva, g_khva, g_gva, g_ghva, g_cva, g_chva,
+    g_jva, g_jhva, g__jva, g__tva, g__thva, g__dva, g__dhva, g__nva, g_tva, g_thva,
+    g_dva, g_dhva, g_nva, g_pva, g_phva, g_bva, g_bhva, g_mva, g_yva, g_lva,
+    g_zva, g__sva, g_sva, g_hva, g_k_sva, g_kma, g_khma, g_gma, g_ghma, g__gma,
+    g_cma, g_chma, g_jma, g_jhma, g__jma, g__tma, g__thma, g__dma, g__dhma, g__nma,
+    g_tma, g_thma, g_dma, g_dhma, g_nma, g_pma, g_phma, g_bma, g_bhma, g_yma,
+    g_lma, g_vma, g_zma, g__sma, g_sma, g_hma, g_k_sma, g__gkha, g__gga, g__ggha,
+    g__jca, g_nta, g_ntha, g_ndha, g_mpa, g_mba, g_mbha, g__gva, g__gza, g__g_sa,
+    g__gsa, g__gk_sa, g_skha, g_dga, g_dgha, g_vca, g_sta, g_stha, g_vdha, g_tsna,
+    g_spa, g_dba, g_dbha, g_lta, g_tkva, g__tza, g__t_sa, g_vk_sa, g_pta, g_dsva,
+    g__gkta, g_kta, g_ktha, g_ktva, g_gga, g_gdha, g_gbha, g_gdhva, g__gk_sva, g_cca,
+    g_cchva, g_jjva, g__jza, g__dga, g_tta, g_ttha, g_tpa, g_tsa, g_ttva, g_tsva,
+    g_ddha, g_ddva, g_ddhva, g_nna, g_nsa, g_ntsa, g_nddha, g_psa, g_bdha, g_bdhva,
+    g_lpa, g_zca, g__spa, g__s_tva, g_stva, g_npa, g_kza, g_ksa, g_nbha, g_kpa,
+    g_tstha, g_nba, g_kca, g_nsva, g_mma, g_tsma, g_ndva, g_tk_sa, g_lba, g_zba,
+    g_nza, g_nspa, g__jzva, g_nstha, g_nga, g_ptva, g_kkha, g_ddhna, g_bba, g_bbha,
+    g_tkha, g_ppa, g_lga, g_vva, g_ttna, g__skva, g_ddhma, g__n_dva);
+
+CausesUMatraAlt0a = (g_ka_0001, g__ga_0001, g_cha_0001, g_ja_0001, g_jha_0001, g__ja_0001, g__na_0001, g_da_0001, g__gka_0001, g__jcha_0001,
+    g__jja_0001, g_nda_0001, g_ska_0001, g_vcha_0001, g_vja_0001, g_vda_0001, g__tka_0001, g__t_scha_0001, g_kka_0001, g_gda_0001,
+    g_ccha_0001, g_jja_0001, g_tka_0001, g_dda_0001, g_bja_0001, g_bda_0001, g_lka_0001, g__ska_0001, g_nka_0001, g_zcha_0001,
+    g_ndda_0001, g_gja_0001, g_lda_0001);
+CausesUMatraAlt1a = (g__ta_0001, g__tha_0001, g__dha_0001, g__da_0001, g_pha_0001, g_ha_0001, g_k_na_0001, g_kh_na_0001,
+    g_g_na_0001, g_gh_na_0001, g__g_na_0001, g_c_na_0001, g_ch_na_0001, g_j_na_0001, g_jh_na_0001, g__j_na_0001, g__t_na_0001, g__th_na_0001,
+    g__d_na_0001, g__dh_na_0001, g_t_na_0001, g_th_na_0001, g_d_na_0001, g_dh_na_0001, g_n_na_0001, g_p_na_0001, g_ph_na_0001, g_b_na_0001,
+    g_bh_na_0001, g_m_na_0001, g_y_na_0001, g_l_na_0001, g_v_na_0001, g_z_na_0001, g__s_na_0001, g_s_na_0001, g_h_na_0001, g_k_s_na_0001,
+    g__jjha_0001, g__n_ta, g__n_tha, g__n_da_0001, g__n_dha, g_mpha, g__gha, g_vjha_0001, g_j_ja_0001, g__s_ta,
+    g__s_tha, g_d_da_0001, g_d_dha, g_spha, g_sha, g_jjha_0001, g_jj_ja_0001, g__t_ta, g__d_da_0001, g__n_na_0001,
+    g_tpha, g_lha, g_nha, g_c_ja_0001, g__t_tha, g__d_dha, g_ppha, g_lpha, g__spha);
+CausesUMatraAlt2a = (g_ra_0001, g_la_0001,
+    g_kra, g_khra, g_gra, g_ghra, g_cra, g_chra, g_jra, g_jhra, g__jra, g__tra,
+    g__thra, g__dra, g__dhra, g__nra, g_tra, g_thra, g_dra, g_dhra, g_nra, g_pra,
+    g_phra, g_bra, g_bhra, g_mra, g_yra, g_lra, g_vra, g_zra, g__sra, g_sra,
+    g_hra, g_k_sra, g_kla, g_khla, g_gla, g_ghla, g_cla, g_chla, g_jla, g_jhla,
+    g__jla, g__tla, g__thla, g__dla, g__dhla, g__nla, g_tla, g_thla, g_dla, g_dhla,
+    g_nla, g_pla, g_phla, g_bla, g_bhla, g_mla, g_yla, g_vla, g_zla, g__sla,
+    g_sla, g_hla, g_k_sla, g__gra, g__gla, g__gktra, g__t_schra, g_ktra, g__ggra, g__gghra,
+    g_cchra, g_ttra, g_dgra, g_ddra, g_ntra, g_ndra, g_ndhra, g_lla, g__skra, g__s_tra,
+    g__spra, g_stra, g_spra, g_nbra, g__n_dra, g_tkra, g_tpra, g_npra, g__jzra, g_dbra,
+    g_mpra, g_nddra, g_ptra, g_tpla, g_gdhra, g__gkra);
+CausesUMatraAlt4a = (g_kha_0001, g_ga_0001, g_gha_0001, g_ca_0001, g_ta_0001, g_tha_0001,
+    g_dha_0001, g_na_0001, g_pa_0001, g_ba_0001, g_bha_0001, g_ma_0001, g_ya_0001, g_va_0001, g_za_0001, g__sa_0001,
+    g_sa_0001, g_k_sa_0001, g_kna_0001, g_khna_0001, g_gna_0001, g_ghna_0001, g__gna_0001, g_cna_0001, g_chna_0001, g_jna_0001,
+    g_jhna_0001, g__jna_0001, g__tna_0001, g__thna_0001, g__dna_0001, g__dhna_0001, g__nna_0001, g_tna_0001, g_thna_0001, g_dna_0001,
+    g_dhna_0001, g_pna_0001, g_phna_0001, g_bna_0001, g_bhna_0001, g_mna_0001, g_yna_0001, g_lna_0001, g_vna_0001, g_zna_0001,
+    g__sna_0001, g_sna_0001, g_hna_0001, g_k_sna_0001, g_kva_0001, g_khva_0001, g_gva_0001, g_ghva_0001, g_cva_0001, g_chva_0001,
+    g_jva_0001, g_jhva_0001, g__jva_0001, g__tva_0001, g__thva_0001, g__dva_0001, g__dhva_0001, g__nva_0001, g_tva_0001, g_thva_0001,
+    g_dva_0001, g_dhva_0001, g_nva_0001, g_pva_0001, g_phva_0001, g_bva_0001, g_bhva_0001, g_mva_0001, g_yva_0001, g_lva_0001,
+    g_zva_0001, g__sva_0001, g_sva_0001, g_hva_0001, g_k_sva_0001, g_kma_0001, g_khma_0001, g_gma_0001, g_ghma_0001, g__gma_0001,
+    g_cma_0001, g_chma_0001, g_jma_0001, g_jhma_0001, g__jma_0001, g__tma_0001, g__thma_0001, g__dma_0001, g__dhma_0001, g__nma_0001,
+    g_tma_0001, g_thma_0001, g_dma_0001, g_dhma_0001, g_nma_0001, g_pma_0001, g_phma_0001, g_bma_0001, g_bhma_0001, g_yma_0001,
+    g_lma_0001, g_vma_0001, g_zma_0001, g__sma_0001, g_sma_0001, g_hma_0001, g_k_sma_0001, g__gkha_0001, g__gga_0001, g__ggha_0001,
+    g__jca_0001, g_nta_0001, g_ntha_0001, g_ndha_0001, g_mpa_0001, g_mba_0001, g_mbha_0001, g__gva_0001, g__gza_0001, g__g_sa_0001,
+    g__gsa_0001, g__gk_sa_0001, g_skha_0001, g_dga_0001, g_dgha_0001, g_vca_0001, g_sta_0001, g_stha_0001, g_vdha_0001, g_tsna_0001,
+    g_spa_0001, g_dba_0001, g_dbha_0001, g_lta_0001, g_tkva_0001, g__tza_0001, g__t_sa_0001, g_vk_sa_0001, g_pta_0001, g_dsva_0001,
+    g__gkta_0001, g_kta_0001, g_ktha_0001, g_ktva_0001, g_gga_0001, g_gdha_0001, g_gbha_0001, g_gdhva_0001, g__gk_sva_0001, g_cca_0001,
+    g_cchva_0001, g_jjva_0001, g__jza_0001, g__dga_0001, g_tta_0001, g_ttha_0001, g_tpa_0001, g_tsa_0001, g_ttva_0001, g_tsva_0001,
+    g_ddha_0001, g_ddva_0001, g_ddhva_0001, g_nna_0001, g_nsa_0001, g_ntsa_0001, g_nddha_0001, g_psa_0001, g_bdha_0001, g_bdhva_0001,
+    g_lpa_0001, g_zca_0001, g__spa_0001, g__s_tva_0001, g_stva_0001, g_npa_0001, g_kza_0001, g_ksa_0001, g_nbha_0001, g_kpa_0001,
+    g_tstha_0001, g_nba_0001, g_kca_0001, g_nsva_0001, g_mma_0001, g_tsma_0001, g_ndva_0001, g_tk_sa_0001, g_lba_0001, g_zba_0001,
+    g_nza_0001, g_nspa_0001, g__jzva_0001, g_nstha_0001, g_nga_0001, g_ptva_0001, g_kkha_0001, g_ddhna_0001, g_bba_0001, g_bbha_0001,
+    g_tkha_0001, g_ppa_0001, g_lga_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001);
+
+CauseEMatraAlt = (g__tha, g__tha_0001, g__thya, g__thra, g__thla, g__thva, g__thva_0001, g__thma, g__thma_0001, g__thna, g__thna_0001, g__th_na);
+
+CauseAMatraAlt1 = (g__ga, g_ja, g__ta, g__ga_0001, g_ja_0001, g__ta_0001, g_jya, g__tya, g_jra, g__tra,
+    g_jla, g__tla, g_jva, g__tva, g_jva_0001, g__tva_0001, g__gma, g_jma, g__tma, g__gma_0001,
+    g_jma_0001, g__tma_0001, g__gna, g_jna, g__tna, g__gna_0001, g_jna_0001, g__tna_0001, g__g_na, g_j_na,
+    g__t_na, g__g_na_0001, g_j_na_0001, g__t_na_0001, g__gka, g__gkha, g__gga, g__ggha, g__gya, g__gra,
+    g__gla, g__gva, g__gza, g__g_sa, g__gsa, g__gha, g__gk_sa, g__gka_0001, g__gkha_0001, g__gga_0001,
+    g__ggha_0001, g__gva_0001, g__gza_0001, g__g_sa_0001, g__gsa_0001, g__gk_sa_0001, g__gktra, g_j_ja, g__tza, g__t_sa,
+    g_j_ja_0001, g__tza_0001, g__t_sa_0001, g__tka, g__t_schra, g__t_scha, g__tka_0001, g__t_scha_0001, g__ggra, g__gghra,
+    g__gk_sva, g__gk_sva_0001, g_jja, g_jjha, g_jj_ja, g_jjva, g_jja_0001, g_jjha_0001, g_jj_ja_0001, g_jjva_0001,
+    g__t_ta, g_j_jya, g__t_tha, g_jjya, g__gkra);
+CauseAMatraAlt2 = (g_jha, g__ja, g_jha_0001, g__ja_0001, g_jhya, g__jya, g_jhra, g__jra, g_jhla, g__jla,
+    g_jhva, g__jva, g_jhva_0001, g__jva_0001, g_jhma, g__jma, g_jhma_0001, g__jma_0001, g_jhna, g__jna,
+    g_jhna_0001, g__jna_0001, g_jh_na, g__j_na, g_jh_na_0001, g__j_na_0001, g__jca, g__jcha, g__jja, g__jjha,
+    g__jca_0001, g__jcha_0001, g__jja_0001, g__jjha_0001, g__jza, g__jza_0001, g__jzra, g__jzva, g__jzva_0001, g__jjya);
+CauseAMatraAlt3 = (g__na, g__na_0001, g__nya, g__nra, g__nla, g__nva, g__nva_0001, g__nma, g__nma_0001, g__nna,
+    g__nna_0001, g__n_ta, g__n_tha, g__n_da, g__n_dha, g__n_da_0001, g__n_na, g__n_na_0001, g__n_dra, g__n_dva,
+    g__n_dya, g__n_dva_0001);
+CauseAMatraSkipped = (g__r_t, g__r_t_0001, g_e_t, g_e_t_0001, g_ai_t, g_ai_t_0001, g_candra);
+
+CauseIiMatraAlt1 = (g_jha, g__ja, g_pha, g_chya, g__dhya, g_chra, g__dhra, g_chla, g__dhla, g_chva,
+    g__dhva, g_khma, g_gma, g_cma, g_chma, g_jhma, g__jma, g__tma, g__dma, g_tma,
+    g_nma, g_bma, g_lma, g_vma, g_zma, g_hma, g_k_sma, g_chna, g__dhna, g_gh_na,
+    g_ch_na, g__dh_na, g_th_na, g_dh_na, g_p_na, g_bh_na, g_m_na, g_y_na, g__s_na, g_s_na,
+    g_k_s_na, g__jca, g__jcha, g__jja, g__jjha, g__g_sa, g_ska, g_vcha, g_vjha, g__s_ta,
+    g__s_tha, g_tsna, g__t_sa, g_dsva, g_k_smya, g_ccha, g_cchra, g_cchva, g__jza, g_tpa,
+    g_tsa, g_tmya, g_tsya, g_tsva, g_nsa, g_ntsa, g_yya, g_lka, g__ska, g__skra,
+    g_npa, g_ksa, g_kpa, g_tstha, g_tpra, g_npra, g__jzra, g__jzva, g__jjya, g_nstha,
+    g_zcha, g_nga, g_nsya, g__s_tya, g__s_trya, g__s_nya, g_ppha, g_tpla, g_cchya, g_k_s_nya,
+    g__skva);
+CauseIiMatraAlt2 = (g_cha, g__dha);
+CauseIiMatraAlt3 = (g__tha, g__t_schra, g__t_scha, g_nspa, g_ppa);
+CauseIiMatraAlt4 = (g__thya, g__thra, g__thla, g__thva, g_ghma, g__thma, g__dhma, g_thma, g_dhma, g_pma,
+    g_bhma, g_yma, g__sma, g_sma, g__thna, g__th_na, g_psa, g_lpa, g__spa, g__spra,
+    g_mma, g_psya, g_tsma, g_smya, g__spya, g__smya, g_strya);
+
 endtable;
 
 #define MAXGLYPH 1298
+
+table(substitution)
+
+pass(1)
+    /* RRT oT auT Decomposition */
+    g_candrabindu _ > g_candra:1 g_anusv_ara:1;
+    g_candrao_t _ > g_candra:1 g__a_t:1;
+    g_o_t _ > g__r_t:1 g__a_t:1;
+    g__r_r_t _ > g__r_t:1 g__a_t:1;
+    /* kSa */
+    g_ka g_vir_ama g__sa > g_k_sa:(1 2 3) _ _;
+endpass;
+
+/* Repha */
+pass(2)
+    g_ra g_vir_ama > g_repha:(1 2) _;
+endpass;
+pass(3)
+    g_repha _ > g_ra:1 g_vir_ama:1 / g_vir_ama _ ^ _;
+    g_repha _ > g_ra:1 g_vir_ama:1 / g_repha _ ^ _;
+endpass;
+
+/* Vattu forms */
+pass(4)
+    g_vir_ama g_ra > g_vattu:(1 2) _;
+endpass;
+
+/* Raphala ligature */
+pass(5)
+    Consonants g_vattu > ConsonantsR:(1 2) _;
+endpass;
+
+/* Conjunction */
+pass(6)
+    g_ba g_vir_ama g_ba > g_bba:(1 2 3) _ _;
+    g_ba g_vir_ama g_bha > g_bbha:(1 2 3) _ _;
+    g_ba g_vir_ama g_da > g_bda:(1 2 3) _ _;
+    g_ba g_vir_ama g_dha > g_bdha:(1 2 3) _ _;
+    g_ba g_vir_ama g_dha g_vir_ama g_va > g_bdhva:(1 2 3 4 5) _ _ _ _;
+    g_bha g_vir_ama g_la > g_bhla:(1 2 3) _ _;
+    g_bha g_vir_ama g_ma > g_bhma:(1 2 3) _ _;
+    g_bha g_vir_ama g__na > g_bh_na:(1 2 3) _ _;
+    g_bha g_vir_ama g_na > g_bhna:(1 2 3) _ _;
+    g_bha g_vir_ama g_va > g_bhva:(1 2 3) _ _;
+    g_bha g_vir_ama g_ya > g_bhya:(1 2 3) _ _;
+    g_ba g_vir_ama g_ja > g_bja:(1 2 3) _ _;
+    g_ba g_vir_ama g_la > g_bla:(1 2 3) _ _;
+    g_ba g_vir_ama g_ma > g_bma:(1 2 3) _ _;
+    g_ba g_vir_ama g__na > g_b_na:(1 2 3) _ _;
+    g_ba g_vir_ama g_na > g_bna:(1 2 3) _ _;
+    g_ba g_vir_ama g_va > g_bva:(1 2 3) _ _;
+    g_ba g_vir_ama g_ya > g_bya:(1 2 3) _ _;
+    g_ca g_vir_ama g_ca > g_cca:(1 2 3) _ _;
+    g_ca g_vir_ama g_cha > g_ccha:(1 2 3) _ _;
+    g_ca g_vir_ama g_chra > g_cchra:(1 2 3) _ _;
+    g_ca g_vir_ama g_cha g_vir_ama g_va > g_cchva:(1 2 3 4 5) _ _ _ _;
+    g_ca g_vir_ama g_cha g_vir_ama g_ya > g_cchya:(1 2 3 4 5) _ _ _ _;
+    g_cha g_vir_ama g_la > g_chla:(1 2 3) _ _;
+    g_cha g_vir_ama g_ma > g_chma:(1 2 3) _ _;
+    g_cha g_vir_ama g__na > g_ch_na:(1 2 3) _ _;
+    g_cha g_vir_ama g_na > g_chna:(1 2 3) _ _;
+    g_cha g_vir_ama g_va > g_chva:(1 2 3) _ _;
+    g_cha g_vir_ama g_ya > g_chya:(1 2 3) _ _;
+    g_ca g_vir_ama g__ja > g_c_ja:(1 2 3) _ _;
+    g_ca g_vir_ama g_la > g_cla:(1 2 3) _ _;
+    g_ca g_vir_ama g_ma > g_cma:(1 2 3) _ _;
+    g_ca g_vir_ama g__na > g_c_na:(1 2 3) _ _;
+    g_ca g_vir_ama g_na > g_cna:(1 2 3) _ _;
+    g_ca g_vir_ama g_va > g_cva:(1 2 3) _ _;
+    g_ca g_vir_ama g_ya > g_cya:(1 2 3) _ _;
+    g_da g_vir_ama g_ba > g_dba:(1 2 3) _ _;
+    g_da g_vir_ama g_bha > g_dbha:(1 2 3) _ _;
+    g_da g_vir_ama g_bha g_vir_ama g_ya > g_dbhya:(1 2 3 4 5) _ _ _ _;
+    g_da g_vir_ama g_bra > g_dbra:(1 2 3) _ _;
+    g__da g_vir_ama g__da > g__d_da:(1 2 3) _ _;
+    g_da g_vir_ama g__da > g_d_da:(1 2 3) _ _;
+    g_da g_vir_ama g_da > g_dda:(1 2 3) _ _;
+    g_da g_vir_ama g__dha > g_d_dha:(1 2 3) _ _;
+    g_da g_vir_ama g_dha > g_ddha:(1 2 3) _ _;
+    g_da g_vir_ama g_dha g_vir_ama g_ma > g_ddhma:(1 2 3 4 5) _ _ _ _;
+    g_da g_vir_ama g_dha g_vir_ama g_na > g_ddhna:(1 2 3 4 5) _ _ _ _;
+    g_da g_vir_ama g_dha g_vir_ama g_va > g_ddhva:(1 2 3 4 5) _ _ _ _;
+    g_da g_vir_ama g_dha g_vir_ama g_ya > g_ddhya:(1 2 3 4 5) _ _ _ _;
+    g_da g_vir_ama g_dra > g_ddra:(1 2 3) _ _;
+    g_da g_vir_ama g_da g_vir_ama g_va > g_ddva:(1 2 3 4 5) _ _ _ _;
+    g_da g_vir_ama g_da g_vir_ama g_ya > g_ddya:(1 2 3 4 5) _ _ _ _;
+    g__da g_vir_ama g_ga > g__dga:(1 2 3) _ _;
+    g_da g_vir_ama g_ga > g_dga:(1 2 3) _ _;
+    g_da g_vir_ama g_gha > g_dgha:(1 2 3) _ _;
+    g_da g_vir_ama g_gra > g_dgra:(1 2 3) _ _;
+    g_da g_vir_ama g_ga g_vir_ama g_ya > g_dgya:(1 2 3 4 5) _ _ _ _;
+    g__dha g_vir_ama g_la > g__dhla:(1 2 3) _ _;
+    g_dha g_vir_ama g_la > g_dhla:(1 2 3) _ _;
+    g__dha g_vir_ama g_ma > g__dhma:(1 2 3) _ _;
+    g_dha g_vir_ama g_ma > g_dhma:(1 2 3) _ _;
+    g__dha g_vir_ama g__na > g__dh_na:(1 2 3) _ _;
+    g_dha g_vir_ama g__na > g_dh_na:(1 2 3) _ _;
+    g__dha g_vir_ama g_na > g__dhna:(1 2 3) _ _;
+    g_dha g_vir_ama g_na > g_dhna:(1 2 3) _ _;
+    g_dha g_vir_ama g_na g_vir_ama g_ya > g_dhnya:(1 2 3 4 5) _ _ _ _;
+    g__dha g_vir_ama g_va > g__dhva:(1 2 3) _ _;
+    g_dha g_vir_ama g_va > g_dhva:(1 2 3) _ _;
+    g__dha g_vir_ama g_ya > g__dhya:(1 2 3) _ _;
+    g_dha g_vir_ama g_ya > g_dhya:(1 2 3) _ _;
+    g__da g_vir_ama g_la > g__dla:(1 2 3) _ _;
+    g_da g_vir_ama g_la > g_dla:(1 2 3) _ _;
+    g__da g_vir_ama g_ma > g__dma:(1 2 3) _ _;
+    g_da g_vir_ama g_ma > g_dma:(1 2 3) _ _;
+    g__da g_vir_ama g__na > g__d_na:(1 2 3) _ _;
+    g__da g_vir_ama g_na > g__dna:(1 2 3) _ _;
+    g_da g_vir_ama g__na > g_d_na:(1 2 3) _ _;
+    g_da g_vir_ama g_na > g_dna:(1 2 3) _ _;
+    g_dra g_vir_ama g_ya > g_drya:(1 2 3) _ _;
+    g_da g_vir_ama g_sa g_vir_ama g_va > g_dsva:(1 2 3 4 5) _ _ _ _;
+    g__da g_vir_ama g_va > g__dva:(1 2 3) _ _;
+    g_da g_vir_ama g_va > g_dva:(1 2 3) _ _;
+    g_da g_vir_ama g_va g_vir_ama g_ya > g_dvya:(1 2 3 4 5) _ _ _ _;
+    g__da g_vir_ama g_ya > g__dya:(1 2 3) _ _;
+    g_da g_vir_ama g_ya > g_dya:(1 2 3) _ _;
+    g_ga g_vir_ama g_bha > g_gbha:(1 2 3) _ _;
+    g_ga g_vir_ama g_bha g_vir_ama g_ya > g_gbhya:(1 2 3 4 5) _ _ _ _;
+    g_ga g_vir_ama g_da > g_gda:(1 2 3) _ _;
+    g_ga g_vir_ama g_dha > g_gdha:(1 2 3) _ _;
+    g_ga g_vir_ama g_dhra > g_gdhra:(1 2 3) _ _;
+    g_ga g_vir_ama g_dha g_vir_ama g_va > g_gdhva:(1 2 3 4 5) _ _ _ _;
+    g__ga g_vir_ama g_ga > g__gga:(1 2 3) _ _;
+    g_ga g_vir_ama g_ga > g_gga:(1 2 3) _ _;
+    g__ga g_vir_ama g_gha > g__ggha:(1 2 3) _ _;
+    g__ga g_vir_ama g_ghra > g__gghra:(1 2 3) _ _;
+    g__ga g_vir_ama g_gra > g__ggra:(1 2 3) _ _;
+    g__ga g_vir_ama g_ha > g__gha:(1 2 3) _ _;
+    g_gha g_vir_ama g_la > g_ghla:(1 2 3) _ _;
+    g_gha g_vir_ama g_ma > g_ghma:(1 2 3) _ _;
+    g_gha g_vir_ama g__na > g_gh_na:(1 2 3) _ _;
+    g_gha g_vir_ama g_va > g_ghva:(1 2 3) _ _;
+    g_gha g_vir_ama g_ya > g_ghya:(1 2 3) _ _;
+    g__ga g_vir_ama g_ka > g__gka:(1 2 3) _ _;
+    g__ga g_vir_ama g_kha > g__gkha:(1 2 3) _ _;
+    g__ga g_vir_ama g_kra > g__gkra:(1 2 3) _ _;
+    g__ga g_vir_ama g_k_sa > g__gk_sa:(1 2 3) _ _;
+    g__ga g_vir_ama g_k_sa g_vir_ama g_va > g__gk_sva:(1 2 3 4 5) _ _ _ _;
+    g__ga g_vir_ama g_k_sa g_vir_ama g_ya > g__gk_sya:(1 2 3 4 5) _ _ _ _;
+    g__ga g_vir_ama g_ka g_vir_ama g_ta > g__gkta:(1 2 3 4 5) _ _ _ _;
+    g__ga g_vir_ama g_ka g_vir_ama g_tra > g__gktra:(1 2 3 4 5) _ _ _ _;
+    g__ga g_vir_ama g_la > g__gla:(1 2 3) _ _;
+    g_ga g_vir_ama g_la > g_gla:(1 2 3) _ _;
+    g__ga g_vir_ama g_ma > g__gma:(1 2 3) _ _;
+    g_ga g_vir_ama g_ma > g_gma:(1 2 3) _ _;
+    g__ga g_vir_ama g__na > g__g_na:(1 2 3) _ _;
+    g__ga g_vir_ama g_na > g__gna:(1 2 3) _ _;
+    g_ga g_vir_ama g__na > g_g_na:(1 2 3) _ _;
+    g_ga g_vir_ama g_na > g_gna:(1 2 3) _ _;
+    g_ga g_vir_ama g_na g_vir_ama g_ya > g_gnya:(1 2 3 4 5) _ _ _ _;
+    g_gra g_vir_ama g_ya > g_grya:(1 2 3) _ _;
+    g__ga g_vir_ama g__sa > g__g_sa:(1 2 3) _ _;
+    g__ga g_vir_ama g_sa > g__gsa:(1 2 3) _ _;
+    g__ga g_vir_ama g_va > g__gva:(1 2 3) _ _;
+    g_ga g_vir_ama g_va > g_gva:(1 2 3) _ _;
+    g__ga g_vir_ama g_ya > g__gya:(1 2 3) _ _;
+    g_ga g_vir_ama g_ya > g_gya:(1 2 3) _ _;
+    g__ga g_vir_ama g_za > g__gza:(1 2 3) _ _;
+    g_ha g_vir_ama g_la > g_hla:(1 2 3) _ _;
+    g_ha g_vir_ama g_ma > g_hma:(1 2 3) _ _;
+    g_ha g_vir_ama g__na > g_h_na:(1 2 3) _ _;
+    g_ha g_vir_ama g_na > g_hna:(1 2 3) _ _;
+    g_ha g_vir_ama g_va > g_hva:(1 2 3) _ _;
+    g_ha g_vir_ama g_ya > g_hya:(1 2 3) _ _;
+    g__ja g_vir_ama g_ca > g__jca:(1 2 3) _ _;
+    g__ja g_vir_ama g_cha > g__jcha:(1 2 3) _ _;
+    g_jha g_vir_ama g_la > g_jhla:(1 2 3) _ _;
+    g_jha g_vir_ama g_ma > g_jhma:(1 2 3) _ _;
+    g_jha g_vir_ama g__na > g_jh_na:(1 2 3) _ _;
+    g_jha g_vir_ama g_na > g_jhna:(1 2 3) _ _;
+    g_jha g_vir_ama g_va > g_jhva:(1 2 3) _ _;
+    g_jha g_vir_ama g_ya > g_jhya:(1 2 3) _ _;
+    g__ja g_vir_ama g_ja > g__jja:(1 2 3) _ _;
+    g_ja g_vir_ama g_ja > g_jja:(1 2 3) _ _;
+    g__ja g_vir_ama g_jha > g__jjha:(1 2 3) _ _;
+    g_ja g_vir_ama g_jha > g_jjha:(1 2 3) _ _;
+    g_ja g_vir_ama g_ja g_vir_ama g__ja > g_jj_ja:(1 2 3 4 5) _ _ _ _;
+    g_ja g_vir_ama g_ja g_vir_ama g_va > g_jjva:(1 2 3 4 5) _ _ _ _;
+    g__ja g_vir_ama g_ja g_vir_ama g_ya > g__jjya:(1 2 3 4 5) _ _ _ _;
+    g_ja g_vir_ama g__ja g_vir_ama g_ya > g_j_jya:(1 2 3 4 5) _ _ _ _;
+    g_ja g_vir_ama g_ja g_vir_ama g_ya > g_jjya:(1 2 3 4 5) _ _ _ _;
+    g__ja g_vir_ama g_la > g__jla:(1 2 3) _ _;
+    g_ja g_vir_ama g_la > g_jla:(1 2 3) _ _;
+    g__ja g_vir_ama g_ma > g__jma:(1 2 3) _ _;
+    g_ja g_vir_ama g_ma > g_jma:(1 2 3) _ _;
+    g__ja g_vir_ama g__na > g__j_na:(1 2 3) _ _;
+    g__ja g_vir_ama g_na > g__jna:(1 2 3) _ _;
+    g_ja g_vir_ama g__na > g_j_na:(1 2 3) _ _;
+    g_ja g_vir_ama g_na > g_jna:(1 2 3) _ _;
+    g__ja g_vir_ama g_va > g__jva:(1 2 3) _ _;
+    g_ja g_vir_ama g_va > g_jva:(1 2 3) _ _;
+    g__ja g_vir_ama g_ya > g__jya:(1 2 3) _ _;
+    g_ja g_vir_ama g_ya > g_jya:(1 2 3) _ _;
+    g__ja g_vir_ama g_za > g__jza:(1 2 3) _ _;
+    g__ja g_vir_ama g_zra > g__jzra:(1 2 3) _ _;
+    g__ja g_vir_ama g_za g_vir_ama g_va > g__jzva:(1 2 3 4 5) _ _ _ _;
+    g_ka g_vir_ama g_ca > g_kca:(1 2 3) _ _;
+    g_kha g_vir_ama g_la > g_khla:(1 2 3) _ _;
+    g_kha g_vir_ama g_ma > g_khma:(1 2 3) _ _;
+    g_kha g_vir_ama g__na > g_kh_na:(1 2 3) _ _;
+    g_kha g_vir_ama g_na > g_khna:(1 2 3) _ _;
+    g_kha g_vir_ama g_va > g_khva:(1 2 3) _ _;
+    g_kha g_vir_ama g_ya > g_khya:(1 2 3) _ _;
+    g_ka g_vir_ama g_ka > g_kka:(1 2 3) _ _;
+    g_ka g_vir_ama g_kha > g_kkha:(1 2 3) _ _;
+    g_ka g_vir_ama g_la > g_kla:(1 2 3) _ _;
+    g_ka g_vir_ama g_ma > g_kma:(1 2 3) _ _;
+    g_ka g_vir_ama g__na > g_k_na:(1 2 3) _ _;
+    g_ka g_vir_ama g_na > g_kna:(1 2 3) _ _;
+    g_ka g_vir_ama g_pa > g_kpa:(1 2 3) _ _;
+    g_kra g_vir_ama g_ya > g_krya:(1 2 3) _ _;
+    g_ka g_vir_ama g_sa > g_ksa:(1 2 3) _ _;
+    g_k_sa g_vir_ama g_la > g_k_sla:(1 2 3) _ _;
+    g_k_sa g_vir_ama g_ma > g_k_sma:(1 2 3) _ _;
+    g_k_sa g_vir_ama g_ma g_vir_ama g_ya > g_k_smya:(1 2 3 4 5) _ _ _ _;
+    g_k_sa g_vir_ama g__na > g_k_s_na:(1 2 3) _ _;
+    g_k_sa g_vir_ama g_na > g_k_sna:(1 2 3) _ _;
+    g_k_sa g_vir_ama g__na g_vir_ama g_ya > g_k_s_nya:(1 2 3 4 5) _ _ _ _;
+    g_k_sa g_vir_ama g_va > g_k_sva:(1 2 3) _ _;
+    g_k_sa g_vir_ama g_vra g_vir_ama g_ya > g_k_svrya:(1 2 3 4 5) _ _ _ _;
+    g_k_sa g_vir_ama g_va g_vir_ama g_ya > g_k_svya:(1 2 3 4 5) _ _ _ _;
+    g_k_sa g_vir_ama g_ya > g_k_sya:(1 2 3) _ _;
+    g_ka g_vir_ama g_ta > g_kta:(1 2 3) _ _;
+    g_ka g_vir_ama g_tha > g_ktha:(1 2 3) _ _;
+    g_ka g_vir_ama g_tra > g_ktra:(1 2 3) _ _;
+    g_ka g_vir_ama g_ta g_vir_ama g_va > g_ktva:(1 2 3 4 5) _ _ _ _;
+    g_ka g_vir_ama g_ta g_vir_ama g_ya > g_ktya:(1 2 3 4 5) _ _ _ _;
+    g_ka g_vir_ama g_va > g_kva:(1 2 3) _ _;
+    g_ka g_vir_ama g_ya > g_kya:(1 2 3) _ _;
+    g_la g_vir_ama g_ba > g_lba:(1 2 3) _ _;
+    g_la g_vir_ama g_ha > g_lha:(1 2 3) _ _;
+    g_la g_vir_ama g_ka > g_lka:(1 2 3) _ _;
+    g_la g_vir_ama g_la > g_lla:(1 2 3) _ _;
+    g_la g_vir_ama g_ma > g_lma:(1 2 3) _ _;
+    g_la g_vir_ama g__na > g_l_na:(1 2 3) _ _;
+    g_la g_vir_ama g_na > g_lna:(1 2 3) _ _;
+    g_la g_vir_ama g_pa > g_lpa:(1 2 3) _ _;
+    g_la g_vir_ama g_ta > g_lta:(1 2 3) _ _;
+    g_la g_vir_ama g_va > g_lva:(1 2 3) _ _;
+    g_la g_vir_ama g_ya > g_lya:(1 2 3) _ _;
+    g_ma g_vir_ama g_ba > g_mba:(1 2 3) _ _;
+    g_ma g_vir_ama g_bha > g_mbha:(1 2 3) _ _;
+    g_ma g_vir_ama g_la > g_mla:(1 2 3) _ _;
+    g_ma g_vir_ama g_ma > g_mma:(1 2 3) _ _;
+    g_ma g_vir_ama g__na > g_m_na:(1 2 3) _ _;
+    g_ma g_vir_ama g_na > g_mna:(1 2 3) _ _;
+    g_ma g_vir_ama g_pa > g_mpa:(1 2 3) _ _;
+    g_ma g_vir_ama g_pha > g_mpha:(1 2 3) _ _;
+    g_ma g_vir_ama g_pra > g_mpra:(1 2 3) _ _;
+    g_ma g_vir_ama g_va > g_mva:(1 2 3) _ _;
+    g_ma g_vir_ama g_ya > g_mya:(1 2 3) _ _;
+    g_na g_vir_ama g_ba > g_nba:(1 2 3) _ _;
+    g_na g_vir_ama g_bha > g_nbha:(1 2 3) _ _;
+    g_na g_vir_ama g_bra > g_nbra:(1 2 3) _ _;
+    g__na g_vir_ama g__da > g__n_da:(1 2 3) _ _;
+    g_na g_vir_ama g_da > g_nda:(1 2 3) _ _;
+    g_na g_vir_ama g_da g_vir_ama g_da > g_ndda:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_da g_vir_ama g_dha > g_nddha:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_da g_vir_ama g_dha g_vir_ama g_ya > g_nddhya:(1 2 3 4 5 6 7) _ _ _ _ _ _;
+    g_na g_vir_ama g_da g_vir_ama g_dra > g_nddra:(1 2 3 4 5) _ _ _ _;
+    g__na g_vir_ama g__dha > g__n_dha:(1 2 3) _ _;
+    g_na g_vir_ama g_dha > g_ndha:(1 2 3) _ _;
+    g_na g_vir_ama g_dhra > g_ndhra:(1 2 3) _ _;
+    g_na g_vir_ama g_dha g_vir_ama g_ya > g_ndhya:(1 2 3 4 5) _ _ _ _;
+    g__na g_vir_ama g__dra > g__n_dra:(1 2 3) _ _;
+    g_na g_vir_ama g_dra > g_ndra:(1 2 3) _ _;
+    g__na g_vir_ama g__da g_vir_ama g_va > g__n_dva:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_da g_vir_ama g_va > g_ndva:(1 2 3 4 5) _ _ _ _;
+    g__na g_vir_ama g__da g_vir_ama g_ya > g__n_dya:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_ga > g_nga:(1 2 3) _ _;
+    g_na g_vir_ama g_ha > g_nha:(1 2 3) _ _;
+    g_na g_vir_ama g_ka > g_nka:(1 2 3) _ _;
+    g__na g_vir_ama g_la > g__nla:(1 2 3) _ _;
+    g_na g_vir_ama g_la > g_nla:(1 2 3) _ _;
+    g__na g_vir_ama g_ma > g__nma:(1 2 3) _ _;
+    g_na g_vir_ama g_ma > g_nma:(1 2 3) _ _;
+    g__na g_vir_ama g__na > g__n_na:(1 2 3) _ _;
+    g__na g_vir_ama g_na > g__nna:(1 2 3) _ _;
+    g_na g_vir_ama g__na > g_n_na:(1 2 3) _ _;
+    g_na g_vir_ama g_na > g_nna:(1 2 3) _ _;
+    g_na g_vir_ama g_na g_vir_ama g_ya > g_nnya:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_pa > g_npa:(1 2 3) _ _;
+    g_na g_vir_ama g_pra > g_npra:(1 2 3) _ _;
+    g_na g_vir_ama g_sa > g_nsa:(1 2 3) _ _;
+    g_na g_vir_ama g_sa g_vir_ama g_pa > g_nspa:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_sa g_vir_ama g_tha > g_nstha:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_sa g_vir_ama g_va > g_nsva:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_sa g_vir_ama g_ya > g_nsya:(1 2 3 4 5) _ _ _ _;
+    g__na g_vir_ama g__ta > g__n_ta:(1 2 3) _ _;
+    g_na g_vir_ama g_ta > g_nta:(1 2 3) _ _;
+    g__na g_vir_ama g__tha > g__n_tha:(1 2 3) _ _;
+    g_na g_vir_ama g_tha > g_ntha:(1 2 3) _ _;
+    g_na g_vir_ama g_tra > g_ntra:(1 2 3) _ _;
+    g_na g_vir_ama g_ta g_vir_ama g_sa > g_ntsa:(1 2 3 4 5) _ _ _ _;
+    g_na g_vir_ama g_ta g_vir_ama g_ya > g_ntya:(1 2 3 4 5) _ _ _ _;
+    g__na g_vir_ama g_va > g__nva:(1 2 3) _ _;
+    g_na g_vir_ama g_va > g_nva:(1 2 3) _ _;
+    g_na g_vir_ama g_va g_vir_ama g_ya > g_nvya:(1 2 3 4 5) _ _ _ _;
+    g__na g_vir_ama g_ya > g__nya:(1 2 3) _ _;
+    g_na g_vir_ama g_ya > g_nya:(1 2 3) _ _;
+    g_na g_vir_ama g_za > g_nza:(1 2 3) _ _;
+    g_pha g_vir_ama g_la > g_phla:(1 2 3) _ _;
+    g_pha g_vir_ama g_ma > g_phma:(1 2 3) _ _;
+    g_pha g_vir_ama g__na > g_ph_na:(1 2 3) _ _;
+    g_pha g_vir_ama g_na > g_phna:(1 2 3) _ _;
+    g_pha g_vir_ama g_va > g_phva:(1 2 3) _ _;
+    g_pha g_vir_ama g_ya > g_phya:(1 2 3) _ _;
+    g_pa g_vir_ama g_la > g_pla:(1 2 3) _ _;
+    g_pa g_vir_ama g_ma > g_pma:(1 2 3) _ _;
+    g_pa g_vir_ama g__na > g_p_na:(1 2 3) _ _;
+    g_pa g_vir_ama g_na > g_pna:(1 2 3) _ _;
+    g_pa g_vir_ama g_sa > g_psa:(1 2 3) _ _;
+    g_pa g_vir_ama g_sa g_vir_ama g_ya > g_psya:(1 2 3 4 5) _ _ _ _;
+    g_pa g_vir_ama g_ta > g_pta:(1 2 3) _ _;
+    g_pa g_vir_ama g_tra > g_ptra:(1 2 3) _ _;
+    g_pa g_vir_ama g_ta g_vir_ama g_va > g_ptva:(1 2 3 4 5) _ _ _ _;
+    g_pa g_vir_ama g_ta g_vir_ama g_ya > g_ptya:(1 2 3 4 5) _ _ _ _;
+    g_pa g_vir_ama g_va > g_pva:(1 2 3) _ _;
+    g_pa g_vir_ama g_ya > g_pya:(1 2 3) _ _;
+    g_sa g_vir_ama g_ha > g_sha:(1 2 3) _ _;
+    g__sa g_vir_ama g_ka > g__ska:(1 2 3) _ _;
+    g_sa g_vir_ama g_ka > g_ska:(1 2 3) _ _;
+    g_sa g_vir_ama g_kha > g_skha:(1 2 3) _ _;
+    g__sa g_vir_ama g_kra > g__skra:(1 2 3) _ _;
+    g__sa g_vir_ama g_ka g_vir_ama g_va > g__skva:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g_la > g__sla:(1 2 3) _ _;
+    g_sa g_vir_ama g_la > g_sla:(1 2 3) _ _;
+    g__sa g_vir_ama g_ma > g__sma:(1 2 3) _ _;
+    g_sa g_vir_ama g_ma > g_sma:(1 2 3) _ _;
+    g__sa g_vir_ama g_ma g_vir_ama g_ya > g__smya:(1 2 3 4 5) _ _ _ _;
+    g_sa g_vir_ama g_ma g_vir_ama g_ya > g_smya:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g__na > g__s_na:(1 2 3) _ _;
+    g__sa g_vir_ama g_na > g__sna:(1 2 3) _ _;
+    g_sa g_vir_ama g__na > g_s_na:(1 2 3) _ _;
+    g_sa g_vir_ama g_na > g_sna:(1 2 3) _ _;
+    g__sa g_vir_ama g__na g_vir_ama g_ya > g__s_nya:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g_pa > g__spa:(1 2 3) _ _;
+    g_sa g_vir_ama g_pa > g_spa:(1 2 3) _ _;
+    g_sa g_vir_ama g_pha > g_spha:(1 2 3) _ _;
+    g__sa g_vir_ama g_pra > g__spra:(1 2 3) _ _;
+    g_sa g_vir_ama g_pra > g_spra:(1 2 3) _ _;
+    g__sa g_vir_ama g_pa g_vir_ama g_ya > g__spya:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g__ta > g__s_ta:(1 2 3) _ _;
+    g_sa g_vir_ama g_ta > g_sta:(1 2 3) _ _;
+    g__sa g_vir_ama g__ta g_vir_ama g_ha > g__s_tha:(1 2 3 4 5) _ _ _ _;
+    g_sa g_vir_ama g_ta g_vir_ama g_ha > g_stha:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g__tha > g__s_tha:(1 2 3) _ _;
+    g_sa g_vir_ama g_tha > g_stha:(1 2 3) _ _;
+    g__sa g_vir_ama g__tha g_vir_ama g_ya > g__s_thya:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g__tra > g__s_tra:(1 2 3) _ _;
+    g_sa g_vir_ama g_tra > g_stra:(1 2 3) _ _;
+    g__sa g_vir_ama g__tra g_vir_ama g_ya > g__s_trya:(1 2 3 4 5) _ _ _ _;
+    g_sa g_vir_ama g_tra g_vir_ama g_ya > g_strya:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g__ta g_vir_ama g_va > g__s_tva:(1 2 3 4 5) _ _ _ _;
+    g_sa g_vir_ama g_ta g_vir_ama g_va > g_stva:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g__ta g_vir_ama g_ya > g__s_tya:(1 2 3 4 5) _ _ _ _;
+    g_sa g_vir_ama g_ta g_vir_ama g_ya > g_stya:(1 2 3 4 5) _ _ _ _;
+    g__sa g_vir_ama g_va > g__sva:(1 2 3) _ _;
+    g_sa g_vir_ama g_va > g_sva:(1 2 3) _ _;
+    g__sa g_vir_ama g_ya > g__sya:(1 2 3) _ _;
+    g_sa g_vir_ama g_ya > g_sya:(1 2 3) _ _;
+    g__tha g_vir_ama g_la > g__thla:(1 2 3) _ _;
+    g_tha g_vir_ama g_la > g_thla:(1 2 3) _ _;
+    g__tha g_vir_ama g_ma > g__thma:(1 2 3) _ _;
+    g_tha g_vir_ama g_ma > g_thma:(1 2 3) _ _;
+    g__tha g_vir_ama g__na > g__th_na:(1 2 3) _ _;
+    g__tha g_vir_ama g_na > g__thna:(1 2 3) _ _;
+    g_tha g_vir_ama g__na > g_th_na:(1 2 3) _ _;
+    g_tha g_vir_ama g_na > g_thna:(1 2 3) _ _;
+    g__tha g_vir_ama g_va > g__thva:(1 2 3) _ _;
+    g_tha g_vir_ama g_va > g_thva:(1 2 3) _ _;
+    g__tha g_vir_ama g_ya > g__thya:(1 2 3) _ _;
+    g_tha g_vir_ama g_ya > g_thya:(1 2 3) _ _;
+    g__ta g_vir_ama g_ka > g__tka:(1 2 3) _ _;
+    g_ta g_vir_ama g_ka > g_tka:(1 2 3) _ _;
+    g_ta g_vir_ama g_kra > g_tkra:(1 2 3) _ _;
+    g_ta g_vir_ama g_k_sa > g_tk_sa:(1 2 3) _ _;
+    g_ta g_vir_ama g_ka g_vir_ama g_va > g_tkva:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_ka g_vir_ama g_va > g_tkva:(1 2 3 4 5) _ _ _ _;
+    g__ta g_vir_ama g_la > g__tla:(1 2 3) _ _;
+    g_ta g_vir_ama g_la > g_tla:(1 2 3) _ _;
+    g__ta g_vir_ama g_ma > g__tma:(1 2 3) _ _;
+    g_ta g_vir_ama g_ma > g_tma:(1 2 3) _ _;
+    g_ta g_vir_ama g_ma g_vir_ama g_ya > g_tmya:(1 2 3 4 5) _ _ _ _;
+    g__ta g_vir_ama g__na > g__t_na:(1 2 3) _ _;
+    g__ta g_vir_ama g_na > g__tna:(1 2 3) _ _;
+    g_ta g_vir_ama g__na > g_t_na:(1 2 3) _ _;
+    g_ta g_vir_ama g_na > g_tna:(1 2 3) _ _;
+    g_ta g_vir_ama g_na g_vir_ama g_ya > g_tnya:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_pa > g_tpa:(1 2 3) _ _;
+    g_ta g_vir_ama g_pa g_vir_ama g_ha > g_tpha:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_pa g_vir_ama g_la > g_tpla:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_pra > g_tpra:(1 2 3) _ _;
+    g_tra g_vir_ama g_ya > g_trya:(1 2 3) _ _;
+    g__ta g_vir_ama g__sa > g__t_sa:(1 2 3) _ _;
+    g_ta g_vir_ama g_sa > g_tsa:(1 2 3) _ _;
+    g__ta g_vir_ama g__sa g_vir_ama g_cha > g__t_scha:(1 2 3 4 5) _ _ _ _;
+    g__ta g_vir_ama g__sa g_vir_ama g_chra > g__t_schra:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_sa g_vir_ama g_ma > g_tsma:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_sa g_vir_ama g_na > g_tsna:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_sa g_vir_ama g_tha > g_tstha:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_sa g_vir_ama g_va > g_tsva:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_sa g_vir_ama g_ya > g_tsya:(1 2 3 4 5) _ _ _ _;
+    g__ta g_vir_ama g__ta > g__t_ta:(1 2 3) _ _;
+    g_ta g_vir_ama g_ta > g_tta:(1 2 3) _ _;
+    g__ta g_vir_ama g__tha > g__t_tha:(1 2 3) _ _;
+    g_ta g_vir_ama g_tha > g_ttha:(1 2 3) _ _;
+    g_ta g_vir_ama g_ta g_vir_ama g_na > g_ttna:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_tra > g_ttra:(1 2 3) _ _;
+    g_ta g_vir_ama g_ta g_vir_ama g_va > g_ttva:(1 2 3 4 5) _ _ _ _;
+    g_ta g_vir_ama g_ta g_vir_ama g_ya > g_ttya:(1 2 3 4 5) _ _ _ _;
+    g__ta g_vir_ama g_va > g__tva:(1 2 3) _ _;
+    g_ta g_vir_ama g_va > g_tva:(1 2 3) _ _;
+    g__ta g_vir_ama g_ya > g__tya:(1 2 3) _ _;
+    g_ta g_vir_ama g_ya > g_tya:(1 2 3) _ _;
+    g__ta g_vir_ama g_za > g__tza:(1 2 3) _ _;
+    g_va g_vir_ama g_ca > g_vca:(1 2 3) _ _;
+    g_va g_vir_ama g_cha > g_vcha:(1 2 3) _ _;
+    g_va g_vir_ama g_da > g_vda:(1 2 3) _ _;
+    g_va g_vir_ama g_dha > g_vdha:(1 2 3) _ _;
+    g_va g_vir_ama g_ja > g_vja:(1 2 3) _ _;
+    g_va g_vir_ama g_jha > g_vjha:(1 2 3) _ _;
+    g_va g_vir_ama g_k_sa > g_vk_sa:(1 2 3) _ _;
+    g_va g_vir_ama g_la > g_vla:(1 2 3) _ _;
+    g_va g_vir_ama g_ma > g_vma:(1 2 3) _ _;
+    g_va g_vir_ama g__na > g_v_na:(1 2 3) _ _;
+    g_va g_vir_ama g_na > g_vna:(1 2 3) _ _;
+    g_va g_vir_ama g_ya > g_vya:(1 2 3) _ _;
+    g_ya g_vir_ama g_la > g_yla:(1 2 3) _ _;
+    g_ya g_vir_ama g_ma > g_yma:(1 2 3) _ _;
+    g_ya g_vir_ama g__na > g_y_na:(1 2 3) _ _;
+    g_ya g_vir_ama g_na > g_yna:(1 2 3) _ _;
+    g_ya g_vir_ama g_va > g_yva:(1 2 3) _ _;
+    g_ya g_vir_ama g_ya > g_yya:(1 2 3) _ _;
+    g_za g_vir_ama g_ba > g_zba:(1 2 3) _ _;
+    g_za g_vir_ama g_ca > g_zca:(1 2 3) _ _;
+    g_za g_vir_ama g_cha > g_zcha:(1 2 3) _ _;
+    g_za g_vir_ama g_ca g_vir_ama g_ya > g_zcya:(1 2 3 4 5) _ _ _ _;
+    g_za g_vir_ama g_la > g_zla:(1 2 3) _ _;
+    g_za g_vir_ama g_ma > g_zma:(1 2 3) _ _;
+    g_za g_vir_ama g__na > g_z_na:(1 2 3) _ _;
+    g_za g_vir_ama g_na > g_zna:(1 2 3) _ _;
+    g_zra g_vir_ama g_ya > g_zrya:(1 2 3) _ _;
+    g_za g_vir_ama g_va > g_zva:(1 2 3) _ _;
+    g_za g_vir_ama g_va g_vir_ama g_ya > g_zvya:(1 2 3 4 5) _ _ _ _;
+    g_za g_vir_ama g_ya > g_zya:(1 2 3) _ _;
+endpass;
+pass(7)
+    g_ccha g_vattu > g_cchra:(1 2) _;
+    g_dba g_vattu > g_dbra:(1 2) _;
+    g_dga g_vattu > g_dgra:(1 2) _;
+    g_gdha g_vattu > g_gdhra:(1 2) _;
+    g__ggha g_vattu > g__gghra:(1 2) _;
+    g__ga g_vattu > g__gra:(1 2) _;
+    g__gka g_vattu > g__gkra:(1 2) _;
+    g__gkta g_vattu > g__gktra:(1 2) _;
+    g__jza g_vattu > g__jzra:(1 2) _;
+    g_kta g_vattu > g_ktra:(1 2) _;
+    g_mpa g_vattu > g_mpra:(1 2) _;
+    g_nba g_vattu > g_nbra:(1 2) _;
+    g_ndda g_vattu > g_nddra:(1 2) _;
+    g_ndha g_vattu > g_ndhra:(1 2) _;
+    g__n_da g_vattu > g__n_dra:(1 2) _;
+    g_nda g_vattu > g_ndra:(1 2) _;
+    g_npa g_vattu > g_npra:(1 2) _;
+    g_nta g_vattu > g_ntra:(1 2) _;
+    g_pta g_vattu > g_ptra:(1 2) _;
+    g__ska g_vattu > g__skra:(1 2) _;
+    g__spa g_vattu > g__spra:(1 2) _;
+    g_spa g_vattu > g_spra:(1 2) _;
+    g__s_ta g_vattu > g__s_tra:(1 2) _;
+    g_sta g_vattu > g_stra:(1 2) _;
+    g_tka g_vattu > g_tkra:(1 2) _;
+    g_spa g_vattu > g_spra:(1 2) _;
+    g__t_scha g_vattu > g__t_schra:(1 2) _;
+    g_tta g_vattu > g_ttra:(1 2) _;
+endpass;
+
+/* Glyph reorder */
+pass(8)
+    g_repha AllConsonants g_i_t > @3 @2 @1;
+    g_repha AllConsonants > @2 @1;
+    AllConsonants g_i_t > @2 @1;
+endpass;
+
+/* Contextual matra */
+pass(9)
+    /* iT */
+    g_i_t > g_i_t_0001 / CausesIMatraAlt1 _;
+endpass;
+pass(10)
+    /* uT, UT */
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_u_t;
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g__u_t;
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_vattu;
+    CausesUMatraAlt1 g_u_t > CausesUMatraAlt1a g_u_t_0001;
+    CausesUMatraAlt1 g__u_t > CausesUMatraAlt1a g__u_t_0001;
+    CausesUMatraAlt1 > CausesUMatraAlt1a / _ g_vattu;
+    CausesUMatraAlt2 g_u_t > CausesUMatraAlt2a g_u_t_0002;
+    CausesUMatraAlt2 g__u_t > CausesUMatraAlt2a g__u_t_0002;
+    CausesUMatraAlt2 > CausesUMatraAlt2a / _ g_vattu;
+    g_u_t > g_u_t_0003 / CausesUMatraAlt3 _;
+    g__u_t > g__u_t_0003 / CausesUMatraAlt3 _;
+    CausesUMatraAlt4 g_u_t > CausesUMatraAlt4a g_u_t_0004;
+    CausesUMatraAlt4 g__u_t > CausesUMatraAlt4a g__u_t_0004;
+    CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_vattu;
+    /* RT */
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g__r_t;
+    CausesUMatraAlt1 g__r_t > CausesUMatraAlt1a g__r_t_0001;
+    CausesUMatraAlt4 > CausesUMatraAlt4a / _ g__r_t;
+endpass;
+pass(11)
+    /* RT/RRT exceptional */
+	g_ra g__r_t g__a_t > g_r_r_r:(1 2 3) _ _;
+	g_la g__r_t g__a_t > g_l_r_r:(1 2 3) _ _;
+	g_ra g__r_t > g_r_r:(1 2) _;
+	g_la g__r_t > g_l_r:(1 2) _;
+	/* eT/aiT */
+	g_e_t > g_e_t_0001 / CauseEMatraAlt _;
+	g_ai_t > g_ai_t_0001 / CauseEMatraAlt _;
+endpass;
+pass(12)
+	/* AT */
+	g__a_t > g__a_t_0001 / CauseAMatraAlt1 CauseAMatraSkipped? _;
+	g__a_t > g__a_t_0002 / CauseAMatraAlt2 CauseAMatraSkipped? _;
+	g__a_t > g__a_t_0003 / CauseAMatraAlt3 CauseAMatraSkipped? _;
+	/* IT */
+	g__i_t > g__i_t_0001 / CauseIiMatraAlt1 _;
+	g__i_t > g__i_t_0002 / CauseIiMatraAlt2 _;
+	g__i_t > g__i_t_0003 / CauseIiMatraAlt3 _;
+	g__i_t > g__i_t_0004 / CauseIiMatraAlt4 _;
+endpass;
+
+endtable;
