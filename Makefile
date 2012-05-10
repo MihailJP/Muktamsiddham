@@ -2,7 +2,7 @@
 
 FONTS=Muktamsiddham.otf MuktamsiddhamT.ttf MuktamsiddhamG.ttf
 DOCUMENTS=license.txt README ChangeLog
-SOURCE=Muktamsiddham.sfd LatinGlyphs.sfd outlines.py truetype.py Makefile
+SOURCE=Muktamsiddham.sfd LatinGlyphs.sfd outlines.py truetype.py smp.diff Muktamsiddham.gdl Makefile
 PKGS=Muktamsiddham.7z Muktamsiddham-source.7z
 7ZOPT=-mx9
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
