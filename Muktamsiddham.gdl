@@ -4925,7 +4925,8 @@ pass(1)
     /* RRT oT auT Decomposition */
     g_candrabindu _ > g_candra:1 g_anusv_ara:1;
     g_candrao_t _ > g_candra:1 g__a_t:1;
-    g_o_t _ > g__r_t:1 g__a_t:1;
+    g_o_t _ > g_e_t:1 g__a_t:1;
+    g_au_t _ > g_ai_t:1 g__a_t:1;
     g__r_r_t _ > g__r_t:1 g__a_t:1;
     /* kSa */
     g_ka g_vir_ama g__sa > g_k_sa:(1 2 3) _ _;
@@ -5452,11 +5453,6 @@ pass(12)
 	g__i_t > g__i_t_0002 / CauseIiMatraAlt2 g_repha? _;
 	g__i_t > g__i_t_0003 / CauseIiMatraAlt3 g_repha? _;
 	g__i_t > g__i_t_0004 / CauseIiMatraAlt4 g_repha? _;
-endpass;
-
-/* Swap repha and eT */
-pass(13)
-    g_repha cnekaaraDia > @2 @1;
 endpass;
 
 endtable;
