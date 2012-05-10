@@ -5454,4 +5454,39 @@ pass(12)
 	g__i_t > g__i_t_0004 / CauseIiMatraAlt4 g_repha? _;
 endpass;
 
+/* Swap repha and eT */
+pass(13)
+    g_repha cnekaaraDia > @2 @1;
+endpass;
+
+endtable;
+
+
+table(positioning)
+
+/* Above-base */
+pass(1)
+    cnrephaDia crephaDia {attach {to=@1; at=rephaS; with=rephaM}};
+    cnrephaDia crephaDia {attach {to=@1; at=rephaS; with=rephaM}};
+endpass;
+pass(2)
+    cnekaaraDia cekaaraDia {attach {to=@1; at=ekaaraS; with=ekaaraM}};
+endpass;
+pass(3)
+    cniikaaraDia crephaDia? ciikaaraDia {attach {to=@1; at=iikaaraS; with=iikaaraM}};
+    cnaakaaraDia cekaaraDia? crephaDia? cukaaraDia? caakaaraDia {attach {to=@1; at=aakaaraS; with=aakaaraM}};
+endpass;
+pass(4)
+    cnbinduDia crephaDia? cbinduDia {attach {to=@1; at=binduS; with=binduM}};
+    cnbindumarkDia cbindumarkDia {attach {to=@1; at=bindumarkS; with=bindumarkM}};
+endpass;
+
+/* Below-base */
+pass(5)
+    cnukaaraDia cukaaraDia {attach {to=@1; at=ukaaraS; with=ukaaraM}};
+    cnviramaDia cviramaDia {attach {to=@1; at=viramaS; with=viramaM}};
+    cnukaaramarkDia cukaaramarkDia {attach {to=@1; at=ukaaramarkS; with=ukaaramarkM}};
+    cnviramamarkDia cviramamarkDia {attach {to=@1; at=viramamarkS; with=viramamarkM}};
+endpass;
+
 endtable;
