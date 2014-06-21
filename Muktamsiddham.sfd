@@ -21,8 +21,8 @@ FSType: 8
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1272671396
-ModificationTime: 1336554325
+CreationTime: 1403329001
+ModificationTime: 1403329001
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -285,7 +285,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "viramamark"  "Below-base Mark to Mark-1" "ukaaramark"  "Below-base Mark to Mark-1" "bindumark"  "Above-base Mark to Mark-1" "ukaara"  "Below-base Marks-1" "virama"  "Below-base Marks-1" "ekaara"  "Above-base Marks-1" "iikaara"  "Above-base Marks-1" "aakaara"  "Above-base Marks-1" "repha"  "Above-base Marks-1" "bindu"  "Above-base Marks-1" 
-BeginChars: 880 880
+BeginChars: 881 881
 
 StartChar: akAra
 Encoding: 0 2309 0
@@ -38647,6 +38647,25 @@ SplineSet
  300 102.8 387.2 140 470 140 c 0
  552.8 140 640 102.8 640 20 c 2
  640 -150 l 25
+EndSplineSet
+EndChar
+
+StartChar: nukta
+Encoding: 880 2364 880
+Width: 0
+VWidth: 0
+Flags: W
+AnchorPoint: "virama" -235 -60 mark 0
+AnchorPoint: "viramamark" -235 -200 basemark 0
+AnchorPoint: "viramamark" -235 -60 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-235 -15 m 24
+ -210 -15 -190 -35 -190 -60 c 24
+ -190 -85 -210 -105 -235 -105 c 24
+ -260 -105 -280 -85 -280 -60 c 24
+ -280 -35 -260 -15 -235 -15 c 24
 EndSplineSet
 EndChar
 EndChars

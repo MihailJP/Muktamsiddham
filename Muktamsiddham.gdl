@@ -866,6 +866,7 @@ g__skva_0001 = glyphid(862) {aakaaraS = point(975m, 1225m); binduS = point(680m,
 g_ddhma_0001 = glyphid(863) {aakaaraS = point(1030m, 1206m); binduS = point(700m, 1516m); ekaaraS = point(428m, 1184m); iikaaraS = point(1030m, 1206m); rephaS = point(694m, 1151m); ukaaraS = point(930m, -504m)};
 g__n_dva_0001 = glyphid(864) {aakaaraS = point(1225m, 680m); binduS = point(807m, 1516m); ekaaraS = point(270m, 1004m); iikaaraS = point(1104m, 1206m); rephaS = point(786m, 1219m); ukaaraS = point(774m, -649m)};
 g_strya = glyphid(865) {aakaaraS = point(1116m, 1221m); binduS = point(731m, 1516m); ekaaraS = point(438m, 1202m); iikaaraS = point(1116m, 1221m); viramaS = point(846m, -748m); rephaS = point(647m, 1155m); ukaaraS = point(831m, -498m)};
+g_nukta = glyphid(880) {viramaM = point(-235m, 0m); viramamarkM = point(-235m, 0m); viramamarkS = point(-235m, -200m)};
 
 /* Classes */
 caakaaraDia = (g__a_t, g__a_t_0001, g__a_t_0002, g__a_t_0003);
