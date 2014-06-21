@@ -1,15 +1,15 @@
---- OutlinesTT.sfd	2012-05-09 18:03:02.044808600 +0900
-+++ OutlinesS.sfd	2012-05-09 18:38:45.413402300 +0900
+--- OutlinesTT.sfd	2014-06-21 12:02:17.502249786 +0900
++++ OutlinesG.sfd	2014-06-21 12:37:12.608164018 +0900
 @@ -306,7 +306,7 @@
  EndPrivate
  TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
  AnchorClass2: "viramamark"  "Below-base Mark to Mark-1" "ukaaramark"  "Below-base Mark to Mark-1" "bindumark"  "Above-base Mark to Mark-1" "ukaara"  "Below-base Marks-1" "virama"  "Below-base Marks-1" "ekaara"  "Above-base Marks-1" "iikaara"  "Above-base Marks-1" "aakaara"  "Above-base Marks-1" "repha"  "Above-base Marks-1" "bindu"  "Above-base Marks-1" 
 -BeginChars: 1296 1296
-+BeginChars: 1378 1378
++BeginChars: 1367 1367
  
  StartChar: akAra
  Encoding: 0 2309 0
-@@ -105792,5 +105792,825 @@
+@@ -102987,5 +102987,715 @@
  Fore
  Refer: 1020 95 N 1 0 0 1 0 852 2
  EndChar
@@ -76,46 +76,6 @@
 +
 +StartChar: u11586
 +Encoding: 1302 71046 1302
-+Width: 1861
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 10 2319 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u11587
-+Encoding: 1303 71047 1303
-+Width: 1861
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 11 2320 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u11588
-+Encoding: 1304 71048 1304
-+Width: 1566
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 12 2323 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u11589
-+Encoding: 1305 71049 1305
-+Width: 1898
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 13 2324 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u1158A
-+Encoding: 1306 71050 1306
 +Width: 1357
 +VWidth: 0
 +Flags: W
@@ -124,8 +84,8 @@
 +Refer: 6 2315 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u1158B
-+Encoding: 1307 71051 1307
++StartChar: u11587
++Encoding: 1303 71047 1303
 +Width: 1626
 +VWidth: 0
 +Flags: W
@@ -134,8 +94,8 @@
 +Refer: 7 2400 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u1158C
-+Encoding: 1308 71052 1308
++StartChar: u11588
++Encoding: 1304 71048 1304
 +Width: 1421
 +VWidth: 0
 +Flags: W
@@ -144,14 +104,54 @@
 +Refer: 8 2316 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u1158D
-+Encoding: 1309 71053 1309
++StartChar: u11589
++Encoding: 1305 71049 1305
 +Width: 1482
 +VWidth: 0
 +Flags: W
 +LayerCount: 2
 +Fore
 +Refer: 9 2401 N 1 0 0 1 0 0 2
++EndChar
++
++StartChar: u1158A
++Encoding: 1306 71050 1306
++Width: 1861
++VWidth: 0
++Flags: W
++LayerCount: 2
++Fore
++Refer: 10 2319 N 1 0 0 1 0 0 2
++EndChar
++
++StartChar: u1158B
++Encoding: 1307 71051 1307
++Width: 1861
++VWidth: 0
++Flags: W
++LayerCount: 2
++Fore
++Refer: 11 2320 N 1 0 0 1 0 0 2
++EndChar
++
++StartChar: u1158C
++Encoding: 1308 71052 1308
++Width: 1566
++VWidth: 0
++Flags: W
++LayerCount: 2
++Fore
++Refer: 12 2323 N 1 0 0 1 0 0 2
++EndChar
++
++StartChar: u1158D
++Encoding: 1309 71053 1309
++Width: 1898
++VWidth: 0
++Flags: W
++LayerCount: 2
++Fore
++Refer: 13 2324 N 1 0 0 1 0 0 2
 +EndChar
 +
 +StartChar: u1158E
@@ -541,7 +541,7 @@
 +Flags: W
 +LayerCount: 2
 +Fore
-+Refer: 77 2375 N 1 0 0 1 0 0 2
++Refer: 74 2371 N 1 0 0 1 0 0 2
 +EndChar
 +
 +StartChar: u115B5
@@ -551,11 +551,31 @@
 +Flags: W
 +LayerCount: 2
 +Fore
++Refer: 76 2372 N 1 0 0 1 0 0 2
++EndChar
++
++StartChar: u115B8
++Encoding: 1350 71096 1350
++Width: 0
++VWidth: 0
++Flags: W
++LayerCount: 2
++Fore
++Refer: 77 2375 N 1 0 0 1 0 0 2
++EndChar
++
++StartChar: u115B9
++Encoding: 1351 71097 1351
++Width: 0
++VWidth: 0
++Flags: W
++LayerCount: 2
++Fore
 +Refer: 79 2376 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115B6
-+Encoding: 1350 71094 1350
++StartChar: u115BA
++Encoding: 1352 71098 1352
 +Width: 0
 +VWidth: 0
 +Flags: W
@@ -564,34 +584,14 @@
 +Refer: 81 2379 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115B7
-+Encoding: 1351 71095 1351
++StartChar: u115BB
++Encoding: 1353 71099 1353
 +Width: 0
 +VWidth: 0
 +Flags: W
 +LayerCount: 2
 +Fore
 +Refer: 82 2380 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115B8
-+Encoding: 1352 71096 1352
-+Width: 0
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 74 2371 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115B9
-+Encoding: 1353 71097 1353
-+Width: 0
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 76 2372 N 1 0 0 1 0 0 2
 +EndChar
 +
 +StartChar: u115BC
@@ -601,7 +601,7 @@
 +Flags: W
 +LayerCount: 2
 +Fore
-+Refer: 83 2381 N 1 0 0 1 0 0 2
++Refer: 15 2305 N 1 0 0 1 0 0 2
 +EndChar
 +
 +StartChar: u115BD
@@ -611,21 +611,11 @@
 +Flags: W
 +LayerCount: 2
 +Fore
-+Refer: 15 2305 N 1 0 0 1 0 0 2
++Refer: 14 2306 N 1 0 0 1 0 0 2
 +EndChar
 +
 +StartChar: u115BE
 +Encoding: 1356 71102 1356
-+Width: 0
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 14 2306 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115BF
-+Encoding: 1357 71103 1357
 +Width: 430
 +VWidth: 0
 +Flags: W
@@ -634,8 +624,18 @@
 +Refer: 16 2307 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C0
-+Encoding: 1358 71104 1358
++StartChar: u115BF
++Encoding: 1357 71103 1357
++Width: 0
++VWidth: 0
++Flags: W
++LayerCount: 2
++Fore
++Refer: 83 2381 N 1 0 0 1 0 0 2
++EndChar
++
++StartChar: u115C1
++Encoding: 1358 71105 1358
 +Width: 1839
 +VWidth: 0
 +Flags: W
@@ -644,8 +644,8 @@
 +Refer: 96 182 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C1
-+Encoding: 1359 71105 1359
++StartChar: u115C2
++Encoding: 1359 71106 1359
 +Width: 1316
 +VWidth: 0
 +Flags: W
@@ -654,8 +654,8 @@
 +Refer: 97 2404 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C2
-+Encoding: 1360 71106 1360
++StartChar: u115C3
++Encoding: 1360 71107 1360
 +Width: 1544
 +VWidth: 0
 +Flags: W
@@ -664,8 +664,8 @@
 +Refer: 98 2405 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C3
-+Encoding: 1361 71107 1361
++StartChar: u115C4
++Encoding: 1361 71108 1361
 +Width: 675
 +VWidth: 0
 +Flags: W
@@ -674,8 +674,8 @@
 +Refer: 863 58819 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C4
-+Encoding: 1362 71108 1362
++StartChar: u115C5
++Encoding: 1362 71109 1362
 +Width: 614
 +VWidth: 0
 +Flags: W
@@ -684,8 +684,8 @@
 +Refer: 864 58820 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C5
-+Encoding: 1363 71109 1363
++StartChar: u115C6
++Encoding: 1363 71110 1363
 +Width: 1646
 +VWidth: 0
 +Flags: W
@@ -694,8 +694,8 @@
 +Refer: 865 58821 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C6
-+Encoding: 1364 71110 1364
++StartChar: u115C7
++Encoding: 1364 71111 1364
 +Width: 1712
 +VWidth: 0
 +Flags: W
@@ -704,8 +704,8 @@
 +Refer: 866 58822 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C7
-+Encoding: 1365 71111 1365
++StartChar: u115C8
++Encoding: 1365 71112 1365
 +Width: 1486
 +VWidth: 0
 +Flags: W
@@ -714,124 +714,14 @@
 +Refer: 867 58823 N 1 0 0 1 0 0 2
 +EndChar
 +
-+StartChar: u115C8
-+Encoding: 1366 71112 1366
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 868 58824 N 1 0 0 1 0 0 2
-+EndChar
-+
 +StartChar: u115C9
-+Encoding: 1367 71113 1367
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 869 58825 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115CA
-+Encoding: 1368 71114 1368
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 870 58826 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115CB
-+Encoding: 1369 71115 1369
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 871 58827 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115CC
-+Encoding: 1370 71116 1370
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 872 58828 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115CD
-+Encoding: 1371 71117 1371
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 873 58829 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115CE
-+Encoding: 1372 71118 1372
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 874 58830 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115CF
-+Encoding: 1373 71119 1373
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 875 58831 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115D0
-+Encoding: 1374 71120 1374
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 876 58832 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115D1
-+Encoding: 1375 71121 1375
++Encoding: 1366 71113 1366
 +Width: 2048
 +VWidth: 0
 +Flags: W
 +LayerCount: 2
 +Fore
 +Refer: 877 58833 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115D2
-+Encoding: 1376 71122 1376
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 878 58834 N 1 0 0 1 0 0 2
-+EndChar
-+
-+StartChar: u115D3
-+Encoding: 1377 71123 1377
-+Width: 2048
-+VWidth: 0
-+Flags: W
-+LayerCount: 2
-+Fore
-+Refer: 879 58835 N 1 0 0 1 0 0 2
 +EndChar
  EndChars
  EndSplineFont

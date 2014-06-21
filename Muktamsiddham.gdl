@@ -3394,18 +3394,33 @@ CauseIiMatraAlt4 = (g__thya, g__thra, g__thla, g__thva, g_ghma, g__thma, g__dhma
     g_bhma, g_yma, g__sma, g_sma, g__thna, g__th_na, g_psa, g_lpa, g__spa, g__spra,
     g_mma, g_psya, g_tsma, g_smya, g__spya, g__smya, g_strya);
 
-SiddhamCodePoints = (unicode(0x11580 .. 0x115b9), unicode(0x115bc .. 0x115bf));
-NagariCodePoints = (unicode(0x0905 .. 0x090a), unicode(0x090f .. 0x0910),
-    unicode(0x0913 .. 0x0914),
-    unicode(0x090b), unicode(0x0960), unicode(0x090c), unicode(0x0961),
-    unicode(0x0915 .. 0x0928), unicode(0x092a .. 0x0930), unicode(0x0932),
-    unicode(0x0935 .. 0x0939), unicode(0x093e .. 0x0942), unicode(0x0947 .. 0x0948),
-    unicode(0x094b .. 0x094c), unicode(0x0943 .. 0x0944), unicode(0x094d),
-    unicode(0x0901 .. 0x0903));
+SiddhamCodePoints = (unicode(0x11580 .. 0x115b5), unicode(0x115b8 .. 0x115bf), unicode(0x115c1 .. 0x115c9));
+NagariCodePoints = (
+	unicode(0x0905 .. 0x090a), /* Independent A to UU */
+	unicode(0x090b), /* Independent RI */
+	unicode(0x0960), /* Independent RII */
+	unicode(0x090c), /* Independent LI */
+	unicode(0x0961), /* Independent LII */
+	unicode(0x090f .. 0x0910), /* Independent E and AI */
+	unicode(0x0913 .. 0x0914), /* Independent O and AU */
+	unicode(0x0915 .. 0x0928), /* Consonants KA to NA */
+	unicode(0x092a .. 0x0930), /* Consonants PA to RA */
+	unicode(0x0932), /* Consonant LA */
+	unicode(0x0935 .. 0x0939), /* Consonants VA to HA */
+	unicode(0x093e .. 0x0944), /* Dependent AA to RII */
+	unicode(0x0947 .. 0x0948), /* Dependent E and AI */
+	unicode(0x094b .. 0x094c), /* Dependent O and AU */
+	unicode(0x0901 .. 0x0903), /* CANDRABINDU, ANUSVAARA, VISARGA */
+	unicode(0x094d), /* VIRAAMA */
+	/* TODO: NUKTA is missing */
+	unicode(0x00b6), /* SIDDHIRASTU */
+	unicode(0x0964 .. 0x0965), /* DANDA and DVIDANDA */
+	unicode(0x0964 .. 0x0965), /* DANDA and DVIDANDA */
+	unicode(0xe5c3 .. 0xe5c7), /* Separators and repetition marks */
+	unicode(0xe5d1) /* End of text */
+);
 
 endtable;
-
-#define MAXGLYPH 1298
 
 table(substitution)
 
