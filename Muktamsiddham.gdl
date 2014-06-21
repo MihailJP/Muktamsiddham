@@ -3415,7 +3415,6 @@ NagariCodePoints = (
 	/* TODO: NUKTA is missing */
 	unicode(0x00b6), /* SIDDHIRASTU */
 	unicode(0x0964 .. 0x0965), /* DANDA and DVIDANDA */
-	unicode(0x0964 .. 0x0965), /* DANDA and DVIDANDA */
 	unicode(0xe5c3 .. 0xe5c7), /* Separators and repetition marks */
 	unicode(0xe5d1) /* End of text */
 );
