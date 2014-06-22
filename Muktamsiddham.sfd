@@ -21,8 +21,8 @@ FSType: 8
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1403329001
-ModificationTime: 1403329001
+CreationTime: 1403450824
+ModificationTime: 1403451333
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -44,6 +44,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 2 0 0 "RRT oT auT Decomposition"  {"RRT oT auT Decomposition-1"  } [' RQD' ('deva' <'dflt' > ) 'psts' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "kSa"  {"kSa-1"  } ['akhn' ('deva' <'dflt' > ) ]
+Lookup: 4 0 0 "Nukta Forms"  {"Nukta Forms-1"  } ['nukt' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "repha"  {"repha-1"  } ['rphf' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "raphala"  {"raphala-1"  } ['blwf' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "ravattu Conjunction"  {"ravattu Conjunction-1"  } ['vatu' ('deva' <'dflt' > ) ]
@@ -53,7 +54,7 @@ Lookup: 5 0 0 "vattu Contextual Forms"  {"vattu Contextual Forms-1"  } ['blws' (
 Lookup: 4 0 0 "RT RRT Exceptional Forms"  {"RT RRT Exceptional Forms-1"  } ['blws' ('deva' <'dflt' > ) ]
 Lookup: 5 0 0 "eT aiT Contextual Forms"  {"eT aiT Contextual Forms-1"  } ['abvs' ('deva' <'dflt' > ) ]
 Lookup: 5 0 0 "AT Contextual Forms"  {"AT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 5 0 0 "Muktamsiddham-RRT Contextual Forms"  {"Muktamsiddham-RRT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
+Lookup: 5 0 0 "RRT Contextual Forms"  {"RRT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
 Lookup: 5 0 0 "IT Contextual Forms"  {"IT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "raphala Conjunction"  {"raphala Conjunction-1"  } ['akhn' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "Letter Conjunction"  {"Letter Conjunction-1"  } ['akhn' ('deva' <'dflt' > ) ]
@@ -85,10 +86,10 @@ ContextSub2: class "vattu Contextual Forms-1"  3 3 3 1
   BClassNames: "All_Others"  "1"  "2"  
   FClassNames: "All_Others"  "1"  "2"  
 EndFPST
-ContextSub2: class "Muktamsiddham-RRT Contextual Forms-1"  4 1 1 1
+ContextSub2: class "RRT Contextual Forms-1"  4 1 1 1
   Class: 26 AT AT.0001 AT.0002 AT.0003
   Class: 2 RT
-  Class: 735 Ta Tha Da Dha pha ha Ta.0001 Tha.0001 Da.0001 Dha.0001 pha.0001 ha.0001 kNa khNa gNa ghNa GNa cNa chNa jNa jhNa JNa TNa ThNa DNa DhNa tNa thNa dNa dhNa nNa pNa phNa bNa bhNa mNa yNa lNa vNa zNa SNa sNa hNa kSNa kNa.0001 khNa.0001 gNa.0001 ghNa.0001 GNa.0001 cNa.0001 chNa.0001 jNa.0001 jhNa.0001 JNa.0001 TNa.0001 ThNa.0001 DNa.0001 DhNa.0001 tNa.0001 thNa.0001 dNa.0001 dhNa.0001 nNa.0001 pNa.0001 phNa.0001 bNa.0001 bhNa.0001 mNa.0001 yNa.0001 lNa.0001 vNa.0001 zNa.0001 SNa.0001 sNa.0001 hNa.0001 kSNa.0001 Jjha NTa NTha NDa NDha mpha Gha Jjha.0001 NDa.0001 vjha jJa STa STha dDa dDha spha sha vjha.0001 jJa.0001 dDa.0001 jjha jjJa jjha.0001 jjJa.0001 TTa DDa NNa DDa.0001 NNa.0001 tpha lha nha cJa TTha cJa.0001 DDha ppha lpha Spha
+  Class: 819 Ta Tha Da Dha pha ha kNa khNa gNa ghNa GNa cNa chNa jNa jhNa JNa TNa ThNa DNa DhNa tNa thNa dNa dhNa nNa pNa phNa bNa bhNa mNa yNa lNa vNa zNa SNa sNa hNa kSNa kNa.0001 khNa.0001 gNa.0001 ghNa.0001 GNa.0001 cNa.0001 chNa.0001 jNa.0001 jhNa.0001 JNa.0001 TNa.0001 ThNa.0001 DNa.0001 DhNa.0001 tNa.0001 thNa.0001 dNa.0001 dhNa.0001 nNa.0001 pNa.0001 phNa.0001 bNa.0001 bhNa.0001 mNa.0001 yNa.0001 lNa.0001 vNa.0001 zNa.0001 SNa.0001 sNa.0001 hNa.0001 kSNa.0001 Jjha NTa NTha NDa NDha mpha Gha Jjha.0001 NDa.0001 vjha jJa STa STha dDa dDha spha sha vjha.0001 dDa.0001 jjha jjJa jjha.0001 jjJa.0001 TTa DDa NNa DDa.0001 NNa.0001 tpha lha nha cJa TTha cJa.0001 DDha ppha lpha Spha Ta_nukta Tha_nukta Da_nukta Dha_nukta pha_nukta ha_nukta Ta_nukta.0001 Tha_nukta.0001 Da_nukta.0001 Dha_nukta.0001 pha_nukta.0001 ha_nukta.0001
  3 0 0
   ClsList: 3 2 1
   BClsList:
@@ -101,7 +102,7 @@ ContextSub2: class "Muktamsiddham-RRT Contextual Forms-1"  4 1 1 1
 EndFPST
 ContextSub2: class "eT aiT Contextual Forms-1"  3 1 1 1
   Class: 6 eT aiT
-  Class: 77 Tha Tha.0001 Thya Thra Thla Thva Thva.0001 Thma Thma.0001 Thna Thna.0001 ThNa
+  Class: 102 Tha Tha.0001 Thya Thra Thla Thva Thva.0001 Thma Thma.0001 Thna Thna.0001 ThNa Tha_nukta Tha_nukta.0001
  2 0 0
   ClsList: 2 1
   BClsList:
@@ -114,7 +115,7 @@ ContextSub2: class "eT aiT Contextual Forms-1"  3 1 1 1
 EndFPST
 ContextSub2: class "iT Contextual Forms-1"  3 1 1 1
   Class: 2 iT
-  Class: 821 kha ga cha Tha Dha dha na bha la za sa kSa chya Dhya dhya nya bhya lya sya kra cra chra jra jhra Tra Thra Dhra dra dhra nra bra bhra lra vra sra cla chla jla jhla Thla Dhla dla dhla nla phla bla bhla vla sla cva chva jva jhva Thva Dhva dva dhva nva phva bva bhva lva sva chma Thma Dhma dhma nma bhma lma sma chna Thna Dhna dhna bhna lna sna chNa ThNa DhNa dhNa bhNa lNa sNa Gkha Gga nta ntha nda ndha Gra Gla Gva Gza ska skha dga dgha Gktra jJa sta stha spa spha lta sha vkSa Gkta ktra gga Ggra cchra jjJa Dga ddha dgra ddya ddra ddhya ddhva dbhya drya dvya nna nsa ntya ntra ntsa nddha ndra ndhya ndhra nnya lla lka lpa lha stya stra stva npa kza spra nbra nbha nka nba nsva ndva nha lba nza dbra nspa nstha dhnya nvya smya nga nsya kkha cJa jJya dgya ddhna nddhya ndda nddra bba bbha tkha lga lda lpha cchya ddhma strya
+  Class: 946 kha ga cha Tha Dha dha na bha la za sa kSa chya Dhya dhya nya bhya lya sya kra cra chra jra jhra Tra Thra Dhra dra dhra nra bra bhra lra vra sra cla chla jla jhla Thla Dhla dla dhla nla phla bla bhla vla sla cva chva jva jhva Thva Dhva dva dhva nva phva bva bhva lva sva chma Thma Dhma dhma nma bhma lma sma chna Thna Dhna dhna bhna lna sna chNa ThNa DhNa dhNa bhNa lNa sNa Gkha Gga nta ntha nda ndha Gra Gla Gva Gza ska skha dga dgha Gktra jJa sta stha spa spha lta sha vkSa Gkta ktra gga Ggra cchra jjJa Dga ddha dgra ddya ddra ddhya ddhva dbhya drya dvya nna nsa ntya ntra ntsa nddha ndra ndhya ndhra nnya lla lka lpa lha stya stra stva npa kza spra nbra nbha nka nba nsva ndva nha lba nza dbra nspa nstha dhnya nvya smya nga nsya kkha cJa jJya dgya ddhna nddhya ndda nddra bba bbha tkha lga lda lpha cchya ddhma strya kha_nukta ga_nukta cha_nukta Tha_nukta Dha_nukta dha_nukta na_nukta bha_nukta la_nukta za_nukta sa_nukta kSa_nukta jJa_nukta
  2 0 0
   ClsList: 1 2
   BClsList:
@@ -127,9 +128,9 @@ ContextSub2: class "iT Contextual Forms-1"  3 1 1 1
 EndFPST
 ContextSub2: class "IT Contextual Forms-1"  6 1 1 4
   Class: 2 IT
-  Class: 424 jha Ja pha chya Dhya chra Dhra chla Dhla chva Dhva khma gma cma chma jhma Jma Tma Dma tma nma bma lma vma zma hma kSma chna Dhna ghNa chNa DhNa thNa dhNa pNa bhNa mNa yNa SNa sNa kSNa Jca Jcha Jja Jjha GSa ska vcha vjha STa STha tsna TSa dsva kSmya ccha cchra cchva Jza tpa tsa tmya tsya tsva nsa ntsa yya lka Ska Skra npa ksa kpa tstha tpra npra Jzra Jzva Jjya nstha zcha nga nsya STya STrya SNya ppha tpla cchya kSNya Skva
-  Class: 7 cha Dha
-  Class: 25 Tha TSchra TScha nspa ppa
+  Class: 453 jha Ja pha chya Dhya chra Dhra chla Dhla chva Dhva khma gma cma chma jhma Jma Tma Dma tma nma bma lma vma zma hma kSma chna Dhna ghNa chNa DhNa thNa dhNa pNa bhNa mNa yNa SNa sNa kSNa Jca Jcha Jja Jjha GSa ska vcha vjha STa STha tsna TSa dsva kSmya ccha cchra cchva Jza tpa tsa tmya tsya tsva nsa ntsa yya lka Ska Skra npa ksa kpa tstha tpra npra Jzra Jzva Jjya nstha zcha nga nsya STya STrya SNya ppha tpla cchya kSNya Skva jha_nukta Ja_nukta pha_nukta
+  Class: 27 cha Dha cha_nukta Dha_nukta
+  Class: 35 Tha TSchra TScha nspa ppa Tha_nukta
   Class: 127 Thya Thra Thla Thva ghma Thma Dhma thma dhma pma bhma yma Sma sma Thna ThNa psa lpa Spa Spra mma psya tsma smya Spya Smya strya
  2 0 0
   ClsList: 2 1
@@ -162,11 +163,11 @@ EndFPST
 ContextSub2: class "uT UT RT Contextual Forms-1"  8 1 1 8
   Class: 11 uT UT vattu
   Class: 6 RT RRT
-  Class: 132 ka Ga cha ja jha Ja Na da Gka Jcha Jja nda ska vcha vja vda Tka TScha kka gda ccha jja tka dda bja bda lka Ska nka zcha ndda gja lda
-  Class: 291 Ta Tha Dha Da pha ha kNa khNa gNa ghNa GNa cNa chNa jNa jhNa JNa TNa ThNa DNa DhNa tNa thNa dNa dhNa nNa pNa phNa bNa bhNa mNa yNa lNa vNa zNa SNa sNa hNa kSNa Jjha NTa NTha NDa NDha mpha Gha vjha jJa STa STha dDa dDha spha sha jjha jjJa TTa DDa NNa tpha lha nha cJa TTha DDha ppha lpha Spha
-  Class: 449 ra la kra khra gra ghra cra chra jra jhra Jra Tra Thra Dra Dhra Nra tra thra dra dhra nra pra phra bra bhra mra yra lra vra zra Sra sra hra kSra kla khla gla ghla cla chla jla jhla Jla Tla Thla Dla Dhla Nla tla thla dla dhla nla pla phla bla bhla mla yla vla zla Sla sla hla kSla Gra Gla Gktra TSchra ktra Ggra Gghra cchra ttra dgra ddra ntra ndra ndhra lla Skra STra Spra stra spra nbra NDra tkra tpra npra Jzra dbra mpra nddra ptra tpla gdhra Gkra
+  Class: 206 ka Ga cha ja jha Ja Na da Gka Jcha Jja nda ska vcha vja vda Tka TScha kka gda ccha jja tka dda bja bda lka Ska nka zcha ndda gja lda ka_nukta Ga_nukta cha_nukta ja_nukta jha_nukta Ja_nukta Na_nukta da_nukta
+  Class: 348 Ta Tha Da Dha pha ha kNa khNa gNa ghNa GNa cNa chNa jNa jhNa JNa TNa ThNa DNa DhNa tNa thNa dNa dhNa nNa pNa phNa bNa bhNa mNa yNa lNa vNa zNa SNa sNa hNa kSNa Jjha NTa NTha NDa NDha mpha Gha vjha jJa STa STha dDa dDha spha sha jjha jjJa TTa DDa NNa tpha lha nha cJa TTha DDha ppha lpha Spha Ta_nukta Tha_nukta Da_nukta Dha_nukta pha_nukta ha_nukta
+  Class: 467 ra la kra khra gra ghra cra chra jra jhra Jra Tra Thra Dra Dhra Nra tra thra dra dhra nra pra phra bra bhra mra yra lra vra zra Sra sra hra kSra kla khla gla ghla cla chla jla jhla Jla Tla Thla Dla Dhla Nla tla thla dla dhla nla pla phla bla bhla mla yla vla zla Sla sla hla kSla Gra Gla Gktra TSchra ktra Ggra Gghra cchra ttra dgra ddra ntra ndra ndhra lla Skra STra Spra stra spra nbra NDra tkra tpra npra Jzra dbra mpra nddra ptra tpla gdhra Gkra ra_nukta la_nukta
   Class: 394 kya khya gya ghya cya chya jya jhya Jya Tya Thya Dya Dhya Nya tya thya dya dhya nya pya phya bya bhya mya lya vya zya Sya sya hya kSya Gya kSvya kSvrya ktya krya kSmya gnya gbhya grya tnya tmya trya tsya ddya ddhya dbhya drya dvya ntya ndhya nnya ptya yya zcya zrya SThya stya psya Jjya dhnya zvya nvya smya nsya ttya STya GkSya jJya dgya nddhya STrya SNya cchya jjya kSNya Spya Smya NDya strya
-  Class: 940 kha ga gha ca ta tha dha na pa ba bha ma ya va za Sa sa kSa kna khna gna ghna Gna cna chna jna jhna Jna Tna Thna Dna Dhna Nna tna thna dna dhna pna phna bna bhna mna yna lna vna zna Sna sna hna kSna kva khva gva ghva cva chva jva jhva Jva Tva Thva Dva Dhva Nva tva thva dva dhva nva pva phva bva bhva mva yva lva zva Sva sva hva kSva kma khma gma ghma Gma cma chma jma jhma Jma Tma Thma Dma Dhma Nma tma thma dma dhma nma pma phma bma bhma yma lma vma zma Sma sma hma kSma Gkha Gga Ggha Jca nta ntha ndha mpa mba mbha Gva Gza GSa Gsa GkSa skha dga dgha vca sta stha vdha tsna spa dba dbha lta tkva Tza TSa vkSa pta dsva Gkta kta ktha ktva gga gdha gbha gdhva GkSva cca cchva jjva Jza Dga tta ttha tpa tsa ttva tsva ddha ddva ddhva nna nsa ntsa nddha psa bdha bdhva lpa zca Spa STva stva npa kza ksa nbha kpa tstha nba kca nsva mma tsma ndva tkSa lba zba nza nspa Jzva nstha nga ptva kkha ddhna bba bbha tkha ppa lga vva ttna Skva ddhma NDva
+  Class: 1098 kha ga gha ca ta tha dha na pa ba bha ma ya va za Sa sa kSa kva khva gva ghva cva chva jva jhva Jva Tva Thva Dva Dhva Nva tva thva dva dhva nva pva phva bva bhva mva yva lva zva Sva sva hva kSva kma khma gma ghma Gma cma chma jma jhma Jma Tma Thma Dma Dhma Nma tma thma dma dhma nma pma phma bma bhma yma lma vma zma Sma sma hma kSma kna khna gna ghna Gna cna chna jna jhna Jna Tna Thna Dna Dhna Nna tna thna dna dhna pna phna bna bhna mna yna lna vna zna Sna sna hna kSna Gkha Gga Ggha Jca nta ntha ndha mpa mba mbha Gva Gza GSa Gsa GkSa skha dga dgha vca sta stha vdha tsna spa dba dbha lta tkva Tza TSa vkSa pta dsva Gkta kta ktha ktva gga gdha gbha gdhva GkSva cca cchva jjva Jza Dga tta ttha tpa tsa ttva tsva ddha ddva ddhva nna nsa ntsa nddha psa bdha bdhva lpa zca Spa STva stva npa kza ksa nbha kpa tstha nba kca nsva mma tsma ndva tkSa lba zba nza nspa Jzva nstha nga ptva kkha ddhna bba bbha tkha ppa lga vva ttna Skva ddhma NDva kha_nukta ga_nukta gha_nukta ca_nukta ta_nukta tha_nukta dha_nukta na_nukta pa_nukta ba_nukta bha_nukta ma_nukta ya_nukta va_nukta za_nukta Sa_nukta sa_nukta
  2 0 0
   ClsList: 3 1
   BClsList:
@@ -225,9 +226,9 @@ ContextSub2: class "uT UT RT Contextual Forms-1"  8 1 1 8
 EndFPST
 ContextSub2: class "AT Contextual Forms-1"  6 1 1 6
   Class: 2 AT
-  Class: 530 Ga ja Ta Ga.0001 ja.0001 Ta.0001 jya Tya jra Tra jla Tla jva Tva jva.0001 Tva.0001 Gma jma Tma Gma.0001 jma.0001 Tma.0001 Gna jna Tna Gna.0001 jna.0001 Tna.0001 GNa jNa TNa GNa.0001 jNa.0001 TNa.0001 Gka Gkha Gga Ggha Gya Gra Gla Gva Gza GSa Gsa Gha GkSa Gka.0001 Gkha.0001 Gga.0001 Ggha.0001 Gva.0001 Gza.0001 GSa.0001 Gsa.0001 GkSa.0001 Gktra jJa Tza TSa jJa.0001 Tza.0001 TSa.0001 Tka TSchra TScha Tka.0001 TScha.0001 Ggra Gghra GkSva GkSva.0001 jja jjha jjJa jjva jja.0001 jjha.0001 jjJa.0001 jjva.0001 TTa jJya TTha jjya Gkra
-  Class: 256 jha Ja jha.0001 Ja.0001 jhya Jya jhra Jra jhla Jla jhva Jva jhva.0001 Jva.0001 jhma Jma jhma.0001 Jma.0001 jhna Jna jhna.0001 Jna.0001 jhNa JNa jhNa.0001 JNa.0001 Jca Jcha Jja Jjha Jca.0001 Jcha.0001 Jja.0001 Jjha.0001 Jza Jza.0001 Jzra Jzva Jzva.0001 Jjya
-  Class: 126 Na Na.0001 Nya Nra Nla Nva Nva.0001 Nma Nma.0001 Nna Nna.0001 NTa NTha NDa NDha NDa.0001 NNa NNa.0001 NDra NDva NDya NDva.0001
+  Class: 566 Ga ja Ta jya Tya jra Tra jla Tla jva Tva jva.0001 Tva.0001 Gma jma Tma Gma.0001 jma.0001 Tma.0001 Gna jna Tna Gna.0001 jna.0001 Tna.0001 GNa jNa TNa GNa.0001 jNa.0001 TNa.0001 Gka Gkha Gga Ggha Gya Gra Gla Gva Gza GSa Gsa Gha GkSa Gka.0001 Gkha.0001 Gga.0001 Ggha.0001 Gva.0001 Gza.0001 GSa.0001 Gsa.0001 GkSa.0001 Gktra jJa Tza TSa Tza.0001 TSa.0001 Tka TSchra TScha Tka.0001 TScha.0001 Ggra Gghra GkSva GkSva.0001 jja jjha jjJa jjva jja.0001 jjha.0001 jjJa.0001 jjva.0001 TTa jJya TTha jjya Gkra Ga_nukta ja_nukta Ta_nukta Ga_nukta.0001 ja_nukta.0001 Ta_nukta.0001
+  Class: 287 jha Ja jhya Jya jhra Jra jhla Jla jhva Jva jhva.0001 Jva.0001 jhma Jma jhma.0001 Jma.0001 jhna Jna jhna.0001 Jna.0001 jhNa JNa jhNa.0001 JNa.0001 Jca Jcha Jja Jjha Jca.0001 Jcha.0001 Jja.0001 Jjha.0001 Jza Jza.0001 Jzra Jzva Jzva.0001 Jjya jha_nukta Ja_nukta jha_nukta.0001 Ja_nukta.0001
+  Class: 141 Na Nya Nra Nla Nva Nva.0001 Nma Nma.0001 Nna Nna.0001 NTa NTha NDa NDha NDa.0001 NNa NNa.0001 NDra NDva NDya NDva.0001 Na_nukta Na_nukta.0001
   Class: 16 RT eT aiT candra
  2 0 0
   ClsList: 2 1
@@ -285,7 +286,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "viramamark"  "Below-base Mark to Mark-1" "ukaaramark"  "Below-base Mark to Mark-1" "bindumark"  "Above-base Mark to Mark-1" "ukaara"  "Below-base Marks-1" "virama"  "Below-base Marks-1" "ekaara"  "Above-base Marks-1" "iikaara"  "Above-base Marks-1" "aakaara"  "Above-base Marks-1" "repha"  "Above-base Marks-1" "bindu"  "Above-base Marks-1" 
-BeginChars: 881 881
+BeginChars: 947 947
 
 StartChar: akAra
 Encoding: 0 2309 0
@@ -38655,9 +38656,9 @@ Encoding: 880 2364 880
 Width: 0
 VWidth: 0
 Flags: W
-AnchorPoint: "virama" -235 -60 mark 0
+AnchorPoint: "virama" -235 0 mark 0
 AnchorPoint: "viramamark" -235 -200 basemark 0
-AnchorPoint: "viramamark" -235 -60 mark 0
+AnchorPoint: "viramamark" -235 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -38667,6 +38668,1227 @@ SplineSet
  -260 -105 -280 -85 -280 -60 c 24
  -280 -35 -260 -15 -235 -15 c 24
 EndSplineSet
+EndChar
+
+StartChar: ka_nukta
+Encoding: 881 2392 881
+Width: 759
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 340 740 basechar 0
+AnchorPoint: "ekaara" 156 549 basechar 0
+AnchorPoint: "iikaara" 498 576 basechar 0
+AnchorPoint: "aakaara" 498 576 basechar 0
+AnchorPoint: "repha" 297 516 basechar 0
+AnchorPoint: "virama" 340 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 N 1 0 0 1 540 -120 2
+Refer: 17 2325 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ka nukta
+Substitution2: "Contextual Form 0001-1" ka_nukta.0001
+EndChar
+
+StartChar: kha_nukta
+Encoding: 882 2393 882
+Width: 894
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 436 740 basechar 0
+AnchorPoint: "ekaara" 264 537 basechar 0
+AnchorPoint: "iikaara" 765 591 basechar 0
+AnchorPoint: "aakaara" 765 591 basechar 0
+AnchorPoint: "repha" 456 483 basechar 0
+AnchorPoint: "virama" 436 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 N 1 0 0 1 640 -120 2
+Refer: 18 2326 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" kha nukta
+Substitution2: "Contextual Form 0001-1" kha_nukta.0001
+EndChar
+
+StartChar: ga_nukta
+Encoding: 883 2394 883
+Width: 894
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 436 740 basechar 0
+AnchorPoint: "ekaara" 264 537 basechar 0
+AnchorPoint: "iikaara" 765 591 basechar 0
+AnchorPoint: "aakaara" 765 591 basechar 0
+AnchorPoint: "repha" 456 483 basechar 0
+AnchorPoint: "virama" 436 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 19 2327 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ga nukta
+Substitution2: "Contextual Form 0001-1" ga_nukta.0001
+EndChar
+
+StartChar: gha_nukta
+Encoding: 884 -1 884
+Width: 846
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 418 740 basechar 0
+AnchorPoint: "ekaara" 120 555 basechar 0
+AnchorPoint: "iikaara" 666 585 basechar 0
+AnchorPoint: "aakaara" 666 585 basechar 0
+AnchorPoint: "repha" 468 570 basechar 0
+AnchorPoint: "virama" 418 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 20 2328 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" gha nukta
+Substitution2: "Contextual Form 0001-1" gha_nukta.0001
+EndChar
+
+StartChar: Ga_nukta
+Encoding: 885 -1 885
+Width: 810
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 406 740 basechar 0
+AnchorPoint: "ekaara" 183 561 basechar 0
+AnchorPoint: "iikaara" 645 585 basechar 0
+AnchorPoint: "aakaara" 690 378 basechar 0
+AnchorPoint: "repha" 387 507 basechar 0
+AnchorPoint: "virama" 406 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 N 1 0 0 1 640 -120 2
+Refer: 21 2329 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Ga nukta
+Substitution2: "Contextual Form 0001-1" Ga_nukta.0001
+EndChar
+
+StartChar: ca_nukta
+Encoding: 886 -1 886
+Width: 672
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 384 740 basechar 0
+AnchorPoint: "ekaara" 198 588 basechar 0
+AnchorPoint: "iikaara" 552 606 basechar 0
+AnchorPoint: "aakaara" 552 606 basechar 0
+AnchorPoint: "repha" 387 543 basechar 0
+AnchorPoint: "virama" 334 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 22 2330 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ca nukta
+Substitution2: "Contextual Form 0001-1" ca_nukta.0001
+EndChar
+
+StartChar: cha_nukta
+Encoding: 887 -1 887
+Width: 813
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 400 740 basechar 0
+AnchorPoint: "ekaara" 264 597 basechar 0
+AnchorPoint: "iikaara" 546 612 basechar 0
+AnchorPoint: "aakaara" 546 612 basechar 0
+AnchorPoint: "repha" 402 570 basechar 0
+AnchorPoint: "virama" 400 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 N 1 0 0 1 640 -120 2
+Refer: 23 2331 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" cha nukta
+Substitution2: "Contextual Form 0001-1" cha_nukta.0001
+EndChar
+
+StartChar: ja_nukta
+Encoding: 888 2395 888
+Width: 810
+VWidth: 0
+Flags: W
+AnchorPoint: "repha" 387 507 basechar 0
+AnchorPoint: "aakaara" 690 378 basechar 0
+AnchorPoint: "iikaara" 645 585 basechar 0
+AnchorPoint: "ekaara" 183 561 basechar 0
+AnchorPoint: "bindu" 406 740 basechar 0
+AnchorPoint: "virama" 406 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 24 2332 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ja nukta
+Substitution2: "Contextual Form 0001-1" ja_nukta.0001
+EndChar
+
+StartChar: jha_nukta
+Encoding: 889 -1 889
+Width: 663
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 316 740 basechar 0
+AnchorPoint: "iikaara" 408 582 basechar 0
+AnchorPoint: "ekaara" 120 582 basechar 0
+AnchorPoint: "aakaara" 543 411 basechar 0
+AnchorPoint: "repha" 249 540 basechar 0
+AnchorPoint: "virama" 316 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 25 2333 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" jha nukta
+Substitution2: "Contextual Form 0001-1" jha_nukta.0001
+EndChar
+
+StartChar: Ja_nukta
+Encoding: 890 -1 890
+Width: 834
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 442 740 basechar 0
+AnchorPoint: "iikaara" 579 576 basechar 0
+AnchorPoint: "ekaara" 120 549 basechar 0
+AnchorPoint: "aakaara" 714 405 basechar 0
+AnchorPoint: "repha" 420 534 basechar 0
+AnchorPoint: "virama" 442 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 26 2334 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Ja nukta
+Substitution2: "Contextual Form 0001-1" Ja_nukta.0001
+EndChar
+
+StartChar: Ta_nukta
+Encoding: 891 -1 891
+Width: 803
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 400 740 basechar 0
+AnchorPoint: "ekaara" 168 585 basechar 0
+AnchorPoint: "iikaara" 639 585 basechar 0
+AnchorPoint: "aakaara" 684 378 basechar 0
+AnchorPoint: "repha" 393 531 basechar 0
+AnchorPoint: "virama" 400 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 27 2335 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Ta nukta
+Substitution2: "Contextual Form 0001-1" Ta_nukta.0001
+EndChar
+
+StartChar: Tha_nukta
+Encoding: 892 -1 892
+Width: 822
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 406 740 basechar 0
+AnchorPoint: "ekaara" 366 528 basechar 0
+AnchorPoint: "iikaara" 432 585 basechar 0
+AnchorPoint: "repha" 432 585 basechar 0
+AnchorPoint: "aakaara" 656 537 basechar 0
+AnchorPoint: "virama" 406 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 28 2336 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Tha nukta
+Substitution2: "Contextual Form 0001-1" Tha_nukta.0001
+EndChar
+
+StartChar: Da_nukta
+Encoding: 893 2396 893
+Width: 633
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 343 740 basechar 0
+AnchorPoint: "ekaara" 120 573 basechar 0
+AnchorPoint: "iikaara" 504 588 basechar 0
+AnchorPoint: "aakaara" 504 588 basechar 0
+AnchorPoint: "repha" 303 513 basechar 0
+AnchorPoint: "virama" 343 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 29 2337 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Da nukta
+Substitution2: "Contextual Form 0001-1" Da_nukta.0001
+EndChar
+
+StartChar: Dha_nukta
+Encoding: 894 2397 894
+Width: 914
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 448 740 basechar 0
+AnchorPoint: "ekaara" 264 579 basechar 0
+AnchorPoint: "iikaara" 666 591 basechar 0
+AnchorPoint: "aakaara" 666 591 basechar 0
+AnchorPoint: "repha" 480 531 basechar 0
+AnchorPoint: "virama" 448 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 740 -120 2
+Refer: 30 2338 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Dha nukta
+Substitution2: "Contextual Form 0001-1" Dha_nukta.0001
+EndChar
+
+StartChar: Na_nukta
+Encoding: 895 -1 895
+Width: 888
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 481 740 basechar 0
+AnchorPoint: "ekaara" 148 417 basechar 0
+AnchorPoint: "iikaara" 691 582 basechar 0
+AnchorPoint: "aakaara" 769 153 basechar 0
+AnchorPoint: "repha" 484 591 basechar 0
+AnchorPoint: "virama" 431 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 390 -120 2
+Refer: 31 2339 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Na nukta
+Substitution2: "Contextual Form 0001-1" Na_nukta.0001
+EndChar
+
+StartChar: ta_nukta
+Encoding: 896 -1 896
+Width: 630
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 301 740 basechar 0
+AnchorPoint: "ekaara" 123 582 basechar 0
+AnchorPoint: "iikaara" 510 597 basechar 0
+AnchorPoint: "aakaara" 510 597 basechar 0
+AnchorPoint: "repha" 330 537 basechar 0
+AnchorPoint: "virama" 301 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 32 2340 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ta nukta
+Substitution2: "Contextual Form 0001-1" ta_nukta.0001
+EndChar
+
+StartChar: tha_nukta
+Encoding: 897 -1 897
+Width: 739
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 362 740 basechar 0
+AnchorPoint: "ekaara" 245 560 basechar 0
+AnchorPoint: "iikaara" 538 585 basechar 0
+AnchorPoint: "aakaara" 538 585 basechar 0
+AnchorPoint: "repha" 346 582 basechar 0
+AnchorPoint: "virama" 362 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 33 2341 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" tha nukta
+Substitution2: "Contextual Form 0001-1" tha_nukta.0001
+EndChar
+
+StartChar: da_nukta
+Encoding: 898 -1 898
+Width: 723
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 373 740 basechar 0
+AnchorPoint: "ekaara" 195 564 basechar 0
+AnchorPoint: "iikaara" 588 582 basechar 0
+AnchorPoint: "aakaara" 588 582 basechar 0
+AnchorPoint: "repha" 369 537 basechar 0
+AnchorPoint: "virama" 373 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 34 2342 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" da nukta
+Substitution2: "Contextual Form 0001-1" da_nukta.0001
+EndChar
+
+StartChar: dha_nukta
+Encoding: 899 -1 899
+Width: 816
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 445 740 basechar 0
+AnchorPoint: "ekaara" 259 471 basechar 0
+AnchorPoint: "iikaara" 634 594 basechar 0
+AnchorPoint: "aakaara" 634 594 basechar 0
+AnchorPoint: "repha" 466 548 basechar 0
+AnchorPoint: "virama" 395 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 35 2343 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" dha nukta
+Substitution2: "Contextual Form 0001-1" dha_nukta.0001
+EndChar
+
+StartChar: na_nukta
+Encoding: 900 2345 900
+Width: 688
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 350 740 basechar 0
+AnchorPoint: "ekaara" 223 594 basechar 0
+AnchorPoint: "iikaara" 568 597 basechar 0
+AnchorPoint: "aakaara" 568 597 basechar 0
+AnchorPoint: "repha" 406 534 basechar 0
+AnchorPoint: "virama" 350 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 36 2344 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" na nukta
+Substitution2: "Contextual Form 0001-1" na_nukta.0001
+EndChar
+
+StartChar: pa_nukta
+Encoding: 901 -1 901
+Width: 813
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 403 740 basechar 0
+AnchorPoint: "ekaara" 120 585 basechar 0
+AnchorPoint: "iikaara" 594 597 basechar 0
+AnchorPoint: "aakaara" 594 597 basechar 0
+AnchorPoint: "repha" 240 528 basechar 0
+AnchorPoint: "virama" 403 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 37 2346 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" pa nukta
+Substitution2: "Contextual Form 0001-1" pa_nukta.0001
+EndChar
+
+StartChar: pha_nukta
+Encoding: 902 2398 902
+Width: 819
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 418 740 basechar 0
+AnchorPoint: "ekaara" 138 540 basechar 0
+AnchorPoint: "iikaara" 651 585 basechar 0
+AnchorPoint: "aakaara" 651 585 basechar 0
+AnchorPoint: "repha" 411 513 basechar 0
+AnchorPoint: "virama" 418 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 38 2347 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" pha nukta
+Substitution2: "Contextual Form 0001-1" pha_nukta.0001
+EndChar
+
+StartChar: ba_nukta
+Encoding: 903 -1 903
+Width: 630
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 343 740 basechar 0
+AnchorPoint: "repha" 346 543 basechar 0
+AnchorPoint: "aakaara" 511 606 basechar 0
+AnchorPoint: "iikaara" 511 606 basechar 0
+AnchorPoint: "ekaara" 157 588 basechar 0
+AnchorPoint: "virama" 293 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 39 2348 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ba nukta
+Substitution2: "Contextual Form 0001-1" ba_nukta.0001
+EndChar
+
+StartChar: bha_nukta
+Encoding: 904 -1 904
+Width: 798
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 403 740 basechar 0
+AnchorPoint: "ekaara" 204 579 basechar 0
+AnchorPoint: "iikaara" 606 591 basechar 0
+AnchorPoint: "aakaara" 606 591 basechar 0
+AnchorPoint: "repha" 420 531 basechar 0
+AnchorPoint: "virama" 403 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 40 2349 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" bha nukta
+Substitution2: "Contextual Form 0001-1" bha_nukta.0001
+EndChar
+
+StartChar: ma_nukta
+Encoding: 905 -1 905
+Width: 786
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 376 740 basechar 0
+AnchorPoint: "ekaara" 129 585 basechar 0
+AnchorPoint: "iikaara" 567 597 basechar 0
+AnchorPoint: "aakaara" 567 597 basechar 0
+AnchorPoint: "repha" 249 528 basechar 0
+AnchorPoint: "virama" 376 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 590 -120 2
+Refer: 41 2350 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ma nukta
+Substitution2: "Contextual Form 0001-1" ma_nukta.0001
+EndChar
+
+StartChar: ya_nukta
+Encoding: 906 2399 906
+Width: 824
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 414 740 basechar 0
+AnchorPoint: "ekaara" 161 579 basechar 0
+AnchorPoint: "iikaara" 605 597 basechar 0
+AnchorPoint: "aakaara" 605 597 basechar 0
+AnchorPoint: "repha" 281 522 basechar 0
+AnchorPoint: "virama" 414 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 42 2351 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ya nukta
+Substitution2: "Contextual Form 0001-1" ya_nukta.0001
+EndChar
+
+StartChar: ra_nukta
+Encoding: 907 2353 907
+Width: 576
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 277 740 basechar 0
+AnchorPoint: "ekaara" 120 594 basechar 0
+AnchorPoint: "iikaara" 408 594 basechar 0
+AnchorPoint: "virama" 277 -320 basechar 0
+AnchorPoint: "aakaara" 408 594 basechar 0
+AnchorPoint: "repha" 249 552 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 490 -120 2
+Refer: 43 2352 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ra nukta
+Substitution2: "Contextual Form 0001-1" ra_nukta.0001
+EndChar
+
+StartChar: la_nukta
+Encoding: 908 -1 908
+Width: 804
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 500 740 basechar 0
+AnchorPoint: "ekaara" 321 600 basechar 0
+AnchorPoint: "iikaara" 678 594 basechar 0
+AnchorPoint: "repha" 521 545 basechar 0
+AnchorPoint: "virama" 400 -320 basechar 0
+AnchorPoint: "aakaara" 678 594 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 44 2354 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" la nukta
+Substitution2: "Contextual Form 0001-1" la_nukta.0001
+EndChar
+
+StartChar: va_nukta
+Encoding: 909 -1 909
+Width: 594
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 306 740 basechar 0
+AnchorPoint: "repha" 309 543 basechar 0
+AnchorPoint: "aakaara" 474 606 basechar 0
+AnchorPoint: "iikaara" 474 606 basechar 0
+AnchorPoint: "ekaara" 120 588 basechar 0
+AnchorPoint: "virama" 256 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 490 -120 2
+Refer: 45 2357 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" va nukta
+Substitution2: "Contextual Form 0001-1" va_nukta.0001
+EndChar
+
+StartChar: za_nukta
+Encoding: 910 -1 910
+Width: 894
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 436 740 basechar 0
+AnchorPoint: "ekaara" 264 537 basechar 0
+AnchorPoint: "iikaara" 765 591 basechar 0
+AnchorPoint: "aakaara" 765 591 basechar 0
+AnchorPoint: "repha" 425 578 basechar 0
+AnchorPoint: "virama" 436 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 46 2358 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" za nukta
+Substitution2: "Contextual Form 0001-1" za_nukta.0001
+EndChar
+
+StartChar: Sa_nukta
+Encoding: 911 -1 911
+Width: 813
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 403 740 basechar 0
+AnchorPoint: "ekaara" 120 585 basechar 0
+AnchorPoint: "iikaara" 594 597 basechar 0
+AnchorPoint: "aakaara" 594 597 basechar 0
+AnchorPoint: "repha" 240 528 basechar 0
+AnchorPoint: "virama" 403 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 47 2359 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Sa nukta
+Substitution2: "Contextual Form 0001-1" Sa_nukta.0001
+EndChar
+
+StartChar: sa_nukta
+Encoding: 912 -1 912
+Width: 900
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 436 740 basechar 0
+AnchorPoint: "ekaara" 246 579 basechar 0
+AnchorPoint: "iikaara" 687 594 basechar 0
+AnchorPoint: "aakaara" 687 594 basechar 0
+AnchorPoint: "repha" 381 540 basechar 0
+AnchorPoint: "virama" 436 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 48 2360 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" sa nukta
+Substitution2: "Contextual Form 0001-1" sa_nukta.0001
+EndChar
+
+StartChar: ha_nukta
+Encoding: 913 -1 913
+Width: 822
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 427 740 basechar 0
+AnchorPoint: "ekaara" 165 579 basechar 0
+AnchorPoint: "iikaara" 579 597 basechar 0
+AnchorPoint: "aakaara" 579 597 basechar 0
+AnchorPoint: "repha" 381 531 basechar 0
+AnchorPoint: "virama" 427 -320 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 49 2361 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ha nukta
+Substitution2: "Contextual Form 0001-1" ha_nukta.0001
+EndChar
+
+StartChar: ka_nukta.0001
+Encoding: 914 -1 914
+Width: 891
+VWidth: 0
+Flags: W
+AnchorPoint: "virama" 423 -20 basechar 0
+AnchorPoint: "bindu" 423 740 basechar 0
+AnchorPoint: "ekaara" 202 582 basechar 0
+AnchorPoint: "iikaara" 622 588 basechar 0
+AnchorPoint: "aakaara" 622 588 basechar 0
+AnchorPoint: "repha" 416 516 basechar 0
+AnchorPoint: "ukaara" 437 100 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -250 2
+Refer: 99 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: kha_nukta.0001
+Encoding: 915 -1 915
+Width: 885
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 436 740 basechar 0
+AnchorPoint: "ekaara" 264 537 basechar 0
+AnchorPoint: "iikaara" 765 591 basechar 0
+AnchorPoint: "aakaara" 765 591 basechar 0
+AnchorPoint: "repha" 456 483 basechar 0
+AnchorPoint: "virama" 436 -120 basechar 0
+AnchorPoint: "ukaara" 632 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 N 1 0 0 1 650 -350 2
+Refer: 100 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ga_nukta.0001
+Encoding: 916 -1 916
+Width: 885
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 436 740 basechar 0
+AnchorPoint: "ekaara" 264 537 basechar 0
+AnchorPoint: "iikaara" 765 591 basechar 0
+AnchorPoint: "aakaara" 765 591 basechar 0
+AnchorPoint: "repha" 456 483 basechar 0
+AnchorPoint: "virama" 436 -120 basechar 0
+AnchorPoint: "ukaara" 624 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 101 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: gha_nukta.0001
+Encoding: 917 -1 917
+Width: 786
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 418 740 basechar 0
+AnchorPoint: "ekaara" 120 555 basechar 0
+AnchorPoint: "iikaara" 666 585 basechar 0
+AnchorPoint: "aakaara" 666 585 basechar 0
+AnchorPoint: "repha" 468 570 basechar 0
+AnchorPoint: "virama" 418 -120 basechar 0
+AnchorPoint: "ukaara" 614 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 102 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ga_nukta.0001
+Encoding: 918 -1 918
+Width: 810
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 406 740 basechar 0
+AnchorPoint: "ekaara" 183 561 basechar 0
+AnchorPoint: "iikaara" 645 585 basechar 0
+AnchorPoint: "aakaara" 690 378 basechar 0
+AnchorPoint: "repha" 387 507 basechar 0
+AnchorPoint: "virama" 406 -120 basechar 0
+AnchorPoint: "ukaara" 428 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 103 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ca_nukta.0001
+Encoding: 919 -1 919
+Width: 672
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 384 740 basechar 0
+AnchorPoint: "ekaara" 198 588 basechar 0
+AnchorPoint: "iikaara" 552 606 basechar 0
+AnchorPoint: "aakaara" 552 606 basechar 0
+AnchorPoint: "repha" 387 543 basechar 0
+AnchorPoint: "virama" 334 -120 basechar 0
+AnchorPoint: "ukaara" 406 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 N 1 0 0 1 550 -350 2
+Refer: 104 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: cha_nukta.0001
+Encoding: 920 -1 920
+Width: 813
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 400 740 basechar 0
+AnchorPoint: "ekaara" 264 597 basechar 0
+AnchorPoint: "iikaara" 546 612 basechar 0
+AnchorPoint: "aakaara" 546 612 basechar 0
+AnchorPoint: "repha" 402 570 basechar 0
+AnchorPoint: "virama" 400 -120 basechar 0
+AnchorPoint: "ukaara" 394 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 105 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ja_nukta.0001
+Encoding: 921 -1 921
+Width: 810
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 406 740 basechar 0
+AnchorPoint: "ekaara" 183 561 basechar 0
+AnchorPoint: "iikaara" 645 585 basechar 0
+AnchorPoint: "aakaara" 690 378 basechar 0
+AnchorPoint: "repha" 387 507 basechar 0
+AnchorPoint: "virama" 406 -120 basechar 0
+AnchorPoint: "ukaara" 428 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 106 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: jha_nukta.0001
+Encoding: 922 -1 922
+Width: 663
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 316 740 basechar 0
+AnchorPoint: "iikaara" 408 582 basechar 0
+AnchorPoint: "ekaara" 120 582 basechar 0
+AnchorPoint: "aakaara" 543 411 basechar 0
+AnchorPoint: "repha" 249 540 basechar 0
+AnchorPoint: "virama" 316 -120 basechar 0
+AnchorPoint: "ukaara" 282 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 550 -350 2
+Refer: 107 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ja_nukta.0001
+Encoding: 923 -1 923
+Width: 834
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 442 740 basechar 0
+AnchorPoint: "iikaara" 579 576 basechar 0
+AnchorPoint: "ekaara" 120 549 basechar 0
+AnchorPoint: "aakaara" 714 405 basechar 0
+AnchorPoint: "repha" 420 534 basechar 0
+AnchorPoint: "virama" 442 -120 basechar 0
+AnchorPoint: "ukaara" 456 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 108 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ta_nukta.0001
+Encoding: 924 -1 924
+Width: 805
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 402 740 basechar 0
+AnchorPoint: "ekaara" 170 585 basechar 0
+AnchorPoint: "iikaara" 641 585 basechar 0
+AnchorPoint: "aakaara" 686 378 basechar 0
+AnchorPoint: "repha" 395 531 basechar 0
+AnchorPoint: "virama" 402 -120 basechar 0
+AnchorPoint: "ukaara" 433 64 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -400 2
+Refer: 109 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Tha_nukta.0001
+Encoding: 925 -1 925
+Width: 822
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 406 740 basechar 0
+AnchorPoint: "ekaara" 366 528 basechar 0
+AnchorPoint: "iikaara" 432 585 basechar 0
+AnchorPoint: "repha" 432 585 basechar 0
+AnchorPoint: "aakaara" 656 537 basechar 0
+AnchorPoint: "virama" 406 -120 basechar 0
+AnchorPoint: "ukaara" 406 58 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -400 2
+Refer: 110 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Da_nukta.0001
+Encoding: 926 -1 926
+Width: 624
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 343 740 basechar 0
+AnchorPoint: "ekaara" 120 573 basechar 0
+AnchorPoint: "iikaara" 504 588 basechar 0
+AnchorPoint: "aakaara" 504 588 basechar 0
+AnchorPoint: "repha" 303 513 basechar 0
+AnchorPoint: "virama" 343 -120 basechar 0
+AnchorPoint: "ukaara" 363 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 550 -450 2
+Refer: 111 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Dha_nukta.0001
+Encoding: 927 -1 927
+Width: 914
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 448 740 basechar 0
+AnchorPoint: "ekaara" 264 579 basechar 0
+AnchorPoint: "iikaara" 666 591 basechar 0
+AnchorPoint: "aakaara" 666 591 basechar 0
+AnchorPoint: "repha" 480 531 basechar 0
+AnchorPoint: "virama" 448 -120 basechar 0
+AnchorPoint: "ukaara" 612 50 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 112 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Na_nukta.0001
+Encoding: 928 -1 928
+Width: 888
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 481 740 basechar 0
+AnchorPoint: "ekaara" 148 417 basechar 0
+AnchorPoint: "iikaara" 691 582 basechar 0
+AnchorPoint: "aakaara" 769 153 basechar 0
+AnchorPoint: "repha" 484 591 basechar 0
+AnchorPoint: "virama" 431 -120 basechar 0
+AnchorPoint: "ukaara" 490 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 113 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ta_nukta.0001
+Encoding: 929 -1 929
+Width: 630
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 301 740 basechar 0
+AnchorPoint: "ekaara" 123 582 basechar 0
+AnchorPoint: "iikaara" 510 597 basechar 0
+AnchorPoint: "aakaara" 510 597 basechar 0
+AnchorPoint: "repha" 330 537 basechar 0
+AnchorPoint: "virama" 301 -20 basechar 0
+AnchorPoint: "ukaara" 353 100 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 550 -300 2
+Refer: 114 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: tha_nukta.0001
+Encoding: 930 -1 930
+Width: 658
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 362 740 basechar 0
+AnchorPoint: "ekaara" 245 560 basechar 0
+AnchorPoint: "iikaara" 538 585 basechar 0
+AnchorPoint: "aakaara" 538 585 basechar 0
+AnchorPoint: "repha" 346 582 basechar 0
+AnchorPoint: "virama" 362 -120 basechar 0
+AnchorPoint: "ukaara" 458 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 600 -350 2
+Refer: 115 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: da_nukta.0001
+Encoding: 931 -1 931
+Width: 723
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 373 740 basechar 0
+AnchorPoint: "ekaara" 195 564 basechar 0
+AnchorPoint: "iikaara" 588 582 basechar 0
+AnchorPoint: "aakaara" 588 582 basechar 0
+AnchorPoint: "repha" 369 537 basechar 0
+AnchorPoint: "virama" 373 -70 basechar 0
+AnchorPoint: "ukaara" 361 50 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 600 -300 2
+Refer: 116 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: dha_nukta.0001
+Encoding: 932 -1 932
+Width: 753
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 445 740 basechar 0
+AnchorPoint: "ekaara" 259 471 basechar 0
+AnchorPoint: "iikaara" 634 594 basechar 0
+AnchorPoint: "aakaara" 634 594 basechar 0
+AnchorPoint: "repha" 466 548 basechar 0
+AnchorPoint: "virama" 395 -120 basechar 0
+AnchorPoint: "ukaara" 581 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 117 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: na_nukta.0001
+Encoding: 933 -1 933
+Width: 688
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 350 740 basechar 0
+AnchorPoint: "ekaara" 223 594 basechar 0
+AnchorPoint: "iikaara" 568 597 basechar 0
+AnchorPoint: "aakaara" 568 597 basechar 0
+AnchorPoint: "repha" 406 534 basechar 0
+AnchorPoint: "virama" 350 -20 basechar 0
+AnchorPoint: "ukaara" 412 100 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 600 -300 2
+Refer: 118 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: pa_nukta.0001
+Encoding: 934 -1 934
+Width: 714
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 403 740 basechar 0
+AnchorPoint: "ekaara" 120 585 basechar 0
+AnchorPoint: "iikaara" 594 597 basechar 0
+AnchorPoint: "aakaara" 594 597 basechar 0
+AnchorPoint: "repha" 240 528 basechar 0
+AnchorPoint: "virama" 403 -120 basechar 0
+AnchorPoint: "ukaara" 561 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 119 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: pha_nukta.0001
+Encoding: 935 -1 935
+Width: 819
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 400 740 basechar 0
+AnchorPoint: "ekaara" 120 540 basechar 0
+AnchorPoint: "iikaara" 633 585 basechar 0
+AnchorPoint: "aakaara" 633 585 basechar 0
+AnchorPoint: "repha" 393 513 basechar 0
+AnchorPoint: "virama" 400 -120 basechar 0
+AnchorPoint: "ukaara" 315 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -450 2
+Refer: 120 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ba_nukta.0001
+Encoding: 936 -1 936
+Width: 630
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 343 740 basechar 0
+AnchorPoint: "repha" 346 543 basechar 0
+AnchorPoint: "aakaara" 511 606 basechar 0
+AnchorPoint: "iikaara" 511 606 basechar 0
+AnchorPoint: "ekaara" 157 588 basechar 0
+AnchorPoint: "virama" 293 -120 basechar 0
+AnchorPoint: "ukaara" 363 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 550 -350 2
+Refer: 121 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: bha_nukta.0001
+Encoding: 937 -1 937
+Width: 726
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 403 740 basechar 0
+AnchorPoint: "ekaara" 204 579 basechar 0
+AnchorPoint: "iikaara" 606 591 basechar 0
+AnchorPoint: "aakaara" 606 591 basechar 0
+AnchorPoint: "repha" 420 531 basechar 0
+AnchorPoint: "virama" 403 -70 basechar 0
+AnchorPoint: "ukaara" 551 50 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -300 2
+Refer: 122 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ma_nukta.0001
+Encoding: 938 -1 938
+Width: 687
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 376 740 basechar 0
+AnchorPoint: "ekaara" 129 585 basechar 0
+AnchorPoint: "iikaara" 567 597 basechar 0
+AnchorPoint: "aakaara" 567 597 basechar 0
+AnchorPoint: "repha" 249 528 basechar 0
+AnchorPoint: "virama" 376 -120 basechar 0
+AnchorPoint: "ukaara" 532 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 600 -350 2
+Refer: 123 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ya_nukta.0001
+Encoding: 939 -1 939
+Width: 725
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 414 740 basechar 0
+AnchorPoint: "ekaara" 161 579 basechar 0
+AnchorPoint: "iikaara" 605 597 basechar 0
+AnchorPoint: "aakaara" 605 597 basechar 0
+AnchorPoint: "repha" 281 522 basechar 0
+AnchorPoint: "virama" 414 -120 basechar 0
+AnchorPoint: "ukaara" 570 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 124 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ra_nukta.0001
+Encoding: 940 -1 940
+Width: 576
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 277 740 basechar 0
+AnchorPoint: "ekaara" 120 594 basechar 0
+AnchorPoint: "iikaara" 408 594 basechar 0
+AnchorPoint: "repha" 249 552 basechar 0
+AnchorPoint: "virama" 277 -120 basechar 0
+AnchorPoint: "ukaara" 294 333 basechar 0
+AnchorPoint: "aakaara" 408 594 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 490 -120 2
+Refer: 125 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: la_nukta.0001
+Encoding: 941 -1 941
+Width: 804
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 500 740 basechar 0
+AnchorPoint: "ekaara" 321 600 basechar 0
+AnchorPoint: "iikaara" 678 594 basechar 0
+AnchorPoint: "repha" 521 545 basechar 0
+AnchorPoint: "virama" 400 -120 basechar 0
+AnchorPoint: "ukaara" 572 282 basechar 0
+AnchorPoint: "aakaara" 678 594 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 126 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: va_nukta.0001
+Encoding: 942 -1 942
+Width: 594
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 306 740 basechar 0
+AnchorPoint: "repha" 309 543 basechar 0
+AnchorPoint: "aakaara" 474 606 basechar 0
+AnchorPoint: "iikaara" 474 606 basechar 0
+AnchorPoint: "ekaara" 120 588 basechar 0
+AnchorPoint: "virama" 256 -120 basechar 0
+AnchorPoint: "ukaara" 325 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 500 -350 2
+Refer: 127 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: za_nukta.0001
+Encoding: 943 -1 943
+Width: 885
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 436 740 basechar 0
+AnchorPoint: "ekaara" 264 537 basechar 0
+AnchorPoint: "iikaara" 765 591 basechar 0
+AnchorPoint: "aakaara" 765 591 basechar 0
+AnchorPoint: "repha" 425 578 basechar 0
+AnchorPoint: "virama" 436 -120 basechar 0
+AnchorPoint: "ukaara" 610 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 128 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Sa_nukta.0001
+Encoding: 944 -1 944
+Width: 714
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 403 740 basechar 0
+AnchorPoint: "ekaara" 120 585 basechar 0
+AnchorPoint: "iikaara" 594 597 basechar 0
+AnchorPoint: "aakaara" 594 597 basechar 0
+AnchorPoint: "repha" 240 528 basechar 0
+AnchorPoint: "virama" 403 -120 basechar 0
+AnchorPoint: "ukaara" 560 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 129 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: sa_nukta.0001
+Encoding: 945 -1 945
+Width: 807
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 436 740 basechar 0
+AnchorPoint: "ekaara" 246 579 basechar 0
+AnchorPoint: "iikaara" 687 594 basechar 0
+AnchorPoint: "aakaara" 687 594 basechar 0
+AnchorPoint: "repha" 381 540 basechar 0
+AnchorPoint: "virama" 436 -120 basechar 0
+AnchorPoint: "ukaara" 646 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 130 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ha_nukta.0001
+Encoding: 946 -1 946
+Width: 822
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 427 740 basechar 0
+AnchorPoint: "ekaara" 165 579 basechar 0
+AnchorPoint: "iikaara" 579 597 basechar 0
+AnchorPoint: "aakaara" 579 597 basechar 0
+AnchorPoint: "repha" 381 531 basechar 0
+AnchorPoint: "virama" 427 -120 basechar 0
+AnchorPoint: "ukaara" 375 90 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 131 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
