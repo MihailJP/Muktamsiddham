@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1403450824
-ModificationTime: 1403451333
+ModificationTime: 1403453025
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -286,7 +286,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "viramamark"  "Below-base Mark to Mark-1" "ukaaramark"  "Below-base Mark to Mark-1" "bindumark"  "Above-base Mark to Mark-1" "ukaara"  "Below-base Marks-1" "virama"  "Below-base Marks-1" "ekaara"  "Above-base Marks-1" "iikaara"  "Above-base Marks-1" "aakaara"  "Above-base Marks-1" "repha"  "Above-base Marks-1" "bindu"  "Above-base Marks-1" 
-BeginChars: 947 947
+BeginChars: 965 965
 
 StartChar: akAra
 Encoding: 0 2309 0
@@ -39889,6 +39889,253 @@ LayerCount: 2
 Fore
 Refer: 880 2364 S 1 0 0 1 650 -350 2
 Refer: 131 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: akAra_nukta
+Encoding: 947 -1 947
+Width: 824
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 407 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 590 -120 2
+Refer: 0 2309 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" akAra nukta
+EndChar
+
+StartChar: AkAra_nukta
+Encoding: 948 -1 948
+Width: 899
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 450 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 590 -120 2
+Refer: 1 2310 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" AkAra nukta
+EndChar
+
+StartChar: it_nukta
+Encoding: 949 -1 949
+Width: 843
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 442 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 590 -120 2
+Refer: 2 2311 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" it nukta
+EndChar
+
+StartChar: It_nukta
+Encoding: 950 -1 950
+Width: 779
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 396 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 590 -120 2
+Refer: 3 2312 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" It nukta
+EndChar
+
+StartChar: ut_nukta
+Encoding: 951 -1 951
+Width: 765
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 433 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 4 2313 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ut nukta
+EndChar
+
+StartChar: Ut_nukta
+Encoding: 952 -1 952
+Width: 927
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 433 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 5 2314 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" Ut nukta
+EndChar
+
+StartChar: Rt_nukta
+Encoding: 953 -1 953
+Width: 663
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 316 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 N 1 0 0 1 490 -120 2
+Refer: 6 2315 N 1 0 0 1 0 0 2
+LCarets2: 1 0 
+Ligature2: "Nukta Forms-1" Rt nukta
+EndChar
+
+StartChar: RRt_nukta
+Encoding: 954 -1 954
+Width: 794
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 287 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 N 1 0 0 1 490 -120 2
+Refer: 7 2400 N 1 0 0 1 0 0 2
+LCarets2: 1 0 
+Ligature2: "Nukta Forms-1" RRt nukta
+EndChar
+
+StartChar: Lt_nukta
+Encoding: 955 -1 955
+Width: 694
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 273 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 8 2316 N 1 0 0 1 0 0 2
+LCarets2: 1 0 
+Ligature2: "Nukta Forms-1" Lt nukta
+EndChar
+
+StartChar: LLt_nukta
+Encoding: 956 -1 956
+Width: 724
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 273 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 540 -120 2
+Refer: 9 2401 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" LLt nukta
+EndChar
+
+StartChar: et_nukta
+Encoding: 957 -1 957
+Width: 909
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 463 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 690 -120 2
+Refer: 10 2319 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" et nukta
+EndChar
+
+StartChar: ait_nukta
+Encoding: 958 -1 958
+Width: 909
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 463 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 690 -120 2
+Refer: 11 2320 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ait nukta
+EndChar
+
+StartChar: ot_nukta
+Encoding: 959 -1 959
+Width: 765
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 433 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 12 2323 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" ot nukta
+EndChar
+
+StartChar: aut_nukta
+Encoding: 960 -1 960
+Width: 927
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 433 740 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 13 2324 N 1 0 0 1 0 0 2
+Ligature2: "Nukta Forms-1" aut nukta
+EndChar
+
+StartChar: rR_nukta
+Encoding: 961 -1 961
+Width: 663
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 278 894 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 490 -120 2
+Refer: 536 -1 N 1 0 0 1 0 0 2
+Ligature2: "RT RRT Exceptional Forms-1" ra_nukta RT
+EndChar
+
+StartChar: rRR_nukta
+Encoding: 962 -1 962
+Width: 794
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 280 894 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 490 -120 2
+Refer: 537 -1 N 1 0 0 1 0 0 2
+Ligature2: "RT RRT Exceptional Forms-1" ra_nukta RT AT
+Ligature2: "RT RRT Exceptional Forms-1" ra_nukta RRT
+EndChar
+
+StartChar: lR_nukta
+Encoding: 963 -1 963
+Width: 804
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 500 740 basechar 0
+AnchorPoint: "ekaara" 321 600 basechar 0
+AnchorPoint: "iikaara" 678 594 basechar 0
+AnchorPoint: "repha" 521 545 basechar 0
+AnchorPoint: "aakaara" 678 594 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 440 -120 2
+Refer: 538 -1 N 1 0 0 1 0 0 2
+Ligature2: "RT RRT Exceptional Forms-1" la_nukta RT
+EndChar
+
+StartChar: lRR_nukta
+Encoding: 964 -1 964
+Width: 804
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 500 740 basechar 0
+AnchorPoint: "ekaara" 321 600 basechar 0
+AnchorPoint: "iikaara" 678 594 basechar 0
+AnchorPoint: "repha" 521 545 basechar 0
+AnchorPoint: "aakaara" 678 594 basechar 0
+LayerCount: 2
+Fore
+Refer: 880 2364 S 1 0 0 1 440 -120 2
+Refer: 539 -1 N 1 0 0 1 0 0 2
+Ligature2: "RT RRT Exceptional Forms-1" la_nukta RT AT
+Ligature2: "RT RRT Exceptional Forms-1" la_nukta RRT
 EndChar
 EndChars
 EndSplineFont
