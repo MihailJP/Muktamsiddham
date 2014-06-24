@@ -1,3 +1,38 @@
+2014-06-24
+	Version 1.0.0 release. Trilingual summary and commit log follows.
+
+	* Nuktaを追加。
+	* ラテン文字のQを修正。
+	* Unicode 7.0の梵字の符号位置をサポートした (MuktamSiddhamGのみ)。
+
+	* Added Nukta.
+	* Modified Latin letter Q.
+	* Now supports Unicode 7.0 Siddham codepoints in SMP (MuktamSiddhamG only).
+
+	* Добавлено Nukta.
+	* Модифицировано латинскую букву Q.
+	* Теперь поддерживает Юникод 7.0 Сиддхама в SMP (только MuktamSiddhamG).
+
+	* 2014-06-24 eb1cee2 Year
+	* 2014-06-24 e5e1696 Update README
+	* 2014-06-24 98afc50 Merge branches 'nukta' and 'roman'
+	* 2014-06-24 98a7558 Modify Latin letter Q
+	* 2014-06-24 93d8ddf Add Nukta substitutions to Graphite table
+	* 2014-06-23 39f72e5 Update patch file
+	* 2014-06-23 0ef8e7e Add ravattu with nukta forms
+	* 2014-06-23 5d4134d Add vowels with nukta
+	* 2014-06-23 7698b40 Add consonants with nukta
+	* 2014-06-21 a810e4d Merge branch 'sfd-autocorrect' into nukta
+	* 2014-06-21 d293ff6 Merge branch 'sfd-autocorrect'
+	* 2014-06-21 7c449ff Extended point attributes
+	* 2014-06-21 b37f28f Add glyph for nukta
+	* 2014-06-21 c6f6171 Remove duplicate definition
+	* 2014-06-21 451ccef Merge branch 'unicode70'
+	* 2014-06-21 16e70b8 Add .gitignore
+	* 2014-06-21 ee5053e Unicode 7.0 Siddam codepoints
+	* 2012-05-10 4d2c400 ChangeLog 0.3.0
+
+
 2012-05-10
 	Version 0.3.0 release. Trilingual summary and commit log follows.
 

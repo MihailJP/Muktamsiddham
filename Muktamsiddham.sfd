@@ -5,7 +5,7 @@ FamilyName: Muktamsiddham
 Weight: Medium
 Copyright: Copyright (c) 2011-2012, 2014, MihailJP, with Reserved Font Name Muktamsiddham.\nLatin glyphs Copyright (c) 1999 by George Williams,\nwith Reserved Font Name Peignot.
 UComments: "Font preparation:+AAoA-1. Select all and expand their strokes.+AAoA     Elliptical, width 100:40,+AAoA     Angle -30, square cap, round join.+AAoA-2. Add extrema and round to int.+AAoA-3. Simplify and round to int.+AAoA-4. Remove overlaps and round to int.+AAoA-5. Redo 3.+AAoA-6. Redo 2." 
-Version: 0.3.0
+Version: 1.0.0
 StrokeWidth: 70
 ItalicAngle: 0
 UnderlinePosition: -100
