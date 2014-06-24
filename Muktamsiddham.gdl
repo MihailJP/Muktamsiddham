@@ -1,5 +1,5 @@
 /*
-    Glyph information for font MuktamsiddhamT at Wed May  9 10:18:14 2012
+    Glyph information for font MuktamsiddhamT at Mon Jun 23 23:15:39 2014
 */
 
 table(glyph) {MUnits = 2048};
@@ -866,7 +866,123 @@ g__skva_0001 = glyphid(862) {aakaaraS = point(975m, 1225m); binduS = point(680m,
 g_ddhma_0001 = glyphid(863) {aakaaraS = point(1030m, 1206m); binduS = point(700m, 1516m); ekaaraS = point(428m, 1184m); iikaaraS = point(1030m, 1206m); rephaS = point(694m, 1151m); ukaaraS = point(930m, -504m)};
 g__n_dva_0001 = glyphid(864) {aakaaraS = point(1225m, 680m); binduS = point(807m, 1516m); ekaaraS = point(270m, 1004m); iikaaraS = point(1104m, 1206m); rephaS = point(786m, 1219m); ukaaraS = point(774m, -649m)};
 g_strya = glyphid(865) {aakaaraS = point(1116m, 1221m); binduS = point(731m, 1516m); ekaaraS = point(438m, 1202m); iikaaraS = point(1116m, 1221m); viramaS = point(846m, -748m); rephaS = point(647m, 1155m); ukaaraS = point(831m, -498m)};
-g_nukta = glyphid(880) {viramaM = point(-235m, 0m); viramamarkM = point(-235m, 0m); viramamarkS = point(-235m, -200m)};
+g_nukta = glyphid(883) {viramaM = point(-481m, 0m); viramamarkS = point(-481m, -410m); viramamarkM = point(-481m, 0m)};
+g_ka_nukta = glyphid(884) {aakaaraS = point(1020m, 1180m); binduS = point(696m, 1516m); ekaaraS = point(319m, 1124m); iikaaraS = point(1020m, 1180m); viramaS = point(696m, -655m); rephaS = point(608m, 1057m)};
+g_kha_nukta = glyphid(885) {aakaaraS = point(1567m, 1210m); binduS = point(893m, 1516m); ekaaraS = point(541m, 1100m); iikaaraS = point(1567m, 1210m); viramaS = point(893m, -655m); rephaS = point(934m, 989m)};
+g_ga_nukta = glyphid(886) {aakaaraS = point(1567m, 1210m); binduS = point(893m, 1516m); ekaaraS = point(541m, 1100m); iikaaraS = point(1567m, 1210m); viramaS = point(893m, -655m); rephaS = point(934m, 989m)};
+g_gha_nukta = glyphid(887) {aakaaraS = point(1364m, 1198m); binduS = point(856m, 1516m); ekaaraS = point(246m, 1137m); iikaaraS = point(1364m, 1198m); viramaS = point(856m, -655m); rephaS = point(958m, 1167m)};
+g__ga_nukta = glyphid(888) {aakaaraS = point(1413m, 774m); binduS = point(831m, 1516m); ekaaraS = point(375m, 1149m); iikaaraS = point(1321m, 1198m); viramaS = point(831m, -655m); rephaS = point(793m, 1038m)};
+g_ca_nukta = glyphid(889) {aakaaraS = point(1130m, 1241m); binduS = point(786m, 1516m); ekaaraS = point(406m, 1204m); iikaaraS = point(1130m, 1241m); viramaS = point(684m, -655m); rephaS = point(793m, 1112m)};
+g_cha_nukta = glyphid(890) {aakaaraS = point(1118m, 1253m); binduS = point(819m, 1516m); ekaaraS = point(541m, 1223m); iikaaraS = point(1118m, 1253m); viramaS = point(819m, -655m); rephaS = point(823m, 1167m)};
+g_ja_nukta = glyphid(891) {aakaaraS = point(1413m, 774m); binduS = point(831m, 1516m); ekaaraS = point(375m, 1149m); iikaaraS = point(1321m, 1198m); viramaS = point(831m, -655m); rephaS = point(793m, 1038m)};
+g_jha_nukta = glyphid(892) {aakaaraS = point(1112m, 842m); binduS = point(647m, 1516m); ekaaraS = point(246m, 1192m); iikaaraS = point(836m, 1192m); viramaS = point(647m, -655m); rephaS = point(510m, 1106m)};
+g__ja_nukta = glyphid(893) {aakaaraS = point(1462m, 829m); binduS = point(905m, 1516m); ekaaraS = point(246m, 1124m); iikaaraS = point(1186m, 1180m); viramaS = point(905m, -655m); rephaS = point(860m, 1094m)};
+g__ta_nukta = glyphid(894) {aakaaraS = point(1401m, 774m); binduS = point(819m, 1516m); ekaaraS = point(344m, 1198m); iikaaraS = point(1309m, 1198m); viramaS = point(819m, -655m); rephaS = point(805m, 1087m)};
+g__tha_nukta = glyphid(895) {aakaaraS = point(1343m, 1100m); binduS = point(831m, 1516m); ekaaraS = point(750m, 1081m); iikaaraS = point(885m, 1198m); viramaS = point(831m, -655m); rephaS = point(885m, 1198m)};
+g__da_nukta = glyphid(896) {aakaaraS = point(1032m, 1204m); binduS = point(702m, 1516m); ekaaraS = point(246m, 1174m); iikaaraS = point(1032m, 1204m); viramaS = point(702m, -655m); rephaS = point(621m, 1051m)};
+g__dha_nukta = glyphid(897) {aakaaraS = point(1364m, 1210m); binduS = point(918m, 1516m); ekaaraS = point(541m, 1186m); iikaaraS = point(1364m, 1210m); viramaS = point(918m, -655m); rephaS = point(983m, 1087m)};
+g__na_nukta = glyphid(898) {aakaaraS = point(1575m, 313m); binduS = point(985m, 1516m); ekaaraS = point(303m, 854m); iikaaraS = point(1415m, 1192m); viramaS = point(883m, -655m); rephaS = point(991m, 1210m)};
+g_ta_nukta = glyphid(899) {aakaaraS = point(1044m, 1223m); binduS = point(616m, 1516m); ekaaraS = point(252m, 1192m); iikaaraS = point(1044m, 1223m); viramaS = point(616m, -655m); rephaS = point(676m, 1100m)};
+g_tha_nukta = glyphid(900) {aakaaraS = point(1102m, 1198m); binduS = point(741m, 1516m); ekaaraS = point(502m, 1147m); iikaaraS = point(1102m, 1198m); viramaS = point(741m, -655m); rephaS = point(709m, 1192m)};
+g_da_nukta = glyphid(901) {aakaaraS = point(1204m, 1192m); binduS = point(764m, 1516m); ekaaraS = point(399m, 1155m); iikaaraS = point(1204m, 1192m); viramaS = point(764m, -655m); rephaS = point(756m, 1100m)};
+g_dha_nukta = glyphid(902) {aakaaraS = point(1298m, 1217m); binduS = point(911m, 1516m); ekaaraS = point(530m, 965m); iikaaraS = point(1298m, 1217m); viramaS = point(809m, -655m); rephaS = point(954m, 1122m)};
+g_na_nukta = glyphid(903) {aakaaraS = point(1163m, 1223m); binduS = point(717m, 1516m); ekaaraS = point(457m, 1217m); iikaaraS = point(1163m, 1223m); viramaS = point(717m, -655m); rephaS = point(831m, 1094m)};
+g_pa_nukta = glyphid(904) {aakaaraS = point(1217m, 1223m); binduS = point(825m, 1516m); ekaaraS = point(246m, 1198m); iikaaraS = point(1217m, 1223m); viramaS = point(825m, -655m); rephaS = point(492m, 1081m)};
+g_pha_nukta = glyphid(905) {aakaaraS = point(1333m, 1198m); binduS = point(856m, 1516m); ekaaraS = point(283m, 1106m); iikaaraS = point(1333m, 1198m); viramaS = point(856m, -655m); rephaS = point(842m, 1051m)};
+g_ba_nukta = glyphid(906) {aakaaraS = point(1047m, 1241m); binduS = point(702m, 1516m); ekaaraS = point(322m, 1204m); iikaaraS = point(1047m, 1241m); viramaS = point(600m, -655m); rephaS = point(709m, 1112m)};
+g_bha_nukta = glyphid(907) {aakaaraS = point(1241m, 1210m); binduS = point(825m, 1516m); ekaaraS = point(418m, 1186m); iikaaraS = point(1241m, 1210m); viramaS = point(825m, -655m); rephaS = point(860m, 1087m)};
+g_ma_nukta = glyphid(908) {aakaaraS = point(1161m, 1223m); binduS = point(770m, 1516m); ekaaraS = point(264m, 1198m); iikaaraS = point(1161m, 1223m); viramaS = point(770m, -655m); rephaS = point(510m, 1081m)};
+g_ya_nukta = glyphid(909) {aakaaraS = point(1239m, 1223m); binduS = point(848m, 1516m); ekaaraS = point(330m, 1186m); iikaaraS = point(1239m, 1223m); viramaS = point(848m, -655m); rephaS = point(575m, 1069m)};
+g_ra_nukta = glyphid(910) {aakaaraS = point(836m, 1217m); binduS = point(567m, 1516m); ekaaraS = point(246m, 1217m); iikaaraS = point(836m, 1217m); viramaS = point(567m, -655m); rephaS = point(510m, 1130m)};
+g_la_nukta = glyphid(911) {aakaaraS = point(1389m, 1217m); binduS = point(1024m, 1516m); ekaaraS = point(657m, 1229m); iikaaraS = point(1389m, 1217m); viramaS = point(819m, -655m); rephaS = point(1067m, 1116m)};
+g_va_nukta = glyphid(912) {aakaaraS = point(971m, 1241m); binduS = point(627m, 1516m); ekaaraS = point(246m, 1204m); iikaaraS = point(971m, 1241m); viramaS = point(524m, -655m); rephaS = point(633m, 1112m)};
+g_za_nukta = glyphid(913) {aakaaraS = point(1567m, 1210m); binduS = point(893m, 1516m); ekaaraS = point(541m, 1100m); iikaaraS = point(1567m, 1210m); viramaS = point(893m, -655m); rephaS = point(870m, 1184m)};
+g__sa_nukta = glyphid(914) {aakaaraS = point(1217m, 1223m); binduS = point(825m, 1516m); ekaaraS = point(246m, 1198m); iikaaraS = point(1217m, 1223m); viramaS = point(825m, -655m); rephaS = point(492m, 1081m)};
+g_sa_nukta = glyphid(915) {aakaaraS = point(1407m, 1217m); binduS = point(893m, 1516m); ekaaraS = point(504m, 1186m); iikaaraS = point(1407m, 1217m); viramaS = point(893m, -655m); rephaS = point(780m, 1106m)};
+g_ha_nukta = glyphid(916) {aakaaraS = point(1186m, 1223m); binduS = point(874m, 1516m); ekaaraS = point(338m, 1186m); iikaaraS = point(1186m, 1223m); viramaS = point(874m, -655m); rephaS = point(780m, 1087m)};
+g_ka_nukta_0001 = glyphid(917) {aakaaraS = point(1274m, 1204m); binduS = point(866m, 1516m); ekaaraS = point(414m, 1192m); iikaaraS = point(1274m, 1204m); viramaS = point(866m, -41m); rephaS = point(852m, 1057m); ukaaraS = point(895m, 205m)};
+g_kha_nukta_0001 = glyphid(918) {aakaaraS = point(1567m, 1210m); binduS = point(893m, 1516m); ekaaraS = point(541m, 1100m); iikaaraS = point(1567m, 1210m); viramaS = point(893m, -246m); rephaS = point(934m, 989m); ukaaraS = point(1294m, 0m)};
+g_ga_nukta_0001 = glyphid(919) {aakaaraS = point(1567m, 1210m); binduS = point(893m, 1516m); ekaaraS = point(541m, 1100m); iikaaraS = point(1567m, 1210m); viramaS = point(893m, -246m); rephaS = point(934m, 989m); ukaaraS = point(1278m, 0m)};
+g_gha_nukta_0001 = glyphid(920) {aakaaraS = point(1364m, 1198m); binduS = point(856m, 1516m); ekaaraS = point(246m, 1137m); iikaaraS = point(1364m, 1198m); viramaS = point(856m, -246m); rephaS = point(958m, 1167m); ukaaraS = point(1257m, 0m)};
+g__ga_nukta_0001 = glyphid(921) {aakaaraS = point(1413m, 774m); binduS = point(831m, 1516m); ekaaraS = point(375m, 1149m); iikaaraS = point(1321m, 1198m); viramaS = point(831m, -246m); rephaS = point(793m, 1038m); ukaaraS = point(877m, 0m)};
+g_ca_nukta_0001 = glyphid(922) {aakaaraS = point(1130m, 1241m); binduS = point(786m, 1516m); ekaaraS = point(406m, 1204m); iikaaraS = point(1130m, 1241m); viramaS = point(684m, -246m); rephaS = point(793m, 1112m); ukaaraS = point(831m, 0m)};
+g_cha_nukta_0001 = glyphid(923) {aakaaraS = point(1118m, 1253m); binduS = point(819m, 1516m); ekaaraS = point(541m, 1223m); iikaaraS = point(1118m, 1253m); viramaS = point(819m, -246m); rephaS = point(823m, 1167m); ukaaraS = point(807m, 0m)};
+g_ja_nukta_0001 = glyphid(924) {aakaaraS = point(1413m, 774m); binduS = point(831m, 1516m); ekaaraS = point(375m, 1149m); iikaaraS = point(1321m, 1198m); viramaS = point(831m, -246m); rephaS = point(793m, 1038m); ukaaraS = point(877m, 0m)};
+g_jha_nukta_0001 = glyphid(925) {aakaaraS = point(1112m, 842m); binduS = point(647m, 1516m); ekaaraS = point(246m, 1192m); iikaaraS = point(836m, 1192m); viramaS = point(647m, -246m); rephaS = point(510m, 1106m); ukaaraS = point(578m, 0m)};
+g__ja_nukta_0001 = glyphid(926) {aakaaraS = point(1462m, 829m); binduS = point(905m, 1516m); ekaaraS = point(246m, 1124m); iikaaraS = point(1186m, 1180m); viramaS = point(905m, -246m); rephaS = point(860m, 1094m); ukaaraS = point(934m, 0m)};
+g__ta_nukta_0001 = glyphid(927) {aakaaraS = point(1405m, 774m); binduS = point(823m, 1516m); ekaaraS = point(348m, 1198m); iikaaraS = point(1313m, 1198m); viramaS = point(823m, -246m); rephaS = point(809m, 1087m); ukaaraS = point(887m, 131m)};
+g__tha_nukta_0001 = glyphid(928) {aakaaraS = point(1343m, 1100m); binduS = point(831m, 1516m); ekaaraS = point(750m, 1081m); iikaaraS = point(885m, 1198m); viramaS = point(831m, -246m); rephaS = point(885m, 1198m); ukaaraS = point(831m, 119m)};
+g__da_nukta_0001 = glyphid(929) {aakaaraS = point(1032m, 1204m); binduS = point(702m, 1516m); ekaaraS = point(246m, 1174m); iikaaraS = point(1032m, 1204m); viramaS = point(702m, -246m); rephaS = point(621m, 1051m); ukaaraS = point(743m, 0m)};
+g__dha_nukta_0001 = glyphid(930) {aakaaraS = point(1364m, 1210m); binduS = point(918m, 1516m); ekaaraS = point(541m, 1186m); iikaaraS = point(1364m, 1210m); viramaS = point(918m, -246m); rephaS = point(983m, 1087m); ukaaraS = point(1253m, 102m)};
+g__na_nukta_0001 = glyphid(931) {aakaaraS = point(1575m, 313m); binduS = point(985m, 1516m); ekaaraS = point(303m, 854m); iikaaraS = point(1415m, 1192m); viramaS = point(883m, -246m); rephaS = point(991m, 1210m); ukaaraS = point(1004m, 0m)};
+g_ta_nukta_0001 = glyphid(932) {aakaaraS = point(1044m, 1223m); binduS = point(616m, 1516m); ekaaraS = point(252m, 1192m); iikaaraS = point(1044m, 1223m); viramaS = point(616m, -41m); rephaS = point(676m, 1100m); ukaaraS = point(723m, 205m)};
+g_tha_nukta_0001 = glyphid(933) {aakaaraS = point(1102m, 1198m); binduS = point(741m, 1516m); ekaaraS = point(502m, 1147m); iikaaraS = point(1102m, 1198m); viramaS = point(741m, -246m); rephaS = point(709m, 1192m); ukaaraS = point(938m, 0m)};
+g_da_nukta_0001 = glyphid(934) {aakaaraS = point(1204m, 1192m); binduS = point(764m, 1516m); ekaaraS = point(399m, 1155m); iikaaraS = point(1204m, 1192m); viramaS = point(764m, -143m); rephaS = point(756m, 1100m); ukaaraS = point(739m, 102m)};
+g_dha_nukta_0001 = glyphid(935) {aakaaraS = point(1298m, 1217m); binduS = point(911m, 1516m); ekaaraS = point(530m, 965m); iikaaraS = point(1298m, 1217m); viramaS = point(809m, -246m); rephaS = point(954m, 1122m); ukaaraS = point(1190m, 0m)};
+g_na_nukta_0001 = glyphid(936) {aakaaraS = point(1163m, 1223m); binduS = point(717m, 1516m); ekaaraS = point(457m, 1217m); iikaaraS = point(1163m, 1223m); viramaS = point(717m, -41m); rephaS = point(831m, 1094m); ukaaraS = point(844m, 205m)};
+g_pa_nukta_0001 = glyphid(937) {aakaaraS = point(1217m, 1223m); binduS = point(825m, 1516m); ekaaraS = point(246m, 1198m); iikaaraS = point(1217m, 1223m); viramaS = point(825m, -246m); rephaS = point(492m, 1081m); ukaaraS = point(1149m, 0m)};
+g_pha_nukta_0001 = glyphid(938) {aakaaraS = point(1296m, 1198m); binduS = point(819m, 1516m); ekaaraS = point(246m, 1106m); iikaaraS = point(1296m, 1198m); viramaS = point(819m, -246m); rephaS = point(805m, 1051m); ukaaraS = point(645m, 0m)};
+g_ba_nukta_0001 = glyphid(939) {aakaaraS = point(1047m, 1241m); binduS = point(702m, 1516m); ekaaraS = point(322m, 1204m); iikaaraS = point(1047m, 1241m); viramaS = point(600m, -246m); rephaS = point(709m, 1112m); ukaaraS = point(743m, 0m)};
+g_bha_nukta_0001 = glyphid(940) {aakaaraS = point(1241m, 1210m); binduS = point(825m, 1516m); ekaaraS = point(418m, 1186m); iikaaraS = point(1241m, 1210m); viramaS = point(825m, -143m); rephaS = point(860m, 1087m); ukaaraS = point(1128m, 102m)};
+g_ma_nukta_0001 = glyphid(941) {aakaaraS = point(1161m, 1223m); binduS = point(770m, 1516m); ekaaraS = point(264m, 1198m); iikaaraS = point(1161m, 1223m); viramaS = point(770m, -246m); rephaS = point(510m, 1081m); ukaaraS = point(1090m, 0m)};
+g_ya_nukta_0001 = glyphid(942) {aakaaraS = point(1239m, 1223m); binduS = point(848m, 1516m); ekaaraS = point(330m, 1186m); iikaaraS = point(1239m, 1223m); viramaS = point(848m, -246m); rephaS = point(575m, 1069m); ukaaraS = point(1167m, 0m)};
+g_ra_nukta_0001 = glyphid(943) {aakaaraS = point(836m, 1217m); binduS = point(567m, 1516m); ekaaraS = point(246m, 1217m); iikaaraS = point(836m, 1217m); viramaS = point(567m, -246m); rephaS = point(510m, 1130m); ukaaraS = point(602m, 682m)};
+g_la_nukta_0001 = glyphid(944) {aakaaraS = point(1389m, 1217m); binduS = point(1024m, 1516m); ekaaraS = point(657m, 1229m); iikaaraS = point(1389m, 1217m); viramaS = point(819m, -246m); rephaS = point(1067m, 1116m); ukaaraS = point(1171m, 578m)};
+g_va_nukta_0001 = glyphid(945) {aakaaraS = point(971m, 1241m); binduS = point(627m, 1516m); ekaaraS = point(246m, 1204m); iikaaraS = point(971m, 1241m); viramaS = point(524m, -246m); rephaS = point(633m, 1112m); ukaaraS = point(666m, 0m)};
+g_za_nukta_0001 = glyphid(946) {aakaaraS = point(1567m, 1210m); binduS = point(893m, 1516m); ekaaraS = point(541m, 1100m); iikaaraS = point(1567m, 1210m); viramaS = point(893m, -246m); rephaS = point(870m, 1184m); ukaaraS = point(1249m, 0m)};
+g__sa_nukta_0001 = glyphid(947) {aakaaraS = point(1217m, 1223m); binduS = point(825m, 1516m); ekaaraS = point(246m, 1198m); iikaaraS = point(1217m, 1223m); viramaS = point(825m, -246m); rephaS = point(492m, 1081m); ukaaraS = point(1147m, 0m)};
+g_sa_nukta_0001 = glyphid(948) {aakaaraS = point(1407m, 1217m); binduS = point(893m, 1516m); ekaaraS = point(504m, 1186m); iikaaraS = point(1407m, 1217m); viramaS = point(893m, -246m); rephaS = point(780m, 1106m); ukaaraS = point(1323m, 0m)};
+g_ha_nukta_0001 = glyphid(949) {aakaaraS = point(1186m, 1223m); binduS = point(874m, 1516m); ekaaraS = point(338m, 1186m); iikaaraS = point(1186m, 1223m); viramaS = point(874m, -246m); rephaS = point(780m, 1087m); ukaaraS = point(768m, 184m)};
+g_ak_ara_nukta = glyphid(950) {binduS = point(834m, 1516m)};
+g__ak_ara_nukta = glyphid(951) {binduS = point(922m, 1516m)};
+g_it_nukta = glyphid(952) {binduS = point(905m, 1516m)};
+g__it_nukta = glyphid(953) {binduS = point(811m, 1516m)};
+g_ut_nukta = glyphid(954) {binduS = point(887m, 1516m)};
+g__ut_nukta = glyphid(955) {binduS = point(887m, 1516m)};
+g__rt_nukta = glyphid(956) {binduS = point(647m, 1516m)};
+g__r_rt_nukta = glyphid(957) {binduS = point(588m, 1516m)};
+g__lt_nukta = glyphid(958) {binduS = point(559m, 1516m)};
+g__l_lt_nukta = glyphid(959) {binduS = point(559m, 1516m)};
+g_et_nukta = glyphid(960) {binduS = point(948m, 1516m)};
+g_ait_nukta = glyphid(961) {binduS = point(948m, 1516m)};
+g_ot_nukta = glyphid(962) {binduS = point(887m, 1516m)};
+g_aut_nukta = glyphid(963) {binduS = point(887m, 1516m)};
+g_r_r_nukta = glyphid(964) {binduS = point(569m, 1831m)};
+g_r_r_r_nukta = glyphid(965) {binduS = point(573m, 1831m)};
+g_l_r_nukta = glyphid(966) {aakaaraS = point(1389m, 1217m); binduS = point(1024m, 1516m); ekaaraS = point(657m, 1229m); iikaaraS = point(1389m, 1217m); rephaS = point(1067m, 1116m)};
+g_l_r_r_nukta = glyphid(967) {aakaaraS = point(1389m, 1217m); binduS = point(1024m, 1516m); ekaaraS = point(657m, 1229m); iikaaraS = point(1389m, 1217m); rephaS = point(1067m, 1116m)};
+g_kra_nukta = glyphid(968) {aakaaraS = point(1124m, 1214m); binduS = point(819m, 1516m); ekaaraS = point(479m, 1206m); iikaaraS = point(1124m, 1214m); viramaS = point(840m, -512m); rephaS = point(809m, 1126m); ukaaraS = point(840m, 270m)};
+g_khra_nukta = glyphid(969) {aakaaraS = point(1237m, 1219m); binduS = point(731m, 1516m); ekaaraS = point(467m, 1151m); iikaaraS = point(1237m, 1219m); viramaS = point(725m, -430m); rephaS = point(762m, 1085m); ukaaraS = point(1032m, 270m)};
+g_gra_nukta = glyphid(970) {aakaaraS = point(1237m, 1219m); binduS = point(731m, 1516m); ekaaraS = point(467m, 1151m); iikaaraS = point(1237m, 1219m); viramaS = point(713m, -430m); rephaS = point(762m, 1085m); ukaaraS = point(1020m, 270m)};
+g_ghra_nukta = glyphid(971) {aakaaraS = point(1085m, 1210m); binduS = point(705m, 1516m); ekaaraS = point(246m, 1174m); iikaaraS = point(1085m, 1210m); viramaS = point(696m, -430m); rephaS = point(780m, 1192m); ukaaraS = point(1004m, 270m)};
+g_cra_nukta = glyphid(972) {aakaaraS = point(958m, 1237m); binduS = point(725m, 1516m); ekaaraS = point(414m, 1214m); iikaaraS = point(958m, 1237m); viramaS = point(733m, -512m); rephaS = point(705m, 1159m); ukaaraS = point(733m, 270m)};
+g_chra_nukta = glyphid(973) {aakaaraS = point(946m, 1243m); binduS = point(721m, 1516m); ekaaraS = point(512m, 1225m); iikaaraS = point(946m, 1243m); viramaS = point(711m, -512m); rephaS = point(725m, 1192m); ukaaraS = point(713m, 270m)};
+g_jra_nukta = glyphid(974) {aakaaraS = point(1249m, 956m); binduS = point(815m, 1516m); ekaaraS = point(471m, 1182m); iikaaraS = point(1182m, 1210m); viramaS = point(848m, -512m); rephaS = point(784m, 1114m); ukaaraS = point(848m, 270m)};
+g_jhra_nukta = glyphid(975) {aakaaraS = point(1124m, 997m); binduS = point(776m, 1516m); ekaaraS = point(475m, 1206m); iikaaraS = point(918m, 1206m); viramaS = point(723m, -512m); rephaS = point(674m, 1155m); ukaaraS = point(725m, 270m)};
+g__jra_nukta = glyphid(976) {aakaaraS = point(1245m, 989m); binduS = point(827m, 1516m); ekaaraS = point(332m, 1165m); iikaaraS = point(1036m, 1200m); viramaS = point(848m, -512m); rephaS = point(793m, 1147m); ukaaraS = point(848m, 270m)};
+g__tra_nukta = glyphid(977) {aakaaraS = point(1237m, 956m); binduS = point(801m, 1516m); ekaaraS = point(444m, 1210m); iikaaraS = point(1167m, 1210m); viramaS = point(995m, -512m); rephaS = point(791m, 1145m); ukaaraS = point(995m, 270m)};
+g__thra_nukta = glyphid(978) {aakaaraS = point(1217m, 1151m); binduS = point(844m, 1516m); ekaaraS = point(782m, 1141m); iikaaraS = point(885m, 1210m); viramaS = point(848m, -512m); rephaS = point(885m, 1210m); ukaaraS = point(848m, 270m)};
+g__dra_nukta = glyphid(979) {aakaaraS = point(950m, 1214m); binduS = point(702m, 1516m); ekaaraS = point(360m, 1196m); iikaaraS = point(950m, 1214m); viramaS = point(733m, -512m); rephaS = point(641m, 1122m); ukaaraS = point(733m, 270m)};
+g__dhra_nukta = glyphid(980) {aakaaraS = point(1085m, 1219m); binduS = point(750m, 1516m); ekaaraS = point(467m, 1202m); iikaaraS = point(1085m, 1219m); viramaS = point(999m, -307m); rephaS = point(799m, 1145m); ukaaraS = point(999m, 270m)};
+g__nra_nukta = glyphid(981) {aakaaraS = point(1276m, 680m); binduS = point(860m, 1516m); ekaaraS = point(324m, 1004m); iikaaraS = point(1157m, 1206m); viramaS = point(848m, -512m); rephaS = point(840m, 1219m); ukaaraS = point(848m, 270m)};
+g_tra_nukta = glyphid(982) {aakaaraS = point(981m, 1225m); binduS = point(659m, 1516m); ekaaraS = point(385m, 1206m); iikaaraS = point(981m, 1225m); viramaS = point(737m, -512m); rephaS = point(705m, 1151m); ukaaraS = point(739m, 270m)};
+g_thra_nukta = glyphid(983) {aakaaraS = point(924m, 1210m); binduS = point(653m, 1516m); ekaaraS = point(473m, 1180m); iikaaraS = point(924m, 1210m); viramaS = point(492m, -430m); rephaS = point(629m, 1206m); ukaaraS = point(801m, 270m)};
+g_dra_nukta = glyphid(984) {aakaaraS = point(1051m, 1206m); binduS = point(721m, 1516m); ekaaraS = point(446m, 1184m); iikaaraS = point(1051m, 1206m); viramaS = point(700m, -512m); rephaS = point(715m, 1151m); ukaaraS = point(702m, 270m)};
+g_dhra_nukta = glyphid(985) {aakaaraS = point(1008m, 1221m); binduS = point(743m, 1516m); ekaaraS = point(496m, 1067m); iikaaraS = point(1008m, 1221m); viramaS = point(618m, -430m); rephaS = point(750m, 1165m); ukaaraS = point(926m, 270m)};
+g_nra_nukta = glyphid(986) {aakaaraS = point(1032m, 1225m); binduS = point(696m, 1516m); ekaaraS = point(502m, 1221m); iikaaraS = point(1032m, 1225m); viramaS = point(791m, -512m); rephaS = point(782m, 1147m); ukaaraS = point(791m, 270m)};
+g_pra_nukta = glyphid(987) {aakaaraS = point(975m, 1225m); binduS = point(680m, 1516m); ekaaraS = point(246m, 1210m); iikaaraS = point(975m, 1225m); viramaS = point(614m, -430m); rephaS = point(430m, 1141m); ukaaraS = point(924m, 270m)};
+g_phra_nukta = glyphid(988) {aakaaraS = point(1135m, 1210m); binduS = point(776m, 1516m); ekaaraS = point(346m, 1155m); iikaaraS = point(1135m, 1210m); viramaS = point(692m, -512m); rephaS = point(766m, 1122m); ukaaraS = point(694m, 270m)};
+g_bra_nukta = glyphid(989) {aakaaraS = point(922m, 1237m); binduS = point(688m, 1516m); ekaaraS = point(377m, 1214m); iikaaraS = point(922m, 1237m); viramaS = point(692m, -512m); rephaS = point(668m, 1159m); ukaaraS = point(692m, 270m)};
+g_bhra_nukta = glyphid(990) {aakaaraS = point(995m, 1219m); binduS = point(684m, 1516m); ekaaraS = point(379m, 1202m); iikaaraS = point(995m, 1219m); viramaS = point(705m, -430m); rephaS = point(711m, 1145m); ukaaraS = point(911m, 270m)};
+g_mra_nukta = glyphid(991) {aakaaraS = point(983m, 1225m); binduS = point(690m, 1516m); ekaaraS = point(311m, 1210m); iikaaraS = point(983m, 1225m); viramaS = point(623m, -430m); rephaS = point(496m, 1141m); ukaaraS = point(930m, 270m)};
+g_yra_nukta = glyphid(992) {aakaaraS = point(995m, 1225m); binduS = point(702m, 1516m); ekaaraS = point(313m, 1202m); iikaaraS = point(995m, 1225m); viramaS = point(635m, -430m); rephaS = point(498m, 1133m); ukaaraS = point(942m, 270m)};
+g_lra_nukta = glyphid(993) {aakaaraS = point(1106m, 1221m); binduS = point(883m, 1516m); ekaaraS = point(557m, 1229m); iikaaraS = point(1106m, 1221m); viramaS = point(631m, -430m); rephaS = point(864m, 1161m); ukaaraS = point(938m, 270m)};
+g_vra_nukta = glyphid(994) {aakaaraS = point(942m, 1237m); binduS = point(709m, 1516m); ekaaraS = point(397m, 1214m); iikaaraS = point(942m, 1237m); viramaS = point(711m, -512m); rephaS = point(688m, 1159m); ukaaraS = point(713m, 270m)};
+g_zra_nukta = glyphid(995) {aakaaraS = point(1237m, 1219m); binduS = point(731m, 1516m); ekaaraS = point(467m, 1151m); iikaaraS = point(1237m, 1219m); viramaS = point(690m, -430m); rephaS = point(715m, 1202m); ukaaraS = point(999m, 270m)};
+g__sra_nukta = glyphid(996) {aakaaraS = point(975m, 1225m); binduS = point(680m, 1516m); ekaaraS = point(246m, 1210m); iikaaraS = point(975m, 1225m); viramaS = point(614m, -430m); rephaS = point(430m, 1141m); ukaaraS = point(922m, 270m)};
+g_sra_nukta = glyphid(997) {aakaaraS = point(1114m, 1221m); binduS = point(727m, 1516m); ekaaraS = point(436m, 1202m); iikaaraS = point(1114m, 1221m); viramaS = point(741m, -430m); rephaS = point(643m, 1155m); ukaaraS = point(1051m, 270m)};
+g_hra_nukta = glyphid(998) {aakaaraS = point(1032m, 1225m); binduS = point(799m, 1516m); ekaaraS = point(397m, 1202m); iikaaraS = point(1032m, 1225m); viramaS = point(725m, -512m); rephaS = point(729m, 1145m); ukaaraS = point(725m, 270m)};
+g__gra_nukta = glyphid(999) {aakaaraS = point(1249m, 956m); binduS = point(815m, 1516m); ekaaraS = point(471m, 1182m); iikaaraS = point(1182m, 1210m); viramaS = point(848m, -512m); rephaS = point(784m, 1114m); ukaaraS = point(848m, 270m)};
 
 /* Classes */
 caakaaraDia = (g__a_t, g__a_t_0001, g__a_t_0002, g__a_t_0003);
@@ -978,7 +1094,22 @@ cnaakaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya,
     g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva,
     g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001,
-    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_nukta, g_ka_nukta,
+    g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta,
+    g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta, g_tha_nukta,
+    g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta,
+    g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta,
+    g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001,
+    g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001,
+    g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001,
+    g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001,
+    g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta, g__rt_nukta,
+    g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta, g_r_r_nukta,
+    g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta, g_cra_nukta,
+    g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta, g__dhra_nukta,
+    g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta, g_phra_nukta,
+    g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta, g__sra_nukta,
+    g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cbinduDia = (g_anusv_ara, g_candrabindu, g_candra);
 
@@ -1089,7 +1220,22 @@ cnbinduDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla,
     g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma,
     g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001,
-    g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_nukta,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta,
+    g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta,
+    g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta,
+    g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta,
+    g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001,
+    g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
+    g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
+    g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
+    g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta,
+    g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta,
+    g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta,
+    g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta,
+    g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta,
+    g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta,
+    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cbindumarkDia = (g_anusv_ara, g_candrabindu, g_candra);
 
@@ -1200,7 +1346,22 @@ cnbindumarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla,
     g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma,
     g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001,
-    g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_nukta,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta,
+    g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta,
+    g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta,
+    g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta,
+    g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001,
+    g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
+    g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
+    g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
+    g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta,
+    g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta,
+    g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta,
+    g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta,
+    g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta,
+    g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta,
+    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cekaaraDia = (g_e_t, g_e_t_0001, g_ai_t, g_ai_t_0001);
 
@@ -1311,7 +1472,22 @@ cnekaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya,
     g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva,
     g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001,
-    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_nukta, g_ka_nukta,
+    g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta,
+    g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta, g_tha_nukta,
+    g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta,
+    g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta,
+    g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001,
+    g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001,
+    g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001,
+    g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001,
+    g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta, g__rt_nukta,
+    g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta, g_r_r_nukta,
+    g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta, g_cra_nukta,
+    g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta, g__dhra_nukta,
+    g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta, g_phra_nukta,
+    g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta, g__sra_nukta,
+    g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 ciikaaraDia = (g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004);
 
@@ -1422,7 +1598,22 @@ cniikaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya, g_jjya,
     g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva, g__gkra,
     g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001,
-    g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_nukta, g_ka_nukta, g_kha_nukta,
+    g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta,
+    g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta, g_tha_nukta, g_da_nukta,
+    g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta, g_ya_nukta,
+    g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta, g_ka_nukta_0001,
+    g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001,
+    g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001,
+    g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001,
+    g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001,
+    g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta, g__rt_nukta, g__r_rt_nukta,
+    g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta,
+    g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta, g_cra_nukta, g_chra_nukta,
+    g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta, g__dhra_nukta, g__nra_nukta,
+    g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta, g_phra_nukta, g_bra_nukta,
+    g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta, g__sra_nukta, g_sra_nukta,
+    g_hra_nukta, g__gra_nukta);
 
 crephaDia = (g_repha);
 
@@ -1533,7 +1724,22 @@ cnrephaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_nukta, g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta,
+    g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta,
+    g__na_nukta, g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta,
+    g_ba_nukta, g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta,
+    g__sa_nukta, g_sa_nukta, g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001,
+    g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001,
+    g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001,
+    g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001,
+    g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta,
+    g_ut_nukta, g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta,
+    g_ot_nukta, g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta,
+    g_gra_nukta, g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta,
+    g__thra_nukta, g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta,
+    g_nra_nukta, g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta,
+    g_vra_nukta, g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cukaaraDia = (g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t, g__u_t_0001, g__u_t_0002,
     g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001, g_vattu);
@@ -1644,7 +1850,22 @@ cnukaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya, g_jjya,
     g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva, g__gkra,
     g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001,
-    g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_nukta, g_ka_nukta, g_kha_nukta,
+    g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta,
+    g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta, g_tha_nukta, g_da_nukta,
+    g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta, g_ya_nukta,
+    g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta, g_ka_nukta_0001,
+    g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001,
+    g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001,
+    g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001,
+    g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001,
+    g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta, g__rt_nukta, g__r_rt_nukta,
+    g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta,
+    g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta, g_cra_nukta, g_chra_nukta,
+    g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta, g__dhra_nukta, g__nra_nukta,
+    g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta, g_phra_nukta, g_bra_nukta,
+    g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta, g__sra_nukta, g_sra_nukta,
+    g_hra_nukta, g__gra_nukta);
 
 cukaaramarkDia = (g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t, g__u_t_0001, g__u_t_0002,
     g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001);
@@ -1755,9 +1976,24 @@ cnukaaramarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna, g_tpla, g_cchya,
     g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva,
     g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001,
-    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_nukta, g_ka_nukta,
+    g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta,
+    g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta, g_tha_nukta,
+    g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta,
+    g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta,
+    g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001,
+    g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001,
+    g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001,
+    g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001,
+    g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta, g__rt_nukta,
+    g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta, g_r_r_nukta,
+    g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta, g_cra_nukta,
+    g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta, g__dhra_nukta,
+    g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta, g_phra_nukta,
+    g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta, g__sra_nukta,
+    g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
-cviramaDia = (g_vir_ama);
+cviramaDia = (g_vir_ama, g_nukta);
 
 cnviramaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -1866,9 +2102,24 @@ cnviramaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta,
+    g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
+    g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta,
+    g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta,
+    g_sa_nukta, g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001,
+    g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001,
+    g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001,
+    g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001,
+    g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta,
+    g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta,
+    g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta,
+    g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta,
+    g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta,
+    g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta,
+    g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
-cviramamarkDia = (g_vir_ama);
+cviramamarkDia = (g_vir_ama, g_nukta);
 
 cnviramamarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -1977,7 +2228,22 @@ cnviramamarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta,
+    g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
+    g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta,
+    g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta,
+    g_sa_nukta, g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001,
+    g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001,
+    g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001,
+    g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001,
+    g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta,
+    g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta,
+    g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta,
+    g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta,
+    g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta,
+    g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta,
+    g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cTakesaakaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -2077,7 +2343,20 @@ cTakesaakaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta,
+    g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta,
+    g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta,
+    g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta,
+    g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001,
+    g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
+    g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
+    g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
+    g_sa_nukta_0001, g_ha_nukta_0001, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta,
+    g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta,
+    g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta,
+    g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta,
+    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cnTakesaakaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -2088,7 +2367,9 @@ cnTakesaakaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t, g_z_unya, g_eka,
     g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta, g_a_s_ta, g_nava,
     g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu, g_repha, g_r_r,
-    g_r_r_r);
+    g_r_r_r, g_nukta, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta,
+    g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta,
+    g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta);
 
 cTakesbinduDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut, g__rt, g__r_rt,
     g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut, g_ka, g_kha,
@@ -2190,7 +2471,22 @@ cTakesbinduDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut, g__rt, g__r_rt,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta,
+    g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta,
+    g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta,
+    g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta,
+    g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001,
+    g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
+    g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
+    g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
+    g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta,
+    g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta,
+    g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta,
+    g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta,
+    g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta,
+    g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta,
+    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cnTakesbinduDia = (g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g__a_t,
     g__a_t_0001, g__a_t_0002, g__a_t_0003, g_i_t, g_i_t_0001, g__i_t, g__i_t_0001, g__i_t_0002,
@@ -2199,7 +2495,7 @@ cnTakesbinduDia = (g_anusv_ara, g_candrabindu, g_visarga, g__o_m, g_avagr_aha, g
     g_e_t_0001, g_ai_t, g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t,
     g_z_unya, g_eka, g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta,
     g_a_s_ta, g_nava, g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu,
-    g_repha);
+    g_repha, g_nukta);
 
 cTakesbindumarkDia = (g_candra, g_repha);
 
@@ -2310,7 +2606,22 @@ cnTakesbindumarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna,
     g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya,
     g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001,
-    g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_nukta, g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta,
+    g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
+    g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta,
+    g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta,
+    g_sa_nukta, g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001,
+    g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001,
+    g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001,
+    g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001,
+    g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta,
+    g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta,
+    g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta,
+    g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta,
+    g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta,
+    g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta,
+    g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cTakesekaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -2410,7 +2721,20 @@ cTakesekaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta,
+    g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta,
+    g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta,
+    g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta,
+    g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001,
+    g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
+    g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
+    g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
+    g_sa_nukta_0001, g_ha_nukta_0001, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta,
+    g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta,
+    g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta,
+    g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta,
+    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cnTakesekaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -2421,7 +2745,9 @@ cnTakesekaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t, g_z_unya, g_eka,
     g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta, g_a_s_ta, g_nava,
     g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu, g_repha, g_r_r,
-    g_r_r_r);
+    g_r_r_r, g_nukta, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta,
+    g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta,
+    g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta);
 
 cTakesiikaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -2521,7 +2847,20 @@ cTakesiikaaraDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta,
+    g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta,
+    g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta,
+    g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta,
+    g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001,
+    g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
+    g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
+    g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
+    g_sa_nukta_0001, g_ha_nukta_0001, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta,
+    g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta,
+    g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta,
+    g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta,
+    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cnTakesiikaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -2532,7 +2871,9 @@ cnTakesiikaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t, g_z_unya, g_eka,
     g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta, g_a_s_ta, g_nava,
     g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu, g_repha, g_r_r,
-    g_r_r_r);
+    g_r_r_r, g_nukta, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta,
+    g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta,
+    g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta);
 
 cTakesrephaDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -2632,7 +2973,20 @@ cTakesrephaDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta,
+    g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta,
+    g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta,
+    g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta,
+    g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001,
+    g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
+    g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
+    g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
+    g_sa_nukta_0001, g_ha_nukta_0001, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta,
+    g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta,
+    g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta,
+    g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta,
+    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cnTakesrephaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -2643,7 +2997,9 @@ cnTakesrephaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ai_t_0001, g_o_t, g_au_t, g_vir_ama, g_candra, g_candrao_t, g_z_unya, g_eka,
     g_dvi, g_tri, g_catur, g_pa_jca, g__sa_s, g_sapta, g_a_s_ta, g_nava,
     g_begin, g_da_n_da, g_dvida_n_da, g_zeronojoin, g_zerojoin, g_vattu, g_repha, g_r_r,
-    g_r_r_r);
+    g_r_r_r, g_nukta, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta,
+    g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta,
+    g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta);
 
 cTakesukaaraDia = (g_ka_0001, g_kha_0001, g_ga_0001, g_gha_0001, g__ga_0001, g_ca_0001, g_cha_0001, g_ja_0001,
     g_jha_0001, g__ja_0001, g__ta_0001, g__tha_0001, g__da_0001, g__dha_0001, g__na_0001, g_ta_0001,
@@ -2710,7 +3066,15 @@ cTakesukaaraDia = (g_ka_0001, g_kha_0001, g_ga_0001, g_gha_0001, g__ga_0001, g_c
     g_ddhna_0001, g_ndda_0001, g_bba_0001, g_bbha_0001, g__d_dha, g_ppha, g_lpha, g__spha,
     g_ptra, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__spya, g__smya,
     g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001,
-    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001,
+    g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001,
+    g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001,
+    g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001,
+    g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001, g_kra_nukta, g_khra_nukta,
+    g_gra_nukta, g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta,
+    g__thra_nukta, g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta,
+    g_nra_nukta, g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta,
+    g_vra_nukta, g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cnTakesukaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -2754,7 +3118,14 @@ cnTakesukaaraDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_tsma, g_ndva, g_tk_sa, g_lba, g_zba, g_nza, g_nspa, g__jzva,
     g_nstha, g_zcha, g_nga, g_ptva, g_kkha, g_c_ja, g_ddhna, g_ndda,
     g_bba, g_bbha, g_gja, g_tkha, g_ppa, g_lga, g_lda, g_vva,
-    g_ttna, g__skva, g_ddhma, g__n_dva);
+    g_ttna, g__skva, g_ddhma, g__n_dva, g_nukta, g_ka_nukta, g_kha_nukta,
+    g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta,
+    g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta, g_tha_nukta, g_da_nukta,
+    g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta, g_ya_nukta,
+    g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta, g_ak_ara_nukta,
+    g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta,
+    g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta,
+    g_l_r_r_nukta);
 
 cTakesukaaramarkDia = (g_vattu);
 
@@ -2865,7 +3236,22 @@ cnTakesukaaramarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_nukta, g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta,
+    g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta,
+    g__na_nukta, g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta,
+    g_ba_nukta, g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta,
+    g__sa_nukta, g_sa_nukta, g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001,
+    g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001,
+    g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001,
+    g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001,
+    g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta,
+    g_ut_nukta, g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta,
+    g_ot_nukta, g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta,
+    g_gra_nukta, g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta,
+    g__thra_nukta, g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta,
+    g_nra_nukta, g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta,
+    g_vra_nukta, g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 cTakesviramaDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_jha, g__ja, g__ta, g__tha, g__da, g__dha, g__na, g_ta,
@@ -2940,7 +3326,20 @@ cTakesviramaDia = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
     g_ndda, g_nddra, g_bba, g_bbha, g__s_trya, g__s_nya, g_gja, g__d_dha,
     g_tkha, g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha,
     g_ptra, g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva,
-    g__spya, g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_strya);
+    g__spya, g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_strya, g_ka_nukta,
+    g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta,
+    g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta, g_tha_nukta,
+    g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta,
+    g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta,
+    g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001,
+    g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001, g_ta_nukta_0001,
+    g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001,
+    g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001,
+    g_ha_nukta_0001, g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta,
+    g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta,
+    g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta,
+    g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta,
+    g__gra_nukta);
 
 cnTakesviramaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -2976,9 +3375,11 @@ cnTakesviramaDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_tk_sa_0001, g_lba_0001, g_zba_0001, g_nza_0001, g_nspa_0001, g__jzva_0001, g_nstha_0001, g_zcha_0001,
     g_nga_0001, g_ptva_0001, g_kkha_0001, g_c_ja_0001, g_ddhna_0001, g_ndda_0001, g_bba_0001, g_bbha_0001,
     g_gja_0001, g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001,
-    g_ddhma_0001, g__n_dva_0001);
+    g_ddhma_0001, g__n_dva_0001, g_nukta, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta,
+    g_ut_nukta, g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta,
+    g_ot_nukta, g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta);
 
-cTakesviramamarkDia = (g_vattu);
+cTakesviramamarkDia = (g_vattu, g_nukta);
 
 cnTakesviramamarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g__rt, g__r_rt, g__lt, g__l_lt, g_et, g_ait, g_ot, g_aut,
@@ -3087,7 +3488,22 @@ cnTakesviramamarkDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut,
     g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra,
     g_ttna, g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya,
     g__smya, g_ddhma, g__n_dva, g__gkra, g__n_dya, g_gja_0001, g_tkha_0001, g_ppa_0001,
-    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya);
+    g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_strya,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta,
+    g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
+    g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta,
+    g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta,
+    g_sa_nukta, g_ha_nukta, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001,
+    g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001,
+    g__na_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001,
+    g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001,
+    g__sa_nukta_0001, g_sa_nukta_0001, g_ha_nukta_0001, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta,
+    g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta,
+    g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta, g_khra_nukta, g_gra_nukta,
+    g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta,
+    g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta,
+    g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta,
+    g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
 
 c0001 = (g__a_t_0001, g_i_t_0001, g__i_t_0001, g_u_t_0001, g__u_t_0001, g__r_t_0001, g_e_t_0001, g_ai_t_0001,
     g_ka_0001, g_kha_0001, g_ga_0001, g_gha_0001, g__ga_0001, g_ca_0001, g_cha_0001, g_ja_0001,
@@ -3127,7 +3543,11 @@ c0001 = (g__a_t_0001, g_i_t_0001, g__i_t_0001, g_u_t_0001, g__u_t_0001, g__r_t_0
     g_lba_0001, g_zba_0001, g_nza_0001, g_nspa_0001, g__jzva_0001, g_nstha_0001, g_zcha_0001, g_nga_0001,
     g_ptva_0001, g_kkha_0001, g_c_ja_0001, g_ddhna_0001, g_ndda_0001, g_bba_0001, g_bbha_0001, g_gja_0001,
     g_tkha_0001, g_ppa_0001, g_lga_0001, g_lda_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001,
-    g__n_dva_0001);
+    g__n_dva_0001, g_ka_nukta_0001, g_kha_nukta_0001, g_ga_nukta_0001, g_gha_nukta_0001, g__ga_nukta_0001, g_ca_nukta_0001, g_cha_nukta_0001,
+    g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
+    g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
+    g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
+    g_sa_nukta_0001, g_ha_nukta_0001);
 
 cno_0001 = (g__a_t, g_i_t, g__i_t, g_u_t, g__u_t, g__r_t, g_e_t, g_ai_t,
     g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
@@ -3167,7 +3587,11 @@ cno_0001 = (g__a_t, g_i_t, g__i_t, g_u_t, g__u_t, g__r_t, g_e_t, g_ai_t,
     g_lba, g_zba, g_nza, g_nspa, g__jzva, g_nstha, g_zcha, g_nga,
     g_ptva, g_kkha, g_c_ja, g_ddhna, g_ndda, g_bba, g_bbha, g_gja,
     g_tkha, g_ppa, g_lga, g_lda, g_vva, g_ttna, g__skva, g_ddhma,
-    g__n_dva);
+    g__n_dva, g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta,
+    g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
+    g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta,
+    g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta,
+    g_sa_nukta, g_ha_nukta);
 
 c0002 = (g__a_t_0002, g__i_t_0002, g_u_t_0002, g__u_t_0002);
 
@@ -3181,14 +3605,36 @@ c0004 = (g__i_t_0004, g_u_t_0004, g__u_t_0004);
 
 cno_0004 = (g__i_t, g_u_t, g__u_t);
 
+BasicConsonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__ja,
+    g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
+    g_pa, g_pha, g_ba, g_bha, g_ma, g_ya, g_la, g_va, g_za, g__sa, g_sa, g_ha);
+NuktaConsonants = (g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta,
+    g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta,
+    g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
+    g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta,
+    g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta,
+    g_ya_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta);
+
 Consonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__ja,
     g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
     g_pa, g_pha, g_ba, g_bha, g_ma, g_ya, g_la, g_va,
-    g_za, g__sa, g_sa, g_ha, g_k_sa);
+    g_za, g__sa, g_sa, g_ha, g_k_sa,
+    g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta,
+    g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta,
+    g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
+    g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta,
+    g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta,
+    g_ya_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta);
 ConsonantsR = (g_kra, g_khra, g_gra, g_ghra, g__gra, g_cra, g_chra, g_jra, g_jhra, g__jra,
     g__tra, g__thra, g__dra, g__dhra, g__nra, g_tra, g_thra, g_dra, g_dhra, g_nra,
     g_pra, g_phra, g_bra, g_bhra, g_mra, g_yra, g_lra, g_vra,
-    g_zra, g__sra, g_sra, g_hra, g_k_sra);
+    g_zra, g__sra, g_sra, g_hra, g_k_sra,
+    g_kra_nukta, g_khra_nukta, g_gra_nukta, g_ghra_nukta, g__gra_nukta,
+    g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta,
+    g__tra_nukta, g__thra_nukta, g__dra_nukta, g__dhra_nukta, g__nra_nukta,
+    g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta,
+    g_pra_nukta, g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta,
+    g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta);
 
 AllConsonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__ja,
     g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
@@ -3239,7 +3685,16 @@ AllConsonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__j
     g_ddhna, g_nddhya, g_ndda, g_nddra, g_bba, g_bbha, g__s_trya, g__s_nya, g_gja, g__d_dha,
     g_tkha, g_ppa, g_ppha, g_lga, g_lda, g_lpha, g_vva, g__spha, g_ptra, g_ttna,
     g_tpla, g_cchya, g_jjya, g_k_s_nya, g_gdhra, g__skva, g__spya, g__smya, g_ddhma, g__n_dva,
-    g__gkra, g__n_dya, g_strya);
+    g__gkra, g__n_dya, g_strya, g_ka_nukta, g_kha_nukta,
+    g_ga_nukta, g_gha_nukta, g__ga_nukta, g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta,
+    g__da_nukta, g__dha_nukta, g__na_nukta, g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta,
+    g_ba_nukta, g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta
+    g_ha_nukta, g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta, g__rt_nukta, g__r_rt_nukta, g__lt_nukta,
+    g__l_lt_nukta, g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta, g_r_r_nukta, g_r_r_r_nukta, g_l_r_nukta, g_l_r_r_nukta, g_kra_nukta,
+    g_khra_nukta, g_gra_nukta, g_ghra_nukta, g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta,
+    g__dra_nukta, g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta, g_phra_nukta,
+    g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta, g__sra_nukta, g_sra_nukta, g_hra_nukta,
+    g__gra_nukta);
 
 CausesIMatraAlt1 = (g_kha, g_ga, g_cha, g__tha, g__dha, g_dha, g_na, g_bha, g_la, g_za,
     g_sa, g_k_sa, g_chya, g__dhya, g_dhya, g_nya, g_bhya, g_lya, g_sya, g_kra,
@@ -3258,19 +3713,22 @@ CausesIMatraAlt1 = (g_kha, g_ga, g_cha, g__tha, g__dha, g_dha, g_na, g_bha, g_la
     g_stva, g_npa, g_kza, g_spra, g_nbra, g_nbha, g_nka, g_nba, g_nsva, g_ndva,
     g_nha, g_lba, g_nza, g_dbra, g_nspa, g_nstha, g_dhnya, g_nvya, g_smya, g_nga,
     g_nsya, g_kkha, g_c_ja, g_j_jya, g_dgya, g_ddhna, g_nddhya, g_ndda, g_nddra, g_bba,
-    g_bbha, g_tkha, g_lga, g_lda, g_lpha, g_cchya, g_ddhma, g_strya);
+    g_bbha, g_tkha, g_lga, g_lda, g_lpha, g_cchya, g_ddhma, g_strya, g_kha_nukta, g_ga_nukta,
+    g_cha_nukta, g__tha_nukta, g__dha_nukta, g_dha_nukta, g_na_nukta, g_bha_nukta, g_la_nukta, g_za_nukta, g_sa_nukta);
 
 CausesUMatraAlt0 = (g_ka, g__ga, g_cha, g_ja, g_jha, g__ja, g__na, g_da, g__gka, g__jcha,
     g__jja, g_nda, g_ska, g_vcha, g_vja, g_vda, g__tka, g__t_scha, g_kka, g_gda,
     g_ccha, g_jja, g_tka, g_dda, g_bja, g_bda, g_lka, g__ska, g_nka, g_zcha,
-    g_ndda, g_gja, g_lda);
+    g_ndda, g_gja, g_lda, g_ka_nukta, g__ga_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta, g__na_nukta,
+    g_da_nukta);
 CausesUMatraAlt1 = (g__ta, g__tha, g__dha, g__da, g_pha, g_ha, g_k_na, g_kh_na,
     g_g_na, g_gh_na, g__g_na, g_c_na, g_ch_na, g_j_na, g_jh_na, g__j_na, g__t_na, g__th_na,
     g__d_na, g__dh_na, g_t_na, g_th_na, g_d_na, g_dh_na, g_n_na, g_p_na, g_ph_na, g_b_na,
     g_bh_na, g_m_na, g_y_na, g_l_na, g_v_na, g_z_na, g__s_na, g_s_na, g_h_na, g_k_s_na,
     g__jjha, g__n_ta, g__n_tha, g__n_da, g__n_dha, g_mpha, g__gha, g_vjha, g_j_ja, g__s_ta,
     g__s_tha, g_d_da, g_d_dha, g_spha, g_sha, g_jjha, g_jj_ja, g__t_ta, g__d_da, g__n_na,
-    g_tpha, g_lha, g_nha, g_c_ja, g__t_tha, g__d_dha, g_ppha, g_lpha, g__spha);
+    g_tpha, g_lha, g_nha, g_c_ja, g__t_tha, g__d_dha, g_ppha, g_lpha, g__spha, g__ta_nukta,
+    g__tha_nukta, g__da_nukta, g__dha_nukta, g_pha_nukta, g_ha_nukta);
 CausesUMatraAlt2 = (g_ra, g_la,
     g_kra, g_khra, g_gra, g_ghra, g_cra, g_chra, g_jra, g_jhra, g__jra, g__tra,
     g__thra, g__dra, g__dhra, g__nra, g_tra, g_thra, g_dra, g_dhra, g_nra, g_pra,
@@ -3281,7 +3739,7 @@ CausesUMatraAlt2 = (g_ra, g_la,
     g_sla, g_hla, g_k_sla, g__gra, g__gla, g__gktra, g__t_schra, g_ktra, g__ggra, g__gghra,
     g_cchra, g_ttra, g_dgra, g_ddra, g_ntra, g_ndra, g_ndhra, g_lla, g__skra, g__s_tra,
     g__spra, g_stra, g_spra, g_nbra, g__n_dra, g_tkra, g_tpra, g_npra, g__jzra, g_dbra,
-    g_mpra, g_nddra, g_ptra, g_tpla, g_gdhra, g__gkra);
+    g_mpra, g_nddra, g_ptra, g_tpla, g_gdhra, g__gkra, g_ra_nukta, g_la_nukta);
 CausesUMatraAlt3 = (g_kya, g_khya, g_gya, g_ghya, g_cya,
     g_chya, g_jya, g_jhya, g__jya, g__tya, g__thya, g__dya, g__dhya, g__nya, g_tya,
     g_thya, g_dya, g_dhya, g_nya, g_pya, g_phya, g_bya, g_bhya, g_mya, g_lya,
@@ -3312,19 +3770,23 @@ CausesUMatraAlt4 = (g_kha, g_ga, g_gha, g_ca, g_ta, g_tha,
     g_lpa, g_zca, g__spa, g__s_tva, g_stva, g_npa, g_kza, g_ksa, g_nbha, g_kpa,
     g_tstha, g_nba, g_kca, g_nsva, g_mma, g_tsma, g_ndva, g_tk_sa, g_lba, g_zba,
     g_nza, g_nspa, g__jzva, g_nstha, g_nga, g_ptva, g_kkha, g_ddhna, g_bba, g_bbha,
-    g_tkha, g_ppa, g_lga, g_vva, g_ttna, g__skva, g_ddhma, g__n_dva);
+    g_tkha, g_ppa, g_lga, g_vva, g_ttna, g__skva, g_ddhma, g__n_dva, g_kha_nukta, g_ga_nukta,
+    g_gha_nukta, g_ca_nukta, g_ta_nukta, g_tha_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta,
+    g_ya_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta);
 
 CausesUMatraAlt0a = (g_ka_0001, g__ga_0001, g_cha_0001, g_ja_0001, g_jha_0001, g__ja_0001, g__na_0001, g_da_0001, g__gka_0001, g__jcha_0001,
     g__jja_0001, g_nda_0001, g_ska_0001, g_vcha_0001, g_vja_0001, g_vda_0001, g__tka_0001, g__t_scha_0001, g_kka_0001, g_gda_0001,
     g_ccha_0001, g_jja_0001, g_tka_0001, g_dda_0001, g_bja_0001, g_bda_0001, g_lka_0001, g__ska_0001, g_nka_0001, g_zcha_0001,
-    g_ndda_0001, g_gja_0001, g_lda_0001);
+    g_ndda_0001, g_gja_0001, g_lda_0001, g_ka_nukta_0001, g__ga_nukta_0001, g_cha_nukta_0001, g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__na_nukta_0001,
+    g_da_nukta_0001);
 CausesUMatraAlt1a = (g__ta_0001, g__tha_0001, g__dha_0001, g__da_0001, g_pha_0001, g_ha_0001, g_k_na_0001, g_kh_na_0001,
     g_g_na_0001, g_gh_na_0001, g__g_na_0001, g_c_na_0001, g_ch_na_0001, g_j_na_0001, g_jh_na_0001, g__j_na_0001, g__t_na_0001, g__th_na_0001,
     g__d_na_0001, g__dh_na_0001, g_t_na_0001, g_th_na_0001, g_d_na_0001, g_dh_na_0001, g_n_na_0001, g_p_na_0001, g_ph_na_0001, g_b_na_0001,
     g_bh_na_0001, g_m_na_0001, g_y_na_0001, g_l_na_0001, g_v_na_0001, g_z_na_0001, g__s_na_0001, g_s_na_0001, g_h_na_0001, g_k_s_na_0001,
     g__jjha_0001, g__n_ta, g__n_tha, g__n_da_0001, g__n_dha, g_mpha, g__gha, g_vjha_0001, g_j_ja_0001, g__s_ta,
     g__s_tha, g_d_da_0001, g_d_dha, g_spha, g_sha, g_jjha_0001, g_jj_ja_0001, g__t_ta, g__d_da_0001, g__n_na_0001,
-    g_tpha, g_lha, g_nha, g_c_ja_0001, g__t_tha, g__d_dha, g_ppha, g_lpha, g__spha);
+    g_tpha, g_lha, g_nha, g_c_ja_0001, g__t_tha, g__d_dha, g_ppha, g_lpha, g__spha, g__ta_nukta_0001,
+    g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g_pha_nukta_0001, g_ha_nukta_0001);
 CausesUMatraAlt2a = (g_ra_0001, g_la_0001,
     g_kra, g_khra, g_gra, g_ghra, g_cra, g_chra, g_jra, g_jhra, g__jra, g__tra,
     g__thra, g__dra, g__dhra, g__nra, g_tra, g_thra, g_dra, g_dhra, g_nra, g_pra,
@@ -3335,7 +3797,7 @@ CausesUMatraAlt2a = (g_ra_0001, g_la_0001,
     g_sla, g_hla, g_k_sla, g__gra, g__gla, g__gktra, g__t_schra, g_ktra, g__ggra, g__gghra,
     g_cchra, g_ttra, g_dgra, g_ddra, g_ntra, g_ndra, g_ndhra, g_lla, g__skra, g__s_tra,
     g__spra, g_stra, g_spra, g_nbra, g__n_dra, g_tkra, g_tpra, g_npra, g__jzra, g_dbra,
-    g_mpra, g_nddra, g_ptra, g_tpla, g_gdhra, g__gkra);
+    g_mpra, g_nddra, g_ptra, g_tpla, g_gdhra, g__gkra, g_ra_nukta_0001, g_la_nukta_0001);
 CausesUMatraAlt4a = (g_kha_0001, g_ga_0001, g_gha_0001, g_ca_0001, g_ta_0001, g_tha_0001,
     g_dha_0001, g_na_0001, g_pa_0001, g_ba_0001, g_bha_0001, g_ma_0001, g_ya_0001, g_va_0001, g_za_0001, g__sa_0001,
     g_sa_0001, g_k_sa_0001, g_kna_0001, g_khna_0001, g_gna_0001, g_ghna_0001, g__gna_0001, g_cna_0001, g_chna_0001, g_jna_0001,
@@ -3357,9 +3819,12 @@ CausesUMatraAlt4a = (g_kha_0001, g_ga_0001, g_gha_0001, g_ca_0001, g_ta_0001, g_
     g_lpa_0001, g_zca_0001, g__spa_0001, g__s_tva_0001, g_stva_0001, g_npa_0001, g_kza_0001, g_ksa_0001, g_nbha_0001, g_kpa_0001,
     g_tstha_0001, g_nba_0001, g_kca_0001, g_nsva_0001, g_mma_0001, g_tsma_0001, g_ndva_0001, g_tk_sa_0001, g_lba_0001, g_zba_0001,
     g_nza_0001, g_nspa_0001, g__jzva_0001, g_nstha_0001, g_nga_0001, g_ptva_0001, g_kkha_0001, g_ddhna_0001, g_bba_0001, g_bbha_0001,
-    g_tkha_0001, g_ppa_0001, g_lga_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001);
+    g_tkha_0001, g_ppa_0001, g_lga_0001, g_vva_0001, g_ttna_0001, g__skva_0001, g_ddhma_0001, g__n_dva_0001, g_kha_nukta_0001, g_ga_nukta_0001,
+    g_gha_nukta_0001, g_ca_nukta_0001, g_ta_nukta_0001, g_tha_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_ba_nukta_0001, g_bha_nukta_0001, g_ma_nukta_0001,
+    g_ya_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001, g_sa_nukta_0001);
 
-CauseEMatraAlt = (g__tha, g__tha_0001, g__thya, g__thra, g__thla, g__thva, g__thva_0001, g__thma, g__thma_0001, g__thna, g__thna_0001, g__th_na);
+CauseEMatraAlt = (g__tha, g__tha_0001, g__thya, g__thra, g__thla, g__thva, g__thva_0001, g__thma, g__thma_0001, g__thna,
+    g__thna_0001, g__th_na, g__tha_nukta, g__tha_nukta_0001);
 
 CauseAMatraAlt1 = (g__ga, g_ja, g__ta, g__ga_0001, g_ja_0001, g__ta_0001, g_jya, g__tya, g_jra, g__tra,
     g_jla, g__tla, g_jva, g__tva, g_jva_0001, g__tva_0001, g__gma, g_jma, g__tma, g__gma_0001,
@@ -3369,14 +3834,16 @@ CauseAMatraAlt1 = (g__ga, g_ja, g__ta, g__ga_0001, g_ja_0001, g__ta_0001, g_jya,
     g__ggha_0001, g__gva_0001, g__gza_0001, g__g_sa_0001, g__gsa_0001, g__gk_sa_0001, g__gktra, g_j_ja, g__tza, g__t_sa,
     g_j_ja_0001, g__tza_0001, g__t_sa_0001, g__tka, g__t_schra, g__t_scha, g__tka_0001, g__t_scha_0001, g__ggra, g__gghra,
     g__gk_sva, g__gk_sva_0001, g_jja, g_jjha, g_jj_ja, g_jjva, g_jja_0001, g_jjha_0001, g_jj_ja_0001, g_jjva_0001,
-    g__t_ta, g_j_jya, g__t_tha, g_jjya, g__gkra);
+    g__t_ta, g_j_jya, g__t_tha, g_jjya, g__gkra, g__ga_nukta, g_ja_nukta g__ta_nukta, g__ga_nukta_0001, g_ja_nukta_0001,
+    g__ta_nukta_0001);
 CauseAMatraAlt2 = (g_jha, g__ja, g_jha_0001, g__ja_0001, g_jhya, g__jya, g_jhra, g__jra, g_jhla, g__jla,
     g_jhva, g__jva, g_jhva_0001, g__jva_0001, g_jhma, g__jma, g_jhma_0001, g__jma_0001, g_jhna, g__jna,
     g_jhna_0001, g__jna_0001, g_jh_na, g__j_na, g_jh_na_0001, g__j_na_0001, g__jca, g__jcha, g__jja, g__jjha,
-    g__jca_0001, g__jcha_0001, g__jja_0001, g__jjha_0001, g__jza, g__jza_0001, g__jzra, g__jzva, g__jzva_0001, g__jjya);
+    g__jca_0001, g__jcha_0001, g__jja_0001, g__jjha_0001, g__jza, g__jza_0001, g__jzra, g__jzva, g__jzva_0001, g__jjya,
+    g_jha_nukta, g__ja_nukta, g_jha_nukta_0001, g__ja_nukta_0001);
 CauseAMatraAlt3 = (g__na, g__na_0001, g__nya, g__nra, g__nla, g__nva, g__nva_0001, g__nma, g__nma_0001, g__nna,
     g__nna_0001, g__n_ta, g__n_tha, g__n_da, g__n_dha, g__n_da_0001, g__n_na, g__n_na_0001, g__n_dra, g__n_dva,
-    g__n_dya, g__n_dva_0001);
+    g__n_dya, g__n_dva_0001, g__na_nukta, g__na_nukta_0001);
 CauseAMatraSkipped = (g__r_t, g__r_t_0001, g_e_t, g_e_t_0001, g_ai_t, g_ai_t_0001, g_candra);
 
 CauseIiMatraAlt1 = (g_jha, g__ja, g_pha, g_chya, g__dhya, g_chra, g__dhra, g_chla, g__dhla, g_chva,
@@ -3388,14 +3855,14 @@ CauseIiMatraAlt1 = (g_jha, g__ja, g_pha, g_chya, g__dhya, g_chra, g__dhra, g_chl
     g_tsa, g_tmya, g_tsya, g_tsva, g_nsa, g_ntsa, g_yya, g_lka, g__ska, g__skra,
     g_npa, g_ksa, g_kpa, g_tstha, g_tpra, g_npra, g__jzra, g__jzva, g__jjya, g_nstha,
     g_zcha, g_nga, g_nsya, g__s_tya, g__s_trya, g__s_nya, g_ppha, g_tpla, g_cchya, g_k_s_nya,
-    g__skva);
-CauseIiMatraAlt2 = (g_cha, g__dha);
-CauseIiMatraAlt3 = (g__tha, g__t_schra, g__t_scha, g_nspa, g_ppa);
+    g__skva, g_jha_nukta, g__ja_nukta, g_pha_nukta);
+CauseIiMatraAlt2 = (g_cha, g__dha, g_cha_nukta, g__dha_nukta);
+CauseIiMatraAlt3 = (g__tha, g__t_schra, g__t_scha, g_nspa, g_ppa, g__tha_nukta);
 CauseIiMatraAlt4 = (g__thya, g__thra, g__thla, g__thva, g_ghma, g__thma, g__dhma, g_thma, g_dhma, g_pma,
     g_bhma, g_yma, g__sma, g_sma, g__thna, g__th_na, g_psa, g_lpa, g__spa, g__spra,
     g_mma, g_psya, g_tsma, g_smya, g__spya, g__smya, g_strya);
 
-SiddhamCodePoints = (unicode(0x11580 .. 0x115b5), unicode(0x115b8 .. 0x115bf), unicode(0x115c1 .. 0x115c9));
+SiddhamCodePoints = (unicode(0x11580 .. 0x115b5), unicode(0x115b8 .. 0x115c9));
 NagariCodePoints = (
 	unicode(0x0905 .. 0x090a), /* Independent A to UU */
 	unicode(0x090b), /* Independent RI */
@@ -3413,7 +3880,7 @@ NagariCodePoints = (
 	unicode(0x094b .. 0x094c), /* Dependent O and AU */
 	unicode(0x0901 .. 0x0903), /* CANDRABINDU, ANUSVAARA, VISARGA */
 	unicode(0x094d), /* VIRAAMA */
-	/* TODO: NUKTA is missing */
+	unicode(0x093c), /* NUKTA */
 	unicode(0x00b6), /* SIDDHIRASTU */
 	unicode(0x0964 .. 0x0965), /* DANDA and DVIDANDA */
 	unicode(0xe5c3 .. 0xe5c7), /* Separators and repetition marks */
@@ -3440,27 +3907,32 @@ pass(2)
     g_ka g_vir_ama g__sa > g_k_sa:(1 2 3) _ _;
 endpass;
 
-/* Repha */
+/* Nukta forms */
 pass(3)
+	BasicConsonants g_nukta > NuktaConsonants:(1 2) _;
+endpass;
+
+/* Repha */
+pass(4)
     g_ra g_vir_ama > g_repha:(1 2) _;
 endpass;
-pass(4)
+pass(5)
     g_repha _ > g_ra:1 g_vir_ama:1 / g_vir_ama _ ^ _;
     g_repha _ > g_ra:1 g_vir_ama:1 / g_repha _ ^ _;
 endpass;
 
 /* Vattu forms */
-pass(5)
+pass(6)
     g_vir_ama g_ra > g_vattu:(1 2) _;
 endpass;
 
 /* Raphala ligature */
-pass(6)
+pass(7)
     Consonants g_vattu > ConsonantsR:(1 2) _;
 endpass;
 
 /* Conjunction */
-pass(7)
+pass(8)
     g_ba g_vir_ama g_ba > g_bba:(1 2 3) _ _;
     g_ba g_vir_ama g_bha > g_bbha:(1 2 3) _ _;
     g_ba g_vir_ama g_da > g_bda:(1 2 3) _ _;
@@ -3877,7 +4349,7 @@ pass(7)
     g_za g_vir_ama g_va g_vir_ama g_ya > g_zvya:(1 2 3 4 5) _ _ _ _;
     g_za g_vir_ama g_ya > g_zya:(1 2 3) _ _;
 endpass;
-pass(8)
+pass(9)
     g_ccha g_vattu > g_cchra:(1 2) _;
     g_dba g_vattu > g_dbra:(1 2) _;
     g_dga g_vattu > g_dgra:(1 2) _;
@@ -3909,18 +4381,18 @@ pass(8)
 endpass;
 
 /* Glyph reorder */
-pass(9)
+pass(10)
     g_repha AllConsonants g_i_t > @3 @2 @1;
     g_repha AllConsonants > @2 @1;
     AllConsonants g_i_t > @2 @1;
 endpass;
 
 /* Contextual matra */
-pass(10)
+pass(11)
     /* iT */
     g_i_t > g_i_t_0001 / _ CausesIMatraAlt1;
 endpass;
-pass(11)
+pass(12)
     /* uT, UT */
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g_u_t;
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__u_t;
@@ -3941,7 +4413,7 @@ pass(11)
     CausesUMatraAlt1 g__r_t > CausesUMatraAlt1a g__r_t_0001 / _ g_repha? _;
     CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_repha? g__r_t;
 endpass;
-pass(12)
+pass(13)
     /* RT/RRT exceptional */
 	g_ra g__r_t g__a_t > g_r_r_r:(1 2 3) _ _;
 	g_la g__r_t g__a_t > g_l_r_r:(1 2 3) _ _;
@@ -3951,7 +4423,7 @@ pass(12)
 	g_e_t > g_e_t_0001 / CauseEMatraAlt g_repha? _;
 	g_ai_t > g_ai_t_0001 / CauseEMatraAlt g_repha? _;
 endpass;
-pass(13)
+pass(14)
 	/* AT */
 	g__a_t > g__a_t_0001 / CauseAMatraAlt1 g_repha? CauseAMatraSkipped? _;
 	g__a_t > g__a_t_0002 / CauseAMatraAlt2 g_repha? CauseAMatraSkipped? _;
