@@ -3862,41 +3862,11 @@ CauseIiMatraAlt4 = (g__thya, g__thra, g__thla, g__thva, g_ghma, g__thma, g__dhma
     g_bhma, g_yma, g__sma, g_sma, g__thna, g__th_na, g_psa, g_lpa, g__spa, g__spra,
     g_mma, g_psya, g_tsma, g_smya, g__spya, g__smya, g_strya);
 
-SiddhamCodePoints = (unicode(0x11580 .. 0x115b5), unicode(0x115b8 .. 0x115c9));
-NagariCodePoints = (
-	unicode(0x0905 .. 0x090a), /* Independent A to UU */
-	unicode(0x090b), /* Independent RI */
-	unicode(0x0960), /* Independent RII */
-	unicode(0x090c), /* Independent LI */
-	unicode(0x0961), /* Independent LII */
-	unicode(0x090f .. 0x0910), /* Independent E and AI */
-	unicode(0x0913 .. 0x0914), /* Independent O and AU */
-	unicode(0x0915 .. 0x0928), /* Consonants KA to NA */
-	unicode(0x092a .. 0x0930), /* Consonants PA to RA */
-	unicode(0x0932), /* Consonant LA */
-	unicode(0x0935 .. 0x0939), /* Consonants VA to HA */
-	unicode(0x093e .. 0x0944), /* Dependent AA to RII */
-	unicode(0x0947 .. 0x0948), /* Dependent E and AI */
-	unicode(0x094b .. 0x094c), /* Dependent O and AU */
-	unicode(0x0901 .. 0x0903), /* CANDRABINDU, ANUSVAARA, VISARGA */
-	unicode(0x094d), /* VIRAAMA */
-	unicode(0x093c), /* NUKTA */
-	unicode(0x00b6), /* SIDDHIRASTU */
-	unicode(0x0964 .. 0x0965), /* DANDA and DVIDANDA */
-	unicode(0xe5c3 .. 0xe5c7), /* Separators and repetition marks */
-	unicode(0xe5d1) /* End of text */
-);
-
 endtable;
 
 table(substitution)
 
 pass(1)
-    /* Convert to Devanagari-equivalent glyph */
-    SiddhamCodePoints > NagariCodePoints;
-endpass;
-
-pass(2)
     /* RRT oT auT Decomposition */
     g_candrabindu _ > g_candra:1 g_anusv_ara:1;
     g_candrao_t _ > g_candra:1 g__a_t:1;
@@ -3908,31 +3878,31 @@ pass(2)
 endpass;
 
 /* Nukta forms */
-pass(3)
+pass(2)
 	BasicConsonants g_nukta > NuktaConsonants:(1 2) _;
 endpass;
 
 /* Repha */
-pass(4)
+pass(3)
     g_ra g_vir_ama > g_repha:(1 2) _;
 endpass;
-pass(5)
+pass(4)
     g_repha _ > g_ra:1 g_vir_ama:1 / g_vir_ama _ ^ _;
     g_repha _ > g_ra:1 g_vir_ama:1 / g_repha _ ^ _;
 endpass;
 
 /* Vattu forms */
-pass(6)
+pass(5)
     g_vir_ama g_ra > g_vattu:(1 2) _;
 endpass;
 
 /* Raphala ligature */
-pass(7)
+pass(6)
     Consonants g_vattu > ConsonantsR:(1 2) _;
 endpass;
 
 /* Conjunction */
-pass(8)
+pass(7)
     g_ba g_vir_ama g_ba > g_bba:(1 2 3) _ _;
     g_ba g_vir_ama g_bha > g_bbha:(1 2 3) _ _;
     g_ba g_vir_ama g_da > g_bda:(1 2 3) _ _;
@@ -4349,7 +4319,7 @@ pass(8)
     g_za g_vir_ama g_va g_vir_ama g_ya > g_zvya:(1 2 3 4 5) _ _ _ _;
     g_za g_vir_ama g_ya > g_zya:(1 2 3) _ _;
 endpass;
-pass(9)
+pass(8)
     g_ccha g_vattu > g_cchra:(1 2) _;
     g_dba g_vattu > g_dbra:(1 2) _;
     g_dga g_vattu > g_dgra:(1 2) _;
@@ -4381,18 +4351,18 @@ pass(9)
 endpass;
 
 /* Glyph reorder */
-pass(10)
+pass(9)
     g_repha AllConsonants g_i_t > @3 @2 @1;
     g_repha AllConsonants > @2 @1;
     AllConsonants g_i_t > @2 @1;
 endpass;
 
 /* Contextual matra */
-pass(11)
+pass(10)
     /* iT */
     g_i_t > g_i_t_0001 / _ CausesIMatraAlt1;
 endpass;
-pass(12)
+pass(11)
     /* uT, UT */
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g_u_t;
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__u_t;
@@ -4413,7 +4383,7 @@ pass(12)
     CausesUMatraAlt1 g__r_t > CausesUMatraAlt1a g__r_t_0001 / _ g_repha? _;
     CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_repha? g__r_t;
 endpass;
-pass(13)
+pass(12)
     /* RT/RRT exceptional */
 	g_ra g__r_t g__a_t > g_r_r_r:(1 2 3) _ _;
 	g_la g__r_t g__a_t > g_l_r_r:(1 2 3) _ _;
@@ -4423,7 +4393,7 @@ pass(13)
 	g_e_t > g_e_t_0001 / CauseEMatraAlt g_repha? _;
 	g_ai_t > g_ai_t_0001 / CauseEMatraAlt g_repha? _;
 endpass;
-pass(14)
+pass(13)
 	/* AT */
 	g__a_t > g__a_t_0001 / CauseAMatraAlt1 g_repha? CauseAMatraSkipped? _;
 	g__a_t > g__a_t_0002 / CauseAMatraAlt2 g_repha? CauseAMatraSkipped? _;
