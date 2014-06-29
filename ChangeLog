@@ -1,3 +1,24 @@
+2014-06-29
+	Version 1.1.0 release. Trilingual summary and commit log follows.
+
+	* デーヴァナーガリーの符号位置を削除した (MuktamSiddhamGのみ)。
+	* メタデータを更新した。
+
+	* Deleted Devanagari codepoints (MuktamSiddhamG only).
+	* Updated metadata.
+
+	* Удаленные Деванагари кодовые (только MuktamSiddhamG).
+	* Обновлены метаданные.
+
+	* 2014-06-29 e31d443 Edit metadata
+	* 2014-06-29 c3c5553 Merge branch 'removeDeva'
+	* 2014-06-29 9a0bae3 Edit metadata for MuktamsiddhamG
+	* 2014-06-29 7c6d556 Remove Devanagari codepoints from MuktamsiddhamG
+	* 2014-06-29 747f27d Give each lookup tables an English name
+	* 2014-06-24 f03cda9 Merge branch 'version'
+	* 2014-06-24 1473d7a Version 1.0.0
+
+
 2014-06-24
 	Version 1.0.0 release. Trilingual summary and commit log follows.
 
