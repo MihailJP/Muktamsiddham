@@ -19,8 +19,8 @@ FSType: 8
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1315500588
-ModificationTime: 1403614012
+CreationTime: 1403968107
+ModificationTime: 1403970618
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -40,12 +40,12 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 0 "'frac' +ZZwwgTBuUgZlcAAA in +MOkwxjDzZYdbVwAA lookup 1"  {"'frac' +ZZwwgTBuUgZlcAAA in +MOkwxjDzZYdbVwAA lookup 1-1"  } ['frac' ('latn' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' +ahluljBuVAhbVwAA in +MOkwxjDzZYdbVwAA lookup 1"  {"'liga' +ahluljBuVAhbVwAA in +MOkwxjDzZYdbVwAA lookup 1-1"  } ['liga' ('latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0"  {"'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-1" [150,15,0] } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Western fractions"  {"Western fractions-1"  } ['frac' ('latn' <'dflt' > ) ]
+Lookup: 4 0 1 "Latin ligatures"  {"Latin ligatures-1"  } ['liga' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "Latin kernings"  {"Latin kernings-1" [150,15,0] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 12 8 "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-1" 
+KernClass2: 12 8 "Latin kernings-1" 
  33 f fdotaccent slong slongdotaccent
  66 Ldotbelow Ldotbelowmacron L Lslash Lcaron Lacute Lcommaaccent Ldot
  12 P Pdotaccent
@@ -4749,8 +4749,8 @@ SplineSet
  62.4492 305 46.415 308.855 46.415 325 c 0
  46.415 353 l 0
 EndSplineSet
-Ligature2: "'frac' +ZZwwgTBuUgZlcAAA in +MOkwxjDzZYdbVwAA lookup 1-1" one fraction four
-Ligature2: "'frac' +ZZwwgTBuUgZlcAAA in +MOkwxjDzZYdbVwAA lookup 1-1" one slash four
+Ligature2: "Western fractions-1" one fraction four
+Ligature2: "Western fractions-1" one slash four
 EndChar
 
 StartChar: onehalf
@@ -4801,8 +4801,8 @@ SplineSet
  251.699 165.534 258 180.82 258 207.962 c 0
  258 238.615 225.887 258 193 258 c 0
 EndSplineSet
-Ligature2: "'frac' +ZZwwgTBuUgZlcAAA in +MOkwxjDzZYdbVwAA lookup 1-1" one fraction two
-Ligature2: "'frac' +ZZwwgTBuUgZlcAAA in +MOkwxjDzZYdbVwAA lookup 1-1" one slash two
+Ligature2: "Western fractions-1" one fraction two
+Ligature2: "Western fractions-1" one slash two
 EndChar
 
 StartChar: threequarters
@@ -4875,8 +4875,8 @@ SplineSet
  222.903 43 l 2
  226.3 43 226.219 43.4297 226.384 43.5068 c 0
 EndSplineSet
-Ligature2: "'frac' +ZZwwgTBuUgZlcAAA in +MOkwxjDzZYdbVwAA lookup 1-1" three fraction four
-Ligature2: "'frac' +ZZwwgTBuUgZlcAAA in +MOkwxjDzZYdbVwAA lookup 1-1" three slash four
+Ligature2: "Western fractions-1" three fraction four
+Ligature2: "Western fractions-1" three slash four
 EndChar
 
 StartChar: questiondown
@@ -7272,7 +7272,7 @@ LayerCount: 2
 Fore
 Refer: 86 102 N 1 0 0 1 0 0 2
 Refer: 6 105 N 1 0 0 1 192 0 2
-Ligature2: "'liga' +ahluljBuVAhbVwAA in +MOkwxjDzZYdbVwAA lookup 1-1" f i
+Ligature2: "Latin ligatures-1" f i
 EndChar
 
 StartChar: fl
@@ -7314,7 +7314,7 @@ SplineSet
  57 651.972 145.721 666 203.449 666 c 0
  224.77 666 244.213 660.169 255.476 655.661 c 1
 EndSplineSet
-Ligature2: "'liga' +ahluljBuVAhbVwAA in +MOkwxjDzZYdbVwAA lookup 1-1" f l
+Ligature2: "Latin ligatures-1" f l
 EndChar
 
 StartChar: dotlessi
@@ -7411,7 +7411,7 @@ SplineSet
  307.241 710.686 359.742 715 390 715 c 0
  402.954 715 428.581 713.809 438.255 709.07 c 1
 EndSplineSet
-Ligature2: "'liga' +ahluljBuVAhbVwAA in +MOkwxjDzZYdbVwAA lookup 1-1" f f
+Ligature2: "Latin ligatures-1" f f
 LCarets2: 1 0 
 EndChar
 
