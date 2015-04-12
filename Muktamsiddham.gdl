@@ -1838,13 +1838,18 @@ cno_0004 = (g__i_t, g_u_t, g__u_t);
 
 BasicConsonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__ja,
     g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
-    g_pa, g_pha, g_ba, g_bha, g_ma, g_ya, g_la, g_va, g_za, g__sa, g_sa, g_ha);
+    g_pa, g_pha, g_ba, g_bha, g_ma, g_ya, g_la, g_va, g_za, g__sa, g_sa, g_ha,
+    g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut, g__rt, g__r_rt, g__lt, g__l_lt,
+    g_et, g_ait, g_ot, g_aut);
 NuktaConsonants = (g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta,
     g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta,
     g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
     g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta,
     g_pa_nukta, g_pha_nukta, g_ba_nukta, g_bha_nukta, g_ma_nukta,
-    g_ya_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta);
+    g_ya_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta,
+    g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta,
+    g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta,
+    g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta);
 
 Consonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__ja,
     g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
@@ -2110,7 +2115,7 @@ endpass;
 
 /* Nukta forms */
 pass(2)
-	BasicConsonants g_nukta > NuktaConsonants:(1 2) _;
+    BasicConsonants g_nukta > NuktaConsonants:(1 2) _;
 endpass;
 
 /* Repha */
@@ -2616,24 +2621,28 @@ pass(11)
 endpass;
 pass(12)
     /* RT/RRT exceptional */
-	g_ra g__r_t g__a_t > g_r_r_r:(1 2 3) _ _;
-	g_la g__r_t g__a_t > g_l_r_r:(1 2 3) _ _;
-	g_ra g__r_t > g_r_r:(1 2) _;
-	g_la g__r_t > g_l_r:(1 2) _;
-	/* eT/aiT */
-	g_e_t > g_e_t_0001 / CauseEMatraAlt g_repha? _;
-	g_ai_t > g_ai_t_0001 / CauseEMatraAlt g_repha? _;
+    g_ra g__r_t g__a_t > g_r_r_r:(1 2 3) _ _;
+    g_la g__r_t g__a_t > g_l_r_r:(1 2 3) _ _;
+    g_ra g__r_t > g_r_r:(1 2) _;
+    g_la g__r_t > g_l_r:(1 2) _;
+    g_ra_nukta g__r_t g__a_t > g_r_r_r_nukta:(1 2 3) _ _;
+    g_la_nukta g__r_t g__a_t > g_l_r_r_nukta:(1 2 3) _ _;
+    g_ra_nukta g__r_t > g_r_r_nukta:(1 2) _;
+    g_la_nukta g__r_t > g_l_r_nukta:(1 2) _;
+    /* eT/aiT */
+    g_e_t > g_e_t_0001 / CauseEMatraAlt g_repha? _;
+    g_ai_t > g_ai_t_0001 / CauseEMatraAlt g_repha? _;
 endpass;
 pass(13)
-	/* AT */
-	g__a_t > g__a_t_0001 / CauseAMatraAlt1 g_repha? CauseAMatraSkipped? _;
-	g__a_t > g__a_t_0002 / CauseAMatraAlt2 g_repha? CauseAMatraSkipped? _;
-	g__a_t > g__a_t_0003 / CauseAMatraAlt3 g_repha? CauseAMatraSkipped? _;
-	/* IT */
-	g__i_t > g__i_t_0001 / CauseIiMatraAlt1 g_repha? _;
-	g__i_t > g__i_t_0002 / CauseIiMatraAlt2 g_repha? _;
-	g__i_t > g__i_t_0003 / CauseIiMatraAlt3 g_repha? _;
-	g__i_t > g__i_t_0004 / CauseIiMatraAlt4 g_repha? _;
+    /* AT */
+    g__a_t > g__a_t_0001 / CauseAMatraAlt1 g_repha? CauseAMatraSkipped? _;
+    g__a_t > g__a_t_0002 / CauseAMatraAlt2 g_repha? CauseAMatraSkipped? _;
+    g__a_t > g__a_t_0003 / CauseAMatraAlt3 g_repha? CauseAMatraSkipped? _;
+    /* IT */
+    g__i_t > g__i_t_0001 / CauseIiMatraAlt1 g_repha? _;
+    g__i_t > g__i_t_0002 / CauseIiMatraAlt2 g_repha? _;
+    g__i_t > g__i_t_0003 / CauseIiMatraAlt3 g_repha? _;
+    g__i_t > g__i_t_0004 / CauseIiMatraAlt4 g_repha? _;
 endpass;
 
 endtable;
