@@ -87,7 +87,7 @@ codepoints = {
 	'ditto1':      0x115c6,
 	'ditto2':      0x115c7,
 	'ditto3':      0x115c8,
-	'section10':   0x115c9,
+	'terminus':    0x115c9,
 	'section01':   0x115ca,
 	'section02':   0x115cb,
 	'section03':   0x115cc,
