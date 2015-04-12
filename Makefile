@@ -19,8 +19,8 @@ Outlines.sfd: Muktamsiddham.sfd LatinGlyphs.sfd
 
 OutlinesTT.sfd: Outlines.sfd
 	fontforge -script ./truetype.py
-OutlinesG.sfd: smp.diff OutlinesTT.sfd
-	patch -i $< -o $@ -- OutlinesTT.sfd
+OutlinesG.sfd: smp.py OutlinesTT.sfd
+	fontforge -script ./smp.py OutlinesTT.sfd
 
 Muktamsiddham.otf: Outlines.sfd
 	$(FFCMD)
