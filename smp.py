@@ -102,6 +102,10 @@ codepoints = {
 	'section05':   0x115d5,
 	'section12':   0x115d6,
 	'section11':   0x115d7,
+	'it3':         0x115d8,
+	'it2':         0x115d9,
+	'It2':         0x115da,
+	'ut2':         0x115db,
 }
 
 for glyph in font.glyphs():

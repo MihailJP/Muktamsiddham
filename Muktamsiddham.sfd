@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1403457195
-ModificationTime: 1428837115
+ModificationTime: 1428845213
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -287,7 +287,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "viramamark" "Below-base Mark to Mark-1" "ukaaramark" "Below-base Mark to Mark-1" "bindumark" "Above-base Mark to Mark-1" "ukaara" "Below-base Marks-1" "virama" "Below-base Marks-1" "ekaara" "Above-base Marks-1" "iikaara" "Above-base Marks-1" "aakaara" "Above-base Marks-1" "repha" "Above-base Marks-1" "bindu" "Above-base Marks-1" 
-BeginChars: 1000 1000
+BeginChars: 1008 1008
 
 StartChar: akAra
 Encoding: 0 2309 0
@@ -41885,6 +41885,196 @@ SplineSet
  159.064 476.375 214.844 467.621 276.737 467.621 c 0
  338.632 467.621 394.41 476.375 433.475 490.358 c 1024
 EndSplineSet
+EndChar
+
+StartChar: it3
+Encoding: 1000 58840 1000
+Width: 886
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 458 740 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+432 327 m 0
+ 380 327 320 357 320 416 c 0
+ 320 480 417 521 460 592 c 1
+ 494 528 575 484 575 429 c 0
+ 575 418 571 406 564 394 c 0
+ 538 351 484 327 432 327 c 0
+624 -10 m 0
+ 572 -10 512 20 512 79 c 0
+ 512 143 609 185 652 256 c 1
+ 686 192 767 147 767 92 c 0
+ 767 81 763 70 756 58 c 0
+ 730 15 676 -10 624 -10 c 0
+232 -2 m 0
+ 180 -2 120 27 120 86 c 0
+ 120 150 216 192 259 263 c 1
+ 293 199 374 155 374 100 c 0
+ 374 89 371 77 364 65 c 0
+ 338 22 284 -2 232 -2 c 0
+EndSplineSet
+EndChar
+
+StartChar: it2
+Encoding: 1001 58841 1001
+Width: 863
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 424 740 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+413 140 m 0
+ 487 140 563 70 563 0 c 0
+ 563 -61 479 -108 443 -108 c 0
+ 302 -108 204 34 114 94 c 1024
+624 206 m 0
+ 581 206 531 231 531 280 c 0
+ 531 333 611 368 647 427 c 1
+ 675 374 743 337 743 291 c 0
+ 743 282 740 272 734 262 c 0
+ 712 226 667 206 624 206 c 0
+213 212 m 0
+ 170 212 120 237 120 286 c 0
+ 120 339 200 374 236 433 c 1
+ 264 380 332 343 332 297 c 0
+ 332 288 329 278 323 268 c 0
+ 301 232 256 212 213 212 c 0
+267 594 m 25
+ 297 522 l 25
+ 305 549 290 589 327 589 c 0
+ 353 589 366 552 395 552 c 2
+ 396 552 l 9
+ 460 554 493 578 555 594 c 1041
+525 581 m 1
+ 483 563 437 550 435 504 c 0
+ 432 404 431 353 431 306 c 0
+ 431 259 432 256 432 172 c 0
+ 432 149 424 140 413 140 c 0
+ 386 140 349 84 349 84 c 1025
+EndSplineSet
+EndChar
+
+StartChar: It2
+Encoding: 1002 58842 1002
+Width: 863
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 424 740 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+624 206 m 0
+ 581 206 531 231 531 280 c 0
+ 531 333 611 368 647 427 c 1
+ 675 374 743 337 743 291 c 0
+ 743 282 740 272 734 262 c 0
+ 712 226 667 206 624 206 c 0
+213 212 m 0
+ 170 212 120 237 120 286 c 0
+ 120 339 200 374 236 433 c 1
+ 264 380 332 343 332 297 c 0
+ 332 288 329 278 323 268 c 0
+ 301 232 256 212 213 212 c 0
+267 594 m 25
+ 297 522 l 25
+ 305 549 290 589 327 589 c 0
+ 353 589 366 552 395 552 c 2
+ 396 552 l 9
+ 460 554 493 578 555 594 c 1041
+525 581 m 1
+ 483 563 437 550 435 504 c 0
+ 432 404 431 353 431 306 c 0
+ 431 259 432 172 432 88 c 0
+ 432 65 424 56 413 56 c 0
+ 386 56 336 105 300 130 c 9
+ 360 77 389 42 453 -5 c 24
+ 508 -45 545 -58 603 -92 c 1048
+EndSplineSet
+EndChar
+
+StartChar: ut2
+Encoding: 1003 58843 1003
+Width: 828
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 465 740 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+566 581 m 1
+ 524 563 477 550 476 504 c 0
+ 473 404 472 428 472 381 c 0
+ 472 334 358 342 322 274 c 0
+ 254 145 418 194 480 204 c 0
+ 630 228 709 177 708 110 c 0
+ 707 35 565 -50 490 -48 c 0
+ 278 -43 216 61 120 148 c 1025
+308 594 m 25
+ 338 522 l 25
+ 346 549 331 589 368 589 c 0
+ 394 589 407 552 436 552 c 2
+ 437 552 l 9
+ 501 554 534 578 596 594 c 1041
+EndSplineSet
+EndChar
+
+StartChar: it3_nukta
+Encoding: 1004 -1 1004
+Width: 886
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 457.601 740 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 1000 58840 N 1 0 0 1 0 0 2
+Refer: 880 2364 N 1 0 0 1 672 -92 2
+EndChar
+
+StartChar: it2_nukta
+Encoding: 1005 -1 1005
+Width: 863
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 424 740 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 1001 58841 N 1 0 0 1 0 0 2
+Refer: 880 2364 N 1 0 0 1 668 -212 2
+EndChar
+
+StartChar: It2_nukta
+Encoding: 1006 -1 1006
+Width: 863
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 424 740 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 880 2364 N 1 0 0 1 604 -92 2
+Refer: 1002 58842 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ut2_nukta
+Encoding: 1007 -1 1007
+Width: 828
+VWidth: 0
+Flags: W
+AnchorPoint: "bindu" 465 740 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 1003 58843 N 1 0 0 1 0 0 2
+Refer: 880 2364 N 1 0 0 1 708 -160 2
 EndChar
 EndChars
 EndSplineFont
