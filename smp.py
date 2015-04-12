@@ -88,6 +88,17 @@ codepoints = {
 	'ditto2':      0x115c7,
 	'ditto3':      0x115c8,
 	'section10':   0x115c9,
+	'section01':   0x115ca,
+	'section02':   0x115cb,
+	'section03':   0x115cc,
+	'section04':   0x115ce,
+	'section06':   0x115cf,
+	'section07':   0x115d0,
+	'section08':   0x115d2,
+	'section09':   0x115d4,
+	'section05':   0x115d5,
+	'section12':   0x115d6,
+	'section11':   0x115d7,
 }
 
 for glyph in font.glyphs():
