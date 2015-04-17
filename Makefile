@@ -46,10 +46,11 @@ Muktamsiddham-source.tar.xz: ${SOURCE} ${DOCUMENTS}
 	-rm -rf $*
 	mkdir $*
 	cp ${SOURCE} ${DOCUMENTS} $*
+	sed -ie '/# GIT/d' $*/Makefile
 	tar cfvJ $@ $*
 
-ChangeLog: .git
-	./mkchglog.rb > $@
+ChangeLog: .git # GIT
+	./mkchglog.rb > $@ # GIT
 
 .PHONY: clean
 clean:
