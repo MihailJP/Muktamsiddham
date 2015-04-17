@@ -1,7 +1,7 @@
 # Makefile for Muktamsiddham font
 
 FONTS=Muktamsiddham.otf MuktamsiddhamT.ttf MuktamsiddhamG.ttf
-DOCUMENTS=license.txt README ChangeLog
+DOCUMENTS=license.txt README ChangeLog NEWS
 SOURCE=Muktamsiddham.sfd LatinGlyphs.sfd outlines.py truetype.py smp.py Muktamsiddham.gdl Makefile
 PKGS=Muktamsiddham.tar.xz Muktamsiddham-source.tar.xz
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
@@ -48,8 +48,11 @@ Muktamsiddham-source.tar.xz: ${SOURCE} ${DOCUMENTS}
 	cp ${SOURCE} ${DOCUMENTS} $*
 	tar cfvJ $@ $*
 
+ChangeLog: .git
+	./mkchglog.rb > $@
+
 .PHONY: clean
 clean:
 	-rm -f Outlines.sfd OutlinesTT.sfd OutlinesG.sfd MuktamsiddhamG-raw.ttf \
-	gdlerr.txt '$$_temp.gdl' ${FONTS}
+	gdlerr.txt '$$_temp.gdl' ${FONTS} ChangeLog
 	-rm -rf ${PKGS} ${PKGS:.tar.xz=}

@@ -1,0 +1,64 @@
+2014-06-29: Version 1.1.0 release.
+
+	* デーヴァナーガリーの符号位置を削除した (MuktamSiddhamGのみ)。
+	* メタデータを更新した。
+
+	* Deleted Devanagari codepoints (MuktamSiddhamG only).
+	* Updated metadata.
+
+	* Удаленные Деванагари кодовые (только MuktamSiddhamG).
+	* Обновлены метаданные.
+
+2014-06-24: Version 1.0.0 release.
+
+	* Nuktaを追加。
+	* ラテン文字のQを修正。
+	* Unicode 7.0の梵字の符号位置をサポートした (MuktamSiddhamGのみ)。
+
+	* Added Nukta.
+	* Modified Latin letter Q.
+	* Now supports Unicode 7.0 Siddham codepoints in SMP (MuktamSiddhamG only).
+
+	* Добавлено Nukta.
+	* Модифицировано латинскую букву Q.
+	* Теперь поддерживает Юникод 7.0 Сиддхама в SMP (только MuktamSiddhamG).
+
+2012-05-10: Version 0.3.0 release.
+
+	* いくつかの梵字特有の句読点を追加。
+	* Graphite対応版「MuktamSiddhamG」を追加。
+	* SMPに提案されている梵字の符号位置をサポートした (MuktamSiddhamGのみ)。
+
+	* Added some Siddham-specific punctuation marks.
+	* Added Graphite-enabled version "MuktamSiddhamG.
+	* Now supports proposed Siddham codepoints in SMP (MuktamSiddhamG only).
+
+	* Добавлено несколько Сиддхам-конкретных знаков препинания.
+	* Добавлено версии с поддержкой Graphite, «MuktamSiddhamG».
+	* Теперь поддерживает предложенные коды Сиддхама в SMP (только MuktamSiddhamG).
+
+2011-10-04: Version 0.2.1 release.
+
+	* ドキュメントの不備を直した。
+
+	* Fixed the imperfection in the documentation.
+
+	* Исправление несовершенства в документации.
+
+2011-10-02: Version 0.2.0 release.
+
+	* "strya"のグリフを追加しました。
+	* "make"プログラムでビルドができるようになりました。
+	* Windows以外のシステムでも部分的に動作するようになりました。(taka447氏のパッチによる)
+
+	* Added glyph for 'strya'.
+	* Now we can build with the 'make' program.
+	* Now works partially with non-Windows systems (thanks to the patch from taka447).
+
+	* Добавлен глиф для «strya».
+	* Теперь можно создавать с программой «make».
+	* Теперь работает частично с системами, отличных от Windows (благодаря патч от taka447).
+
+2010-10-27: Version 0.1.1 release.
+
+2010-05-29: Version 0.1.0 release.
