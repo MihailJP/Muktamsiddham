@@ -51,6 +51,6 @@ Muktamsiddham-source.7z: ${SOURCE} ${DOCUMENTS}
 
 .PHONY: clean
 clean:
-	-rm Outlines.sfd OutlinesTT.sfd OutlinesG.sfd MuktamsiddhamG-raw.ttf \
+	-rm -f Outlines.sfd OutlinesTT.sfd OutlinesG.sfd MuktamsiddhamG-raw.ttf \
 	gdlerr.txt '$$_temp.gdl' ${FONTS}
 	-rm -rf ${PKGS} ${PKGS:.7z=}
