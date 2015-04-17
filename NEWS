@@ -1,3 +1,20 @@
+2015-04-18: Version 1.1.1 release.
+
+	* Nukta字形のGraphite定義が一部抜けていたのを修正。
+	* フォント生成スクリプトを変更した。
+	* リリースパッケージを7zからtar-xzにした。
+	* ChangeLogを自動生成されるようにした。
+
+	* Added missing Graphite definition for Nukta forms.
+	* Modified font generating script.
+	* Release package is now tar-xz rather than 7z.
+	* Changelog is now generated from the commit log.
+
+	* Добавлено отсутствующую дефиницию Graphite для глифов с Nukta.
+	* Перенаписано скрипт для генерации шрифта.
+	* Пакет релиза теперь не 7z, но архив tar-xz.
+	* Список изменений (ChangeLog) теперь генерируется из журнала фиксаций.
+
 2014-06-29: Version 1.1.0 release.
 
 	* デーヴァナーガリーの符号位置を削除した (MuktamSiddhamGのみ)。
