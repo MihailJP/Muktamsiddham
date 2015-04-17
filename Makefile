@@ -1,14 +1,13 @@
 # Makefile for Muktamsiddham font
 
 FONTS=Muktamsiddham.otf MuktamsiddhamT.ttf MuktamsiddhamG.ttf
-DOCUMENTS=license.txt README ChangeLog
-SOURCE=Muktamsiddham.sfd LatinGlyphs.sfd outlines.py truetype.py smp.diff Muktamsiddham.gdl Makefile
-PKGS=Muktamsiddham.7z Muktamsiddham-source.7z
-7ZOPT=-mx9
+DOCUMENTS=license.txt README ChangeLog NEWS
+SOURCE=Muktamsiddham.sfd LatinGlyphs.sfd outlines.py truetype.py smp.py Muktamsiddham.gdl Makefile
+PKGS=Muktamsiddham.tar.xz Muktamsiddham-source.tar.xz
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 
 # Path to Graphite compiler
-GRCOMPILER=/cygdrive/c/Apps/graphite/Graphite\ Compiler/GrCompiler
+GRCOMPILER=grcompiler
 
 
 .PHONY: all
@@ -33,24 +32,28 @@ MuktamsiddhamG.ttf: MuktamsiddhamG-raw.ttf Muktamsiddham.gdl
 	$(GRCOMPILER) $^ $@ "MuktamsiddhamG"
 
 
-.SUFFIXES: .7z
+.SUFFIXES: .tar.xz
 .PHONY: dist
 dist: ${PKGS}
 
-Muktamsiddham.7z: ${FONTS} ${DOCUMENTS}
+Muktamsiddham.tar.xz: ${FONTS} ${DOCUMENTS}
 	-rm -rf $*
 	mkdir $*
 	cp ${FONTS} ${DOCUMENTS} $*
-	7z a ${7ZOPT} $@ $*
+	tar cfvJ $@ $*
 
-Muktamsiddham-source.7z: ${SOURCE} ${DOCUMENTS}
+Muktamsiddham-source.tar.xz: ${SOURCE} ${DOCUMENTS}
 	-rm -rf $*
 	mkdir $*
 	cp ${SOURCE} ${DOCUMENTS} $*
-	7z a ${7ZOPT} $@ $*
+	sed -ie '/# GIT/d' $*/Makefile
+	tar cfvJ $@ $*
+
+ChangeLog: .git # GIT
+	./mkchglog.rb > $@ # GIT
 
 .PHONY: clean
 clean:
-	-rm Outlines.sfd OutlinesTT.sfd OutlinesG.sfd MuktamsiddhamG-raw.ttf \
-	gdlerr.txt '$$_temp.gdl' ${FONTS}
-	-rm -rf ${PKGS} ${PKGS:.7z=}
+	-rm -f Outlines.sfd OutlinesTT.sfd OutlinesG.sfd MuktamsiddhamG-raw.ttf \
+	gdlerr.txt '$$_temp.gdl' ${FONTS} ChangeLog
+	-rm -rf ${PKGS} ${PKGS:.tar.xz=}

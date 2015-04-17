@@ -3,7 +3,9 @@ Outlines.sfd
 OutlinesTT.sfd
 OutlinesG.sfd
 *.?tf
-*.7z
+*.tar.xz
 Muktamsiddham/
 Muktamsiddham-source/
 *.sfd-*
+gdlerr.txt
+ChangeLog
