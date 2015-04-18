@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-rawlog = `git log --date-order --date=short --pretty=format:"%ad %aN <%aE>%n%n* %s%n" | fold -sw72`
+rawlog = `git log --date-order --date=short --pretty=format:"%cd %cN <%cE>%n%n* %s%n" | fold -sw72`
 
 dateauth=""
 skipflag=false
