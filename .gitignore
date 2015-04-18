@@ -4,6 +4,9 @@ OutlinesTT.sfd
 OutlinesG.sfd
 *.?tf
 *.tar.xz
+*.tar.gz
+*.tar.bz2
+*.zip
 Muktamsiddham/
 Muktamsiddham-source/
 *.sfd-*
