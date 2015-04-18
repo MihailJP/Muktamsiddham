@@ -107,6 +107,7 @@ codepoints = {
 	'It2':         0x115da,
 	'ut2':         0x115db,
 	'uT2':         0x115dc,
+	'TT2':         0x115dd,
 }
 
 for glyph in font.glyphs():
