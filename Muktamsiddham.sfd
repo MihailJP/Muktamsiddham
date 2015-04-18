@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1403457195
-ModificationTime: 1429278704
+ModificationTime: 1429345001
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -287,7 +287,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "viramamark" "Below-base Mark to Mark-1" "ukaaramark" "Below-base Mark to Mark-1" "bindumark" "Above-base Mark to Mark-1" "ukaara" "Below-base Marks-1" "virama" "Below-base Marks-1" "ekaara" "Above-base Marks-1" "iikaara" "Above-base Marks-1" "aakaara" "Above-base Marks-1" "repha" "Above-base Marks-1" "bindu" "Above-base Marks-1" 
-BeginChars: 1008 1008
+BeginChars: 1009 1009
 
 StartChar: akAra
 Encoding: 0 2309 0
@@ -42075,6 +42075,19 @@ Back
 Fore
 Refer: 1003 58843 N 1 0 0 1 0 0 2
 Refer: 880 2364 N 1 0 0 1 708 -160 2
+EndChar
+
+StartChar: uT2
+Encoding: 1008 58844 1008
+Width: 0
+VWidth: 0
+Flags: W
+AnchorPoint: "ukaaramark" -245 106 mark 0
+AnchorPoint: "ukaara" -245 106 mark 0
+LayerCount: 2
+Back
+Fore
+Refer: 67 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

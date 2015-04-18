@@ -991,6 +991,7 @@ g_it3_nukta = glyphid(1007) {binduS = point(938m, 1516m)};
 g_it2_nukta = glyphid(1008) {binduS = point(868m, 1516m)};
 g__it2_nukta = glyphid(1009) {binduS = point(868m, 1516m)};
 g_ut2_nukta = glyphid(1010) {binduS = point(952m, 1516m)};
+g_u_t2 = glyphid(1011) {ukaaraM = point(-502m, 217m); ukaaramarkM = point(-502m, 217m)};
 
 /* Classes */
 caakaaraDia = (g__a_t, g__a_t_0001, g__a_t_0002, g__a_t_0003);
@@ -1000,9 +1001,9 @@ cekaaraDia = (g_e_t, g_e_t_0001, g_ai_t, g_ai_t_0001);
 ciikaaraDia = (g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004);
 crephaDia = (g_repha);
 cukaaraDia = (g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t, g__u_t_0001, g__u_t_0002,
-    g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001, g_vattu);
+    g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001, g_vattu, g_u_t2);
 cukaaramarkDia = (g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t, g__u_t_0001, g__u_t_0002,
-    g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001);
+    g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001, g_u_t2);
 cviramaDia = (g_vir_ama, g_nukta);
 cviramamarkDia = (g_vir_ama, g_nukta);
 
@@ -2624,6 +2625,7 @@ pass(11)
     CausesUMatraAlt4 g_u_t > CausesUMatraAlt4a g_u_t_0004 / _ g_repha? _;
     CausesUMatraAlt4 g__u_t > CausesUMatraAlt4a g__u_t_0004 / _ g_repha? _;
     CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_repha? g_vattu;
+    cno_0001 > c0001 / _ g_repha? g_u_t2;
     /* RT */
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__r_t;
     CausesUMatraAlt1 g__r_t > CausesUMatraAlt1a g__r_t_0001 / _ g_repha? _;
