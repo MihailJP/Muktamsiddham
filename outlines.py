@@ -17,15 +17,31 @@ from math import radians
 font = fontforge.open("Muktamsiddham.sfd")
 font.strokedfont = False
 
-font.selection.all()
-font.selection.select(("less","ranges"),"section01","section12")
-font.selection.select(("more",),"section10")
-font.stroke("eliptical",100,40,radians(-30.0),"square","round")
-font.selection.invert()
-font.selection.select(("less",),"section09")
-font.stroke("circular",40,"square","round")
-font.selection.select("section09")
-font.stroke("circular",30,"square","round")
+strokeType = {
+	'section01': ('circular', 40),
+	'section02': ('circular', 40),
+	'section03': ('circular', 40),
+	'section04': ('circular', 40),
+	'section05': ('circular', 40),
+	'section06': ('circular', 40),
+	'section07': ('circular', 40),
+	'section08': ('circular', 40),
+	'section09': ('circular', 30),
+	'section11': ('circular', 40),
+	'section12': ('circular', 40),
+	'section13': ('circular', 40),
+	'section14': ('circular', 40),
+	'section15': ('circular', 35),
+}
+
+for glyph in font.glyphs():
+	if glyph.isWorthOutputting():
+		if glyph.glyphname not in strokeType:
+			glyph.stroke("eliptical",100,40,radians(-30.0),"square","round")
+		elif strokeType[glyph.glyphname][0] == 'circular':
+			glyph.stroke("circular",strokeType[glyph.glyphname][1],"square","round")
+		else: # this should not occur
+			raise ValueError, "unsupported stroke type"
 
 font.selection.all()
 font.addExtrema();font.round()

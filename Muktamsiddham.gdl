@@ -983,6 +983,17 @@ g__sra_nukta = glyphid(996) {aakaaraS = point(975m, 1225m); binduS = point(680m,
 g_sra_nukta = glyphid(997) {aakaaraS = point(1114m, 1221m); binduS = point(727m, 1516m); ekaaraS = point(436m, 1202m); iikaaraS = point(1114m, 1221m); viramaS = point(741m, -430m); rephaS = point(643m, 1155m); ukaaraS = point(1051m, 270m)};
 g_hra_nukta = glyphid(998) {aakaaraS = point(1032m, 1225m); binduS = point(799m, 1516m); ekaaraS = point(397m, 1202m); iikaaraS = point(1032m, 1225m); viramaS = point(725m, -512m); rephaS = point(729m, 1145m); ukaaraS = point(725m, 270m)};
 g__gra_nukta = glyphid(999) {aakaaraS = point(1249m, 956m); binduS = point(815m, 1516m); ekaaraS = point(471m, 1182m); iikaaraS = point(1182m, 1210m); viramaS = point(848m, -512m); rephaS = point(784m, 1114m); ukaaraS = point(848m, 270m)};
+g_it3 = glyphid(1003) {binduS = point(938m, 1516m)};
+g_it2 = glyphid(1004) {binduS = point(868m, 1516m)};
+g__it2 = glyphid(1005) {binduS = point(868m, 1516m)};
+g_ut2 = glyphid(1006) {binduS = point(952m, 1516m)};
+g_it3_nukta = glyphid(1007) {binduS = point(938m, 1516m)};
+g_it2_nukta = glyphid(1008) {binduS = point(868m, 1516m)};
+g__it2_nukta = glyphid(1009) {binduS = point(868m, 1516m)};
+g_ut2_nukta = glyphid(1010) {binduS = point(952m, 1516m)};
+g_u_t2 = glyphid(1011) {ukaaraM = point(-502m, 217m); ukaaramarkM = point(-502m, 217m)};
+g__u_t2 = glyphid(1012) {ukaaraM = point(-598m, 0m); ukaaramarkM = point(-598m, 0m)};
+g__u_t2_0001 = glyphid(1013) {ukaaraM = point(-598m, 0m); ukaaramarkM = point(-598m, 0m)};
 
 /* Classes */
 caakaaraDia = (g__a_t, g__a_t_0001, g__a_t_0002, g__a_t_0003);
@@ -992,9 +1003,11 @@ cekaaraDia = (g_e_t, g_e_t_0001, g_ai_t, g_ai_t_0001);
 ciikaaraDia = (g__i_t, g__i_t_0001, g__i_t_0002, g__i_t_0003, g__i_t_0004);
 crephaDia = (g_repha);
 cukaaraDia = (g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t, g__u_t_0001, g__u_t_0002,
-    g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001, g_vattu);
+    g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001, g_vattu,
+    g_u_t2, g__u_t2, g__u_t2_0001);
 cukaaramarkDia = (g_u_t, g_u_t_0001, g_u_t_0002, g_u_t_0003, g_u_t_0004, g__u_t, g__u_t_0001, g__u_t_0002,
-    g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001);
+    g__u_t_0003, g__u_t_0004, g__r_t, g__r_t_0001,
+    g_u_t2, g__u_t2, g__u_t2_0001);
 cviramaDia = (g_vir_ama, g_nukta);
 cviramamarkDia = (g_vir_ama, g_nukta);
 
@@ -1226,7 +1239,8 @@ cTakesbinduDia = (g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut, g__rt, g__r_rt,
     g_cra_nukta, g_chra_nukta, g_jra_nukta, g_jhra_nukta, g__jra_nukta, g__tra_nukta, g__thra_nukta, g__dra_nukta,
     g__dhra_nukta, g__nra_nukta, g_tra_nukta, g_thra_nukta, g_dra_nukta, g_dhra_nukta, g_nra_nukta, g_pra_nukta,
     g_phra_nukta, g_bra_nukta, g_bhra_nukta, g_mra_nukta, g_yra_nukta, g_lra_nukta, g_vra_nukta, g_zra_nukta,
-    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta);
+    g__sra_nukta, g_sra_nukta, g_hra_nukta, g__gra_nukta,
+    g_it3, g_it2, g__it2, g_ut2, g_it3_nukta, g_it2_nukta, g__it2_nukta, g_ut2_nukta);
 
 cTakesbindumarkDia = (g_candra, g_repha);
 
@@ -1778,7 +1792,7 @@ c0001 = (g__a_t_0001, g_i_t_0001, g__i_t_0001, g_u_t_0001, g__u_t_0001, g__r_t_0
     g_ja_nukta_0001, g_jha_nukta_0001, g__ja_nukta_0001, g__ta_nukta_0001, g__tha_nukta_0001, g__da_nukta_0001, g__dha_nukta_0001, g__na_nukta_0001,
     g_ta_nukta_0001, g_tha_nukta_0001, g_da_nukta_0001, g_dha_nukta_0001, g_na_nukta_0001, g_pa_nukta_0001, g_pha_nukta_0001, g_ba_nukta_0001,
     g_bha_nukta_0001, g_ma_nukta_0001, g_ya_nukta_0001, g_ra_nukta_0001, g_la_nukta_0001, g_va_nukta_0001, g_za_nukta_0001, g__sa_nukta_0001,
-    g_sa_nukta_0001, g_ha_nukta_0001);
+    g_sa_nukta_0001, g_ha_nukta_0001, g__u_t2_0001);
 
 cno_0001 = (g__a_t, g_i_t, g__i_t, g_u_t, g__u_t, g__r_t, g_e_t, g_ai_t,
     g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja,
@@ -1822,7 +1836,7 @@ cno_0001 = (g__a_t, g_i_t, g__i_t, g_u_t, g__u_t, g__r_t, g_e_t, g_ai_t,
     g_ja_nukta, g_jha_nukta, g__ja_nukta, g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
     g_ta_nukta, g_tha_nukta, g_da_nukta, g_dha_nukta, g_na_nukta, g_pa_nukta, g_pha_nukta, g_ba_nukta,
     g_bha_nukta, g_ma_nukta, g_ya_nukta, g_ra_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta,
-    g_sa_nukta, g_ha_nukta);
+    g_sa_nukta, g_ha_nukta, g__u_t2);
 
 c0002 = (g__a_t_0002, g__i_t_0002, g_u_t_0002, g__u_t_0002);
 
@@ -1840,7 +1854,7 @@ BasicConsonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g_
     g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
     g_pa, g_pha, g_ba, g_bha, g_ma, g_ya, g_la, g_va, g_za, g__sa, g_sa, g_ha,
     g_ak_ara, g__ak_ara, g_it, g__it, g_ut, g__ut, g__rt, g__r_rt, g__lt, g__l_lt,
-    g_et, g_ait, g_ot, g_aut);
+    g_et, g_ait, g_ot, g_aut, g_it3, g_it2, g__it2, g_ut2);
 NuktaConsonants = (g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta,
     g_ca_nukta, g_cha_nukta, g_ja_nukta, g_jha_nukta, g__ja_nukta,
     g__ta_nukta, g__tha_nukta, g__da_nukta, g__dha_nukta, g__na_nukta,
@@ -1849,7 +1863,8 @@ NuktaConsonants = (g_ka_nukta, g_kha_nukta, g_ga_nukta, g_gha_nukta, g__ga_nukta
     g_ya_nukta, g_la_nukta, g_va_nukta, g_za_nukta, g__sa_nukta, g_sa_nukta, g_ha_nukta,
     g_ak_ara_nukta, g__ak_ara_nukta, g_it_nukta, g__it_nukta, g_ut_nukta, g__ut_nukta,
     g__rt_nukta, g__r_rt_nukta, g__lt_nukta, g__l_lt_nukta,
-    g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta);
+    g_et_nukta, g_ait_nukta, g_ot_nukta, g_aut_nukta,
+    g_it3_nukta, g_it2_nukta, g__it2_nukta, g_ut2_nukta);
 
 Consonants = (g_ka, g_kha, g_ga, g_gha, g__ga, g_ca, g_cha, g_ja, g_jha, g__ja,
     g__ta, g__tha, g__da, g__dha, g__na, g_ta, g_tha, g_da, g_dha, g_na,
@@ -2603,9 +2618,11 @@ pass(11)
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g_u_t;
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__u_t;
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g_vattu;
+    CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__u_t2;
     CausesUMatraAlt1 g_u_t > CausesUMatraAlt1a g_u_t_0001 / _ g_repha? _;
     CausesUMatraAlt1 g__u_t > CausesUMatraAlt1a g__u_t_0001 / _ g_repha? _;
     CausesUMatraAlt1 > CausesUMatraAlt1a / _ g_repha? g_vattu;
+    CausesUMatraAlt1 g__u_t2 > CausesUMatraAlt1a g__u_t2_0001 / _ g_repha? _;
     CausesUMatraAlt2 g_u_t > CausesUMatraAlt2a g_u_t_0002 / _ g_repha? _;
     CausesUMatraAlt2 g__u_t > CausesUMatraAlt2a g__u_t_0002 / _ g_repha? _;
     CausesUMatraAlt2 > CausesUMatraAlt2a / _ g_repha? g_vattu;
@@ -2614,6 +2631,7 @@ pass(11)
     CausesUMatraAlt4 g_u_t > CausesUMatraAlt4a g_u_t_0004 / _ g_repha? _;
     CausesUMatraAlt4 g__u_t > CausesUMatraAlt4a g__u_t_0004 / _ g_repha? _;
     CausesUMatraAlt4 > CausesUMatraAlt4a / _ g_repha? g_vattu;
+    cno_0001 > c0001 / _ g_repha? g_u_t2;
     /* RT */
     CausesUMatraAlt0 > CausesUMatraAlt0a / _ g_repha? g__r_t;
     CausesUMatraAlt1 g__r_t > CausesUMatraAlt1a g__r_t_0001 / _ g_repha? _;
