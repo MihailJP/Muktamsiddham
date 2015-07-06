@@ -1,3 +1,11 @@
+2015-07-05: Version 1.2.0 release.
+
+	* Unicode 8.0の梵字の符号位置をサポートした (MuktamSiddhamGのみ)。
+
+	* Now supports Unicode 8.0 Siddham codepoints in SMP (MuktamSiddhamG only).
+
+	* Теперь поддерживает Юникод 8.0 Сиддхама в SMP (только MuktamSiddhamG).
+
 2015-04-18: Version 1.1.1 release.
 
 	* Nukta字形のGraphite定義が一部抜けていたのを修正。
