@@ -41,7 +41,7 @@ for glyph in font.glyphs():
 		elif strokeType[glyph.glyphname][0] == 'circular':
 			glyph.stroke("circular",strokeType[glyph.glyphname][1],"square","round")
 		else: # this should not occur
-			raise ValueError, "unsupported stroke type"
+			raise ValueError("unsupported stroke type")
 
 font.selection.all()
 font.addExtrema();font.round()
