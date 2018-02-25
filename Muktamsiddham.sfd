@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1403457195
-ModificationTime: 1429359019
+ModificationTime: 1518820606
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -286,7 +286,7 @@ WinInfo: 0 16 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "viramamark" "Below-base Mark to Mark-1" "ukaaramark" "Below-base Mark to Mark-1" "bindumark" "Above-base Mark to Mark-1" "ukaara" "Below-base Marks-1" "virama" "Below-base Marks-1" "ekaara" "Above-base Marks-1" "iikaara" "Above-base Marks-1" "aakaara" "Above-base Marks-1" "repha" "Above-base Marks-1" "bindu" "Above-base Marks-1" 
+AnchorClass2: "viramamark" "Below-base Mark to Mark-1" "ukaaramark" "Below-base Mark to Mark-1" "bindumark" "Above-base Mark to Mark-1" "ukaara" "Below-base Marks-1" "virama" "Below-base Marks-1" "ekaara" "Above-base Marks-1" "iikaara" "Above-base Marks-1" "aakaara" "Above-base Marks-1" "repha" "Above-base Marks-1" "bindu" "Above-base Marks-1"
 BeginChars: 1011 1011
 
 StartChar: akAra
@@ -23525,9 +23525,8 @@ SplineSet
  363 266 425 216 468 183 c 1024
 120 250 m 0
  124 249 130 248 136 248 c 0
- 174 248 243 268 266 289 c 0
- 307 325 307 356 307 435 c 1
- 307 434 306 433 306 433 c 1
+ 174 248 242.596527192 268.450609242 266 289 c 0
+ 307 325 306 352 306 431 c 2
  306 528 l 2
  306 535 303 538 299 538 c 0
  274 538 186 431 130 379 c 9
@@ -24794,8 +24793,7 @@ SplineSet
 120 250 m 0
  124 249 130 248 136 248 c 0
  174 248 243 268 266 289 c 0
- 307 325 307 356 307 435 c 1
- 307 434 306 433 306 433 c 1
+ 307.33606227 325.295079066 305.999999632 362.086395967 306 433 c 2
  306 528 l 2
  306 535 303 538 299 538 c 0
  274 538 186 431 130 379 c 9
