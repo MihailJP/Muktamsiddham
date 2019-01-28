@@ -4,16 +4,17 @@ FullName: Muktamsiddham
 FamilyName: Muktamsiddham
 Weight: Medium
 Copyright: Copyright (c) 2010, MihailJP (http://twitter.com/MihailJP), with Reserved Font Name Muktamsiddham.\nCopyright (c) 1999 by George Williams, with Reserved Font Name Peignot.\nThe Latin alphabet glyphs are based on Peignot.sfd which was originally created by George Williams; emboldened and added some accented glyphs by MihailJP.
-UComments: "This file is to be added to the Muktamsiddham outline file." 
+UComments: "This file is to be added to the Muktamsiddham outline file."
 Version: 0.1.0
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Background"  1
-Layer: 1 0 "Foreground"  0
+Layer: 0 0 "Background" 1
+Layer: 1 0 "Foreground" 0
 XUID: [1021 631 1514651636 4419751]
 FSType: 8
 OS2Version: 4
@@ -40,12 +41,12 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 0 "Western fractions"  {"Western fractions-1"  } ['frac' ('latn' <'dflt' > ) ]
-Lookup: 4 0 1 "Latin ligatures"  {"Latin ligatures-1"  } ['liga' ('latn' <'dflt' > ) ]
-Lookup: 258 0 0 "Latin kernings"  {"Latin kernings-1" [150,15,0] } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Western fractions" { "Western fractions-1"  } ['frac' ('latn' <'dflt' > ) ]
+Lookup: 4 0 1 "Latin ligatures" { "Latin ligatures-1"  } ['liga' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "Latin kernings" { "Latin kernings-1" [150,15,0] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 12 8 "Latin kernings-1" 
+KernClass2: 12 8 "Latin kernings-1"
  33 f fdotaccent slong slongdotaccent
  66 Ldotbelow Ldotbelowmacron L Lslash Lcaron Lacute Lcommaaccent Ldot
  12 P Pdotaccent
@@ -65,7 +66,7 @@ KernClass2: 12 8 "Latin kernings-1"
  51 tdotbelow t tcaron tcedilla tdotaccent tcommaaccent
  87 u umacron udieresis ubreve ugrave uacute ucircumflex uring uhungarumlaut uogonek utilde
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -22 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} -67 {} 0 {} 0 {} -80 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} -83 {} -71 {} -29 {} -77 {} -71 {} 0 {} -77 {} 0 {} -33 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} -109 {} -12 {} 0 {} -74 {} 0 {} 0 {} 0 {} 0 {} -81 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -130 {} -18 {} 0 {} -56 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -118 {} -62 {} 0 {} -109 {} 0 {} 0 {} -59 {} 0 {} -68 {} 0 {} 0 {} -14 {} 0 {} 0 {} 0 {}
-LangName: 1033 
+LangName: 1033
 Encoding: Original
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -7412,7 +7413,7 @@ SplineSet
  402.954 715 428.581 713.809 438.255 709.07 c 1
 EndSplineSet
 Ligature2: "Latin ligatures-1" f f
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Aogonek
