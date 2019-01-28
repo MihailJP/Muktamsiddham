@@ -23,17 +23,13 @@ Outlines.sfd: Muktamsiddham.sfd LatinGlyphs.sfd
 
 OutlinesTT.sfd: Outlines.sfd
 	fontforge -script ./truetype.py
-OutlinesG.sfd: smp.py OutlinesTT.sfd
-	fontforge -script ./smp.py OutlinesTT.sfd
 
 Muktamsiddham.otf: Outlines.sfd
 	${FFCMD}
 MuktamsiddhamT.ttf: OutlinesTT.sfd
 	${FFCMD}
-MuktamsiddhamG-raw.ttf: OutlinesG.sfd
-	${FFCMD}
 
-MuktamsiddhamG.ttf: MuktamsiddhamG-raw.ttf Muktamsiddham.gdl
+MuktamsiddhamG.ttf: MuktamsiddhamT.ttf Muktamsiddham.gdl
 	${GRCOMPILER} $^ $@ "MuktamsiddhamG"
 
 
@@ -64,7 +60,7 @@ ChangeLog: .git # GIT
 
 .PHONY: clean
 clean:
-	-rm -f Outlines.sfd OutlinesTT.sfd OutlinesG.sfd MuktamsiddhamG-raw.ttf \
+	-rm -f Outlines.sfd OutlinesTT.sfd \
 	gdlerr.txt '$$_temp.gdl' ${FONTS} ChangeLog
 	-rm -rf ${PKGS} ${PKGS:.tar.xz=} ${PKGS:.tar.xz=.tar.bz2} \
 	${PKGS:.tar.xz=.tar.gz} ${PKGS:.tar.xz=.zip}

@@ -43,31 +43,31 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 2 0 0 "RRT oT auT Decomposition" { "RRT oT auT Decomposition-1"  } [' RQD' ('deva' <'dflt' > ) 'psts' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "kSa" { "kSa-1"  } ['akhn' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "Nukta Forms" { "Nukta Forms-1"  } ['nukt' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "repha" { "repha-1"  } ['rphf' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "raphala" { "raphala-1"  } ['blwf' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "ravattu Conjunction" { "ravattu Conjunction-1"  } ['vatu' ('deva' <'dflt' > ) ]
-Lookup: 5 0 0 "iT Contextual Forms" { "iT Contextual Forms-1"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 5 0 0 "uT UT RT Contextual Forms" { "uT UT RT Contextual Forms-1"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 5 0 0 "vattu Contextual Forms" { "vattu Contextual Forms-1"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "RT RRT Exceptional Forms" { "RT RRT Exceptional Forms-1"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 5 0 0 "eT aiT Contextual Forms" { "eT aiT Contextual Forms-1"  } ['abvs' ('deva' <'dflt' > ) ]
-Lookup: 5 0 0 "AT Contextual Forms" { "AT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 5 0 0 "RRT Contextual Forms" { "RRT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 5 0 0 "IT Contextual Forms" { "IT Contextual Forms-1"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "raphala Conjunction" { "raphala Conjunction-1"  } ['akhn' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "Letter Conjunction" { "Letter Conjunction-1"  } ['akhn' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "Letters-vattu Conjunction" { "Letters-vattu Conjunction-1"  } ['vatu' ('deva' <'dflt' > ) ]
-Lookup: 1 0 0 "Contextual Form 0001" { "Contextual Form 0001-1" ("0001") } ['0001' ('deva' <'dflt' > ) ]
-Lookup: 1 0 0 "Contextual Form 0002" { "Contextual Form 0002-1" ("0002") } ['0002' ('deva' <'dflt' > ) ]
-Lookup: 1 0 0 "Contextual Form 0003" { "Contextual Form 0003-1" ("0003") } ['0003' ('deva' <'dflt' > ) ]
-Lookup: 1 0 0 "Contextual Form 0004" { "Contextual Form 0004-1" ("0004") } ['0004' ('deva' <'dflt' > ) ]
-Lookup: 260 0 0 "Below-base Marks" { "Below-base Marks-1"  } ['blwm' ('deva' <'dflt' > ) ]
-Lookup: 262 0 0 "Below-base Mark to Mark" { "Below-base Mark to Mark-1"  } ['blwm' ('deva' <'dflt' > ) 'mkmk' ('deva' <'dflt' > ) ]
-Lookup: 260 0 0 "Above-base Marks" { "Above-base Marks-1"  } ['abvm' ('deva' <'dflt' > ) ]
-Lookup: 262 0 0 "Above-base Mark to Mark" { "Above-base Mark to Mark-1"  } ['abvm' ('deva' <'dflt' > ) 'mkmk' ('deva' <'dflt' > ) ]
+Lookup: 2 0 0 "RRT oT auT Decomposition" { "RRT oT auT Decomposition-1"  } [' RQD' ('sidd' <'dflt' > ) 'psts' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "kSa" { "kSa-1"  } ['akhn' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "Nukta Forms" { "Nukta Forms-1"  } ['nukt' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "repha" { "repha-1"  } ['rphf' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "raphala" { "raphala-1"  } ['blwf' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "ravattu Conjunction" { "ravattu Conjunction-1"  } ['vatu' ('sidd' <'dflt' > ) ]
+Lookup: 5 0 0 "iT Contextual Forms" { "iT Contextual Forms-1"  } ['pres' ('sidd' <'dflt' > ) ]
+Lookup: 5 0 0 "uT UT RT Contextual Forms" { "uT UT RT Contextual Forms-1"  } ['blws' ('sidd' <'dflt' > ) ]
+Lookup: 5 0 0 "vattu Contextual Forms" { "vattu Contextual Forms-1"  } ['blws' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "RT RRT Exceptional Forms" { "RT RRT Exceptional Forms-1"  } ['blws' ('sidd' <'dflt' > ) ]
+Lookup: 5 0 0 "eT aiT Contextual Forms" { "eT aiT Contextual Forms-1"  } ['abvs' ('sidd' <'dflt' > ) ]
+Lookup: 5 0 0 "AT Contextual Forms" { "AT Contextual Forms-1"  } ['psts' ('sidd' <'dflt' > ) ]
+Lookup: 5 0 0 "RRT Contextual Forms" { "RRT Contextual Forms-1"  } ['psts' ('sidd' <'dflt' > ) ]
+Lookup: 5 0 0 "IT Contextual Forms" { "IT Contextual Forms-1"  } ['psts' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "raphala Conjunction" { "raphala Conjunction-1"  } ['akhn' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "Letter Conjunction" { "Letter Conjunction-1"  } ['akhn' ('sidd' <'dflt' > ) ]
+Lookup: 4 0 0 "Letters-vattu Conjunction" { "Letters-vattu Conjunction-1"  } ['vatu' ('sidd' <'dflt' > ) ]
+Lookup: 1 0 0 "Contextual Form 0001" { "Contextual Form 0001-1" ("0001") } ['0001' ('sidd' <'dflt' > ) ]
+Lookup: 1 0 0 "Contextual Form 0002" { "Contextual Form 0002-1" ("0002") } ['0002' ('sidd' <'dflt' > ) ]
+Lookup: 1 0 0 "Contextual Form 0003" { "Contextual Form 0003-1" ("0003") } ['0003' ('sidd' <'dflt' > ) ]
+Lookup: 1 0 0 "Contextual Form 0004" { "Contextual Form 0004-1" ("0004") } ['0004' ('sidd' <'dflt' > ) ]
+Lookup: 260 0 0 "Below-base Marks" { "Below-base Marks-1"  } ['blwm' ('sidd' <'dflt' > ) ]
+Lookup: 262 0 0 "Below-base Mark to Mark" { "Below-base Mark to Mark-1"  } ['blwm' ('sidd' <'dflt' > ) 'mkmk' ('sidd' <'dflt' > ) ]
+Lookup: 260 0 0 "Above-base Marks" { "Above-base Marks-1"  } ['abvm' ('sidd' <'dflt' > ) ]
+Lookup: 262 0 0 "Above-base Mark to Mark" { "Above-base Mark to Mark-1"  } ['abvm' ('sidd' <'dflt' > ) 'mkmk' ('sidd' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ContextSub2: class "vattu Contextual Forms-1" 3 3 3 1
@@ -290,7 +290,7 @@ AnchorClass2: "viramamark" "Below-base Mark to Mark-1" "ukaaramark" "Below-base 
 BeginChars: 1011 1011
 
 StartChar: akAra
-Encoding: 0 2309 0
+Encoding: 0 71040 0
 Width: 824
 VWidth: 0
 Flags: W
@@ -331,7 +331,7 @@ EndSplineSet
 EndChar
 
 StartChar: AkAra
-Encoding: 1 2310 1
+Encoding: 1 71041 1
 Width: 899
 VWidth: 0
 Flags: W
@@ -376,7 +376,7 @@ EndSplineSet
 EndChar
 
 StartChar: it
-Encoding: 2 2311 2
+Encoding: 2 71042 2
 Width: 843
 VWidth: 0
 Flags: W
@@ -410,7 +410,7 @@ EndSplineSet
 EndChar
 
 StartChar: It
-Encoding: 3 2312 3
+Encoding: 3 71043 3
 Width: 779
 VWidth: 0
 Flags: W
@@ -443,7 +443,7 @@ EndSplineSet
 EndChar
 
 StartChar: ut
-Encoding: 4 2313 4
+Encoding: 4 71044 4
 Width: 765
 VWidth: 0
 Flags: W
@@ -468,7 +468,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ut
-Encoding: 5 2314 5
+Encoding: 5 71045 5
 Width: 927
 VWidth: 0
 Flags: W
@@ -497,7 +497,7 @@ EndSplineSet
 EndChar
 
 StartChar: Rt
-Encoding: 6 2315 6
+Encoding: 6 71046 6
 Width: 663
 VWidth: 0
 Flags: W
@@ -528,7 +528,7 @@ EndSplineSet
 EndChar
 
 StartChar: RRt
-Encoding: 7 2400 7
+Encoding: 7 71047 7
 Width: 794
 VWidth: 0
 Flags: W
@@ -562,7 +562,7 @@ EndSplineSet
 EndChar
 
 StartChar: Lt
-Encoding: 8 2316 8
+Encoding: 8 71048 8
 Width: 694
 VWidth: 0
 Flags: W
@@ -584,7 +584,7 @@ EndSplineSet
 EndChar
 
 StartChar: LLt
-Encoding: 9 2401 9
+Encoding: 9 71049 9
 Width: 724
 VWidth: 0
 Flags: W
@@ -609,7 +609,7 @@ EndSplineSet
 EndChar
 
 StartChar: et
-Encoding: 10 2319 10
+Encoding: 10 71050 10
 Width: 909
 VWidth: 0
 Flags: W
@@ -632,7 +632,7 @@ EndSplineSet
 EndChar
 
 StartChar: ait
-Encoding: 11 2320 11
+Encoding: 11 71051 11
 Width: 909
 VWidth: 0
 Flags: W
@@ -663,7 +663,7 @@ EndSplineSet
 EndChar
 
 StartChar: ot
-Encoding: 12 2323 12
+Encoding: 12 71052 12
 Width: 765
 VWidth: 0
 Flags: W
@@ -689,7 +689,7 @@ EndSplineSet
 EndChar
 
 StartChar: aut
-Encoding: 13 2324 13
+Encoding: 13 71053 13
 Width: 927
 VWidth: 0
 Flags: W
@@ -719,7 +719,7 @@ EndSplineSet
 EndChar
 
 StartChar: anusvAra
-Encoding: 14 2306 14
+Encoding: 14 71101 14
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -738,7 +738,7 @@ EndSplineSet
 EndChar
 
 StartChar: candrabindu
-Encoding: 15 2305 15
+Encoding: 15 71100 15
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -747,13 +747,13 @@ AnchorPoint: "bindumark" -475 570 mark 0
 AnchorPoint: "bindu" -475 570 mark 0
 LayerCount: 2
 Fore
-Refer: 14 2306 N 1 0 0 1 -240 0 2
-Refer: 84 2373 N 1 0 0 1 0 0 2
+Refer: 14 71101 N 1 0 0 1 -240 0 2
+Refer: 84 59717 N 1 0 0 1 0 0 2
 MultipleSubs2: "RRT oT auT Decomposition-1" candra anusvAra
 EndChar
 
 StartChar: visarga
-Encoding: 16 2307 16
+Encoding: 16 71102 16
 Width: 210
 VWidth: 0
 GlyphClass: 4
@@ -775,7 +775,7 @@ EndSplineSet
 EndChar
 
 StartChar: ka
-Encoding: 17 2325 17
+Encoding: 17 71054 17
 Width: 759
 VWidth: 0
 Flags: W
@@ -815,7 +815,7 @@ Substitution2: "Contextual Form 0001-1" ka.0001
 EndChar
 
 StartChar: kha
-Encoding: 18 2326 18
+Encoding: 18 71055 18
 Width: 894
 VWidth: 0
 Flags: W
@@ -855,7 +855,7 @@ Substitution2: "Contextual Form 0001-1" kha.0001
 EndChar
 
 StartChar: ga
-Encoding: 19 2327 19
+Encoding: 19 71056 19
 Width: 894
 VWidth: 0
 Flags: W
@@ -888,7 +888,7 @@ Substitution2: "Contextual Form 0001-1" ga.0001
 EndChar
 
 StartChar: gha
-Encoding: 20 2328 20
+Encoding: 20 71057 20
 Width: 846
 VWidth: 0
 Flags: W
@@ -934,7 +934,7 @@ Substitution2: "Contextual Form 0001-1" gha.0001
 EndChar
 
 StartChar: Ga
-Encoding: 21 2329 21
+Encoding: 21 71058 21
 Width: 810
 VWidth: 0
 Flags: W
@@ -969,7 +969,7 @@ Substitution2: "Contextual Form 0001-1" Ga.0001
 EndChar
 
 StartChar: ca
-Encoding: 22 2330 22
+Encoding: 22 71059 22
 Width: 672
 VWidth: 0
 Flags: W
@@ -1003,7 +1003,7 @@ Substitution2: "Contextual Form 0001-1" ca.0001
 EndChar
 
 StartChar: cha
-Encoding: 23 2331 23
+Encoding: 23 71060 23
 Width: 813
 VWidth: 0
 Flags: W
@@ -1045,7 +1045,7 @@ Substitution2: "Contextual Form 0001-1" cha.0001
 EndChar
 
 StartChar: ja
-Encoding: 24 2332 24
+Encoding: 24 71061 24
 Width: 810
 VWidth: 0
 Flags: W
@@ -1083,7 +1083,7 @@ Substitution2: "Contextual Form 0001-1" ja.0001
 EndChar
 
 StartChar: jha
-Encoding: 25 2333 25
+Encoding: 25 71062 25
 Width: 663
 VWidth: 0
 Flags: W
@@ -1119,7 +1119,7 @@ Substitution2: "Contextual Form 0001-1" jha.0001
 EndChar
 
 StartChar: Ja
-Encoding: 26 2334 26
+Encoding: 26 71063 26
 Width: 834
 VWidth: 0
 Flags: W
@@ -1158,7 +1158,7 @@ Substitution2: "Contextual Form 0001-1" Ja.0001
 EndChar
 
 StartChar: Ta
-Encoding: 27 2335 27
+Encoding: 27 71064 27
 Width: 803
 VWidth: 0
 Flags: W
@@ -1195,7 +1195,7 @@ Substitution2: "Contextual Form 0001-1" Ta.0001
 EndChar
 
 StartChar: Tha
-Encoding: 28 2336 28
+Encoding: 28 71065 28
 Width: 822
 VWidth: 0
 Flags: W
@@ -1220,7 +1220,7 @@ Substitution2: "Contextual Form 0001-1" Tha.0001
 EndChar
 
 StartChar: Da
-Encoding: 29 2337 29
+Encoding: 29 71066 29
 Width: 633
 VWidth: 0
 Flags: W
@@ -1255,7 +1255,7 @@ Substitution2: "Contextual Form 0001-1" Da.0001
 EndChar
 
 StartChar: Dha
-Encoding: 30 2338 30
+Encoding: 30 71067 30
 Width: 914
 VWidth: 0
 Flags: W
@@ -1291,7 +1291,7 @@ Substitution2: "Contextual Form 0001-1" Dha.0001
 EndChar
 
 StartChar: Na
-Encoding: 31 2339 31
+Encoding: 31 71068 31
 Width: 888
 VWidth: 0
 Flags: W
@@ -1324,7 +1324,7 @@ Substitution2: "Contextual Form 0001-1" Na.0001
 EndChar
 
 StartChar: ta
-Encoding: 32 2340 32
+Encoding: 32 71069 32
 Width: 630
 VWidth: 0
 Flags: W
@@ -1354,7 +1354,7 @@ Substitution2: "Contextual Form 0001-1" ta.0001
 EndChar
 
 StartChar: tha
-Encoding: 33 2341 33
+Encoding: 33 71070 33
 Width: 739
 VWidth: 0
 Flags: W
@@ -1391,7 +1391,7 @@ Substitution2: "Contextual Form 0001-1" tha.0001
 EndChar
 
 StartChar: da
-Encoding: 34 2342 34
+Encoding: 34 71071 34
 Width: 723
 VWidth: 0
 Flags: W
@@ -1426,7 +1426,7 @@ Substitution2: "Contextual Form 0001-1" da.0001
 EndChar
 
 StartChar: dha
-Encoding: 35 2343 35
+Encoding: 35 71072 35
 Width: 816
 VWidth: 0
 Flags: W
@@ -1456,7 +1456,7 @@ Substitution2: "Contextual Form 0001-1" dha.0001
 EndChar
 
 StartChar: na
-Encoding: 36 2344 36
+Encoding: 36 71073 36
 Width: 688
 VWidth: 0
 Flags: W
@@ -1491,7 +1491,7 @@ Substitution2: "Contextual Form 0001-1" na.0001
 EndChar
 
 StartChar: pa
-Encoding: 37 2346 37
+Encoding: 37 71074 37
 Width: 813
 VWidth: 0
 Flags: W
@@ -1526,7 +1526,7 @@ Substitution2: "Contextual Form 0001-1" pa.0001
 EndChar
 
 StartChar: pha
-Encoding: 38 2347 38
+Encoding: 38 71075 38
 Width: 819
 VWidth: 0
 Flags: W
@@ -1560,7 +1560,7 @@ Substitution2: "Contextual Form 0001-1" pha.0001
 EndChar
 
 StartChar: ba
-Encoding: 39 2348 39
+Encoding: 39 71076 39
 Width: 630
 VWidth: 0
 Flags: W
@@ -1595,7 +1595,7 @@ Substitution2: "Contextual Form 0001-1" ba.0001
 EndChar
 
 StartChar: bha
-Encoding: 40 2349 40
+Encoding: 40 71077 40
 Width: 798
 VWidth: 0
 Flags: W
@@ -1631,7 +1631,7 @@ Substitution2: "Contextual Form 0001-1" bha.0001
 EndChar
 
 StartChar: ma
-Encoding: 41 2350 41
+Encoding: 41 71078 41
 Width: 786
 VWidth: 0
 Flags: W
@@ -1668,7 +1668,7 @@ Substitution2: "Contextual Form 0001-1" ma.0001
 EndChar
 
 StartChar: ya
-Encoding: 42 2351 42
+Encoding: 42 71079 42
 Width: 824
 VWidth: 0
 Flags: W
@@ -1708,7 +1708,7 @@ Substitution2: "Contextual Form 0001-1" ya.0001
 EndChar
 
 StartChar: ra
-Encoding: 43 2352 43
+Encoding: 43 71080 43
 Width: 576
 VWidth: 0
 Flags: W
@@ -1740,7 +1740,7 @@ Substitution2: "Contextual Form 0001-1" ra.0001
 EndChar
 
 StartChar: la
-Encoding: 44 2354 44
+Encoding: 44 71081 44
 Width: 804
 VWidth: 0
 Flags: W
@@ -1778,7 +1778,7 @@ Substitution2: "Contextual Form 0001-1" la.0001
 EndChar
 
 StartChar: va
-Encoding: 45 2357 45
+Encoding: 45 71082 45
 Width: 594
 VWidth: 0
 Flags: W
@@ -1812,7 +1812,7 @@ Substitution2: "Contextual Form 0001-1" va.0001
 EndChar
 
 StartChar: za
-Encoding: 46 2358 46
+Encoding: 46 71083 46
 Width: 894
 VWidth: 0
 Flags: W
@@ -1848,7 +1848,7 @@ Substitution2: "Contextual Form 0001-1" za.0001
 EndChar
 
 StartChar: Sa
-Encoding: 47 2359 47
+Encoding: 47 71084 47
 Width: 813
 VWidth: 0
 Flags: W
@@ -1885,7 +1885,7 @@ Substitution2: "Contextual Form 0001-1" Sa.0001
 EndChar
 
 StartChar: sa
-Encoding: 48 2360 48
+Encoding: 48 71085 48
 Width: 900
 VWidth: 0
 Flags: W
@@ -1924,7 +1924,7 @@ Substitution2: "Contextual Form 0001-1" sa.0001
 EndChar
 
 StartChar: ha
-Encoding: 49 2361 49
+Encoding: 49 71086 49
 Width: 822
 VWidth: 0
 Flags: W
@@ -1998,18 +1998,18 @@ Ligature2: "kSa-1" ka virAma Sa
 EndChar
 
 StartChar: OM
-Encoding: 51 2384 51
+Encoding: 51 59728 51
 Width: 765
 VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 15 2305 N 1 0 0 1 893 84 2
-Refer: 12 2323 N 1 0 0 1 0 0 2
+Refer: 15 71100 N 1 0 0 1 893 84 2
+Refer: 12 71052 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: avagrAha
-Encoding: 52 2365 52
+Encoding: 52 59709 52
 Width: 603
 VWidth: 0
 Flags: W
@@ -2033,7 +2033,7 @@ EndSplineSet
 EndChar
 
 StartChar: AT
-Encoding: 53 2366 53
+Encoding: 53 71087 53
 Width: 80
 VWidth: 0
 GlyphClass: 4
@@ -2107,7 +2107,7 @@ EndSplineSet
 EndChar
 
 StartChar: iT
-Encoding: 57 2367 57
+Encoding: 57 71088 57
 Width: 164
 VWidth: 0
 GlyphClass: 4
@@ -2143,7 +2143,7 @@ EndSplineSet
 EndChar
 
 StartChar: IT
-Encoding: 59 2368 59
+Encoding: 59 71089 59
 Width: 180
 VWidth: 0
 GlyphClass: 4
@@ -2249,7 +2249,7 @@ EndSplineSet
 EndChar
 
 StartChar: uT
-Encoding: 64 2369 64
+Encoding: 64 71090 64
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2345,7 +2345,7 @@ EndSplineSet
 EndChar
 
 StartChar: UT
-Encoding: 69 2370 69
+Encoding: 69 71091 69
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2456,7 +2456,7 @@ EndSplineSet
 EndChar
 
 StartChar: RT
-Encoding: 74 2371 74
+Encoding: 74 71092 74
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2496,20 +2496,20 @@ EndSplineSet
 EndChar
 
 StartChar: RRT
-Encoding: 76 2372 76
+Encoding: 76 71093 76
 Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
-Refer: 53 2366 N 1 0 0 1 0 0 2
-Refer: 74 2371 N 1 0 0 1 0 0 2
+Refer: 53 71087 N 1 0 0 1 0 0 2
+Refer: 74 71092 N 1 0 0 1 0 0 2
 MultipleSubs2: "RRT oT auT Decomposition-1" RT AT
 EndChar
 
 StartChar: eT
-Encoding: 77 2375 77
+Encoding: 77 71096 77
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2547,7 +2547,7 @@ EndSplineSet
 EndChar
 
 StartChar: aiT
-Encoding: 79 2376 79
+Encoding: 79 71097 79
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2599,33 +2599,33 @@ EndSplineSet
 EndChar
 
 StartChar: oT
-Encoding: 81 2379 81
+Encoding: 81 71098 81
 Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
-Refer: 53 2366 N 1 0 0 1 0 0 2
-Refer: 77 2375 N 1 0 0 1 0 0 2
+Refer: 53 71087 N 1 0 0 1 0 0 2
+Refer: 77 71096 N 1 0 0 1 0 0 2
 MultipleSubs2: "RRT oT auT Decomposition-1" eT AT
 EndChar
 
 StartChar: auT
-Encoding: 82 2380 82
+Encoding: 82 71099 82
 Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
-Refer: 53 2366 N 1 0 0 1 0 0 2
-Refer: 79 2376 N 1 0 0 1 0 0 2
+Refer: 53 71087 N 1 0 0 1 0 0 2
+Refer: 79 71097 N 1 0 0 1 0 0 2
 MultipleSubs2: "RRT oT auT Decomposition-1" aiT AT
 EndChar
 
 StartChar: virAma
-Encoding: 83 2381 83
+Encoding: 83 71103 83
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2642,7 +2642,7 @@ EndSplineSet
 EndChar
 
 StartChar: candra
-Encoding: 84 2373 84
+Encoding: 84 59717 84
 Width: 0
 VWidth: 0
 Flags: W
@@ -2660,19 +2660,19 @@ EndSplineSet
 EndChar
 
 StartChar: candraoT
-Encoding: 85 2377 85
+Encoding: 85 59721 85
 Width: 0
 VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 53 2366 N 1 0 0 1 0 0 2
-Refer: 84 2373 N 1 0 0 1 0 0 2
+Refer: 53 71087 N 1 0 0 1 0 0 2
+Refer: 84 59717 N 1 0 0 1 0 0 2
 MultipleSubs2: "RRT oT auT Decomposition-1" candra AT
 EndChar
 
 StartChar: zUnya
-Encoding: 86 2406 86
+Encoding: 86 59750 86
 Width: 700
 VWidth: 0
 Flags: W
@@ -2693,7 +2693,7 @@ EndSplineSet
 EndChar
 
 StartChar: eka
-Encoding: 87 2407 87
+Encoding: 87 59751 87
 Width: 700
 VWidth: 0
 Flags: W
@@ -2717,7 +2717,7 @@ EndSplineSet
 EndChar
 
 StartChar: dvi
-Encoding: 88 2408 88
+Encoding: 88 59752 88
 Width: 700
 VWidth: 0
 Flags: W
@@ -2739,7 +2739,7 @@ EndSplineSet
 EndChar
 
 StartChar: tri
-Encoding: 89 2409 89
+Encoding: 89 59753 89
 Width: 700
 VWidth: 0
 Flags: W
@@ -2767,7 +2767,7 @@ EndSplineSet
 EndChar
 
 StartChar: catur
-Encoding: 90 2410 90
+Encoding: 90 59754 90
 Width: 700
 VWidth: 0
 Flags: W
@@ -2791,7 +2791,7 @@ EndSplineSet
 EndChar
 
 StartChar: paJca
-Encoding: 91 2411 91
+Encoding: 91 59755 91
 Width: 700
 VWidth: 0
 Flags: W
@@ -2818,7 +2818,7 @@ EndSplineSet
 EndChar
 
 StartChar: SaS
-Encoding: 92 2412 92
+Encoding: 92 59756 92
 Width: 700
 VWidth: 0
 Flags: W
@@ -2847,7 +2847,7 @@ EndSplineSet
 EndChar
 
 StartChar: sapta
-Encoding: 93 2413 93
+Encoding: 93 59757 93
 Width: 700
 VWidth: 0
 Flags: W
@@ -2870,7 +2870,7 @@ EndSplineSet
 EndChar
 
 StartChar: aSTa
-Encoding: 94 2414 94
+Encoding: 94 59758 94
 Width: 700
 VWidth: 0
 Flags: W
@@ -2898,7 +2898,7 @@ EndSplineSet
 EndChar
 
 StartChar: nava
-Encoding: 95 2415 95
+Encoding: 95 59759 95
 Width: 700
 VWidth: 0
 Flags: W
@@ -2921,7 +2921,7 @@ EndSplineSet
 EndChar
 
 StartChar: begin
-Encoding: 96 182 96
+Encoding: 96 71105 96
 Width: 898
 VWidth: 0
 Flags: W
@@ -2943,7 +2943,7 @@ EndSplineSet
 EndChar
 
 StartChar: daNDa
-Encoding: 97 2404 97
+Encoding: 97 71106 97
 Width: 643
 VWidth: 0
 Flags: W
@@ -2958,7 +2958,7 @@ EndSplineSet
 EndChar
 
 StartChar: dvidaNDa
-Encoding: 98 2405 98
+Encoding: 98 71107 98
 Width: 754
 VWidth: 0
 Flags: W
@@ -3720,7 +3720,7 @@ AnchorPoint: "ekaara" 120 540 basechar 0
 AnchorPoint: "bindu" 400 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 38 2347 N 1 0 0 1 -0 0 2
+Refer: 38 71075 N 1 0 0 1 -0 0 2
 EndChar
 
 StartChar: ba.0001
@@ -3883,7 +3883,7 @@ AnchorPoint: "ekaara" 120 594 basechar 0
 AnchorPoint: "bindu" 277 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 43 2352 N 1 0 0 1 0 0 2
+Refer: 43 71080 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: la.0001
@@ -3900,7 +3900,7 @@ AnchorPoint: "ekaara" 321 600 basechar 0
 AnchorPoint: "bindu" 500 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 44 2354 N 1 0 0 1 -0 0 2
+Refer: 44 71081 N 1 0 0 1 -0 0 2
 EndChar
 
 StartChar: va.0001
@@ -37957,7 +37957,7 @@ Ligature2: "Letter Conjunction-1" sa virAma tra virAma ya
 EndChar
 
 StartChar: separator1
-Encoding: 863 58820 863
+Encoding: 863 71108 863
 Width: 330
 VWidth: 0
 Flags: W
@@ -37973,7 +37973,7 @@ EndSplineSet
 EndChar
 
 StartChar: separator2
-Encoding: 864 58821 864
+Encoding: 864 71109 864
 Width: 300
 VWidth: 0
 Flags: W
@@ -37987,7 +37987,7 @@ EndSplineSet
 EndChar
 
 StartChar: ditto1
-Encoding: 865 58822 865
+Encoding: 865 71110 865
 Width: 804
 VWidth: 0
 Flags: W
@@ -38007,7 +38007,7 @@ EndSplineSet
 EndChar
 
 StartChar: ditto2
-Encoding: 866 58823 866
+Encoding: 866 71111 866
 Width: 836
 VWidth: 0
 Flags: W
@@ -38026,7 +38026,7 @@ EndSplineSet
 EndChar
 
 StartChar: ditto3
-Encoding: 867 58824 867
+Encoding: 867 71112 867
 Width: 726
 VWidth: 0
 Flags: W
@@ -38042,7 +38042,7 @@ EndSplineSet
 EndChar
 
 StartChar: section01
-Encoding: 868 58826 868
+Encoding: 868 71114 868
 Width: 1140
 VWidth: 0
 Flags: W
@@ -38106,7 +38106,7 @@ EndSplineSet
 EndChar
 
 StartChar: section02
-Encoding: 869 58827 869
+Encoding: 869 71115 869
 Width: 1129
 VWidth: 0
 Flags: W
@@ -38174,7 +38174,7 @@ EndSplineSet
 EndChar
 
 StartChar: section03
-Encoding: 870 58828 870
+Encoding: 870 71116 870
 Width: 1080
 VWidth: 0
 Flags: W
@@ -38230,7 +38230,7 @@ EndSplineSet
 EndChar
 
 StartChar: section04
-Encoding: 871 58830 871
+Encoding: 871 71118 871
 Width: 1144
 VWidth: 0
 Flags: W
@@ -38302,7 +38302,7 @@ EndSplineSet
 EndChar
 
 StartChar: section05
-Encoding: 872 58837 872
+Encoding: 872 71125 872
 Width: 1100
 VWidth: 0
 Flags: W
@@ -38346,7 +38346,7 @@ EndSplineSet
 EndChar
 
 StartChar: section06
-Encoding: 873 58831 873
+Encoding: 873 71119 873
 Width: 720
 VWidth: 0
 Flags: W
@@ -38367,7 +38367,7 @@ EndSplineSet
 EndChar
 
 StartChar: section07
-Encoding: 874 58832 874
+Encoding: 874 71120 874
 Width: 1040
 VWidth: 0
 Flags: W
@@ -38396,7 +38396,7 @@ EndSplineSet
 EndChar
 
 StartChar: section08
-Encoding: 875 58834 875
+Encoding: 875 71122 875
 Width: 566
 VWidth: 0
 Flags: W
@@ -38436,7 +38436,7 @@ EndSplineSet
 EndChar
 
 StartChar: section09
-Encoding: 876 58836 876
+Encoding: 876 71124 876
 Width: 566
 VWidth: 0
 Flags: W
@@ -38494,7 +38494,7 @@ EndSplineSet
 EndChar
 
 StartChar: terminus
-Encoding: 877 58825 877
+Encoding: 877 71113 877
 Width: 840
 VWidth: 0
 Flags: W
@@ -38529,7 +38529,7 @@ EndSplineSet
 EndChar
 
 StartChar: section11
-Encoding: 878 58839 878
+Encoding: 878 71127 878
 Width: 1140
 VWidth: 0
 Flags: W
@@ -38605,7 +38605,7 @@ EndSplineSet
 EndChar
 
 StartChar: section12
-Encoding: 879 58838 879
+Encoding: 879 71126 879
 Width: 940
 VWidth: 0
 Flags: W
@@ -38651,7 +38651,7 @@ EndSplineSet
 EndChar
 
 StartChar: nukta
-Encoding: 880 2364 880
+Encoding: 880 71104 880
 Width: 0
 VWidth: 0
 Flags: W
@@ -38670,7 +38670,7 @@ EndSplineSet
 EndChar
 
 StartChar: ka_nukta
-Encoding: 881 2392 881
+Encoding: 881 59736 881
 Width: 759
 VWidth: 0
 Flags: W
@@ -38682,14 +38682,14 @@ AnchorPoint: "repha" 297 516 basechar 0
 AnchorPoint: "virama" 340 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -120 2
-Refer: 17 2325 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 540 -120 2
+Refer: 17 71054 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ka nukta
 Substitution2: "Contextual Form 0001-1" ka_nukta.0001
 EndChar
 
 StartChar: kha_nukta
-Encoding: 882 2393 882
+Encoding: 882 59737 882
 Width: 894
 VWidth: 0
 Flags: W
@@ -38701,14 +38701,14 @@ AnchorPoint: "repha" 456 483 basechar 0
 AnchorPoint: "virama" 436 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -120 2
-Refer: 18 2326 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 640 -120 2
+Refer: 18 71055 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" kha nukta
 Substitution2: "Contextual Form 0001-1" kha_nukta.0001
 EndChar
 
 StartChar: ga_nukta
-Encoding: 883 2394 883
+Encoding: 883 59738 883
 Width: 894
 VWidth: 0
 Flags: W
@@ -38720,8 +38720,8 @@ AnchorPoint: "repha" 456 483 basechar 0
 AnchorPoint: "virama" 436 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 19 2327 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 19 71056 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ga nukta
 Substitution2: "Contextual Form 0001-1" ga_nukta.0001
 EndChar
@@ -38739,8 +38739,8 @@ AnchorPoint: "repha" 468 570 basechar 0
 AnchorPoint: "virama" 418 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 20 2328 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 20 71057 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" gha nukta
 Substitution2: "Contextual Form 0001-1" gha_nukta.0001
 EndChar
@@ -38758,8 +38758,8 @@ AnchorPoint: "repha" 387 507 basechar 0
 AnchorPoint: "virama" 406 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -120 2
-Refer: 21 2329 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 640 -120 2
+Refer: 21 71058 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Ga nukta
 Substitution2: "Contextual Form 0001-1" Ga_nukta.0001
 EndChar
@@ -38777,8 +38777,8 @@ AnchorPoint: "repha" 387 543 basechar 0
 AnchorPoint: "virama" 334 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 22 2330 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 22 71059 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ca nukta
 Substitution2: "Contextual Form 0001-1" ca_nukta.0001
 EndChar
@@ -38796,14 +38796,14 @@ AnchorPoint: "repha" 402 570 basechar 0
 AnchorPoint: "virama" 400 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -120 2
-Refer: 23 2331 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 640 -120 2
+Refer: 23 71060 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" cha nukta
 Substitution2: "Contextual Form 0001-1" cha_nukta.0001
 EndChar
 
 StartChar: ja_nukta
-Encoding: 888 2395 888
+Encoding: 888 59739 888
 Width: 810
 VWidth: 0
 Flags: W
@@ -38815,8 +38815,8 @@ AnchorPoint: "bindu" 406 740 basechar 0
 AnchorPoint: "virama" 406 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 24 2332 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 24 71061 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ja nukta
 Substitution2: "Contextual Form 0001-1" ja_nukta.0001
 EndChar
@@ -38834,8 +38834,8 @@ AnchorPoint: "repha" 249 540 basechar 0
 AnchorPoint: "virama" 316 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 25 2333 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 25 71062 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" jha nukta
 Substitution2: "Contextual Form 0001-1" jha_nukta.0001
 EndChar
@@ -38853,8 +38853,8 @@ AnchorPoint: "repha" 420 534 basechar 0
 AnchorPoint: "virama" 442 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 26 2334 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 26 71063 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Ja nukta
 Substitution2: "Contextual Form 0001-1" Ja_nukta.0001
 EndChar
@@ -38872,8 +38872,8 @@ AnchorPoint: "repha" 393 531 basechar 0
 AnchorPoint: "virama" 400 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 27 2335 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 27 71064 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Ta nukta
 Substitution2: "Contextual Form 0001-1" Ta_nukta.0001
 EndChar
@@ -38891,14 +38891,14 @@ AnchorPoint: "aakaara" 656 537 basechar 0
 AnchorPoint: "virama" 406 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 28 2336 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 28 71065 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Tha nukta
 Substitution2: "Contextual Form 0001-1" Tha_nukta.0001
 EndChar
 
 StartChar: Da_nukta
-Encoding: 893 2396 893
+Encoding: 893 59740 893
 Width: 633
 VWidth: 0
 Flags: W
@@ -38910,14 +38910,14 @@ AnchorPoint: "repha" 303 513 basechar 0
 AnchorPoint: "virama" 343 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 29 2337 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 29 71066 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Da nukta
 Substitution2: "Contextual Form 0001-1" Da_nukta.0001
 EndChar
 
 StartChar: Dha_nukta
-Encoding: 894 2397 894
+Encoding: 894 59741 894
 Width: 914
 VWidth: 0
 Flags: W
@@ -38929,8 +38929,8 @@ AnchorPoint: "repha" 480 531 basechar 0
 AnchorPoint: "virama" 448 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 740 -120 2
-Refer: 30 2338 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 740 -120 2
+Refer: 30 71067 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Dha nukta
 Substitution2: "Contextual Form 0001-1" Dha_nukta.0001
 EndChar
@@ -38948,8 +38948,8 @@ AnchorPoint: "repha" 484 591 basechar 0
 AnchorPoint: "virama" 431 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 390 -120 2
-Refer: 31 2339 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 390 -120 2
+Refer: 31 71068 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Na nukta
 Substitution2: "Contextual Form 0001-1" Na_nukta.0001
 EndChar
@@ -38967,8 +38967,8 @@ AnchorPoint: "repha" 330 537 basechar 0
 AnchorPoint: "virama" 301 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 32 2340 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 32 71069 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ta nukta
 Substitution2: "Contextual Form 0001-1" ta_nukta.0001
 EndChar
@@ -38986,8 +38986,8 @@ AnchorPoint: "repha" 346 582 basechar 0
 AnchorPoint: "virama" 362 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 33 2341 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 33 71070 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" tha nukta
 Substitution2: "Contextual Form 0001-1" tha_nukta.0001
 EndChar
@@ -39005,8 +39005,8 @@ AnchorPoint: "repha" 369 537 basechar 0
 AnchorPoint: "virama" 373 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 34 2342 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 34 71071 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" da nukta
 Substitution2: "Contextual Form 0001-1" da_nukta.0001
 EndChar
@@ -39024,14 +39024,14 @@ AnchorPoint: "repha" 466 548 basechar 0
 AnchorPoint: "virama" 395 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 35 2343 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 35 71072 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" dha nukta
 Substitution2: "Contextual Form 0001-1" dha_nukta.0001
 EndChar
 
 StartChar: na_nukta
-Encoding: 900 2345 900
+Encoding: 900 59689 900
 Width: 688
 VWidth: 0
 Flags: W
@@ -39043,8 +39043,8 @@ AnchorPoint: "repha" 406 534 basechar 0
 AnchorPoint: "virama" 350 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 36 2344 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 36 71073 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" na nukta
 Substitution2: "Contextual Form 0001-1" na_nukta.0001
 EndChar
@@ -39062,14 +39062,14 @@ AnchorPoint: "repha" 240 528 basechar 0
 AnchorPoint: "virama" 403 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 37 2346 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 37 71074 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" pa nukta
 Substitution2: "Contextual Form 0001-1" pa_nukta.0001
 EndChar
 
 StartChar: pha_nukta
-Encoding: 902 2398 902
+Encoding: 902 59742 902
 Width: 819
 VWidth: 0
 Flags: W
@@ -39081,8 +39081,8 @@ AnchorPoint: "repha" 411 513 basechar 0
 AnchorPoint: "virama" 418 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 38 2347 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 38 71075 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" pha nukta
 Substitution2: "Contextual Form 0001-1" pha_nukta.0001
 EndChar
@@ -39100,8 +39100,8 @@ AnchorPoint: "ekaara" 157 588 basechar 0
 AnchorPoint: "virama" 293 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 39 2348 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 39 71076 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ba nukta
 Substitution2: "Contextual Form 0001-1" ba_nukta.0001
 EndChar
@@ -39119,8 +39119,8 @@ AnchorPoint: "repha" 420 531 basechar 0
 AnchorPoint: "virama" 403 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 40 2349 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 40 71077 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" bha nukta
 Substitution2: "Contextual Form 0001-1" bha_nukta.0001
 EndChar
@@ -39138,14 +39138,14 @@ AnchorPoint: "repha" 249 528 basechar 0
 AnchorPoint: "virama" 376 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 590 -120 2
-Refer: 41 2350 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 590 -120 2
+Refer: 41 71078 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ma nukta
 Substitution2: "Contextual Form 0001-1" ma_nukta.0001
 EndChar
 
 StartChar: ya_nukta
-Encoding: 906 2399 906
+Encoding: 906 59743 906
 Width: 824
 VWidth: 0
 Flags: W
@@ -39157,14 +39157,14 @@ AnchorPoint: "repha" 281 522 basechar 0
 AnchorPoint: "virama" 414 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 42 2351 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 42 71079 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ya nukta
 Substitution2: "Contextual Form 0001-1" ya_nukta.0001
 EndChar
 
 StartChar: ra_nukta
-Encoding: 907 2353 907
+Encoding: 907 59697 907
 Width: 576
 VWidth: 0
 Flags: W
@@ -39176,8 +39176,8 @@ AnchorPoint: "aakaara" 408 594 basechar 0
 AnchorPoint: "repha" 249 552 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 490 -120 2
-Refer: 43 2352 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 490 -120 2
+Refer: 43 71080 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ra nukta
 Substitution2: "Contextual Form 0001-1" ra_nukta.0001
 EndChar
@@ -39195,8 +39195,8 @@ AnchorPoint: "virama" 400 -320 basechar 0
 AnchorPoint: "aakaara" 678 594 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 44 2354 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 44 71081 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" la nukta
 Substitution2: "Contextual Form 0001-1" la_nukta.0001
 EndChar
@@ -39214,8 +39214,8 @@ AnchorPoint: "ekaara" 120 588 basechar 0
 AnchorPoint: "virama" 256 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 490 -120 2
-Refer: 45 2357 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 490 -120 2
+Refer: 45 71082 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" va nukta
 Substitution2: "Contextual Form 0001-1" va_nukta.0001
 EndChar
@@ -39233,8 +39233,8 @@ AnchorPoint: "repha" 425 578 basechar 0
 AnchorPoint: "virama" 436 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 46 2358 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 46 71083 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" za nukta
 Substitution2: "Contextual Form 0001-1" za_nukta.0001
 EndChar
@@ -39252,8 +39252,8 @@ AnchorPoint: "repha" 240 528 basechar 0
 AnchorPoint: "virama" 403 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 47 2359 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 47 71084 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Sa nukta
 Substitution2: "Contextual Form 0001-1" Sa_nukta.0001
 EndChar
@@ -39271,8 +39271,8 @@ AnchorPoint: "repha" 381 540 basechar 0
 AnchorPoint: "virama" 436 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 48 2360 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 48 71085 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" sa nukta
 Substitution2: "Contextual Form 0001-1" sa_nukta.0001
 EndChar
@@ -39290,8 +39290,8 @@ AnchorPoint: "repha" 381 531 basechar 0
 AnchorPoint: "virama" 427 -320 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 49 2361 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 49 71086 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ha nukta
 Substitution2: "Contextual Form 0001-1" ha_nukta.0001
 EndChar
@@ -39310,7 +39310,7 @@ AnchorPoint: "repha" 416 516 basechar 0
 AnchorPoint: "ukaara" 437 100 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -250 2
+Refer: 880 71104 S 1 0 0 1 650 -250 2
 Refer: 99 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39328,7 +39328,7 @@ AnchorPoint: "virama" 436 -120 basechar 0
 AnchorPoint: "ukaara" 632 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 650 -350 2
+Refer: 880 71104 N 1 0 0 1 650 -350 2
 Refer: 100 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39346,7 +39346,7 @@ AnchorPoint: "virama" 436 -120 basechar 0
 AnchorPoint: "ukaara" 624 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 101 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39364,7 +39364,7 @@ AnchorPoint: "virama" 418 -120 basechar 0
 AnchorPoint: "ukaara" 614 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 102 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39382,7 +39382,7 @@ AnchorPoint: "virama" 406 -120 basechar 0
 AnchorPoint: "ukaara" 428 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 103 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39400,7 +39400,7 @@ AnchorPoint: "virama" 334 -120 basechar 0
 AnchorPoint: "ukaara" 406 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 550 -350 2
+Refer: 880 71104 N 1 0 0 1 550 -350 2
 Refer: 104 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39418,7 +39418,7 @@ AnchorPoint: "virama" 400 -120 basechar 0
 AnchorPoint: "ukaara" 394 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 105 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39436,7 +39436,7 @@ AnchorPoint: "virama" 406 -120 basechar 0
 AnchorPoint: "ukaara" 428 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 106 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39454,7 +39454,7 @@ AnchorPoint: "virama" 316 -120 basechar 0
 AnchorPoint: "ukaara" 282 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 550 -350 2
+Refer: 880 71104 S 1 0 0 1 550 -350 2
 Refer: 107 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39472,7 +39472,7 @@ AnchorPoint: "virama" 442 -120 basechar 0
 AnchorPoint: "ukaara" 456 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 108 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39490,7 +39490,7 @@ AnchorPoint: "virama" 402 -120 basechar 0
 AnchorPoint: "ukaara" 433 64 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -400 2
+Refer: 880 71104 S 1 0 0 1 650 -400 2
 Refer: 109 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39508,7 +39508,7 @@ AnchorPoint: "virama" 406 -120 basechar 0
 AnchorPoint: "ukaara" 406 58 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -400 2
+Refer: 880 71104 S 1 0 0 1 650 -400 2
 Refer: 110 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39526,7 +39526,7 @@ AnchorPoint: "virama" 343 -120 basechar 0
 AnchorPoint: "ukaara" 363 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 550 -450 2
+Refer: 880 71104 S 1 0 0 1 550 -450 2
 Refer: 111 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39544,7 +39544,7 @@ AnchorPoint: "virama" 448 -120 basechar 0
 AnchorPoint: "ukaara" 612 50 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 112 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39562,7 +39562,7 @@ AnchorPoint: "virama" 431 -120 basechar 0
 AnchorPoint: "ukaara" 490 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 113 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39580,7 +39580,7 @@ AnchorPoint: "virama" 301 -20 basechar 0
 AnchorPoint: "ukaara" 353 100 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 550 -300 2
+Refer: 880 71104 S 1 0 0 1 550 -300 2
 Refer: 114 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39598,7 +39598,7 @@ AnchorPoint: "virama" 362 -120 basechar 0
 AnchorPoint: "ukaara" 458 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 600 -350 2
+Refer: 880 71104 S 1 0 0 1 600 -350 2
 Refer: 115 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39616,7 +39616,7 @@ AnchorPoint: "virama" 373 -70 basechar 0
 AnchorPoint: "ukaara" 361 50 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 600 -300 2
+Refer: 880 71104 S 1 0 0 1 600 -300 2
 Refer: 116 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39634,7 +39634,7 @@ AnchorPoint: "virama" 395 -120 basechar 0
 AnchorPoint: "ukaara" 581 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 117 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39652,7 +39652,7 @@ AnchorPoint: "virama" 350 -20 basechar 0
 AnchorPoint: "ukaara" 412 100 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 600 -300 2
+Refer: 880 71104 S 1 0 0 1 600 -300 2
 Refer: 118 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39670,7 +39670,7 @@ AnchorPoint: "virama" 403 -120 basechar 0
 AnchorPoint: "ukaara" 561 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 119 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39688,7 +39688,7 @@ AnchorPoint: "virama" 400 -120 basechar 0
 AnchorPoint: "ukaara" 315 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -450 2
+Refer: 880 71104 S 1 0 0 1 650 -450 2
 Refer: 120 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39706,7 +39706,7 @@ AnchorPoint: "virama" 293 -120 basechar 0
 AnchorPoint: "ukaara" 363 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 550 -350 2
+Refer: 880 71104 S 1 0 0 1 550 -350 2
 Refer: 121 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39724,7 +39724,7 @@ AnchorPoint: "virama" 403 -70 basechar 0
 AnchorPoint: "ukaara" 551 50 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -300 2
+Refer: 880 71104 S 1 0 0 1 650 -300 2
 Refer: 122 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39742,7 +39742,7 @@ AnchorPoint: "virama" 376 -120 basechar 0
 AnchorPoint: "ukaara" 532 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 600 -350 2
+Refer: 880 71104 S 1 0 0 1 600 -350 2
 Refer: 123 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39760,7 +39760,7 @@ AnchorPoint: "virama" 414 -120 basechar 0
 AnchorPoint: "ukaara" 570 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 124 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39778,7 +39778,7 @@ AnchorPoint: "ukaara" 294 333 basechar 0
 AnchorPoint: "aakaara" 408 594 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 490 -120 2
+Refer: 880 71104 S 1 0 0 1 490 -120 2
 Refer: 125 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39796,7 +39796,7 @@ AnchorPoint: "ukaara" 572 282 basechar 0
 AnchorPoint: "aakaara" 678 594 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
 Refer: 126 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39814,7 +39814,7 @@ AnchorPoint: "virama" 256 -120 basechar 0
 AnchorPoint: "ukaara" 325 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 500 -350 2
+Refer: 880 71104 S 1 0 0 1 500 -350 2
 Refer: 127 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39832,7 +39832,7 @@ AnchorPoint: "virama" 436 -120 basechar 0
 AnchorPoint: "ukaara" 610 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39850,7 +39850,7 @@ AnchorPoint: "virama" 403 -120 basechar 0
 AnchorPoint: "ukaara" 560 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 129 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39868,7 +39868,7 @@ AnchorPoint: "virama" 436 -120 basechar 0
 AnchorPoint: "ukaara" 646 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 130 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39886,7 +39886,7 @@ AnchorPoint: "virama" 427 -120 basechar 0
 AnchorPoint: "ukaara" 375 90 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 650 -350 2
+Refer: 880 71104 S 1 0 0 1 650 -350 2
 Refer: 131 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -39898,8 +39898,8 @@ Flags: W
 AnchorPoint: "bindu" 407 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 590 -120 2
-Refer: 0 2309 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 590 -120 2
+Refer: 0 71040 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" akAra nukta
 EndChar
 
@@ -39911,8 +39911,8 @@ Flags: W
 AnchorPoint: "bindu" 450 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 590 -120 2
-Refer: 1 2310 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 590 -120 2
+Refer: 1 71041 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" AkAra nukta
 EndChar
 
@@ -39924,8 +39924,8 @@ Flags: W
 AnchorPoint: "bindu" 442 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 590 -120 2
-Refer: 2 2311 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 590 -120 2
+Refer: 2 71042 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" it nukta
 EndChar
 
@@ -39937,8 +39937,8 @@ Flags: W
 AnchorPoint: "bindu" 396 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 590 -120 2
-Refer: 3 2312 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 590 -120 2
+Refer: 3 71043 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" It nukta
 EndChar
 
@@ -39950,8 +39950,8 @@ Flags: W
 AnchorPoint: "bindu" 433 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 4 2313 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 4 71044 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ut nukta
 EndChar
 
@@ -39963,8 +39963,8 @@ Flags: W
 AnchorPoint: "bindu" 433 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 5 2314 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 5 71045 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" Ut nukta
 EndChar
 
@@ -39976,8 +39976,8 @@ Flags: W
 AnchorPoint: "bindu" 316 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 490 -120 2
-Refer: 6 2315 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 490 -120 2
+Refer: 6 71046 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "Nukta Forms-1" Rt nukta
 EndChar
@@ -39990,8 +39990,8 @@ Flags: W
 AnchorPoint: "bindu" 287 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 490 -120 2
-Refer: 7 2400 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 490 -120 2
+Refer: 7 71047 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "Nukta Forms-1" RRt nukta
 EndChar
@@ -40004,8 +40004,8 @@ Flags: W
 AnchorPoint: "bindu" 273 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 8 2316 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 8 71048 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "Nukta Forms-1" Lt nukta
 EndChar
@@ -40018,8 +40018,8 @@ Flags: W
 AnchorPoint: "bindu" 273 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 540 -120 2
-Refer: 9 2401 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 540 -120 2
+Refer: 9 71049 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" LLt nukta
 EndChar
 
@@ -40031,8 +40031,8 @@ Flags: W
 AnchorPoint: "bindu" 463 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 690 -120 2
-Refer: 10 2319 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 690 -120 2
+Refer: 10 71050 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" et nukta
 EndChar
 
@@ -40044,8 +40044,8 @@ Flags: W
 AnchorPoint: "bindu" 463 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 690 -120 2
-Refer: 11 2320 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 690 -120 2
+Refer: 11 71051 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ait nukta
 EndChar
 
@@ -40057,8 +40057,8 @@ Flags: W
 AnchorPoint: "bindu" 433 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 12 2323 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 12 71052 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" ot nukta
 EndChar
 
@@ -40070,8 +40070,8 @@ Flags: W
 AnchorPoint: "bindu" 433 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 640 -120 2
-Refer: 13 2324 N 1 0 0 1 0 0 2
+Refer: 880 71104 S 1 0 0 1 640 -120 2
+Refer: 13 71053 N 1 0 0 1 0 0 2
 Ligature2: "Nukta Forms-1" aut nukta
 EndChar
 
@@ -40083,7 +40083,7 @@ Flags: W
 AnchorPoint: "bindu" 278 894 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 490 -120 2
+Refer: 880 71104 S 1 0 0 1 490 -120 2
 Refer: 536 -1 N 1 0 0 1 0 0 2
 Ligature2: "RT RRT Exceptional Forms-1" ra_nukta RT
 EndChar
@@ -40096,7 +40096,7 @@ Flags: W
 AnchorPoint: "bindu" 280 894 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 490 -120 2
+Refer: 880 71104 S 1 0 0 1 490 -120 2
 Refer: 537 -1 N 1 0 0 1 0 0 2
 Ligature2: "RT RRT Exceptional Forms-1" ra_nukta RT AT
 Ligature2: "RT RRT Exceptional Forms-1" ra_nukta RRT
@@ -40114,7 +40114,7 @@ AnchorPoint: "repha" 521 545 basechar 0
 AnchorPoint: "aakaara" 678 594 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 440 -120 2
+Refer: 880 71104 S 1 0 0 1 440 -120 2
 Refer: 538 -1 N 1 0 0 1 0 0 2
 Ligature2: "RT RRT Exceptional Forms-1" la_nukta RT
 EndChar
@@ -40131,7 +40131,7 @@ AnchorPoint: "repha" 521 545 basechar 0
 AnchorPoint: "aakaara" 678 594 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 440 -120 2
+Refer: 880 71104 S 1 0 0 1 440 -120 2
 Refer: 539 -1 N 1 0 0 1 0 0 2
 Ligature2: "RT RRT Exceptional Forms-1" la_nukta RT AT
 Ligature2: "RT RRT Exceptional Forms-1" la_nukta RRT
@@ -40151,7 +40151,7 @@ AnchorPoint: "ukaara" 410 132 basechar 0
 AnchorPoint: "virama" 410 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -70 2
+Refer: 880 71104 N 1 0 0 1 640 -70 2
 Refer: 168 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ka_nukta vattu
 EndChar
@@ -40170,7 +40170,7 @@ AnchorPoint: "ukaara" 504 132 basechar 0
 AnchorPoint: "virama" 354 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 590 -20 2
+Refer: 880 71104 N 1 0 0 1 590 -20 2
 Refer: 169 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" kha_nukta vattu
 EndChar
@@ -40189,7 +40189,7 @@ AnchorPoint: "ukaara" 498 132 basechar 0
 AnchorPoint: "virama" 348 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 590 -20 2
+Refer: 880 71104 N 1 0 0 1 590 -20 2
 Refer: 170 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ga_nukta vattu
 EndChar
@@ -40208,7 +40208,7 @@ AnchorPoint: "ukaara" 490 132 basechar 0
 AnchorPoint: "virama" 340 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 590 -20 2
+Refer: 880 71104 N 1 0 0 1 590 -20 2
 Refer: 171 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" gha_nukta vattu
 EndChar
@@ -40227,7 +40227,7 @@ AnchorPoint: "ukaara" 358 132 basechar 0
 AnchorPoint: "virama" 358 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -70 2
+Refer: 880 71104 N 1 0 0 1 540 -70 2
 Refer: 172 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ca_nukta vattu
 EndChar
@@ -40246,7 +40246,7 @@ AnchorPoint: "ukaara" 348 132 basechar 0
 AnchorPoint: "virama" 347 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 590 -70 2
+Refer: 880 71104 N 1 0 0 1 590 -70 2
 Refer: 173 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" cha_nukta vattu
 EndChar
@@ -40265,7 +40265,7 @@ AnchorPoint: "ukaara" 414 132 basechar 0
 AnchorPoint: "virama" 414 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -70 2
+Refer: 880 71104 N 1 0 0 1 640 -70 2
 Refer: 174 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ja_nukta vattu
 EndChar
@@ -40284,7 +40284,7 @@ AnchorPoint: "ukaara" 354 132 basechar 0
 AnchorPoint: "virama" 353 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 590 -70 2
+Refer: 880 71104 N 1 0 0 1 590 -70 2
 Refer: 175 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" jha_nukta vattu
 EndChar
@@ -40303,7 +40303,7 @@ AnchorPoint: "ukaara" 414 132 basechar 0
 AnchorPoint: "virama" 414 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -70 2
+Refer: 880 71104 N 1 0 0 1 640 -70 2
 Refer: 176 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" Ja_nukta vattu
 EndChar
@@ -40322,7 +40322,7 @@ AnchorPoint: "ukaara" 486 132 basechar 0
 AnchorPoint: "virama" 486 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 690 -70 2
+Refer: 880 71104 N 1 0 0 1 690 -70 2
 Refer: 177 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" Ta_nukta vattu
 EndChar
@@ -40341,7 +40341,7 @@ AnchorPoint: "ukaara" 414 132 basechar 0
 AnchorPoint: "virama" 414 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -70 2
+Refer: 880 71104 N 1 0 0 1 640 -70 2
 Refer: 178 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" Tha_nukta vattu
 EndChar
@@ -40360,7 +40360,7 @@ AnchorPoint: "ukaara" 358 132 basechar 0
 AnchorPoint: "virama" 358 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -70 2
+Refer: 880 71104 N 1 0 0 1 540 -70 2
 Refer: 179 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" Da_nukta vattu
 EndChar
@@ -40379,7 +40379,7 @@ AnchorPoint: "ukaara" 488 132 basechar 0
 AnchorPoint: "virama" 488 -150 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 180 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" Dha_nukta vattu
 EndChar
@@ -40398,7 +40398,7 @@ AnchorPoint: "ukaara" 414 132 basechar 0
 AnchorPoint: "virama" 414 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -70 2
+Refer: 880 71104 N 1 0 0 1 640 -70 2
 Refer: 181 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" Na_nukta vattu
 EndChar
@@ -40417,7 +40417,7 @@ AnchorPoint: "ukaara" 361 132 basechar 0
 AnchorPoint: "virama" 360 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -70 2
+Refer: 880 71104 N 1 0 0 1 540 -70 2
 Refer: 182 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ta_nukta vattu
 EndChar
@@ -40436,7 +40436,7 @@ AnchorPoint: "ukaara" 391 132 basechar 0
 AnchorPoint: "virama" 240 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 S 1 0 0 1 490 -20 2
+Refer: 880 71104 S 1 0 0 1 490 -20 2
 Refer: 183 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" tha_nukta vattu
 EndChar
@@ -40455,7 +40455,7 @@ AnchorPoint: "ukaara" 343 132 basechar 0
 AnchorPoint: "virama" 342 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -70 2
+Refer: 880 71104 N 1 0 0 1 540 -70 2
 Refer: 184 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" da_nukta vattu
 EndChar
@@ -40474,7 +40474,7 @@ AnchorPoint: "ukaara" 452 132 basechar 0
 AnchorPoint: "virama" 302 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 185 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" dha_nukta vattu
 EndChar
@@ -40493,7 +40493,7 @@ AnchorPoint: "ukaara" 386 132 basechar 0
 AnchorPoint: "virama" 386 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 590 -70 2
+Refer: 880 71104 N 1 0 0 1 590 -70 2
 Refer: 186 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" na_nukta vattu
 EndChar
@@ -40512,7 +40512,7 @@ AnchorPoint: "ukaara" 451 132 basechar 0
 AnchorPoint: "virama" 300 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 187 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" pa_nukta vattu
 EndChar
@@ -40531,7 +40531,7 @@ AnchorPoint: "ukaara" 339 132 basechar 0
 AnchorPoint: "virama" 338 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -70 2
+Refer: 880 71104 N 1 0 0 1 540 -70 2
 Refer: 188 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" pha_nukta vattu
 EndChar
@@ -40550,7 +40550,7 @@ AnchorPoint: "ukaara" 338 132 basechar 0
 AnchorPoint: "virama" 338 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -70 2
+Refer: 880 71104 N 1 0 0 1 540 -70 2
 Refer: 189 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ba_nukta vattu
 EndChar
@@ -40569,7 +40569,7 @@ AnchorPoint: "ukaara" 445 132 basechar 0
 AnchorPoint: "virama" 344 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 190 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" bha_nukta vattu
 EndChar
@@ -40588,7 +40588,7 @@ AnchorPoint: "ukaara" 454 132 basechar 0
 AnchorPoint: "virama" 304 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 191 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ma_nukta vattu
 EndChar
@@ -40607,7 +40607,7 @@ AnchorPoint: "ukaara" 460 132 basechar 0
 AnchorPoint: "virama" 310 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 192 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ya_nukta vattu
 EndChar
@@ -40626,7 +40626,7 @@ AnchorPoint: "ukaara" 458 132 basechar 0
 AnchorPoint: "virama" 308 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 193 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" la_nukta vattu
 EndChar
@@ -40645,7 +40645,7 @@ AnchorPoint: "ukaara" 348 132 basechar 0
 AnchorPoint: "virama" 347 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -70 2
+Refer: 880 71104 N 1 0 0 1 540 -70 2
 Refer: 194 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" va_nukta vattu
 EndChar
@@ -40664,7 +40664,7 @@ AnchorPoint: "ukaara" 488 132 basechar 0
 AnchorPoint: "virama" 337 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 195 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" za_nukta vattu
 EndChar
@@ -40683,7 +40683,7 @@ AnchorPoint: "ukaara" 450 132 basechar 0
 AnchorPoint: "virama" 300 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 540 -20 2
+Refer: 880 71104 N 1 0 0 1 540 -20 2
 Refer: 196 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" Sa_nukta vattu
 EndChar
@@ -40702,7 +40702,7 @@ AnchorPoint: "ukaara" 513 132 basechar 0
 AnchorPoint: "virama" 362 -210 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 590 -20 2
+Refer: 880 71104 N 1 0 0 1 590 -20 2
 Refer: 197 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" sa_nukta vattu
 EndChar
@@ -40721,7 +40721,7 @@ AnchorPoint: "ukaara" 354 132 basechar 0
 AnchorPoint: "virama" 354 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 590 -70 2
+Refer: 880 71104 N 1 0 0 1 590 -70 2
 Refer: 198 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" ha_nukta vattu
 EndChar
@@ -40740,13 +40740,13 @@ AnchorPoint: "ukaara" 414 132 basechar 0
 AnchorPoint: "virama" 414 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 640 -70 2
+Refer: 880 71104 N 1 0 0 1 640 -70 2
 Refer: 507 -1 N 1 0 0 1 0 0 2
 Ligature2: "ravattu Conjunction-1" Ga_nukta vattu
 EndChar
 
 StartChar: section13
-Encoding: 997 58829 997
+Encoding: 997 71117 997
 Width: 1048
 VWidth: 0
 Flags: W
@@ -40806,7 +40806,7 @@ EndSplineSet
 EndChar
 
 StartChar: section14
-Encoding: 998 58833 998
+Encoding: 998 71121 998
 Width: 508
 VWidth: 0
 Flags: W
@@ -40840,7 +40840,7 @@ EndSplineSet
 EndChar
 
 StartChar: section15
-Encoding: 999 58835 999
+Encoding: 999 71123 999
 Width: 553
 VWidth: 0
 Flags: W
@@ -40886,7 +40886,7 @@ EndSplineSet
 EndChar
 
 StartChar: it3
-Encoding: 1000 58840 1000
+Encoding: 1000 71128 1000
 Width: 886
 VWidth: 0
 Flags: W
@@ -40916,7 +40916,7 @@ EndSplineSet
 EndChar
 
 StartChar: it2
-Encoding: 1001 58841 1001
+Encoding: 1001 71129 1001
 Width: 863
 VWidth: 0
 Flags: W
@@ -40956,7 +40956,7 @@ EndSplineSet
 EndChar
 
 StartChar: It2
-Encoding: 1002 58842 1002
+Encoding: 1002 71130 1002
 Width: 863
 VWidth: 0
 Flags: W
@@ -40994,7 +40994,7 @@ EndSplineSet
 EndChar
 
 StartChar: ut2
-Encoding: 1003 58843 1003
+Encoding: 1003 71131 1003
 Width: 828
 VWidth: 0
 Flags: W
@@ -41027,8 +41027,8 @@ Flags: W
 AnchorPoint: "bindu" 457.601 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 1000 58840 N 1 0 0 1 0 0 2
-Refer: 880 2364 N 1 0 0 1 672 -92 2
+Refer: 1000 71128 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 672 -92 2
 EndChar
 
 StartChar: it2_nukta
@@ -41039,8 +41039,8 @@ Flags: W
 AnchorPoint: "bindu" 424 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 1001 58841 N 1 0 0 1 0 0 2
-Refer: 880 2364 N 1 0 0 1 668 -212 2
+Refer: 1001 71129 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 668 -212 2
 EndChar
 
 StartChar: It2_nukta
@@ -41051,8 +41051,8 @@ Flags: W
 AnchorPoint: "bindu" 424 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 880 2364 N 1 0 0 1 604 -92 2
-Refer: 1002 58842 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 604 -92 2
+Refer: 1002 71130 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ut2_nukta
@@ -41063,12 +41063,12 @@ Flags: W
 AnchorPoint: "bindu" 465 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 1003 58843 N 1 0 0 1 0 0 2
-Refer: 880 2364 N 1 0 0 1 708 -160 2
+Refer: 1003 71131 N 1 0 0 1 0 0 2
+Refer: 880 71104 N 1 0 0 1 708 -160 2
 EndChar
 
 StartChar: uT2
-Encoding: 1008 58844 1008
+Encoding: 1008 71132 1008
 Width: 0
 VWidth: 0
 Flags: W
@@ -41080,7 +41080,7 @@ Refer: 67 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: UT2
-Encoding: 1009 58845 1009
+Encoding: 1009 71133 1009
 Width: 0
 VWidth: 0
 Flags: W
@@ -41107,7 +41107,7 @@ AnchorPoint: "ukaaramark" -292 0 mark 0
 AnchorPoint: "ukaara" -292 0 mark 0
 LayerCount: 2
 Fore
-Refer: 1009 58845 N 1 0 0 1 0 -150 2
+Refer: 1009 71133 N 1 0 0 1 0 -150 2
 EndChar
 EndChars
 EndSplineFont

@@ -7,11 +7,8 @@ with Reserved Font Name Peignot.
 
 ------------------------- 日本語 Japanese По-японски -------------------------
 
-これは、自作の悉曇梵字のフォントです(日本の仏教で伝統的に使われてきたいわゆる
-梵字のことです)。Unicodeにエンコードされていなかったのでデーヴァナーガリーの
-符号位置を間借りしています。表示には、デーヴァナーガリー文字の表示システムを
-そのまま使用できるようにしてあります。このフォントを指定すると、デーヴァ
-ナーガリー表記の梵語の文書がほぼそのまま梵字で表示されるようになっています。
+これは、Unicode悉曇梵字フォントです(日本の仏教で伝統的に使われてきたいわゆる
+梵字のことです)。
 ※このフォントは種字としての使用を想定しておりません。
 
 バージョン1.2.0より、Graphiteを使用するMuktamsiddhamGは、Unicode8.0の梵字
@@ -31,11 +28,8 @@ http://shinshu.fm/MHz/48.59/archives/0000325320.html
 
 ------------------------- 英語 English  По-английски -------------------------
 
-This is the Siddhaṃ (the script for Sanskrit which is used for writing mantras
-or copying sutras in Japan, and is known as Bonji) font I have created.  Since
-Siddhaṃ script was not included in Unicode officially, this font applies
-the Devanagari fonts' rendering system and codepoints.  Devanagari-encoded
-Sanskrit texts can be shown in Siddhaṃ script with this font.
+This is a Unicode Siddhaṃ (the script for Sanskrit which is used for writing
+mantras or copying sutras in Japan, and is known as Bonji).
 
 As of version 1.2.0, MuktamsiddhamG with Graphite uses Unicode 8.0 Siddhaṃ
 codepoints.
@@ -56,11 +50,8 @@ Comments in any languages other than Japanese may be rejected by the system.
 
 ------------------------- ロシア語 Russian По-русски -------------------------
 
-Это шрифт Сиддхама (письменность для санскрите, что применяется для записи
-мантр или копирование сутры в Японии, и известна как Бондзи), что я создал.
-Из-за того что в Юникоде не был Сиддхама, этот шрифт применяет визуализацию и
-кодовые точки Деванагари шрифтов.  С этим шрифтом, можно отображать санскрит-
-ские тексты Сиддхам писменностью, что кодируются в деванагари.
+Это юникодный шрифт Сиддхама (письменность для санскрите, что применяется для
+записи мантр или копирование сутры в Японии, и известна как Бондзи).
 
 Начиная с версии 1.2.0, MuktamsiddhamG с Graphite используется Unicode 8.0
 кодовые Сиддхама.
