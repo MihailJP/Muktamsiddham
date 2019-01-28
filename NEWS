@@ -1,3 +1,12 @@
+2019-01-28: Version 1.3.0 release.
+
+	* 異体字母音記号のRUとRUUをサポートした (MuktamSiddhamGのみ)。
+
+	* Now supports RU and RUU with alternate vowel signs (MuktamSiddhamG only).
+
+	* Теперь поддерживает RU и RUU с альтернативными гласными знаками (только
+	  MuktamSiddhamG).
+
 2015-07-05: Version 1.2.0 release.
 
 	* Unicode 8.0の梵字の符号位置をサポートした (MuktamSiddhamGのみ)。
