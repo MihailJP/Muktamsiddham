@@ -11,8 +11,7 @@ with Reserved Font Name Peignot.
 梵字のことです)。
 ※このフォントは種字としての使用を想定しておりません。
 
-バージョン1.2.0より、Graphiteを使用するMuktamsiddhamGは、Unicode8.0の梵字
-符号位置を使用しています。
+バージョン2より、Unicode8.0の梵字符号位置を使用しています。
 
 最新のソースファイルは、GitHubのリポジトリにあります。
 https://github.com/MihailJP/Muktamsiddham
@@ -31,8 +30,7 @@ http://shinshu.fm/MHz/48.59/archives/0000325320.html
 This is a Unicode Siddhaṃ (the script for Sanskrit which is used for writing
 mantras or copying sutras in Japan, and is known as Bonji).
 
-As of version 1.2.0, MuktamsiddhamG with Graphite uses Unicode 8.0 Siddhaṃ
-codepoints.
+As of version 2, Muktamsiddham uses Unicode 8.0 Siddhaṃ codepoints.
 
 The latest source file can be found at the GitHub repository.
 https://github.com/MihailJP/Muktamsiddham
@@ -53,8 +51,7 @@ Comments in any languages other than Japanese may be rejected by the system.
 Это юникодный шрифт Сиддхама (письменность для санскрите, что применяется для
 записи мантр или копирование сутры в Японии, и известна как Бондзи).
 
-Начиная с версии 1.2.0, MuktamsiddhamG с Graphite используется Unicode 8.0
-кодовые Сиддхама.
+Начиная с версии 2, Muktamsiddham используется Unicode 8.0 кодовые Сиддхама.
 
 Последние исходный файл может быть найден в репозитории GitHub.
 https://github.com/MihailJP/Muktamsiddham
