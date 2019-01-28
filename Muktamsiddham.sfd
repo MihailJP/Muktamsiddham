@@ -162,7 +162,7 @@ ContextSub2: class "IT Contextual Forms-1" 6 1 1 4
   FClassNames: "0"
 EndFPST
 ContextSub2: class "uT UT RT Contextual Forms-1" 8 1 1 8
-  Class: 11 uT UT vattu
+  Class: 19 uT UT vattu uT2 UT2
   Class: 6 RT RRT
   Class: 206 ka Ga cha ja jha Ja Na da Gka Jcha Jja nda ska vcha vja vda Tka TScha kka gda ccha jja tka dda bja bda lka Ska nka zcha ndda gja lda ka_nukta Ga_nukta cha_nukta ja_nukta jha_nukta Ja_nukta Na_nukta da_nukta
   Class: 348 Ta Tha Da Dha pha ha kNa khNa gNa ghNa GNa cNa chNa jNa jhNa JNa TNa ThNa DNa DhNa tNa thNa dNa dhNa nNa pNa phNa bNa bhNa mNa yNa lNa vNa zNa SNa sNa hNa kSNa Jjha NTa NTha NDa NDha mpha Gha vjha jJa STa STha dDa dDha spha sha jjha jjJa TTa DDa NNa tpha lha nha cJa TTha DDha ppha lpha Spha Ta_nukta Tha_nukta Da_nukta Dha_nukta pha_nukta ha_nukta
@@ -41077,6 +41077,7 @@ AnchorPoint: "ukaara" -245 106 mark 0
 LayerCount: 2
 Fore
 Refer: 67 -1 N 1 0 0 1 0 0 2
+Substitution2: "Contextual Form 0002-1" uT.0002
 EndChar
 
 StartChar: UT2
@@ -41096,6 +41097,7 @@ SplineSet
  -234 0 -206.725 -43.6718 -115 -101 c 0
  -75 -126 -34.6748 -171.478 0 -203 c 1024
 EndSplineSet
+Substitution2: "Contextual Form 0002-1" UT.0002
 EndChar
 
 StartChar: UT2.0001
