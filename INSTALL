@@ -1,0 +1,20 @@
+Instructions for Building this font
+-----------------------------------
+
+Build-Time Dependencies:
+
+On Linux, use the package manager (apt, yum, &c.) shipped with the
+distribution you use.  On MacOS, use Homebrew to install.
+
+- FontForge with Python scripting feature
+- SIL Graphite Compiler, version 4.2 (later versions may not work)
+  Download from https://scripts.sil.org/graphitecompilerdownload
+- Wine, if you are using non-Windows systems
+  (Graphite Compiler is distributed as an installer for Windows)
+
+Build Instructions:
+
+1. Modify Makefile to set the variable GRCOMPILER to the path where Graphite
+   Compiler is installed (i.e. command line to run the Compiler).
+2. Type `make`.
+3. Type `make dist` for package.

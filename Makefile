@@ -8,7 +8,11 @@ FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close
 PKGCMD=rm -rf $*; mkdir $*; cp $^ $*
 
 # Path to Graphite compiler
-GRCOMPILER=grcompiler
+
+# On Windows (Cygwin) uncomment:
+#GRCOMPILER=/cygdrive/c/Program\ Files/Graphite\ Compiler/GrCompiler
+# For systems other than Windows:
+GRCOMPILER=wine ~/.wine/drive_c/Program\ Files/Graphite\ Compiler/GrCompiler.exe
 
 
 .PHONY: all
