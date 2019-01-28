@@ -2625,6 +2625,8 @@ pass(11)
     CausesUMatraAlt1 g__u_t2 > CausesUMatraAlt1a g__u_t2_0001 / _ g_repha? _;
     CausesUMatraAlt2 g_u_t > CausesUMatraAlt2a g_u_t_0002 / _ g_repha? _;
     CausesUMatraAlt2 g__u_t > CausesUMatraAlt2a g__u_t_0002 / _ g_repha? _;
+    CausesUMatraAlt2 g_u_t2 > CausesUMatraAlt2a g_u_t_0002 / _ g_repha? _;
+    CausesUMatraAlt2 g__u_t2 > CausesUMatraAlt2a g__u_t_0002 / _ g_repha? _;
     CausesUMatraAlt2 > CausesUMatraAlt2a / _ g_repha? g_vattu;
     g_u_t > g_u_t_0003 / CausesUMatraAlt3 g_repha? _;
     g__u_t > g__u_t_0003 / CausesUMatraAlt3 g_repha? _;
