@@ -9,10 +9,7 @@ PKGCMD=rm -rf $*; mkdir $*; cp $^ $*
 
 # Path to Graphite compiler
 
-# On Windows (Cygwin) uncomment:
-#GRCOMPILER=/cygdrive/c/Program\ Files/Graphite\ Compiler/GrCompiler
-# For systems other than Windows:
-GRCOMPILER=wine ~/.wine/drive_c/Program\ Files/Graphite\ Compiler/GrCompiler.exe
+GRCOMPILER=grcompiler
 
 
 .PHONY: all
