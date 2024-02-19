@@ -1,11 +1,11 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: Muktamsiddham
 FullName: Muktamsiddham
 FamilyName: Muktamsiddham
 Weight: Medium
 Copyright: Copyright (c) 2011-2012, 2014-2015, 2019, MihailJP, with Reserved Font Name Muktamsiddham.\nLatin glyphs Copyright (c) 1999 by George Williams,\nwith Reserved Font Name Peignot.
 UComments: "Font preparation:+AAoA-1. Select all and expand their strokes.+AAoA     Elliptical, width 100:40,+AAoA     Angle -30, square cap, round join.+AAoA-2. Add extrema and round to int.+AAoA-3. Simplify and round to int.+AAoA-4. Remove overlaps and round to int.+AAoA-5. Redo 3.+AAoA-6. Redo 2."
-Version: 2.0.0
+Version: 2.0.1
 StrokeWidth: 70
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1403457195
-ModificationTime: 1518820606
+ModificationTime: 1708349540
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -2110,7 +2110,7 @@ StartChar: iT
 Encoding: 57 71088 57
 Width: 164
 VWidth: 0
-GlyphClass: 4
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2129,7 +2129,7 @@ StartChar: iT.0001
 Encoding: 58 -1 58
 Width: 140
 VWidth: 0
-GlyphClass: 4
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
