@@ -1,4 +1,4 @@
-#!/usr/local/bin/fontforge -script
+#!/usr/local/bin/fontforge
 
 ##############################################################################
 #

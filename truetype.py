@@ -1,4 +1,4 @@
-#!/usr/local/bin/fontforge -script
+#!/usr/local/bin/fontforge
 
 ##############################################################################
 #
@@ -11,10 +11,7 @@
 import fontforge;
 
 font = fontforge.open("Outlines.sfd");
-try:
-	font.em = 2048L;
-except TypeError:
-	font.em = 2048;
+font.em = 2048;
 font.is_quadratic = True;
 font.selection.all();
 font.addExtrema();font.round();
