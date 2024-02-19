@@ -1,7 +1,7 @@
 # Makefile for Muktamsiddham font
 
 FONTS=Muktamsiddham.otf MuktamsiddhamT.ttf MuktamsiddhamG.ttf
-DOCUMENTS=license.txt README ChangeLog NEWS
+DOCUMENTS=license.txt README.md ChangeLog NEWS
 SOURCE=Muktamsiddham.sfd LatinGlyphs.sfd outlines.py truetype.py Muktamsiddham.gdl Makefile
 PKGS=Muktamsiddham.tar.xz Muktamsiddham-source.tar.xz
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
