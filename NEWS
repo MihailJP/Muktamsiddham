@@ -1,10 +1,18 @@
+2024-02-19: Version 2.0.1 release.
+
+	* 母音記号の i のバグを修正した (#5)。
+	* ロシア語の説明を廃止
+
+	* Fix issue of dependent vowel sign of i (#5)
+	* Russian documentations no longer updated
+
 2019-01-28: Version 2.0.0 release.
 
-  * Unicode 8.0の梵字の符号位置を使うようにする。
+	* Unicode 8.0の梵字の符号位置を使うようにする。
 
-  * Now uses Unicode 8.0 Siddham codepoints in SMP.
+	* Now uses Unicode 8.0 Siddham codepoints in SMP.
 
-  * Теперь использует кодировки Сиддхама Unicode 8.0 в SMP.
+	* Теперь использует кодировки Сиддхама Unicode 8.0 в SMP.
 
 2019-01-28: Version 1.3.0 release.
 
